@@ -1,0 +1,1259 @@
+{
+  "version": 1,
+  "note": "Prix indicatifs, à régler au chantier 1. mural=true : vues face et côté seulement, jamais au milieu de la pièce.",
+  "meubles": [
+    {
+      "id": "canape",
+      "nom": "Canapé 2 places",
+      "pieces": [
+        "salon"
+      ],
+      "mural": false,
+      "taille": {
+        "l": 3,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 150,
+      "rarete": "commun",
+      "planche": "N1",
+      "gamme": "origine"
+    },
+    {
+      "id": "fauteuil_bascule",
+      "nom": "Fauteuil à bascule",
+      "pieces": [
+        "salon"
+      ],
+      "mural": false,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N1",
+      "gamme": "origine"
+    },
+    {
+      "id": "cheminee",
+      "nom": "Cheminée",
+      "pieces": [
+        "salon"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 2,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 110,
+      "rarete": "commun",
+      "planche": "N1",
+      "gamme": "origine"
+    },
+    {
+      "id": "bibliotheque",
+      "nom": "Bibliothèque",
+      "pieces": [
+        "salon",
+        "bureau"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 2,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 110,
+      "rarete": "commun",
+      "planche": "N2",
+      "gamme": "origine"
+    },
+    {
+      "id": "horloge",
+      "nom": "Horloge comtoise",
+      "pieces": [
+        "salon",
+        "couloir"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N2",
+      "gamme": "origine"
+    },
+    {
+      "id": "radio",
+      "nom": "Radio ancienne",
+      "pieces": [
+        "salon"
+      ],
+      "mural": false,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N2",
+      "gamme": "origine"
+    },
+    {
+      "id": "fauteuil_cuir",
+      "nom": "Fauteuil en cuir",
+      "pieces": [
+        "salon",
+        "bureau"
+      ],
+      "mural": false,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N3",
+      "gamme": "origine"
+    },
+    {
+      "id": "buffet",
+      "nom": "Buffet bas",
+      "pieces": [
+        "salon"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 2,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 110,
+      "rarete": "commun",
+      "planche": "N3",
+      "gamme": "origine"
+    },
+    {
+      "id": "vitrine",
+      "nom": "Vitrine",
+      "pieces": [
+        "salon"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N3",
+      "gamme": "origine"
+    },
+    {
+      "id": "table_cuisine",
+      "nom": "Table de cuisine",
+      "pieces": [
+        "cuisine"
+      ],
+      "mural": false,
+      "taille": {
+        "l": 2,
+        "h": 2
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 190,
+      "rarete": "commun",
+      "planche": "N4",
+      "gamme": "origine"
+    },
+    {
+      "id": "chaise_cuisine",
+      "nom": "Chaise de cuisine",
+      "pieces": [
+        "cuisine"
+      ],
+      "mural": false,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N4",
+      "gamme": "origine"
+    },
+    {
+      "id": "poele",
+      "nom": "Poêle à bois",
+      "pieces": [
+        "cuisine"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N4",
+      "gamme": "origine"
+    },
+    {
+      "id": "evier",
+      "nom": "Évier en pierre",
+      "pieces": [
+        "cuisine"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N5",
+      "gamme": "origine"
+    },
+    {
+      "id": "vaisselier",
+      "nom": "Vaisselier",
+      "pieces": [
+        "cuisine"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 2,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 110,
+      "rarete": "commun",
+      "planche": "N5",
+      "gamme": "origine"
+    },
+    {
+      "id": "garde_manger",
+      "nom": "Garde-manger",
+      "pieces": [
+        "cuisine"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N5",
+      "gamme": "origine"
+    },
+    {
+      "id": "plan_travail",
+      "nom": "Plan de travail",
+      "pieces": [
+        "cuisine"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 2,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 110,
+      "rarete": "commun",
+      "planche": "N6",
+      "gamme": "origine"
+    },
+    {
+      "id": "banc",
+      "nom": "Banc",
+      "pieces": [
+        "cuisine"
+      ],
+      "mural": false,
+      "taille": {
+        "l": 2,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 110,
+      "rarete": "commun",
+      "planche": "N6",
+      "gamme": "origine"
+    },
+    {
+      "id": "placard",
+      "nom": "Placard haut",
+      "pieces": [
+        "cuisine"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N6",
+      "gamme": "origine"
+    },
+    {
+      "id": "lit_simple",
+      "nom": "Lit simple",
+      "pieces": [
+        "chambre"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 2,
+        "h": 3
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 270,
+      "rarete": "commun",
+      "planche": "N7",
+      "gamme": "origine"
+    },
+    {
+      "id": "lit_double",
+      "nom": "Lit double",
+      "pieces": [
+        "chambre"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 3,
+        "h": 3
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 390,
+      "rarete": "commun",
+      "planche": "N7",
+      "gamme": "origine"
+    },
+    {
+      "id": "chevet",
+      "nom": "Table de chevet",
+      "pieces": [
+        "chambre"
+      ],
+      "mural": false,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N7",
+      "gamme": "origine"
+    },
+    {
+      "id": "armoire",
+      "nom": "Armoire",
+      "pieces": [
+        "chambre"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 2,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 110,
+      "rarete": "commun",
+      "planche": "N8",
+      "gamme": "origine"
+    },
+    {
+      "id": "commode",
+      "nom": "Commode",
+      "pieces": [
+        "chambre"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 2,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 110,
+      "rarete": "commun",
+      "planche": "N8",
+      "gamme": "origine"
+    },
+    {
+      "id": "miroir_pied",
+      "nom": "Miroir sur pied",
+      "pieces": [
+        "chambre"
+      ],
+      "mural": false,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N8",
+      "gamme": "origine"
+    },
+    {
+      "id": "berceau",
+      "nom": "Berceau",
+      "pieces": [
+        "chambre"
+      ],
+      "mural": false,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N9",
+      "gamme": "origine"
+    },
+    {
+      "id": "malle",
+      "nom": "Malle",
+      "pieces": [
+        "chambre"
+      ],
+      "mural": false,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N9",
+      "gamme": "origine"
+    },
+    {
+      "id": "coiffeuse",
+      "nom": "Coiffeuse",
+      "pieces": [
+        "chambre"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 2,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 110,
+      "rarete": "commun",
+      "planche": "N9",
+      "gamme": "origine"
+    },
+    {
+      "id": "bureau",
+      "nom": "Grand bureau",
+      "pieces": [
+        "bureau"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 3,
+        "h": 2
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 270,
+      "rarete": "commun",
+      "planche": "N10",
+      "gamme": "origine"
+    },
+    {
+      "id": "chaise_bureau",
+      "nom": "Chaise de bureau",
+      "pieces": [
+        "bureau"
+      ],
+      "mural": false,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N10",
+      "gamme": "origine"
+    },
+    {
+      "id": "secretaire",
+      "nom": "Secrétaire",
+      "pieces": [
+        "bureau"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 2,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 110,
+      "rarete": "commun",
+      "planche": "N10",
+      "gamme": "origine"
+    },
+    {
+      "id": "classeur",
+      "nom": "Classeur à tiroirs",
+      "pieces": [
+        "bureau"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N11",
+      "gamme": "origine"
+    },
+    {
+      "id": "etagere_ouverte",
+      "nom": "Étagère ouverte",
+      "pieces": [
+        "bureau"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 2,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 110,
+      "rarete": "commun",
+      "planche": "N11",
+      "gamme": "origine"
+    },
+    {
+      "id": "fauteuil_oreilles",
+      "nom": "Fauteuil à oreilles",
+      "pieces": [
+        "bureau",
+        "salon"
+      ],
+      "mural": false,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N11",
+      "gamme": "origine"
+    },
+    {
+      "id": "pupitre",
+      "nom": "Pupitre d’écolier",
+      "pieces": [
+        "bureau"
+      ],
+      "mural": false,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N12",
+      "gamme": "origine"
+    },
+    {
+      "id": "chevalet_tableau",
+      "nom": "Chevalet et tableau",
+      "pieces": [
+        "bureau"
+      ],
+      "mural": false,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N12",
+      "gamme": "origine"
+    },
+    {
+      "id": "bahut",
+      "nom": "Bahut",
+      "pieces": [
+        "bureau",
+        "couloir"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 2,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 110,
+      "rarete": "commun",
+      "planche": "N12",
+      "gamme": "origine"
+    },
+    {
+      "id": "baignoire",
+      "nom": "Baignoire sur pieds",
+      "pieces": [
+        "bain"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 3,
+        "h": 2
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 270,
+      "rarete": "commun",
+      "planche": "N13",
+      "gamme": "origine"
+    },
+    {
+      "id": "lavabo_colonne",
+      "nom": "Lavabo sur colonne",
+      "pieces": [
+        "bain"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N13",
+      "gamme": "origine"
+    },
+    {
+      "id": "meuble_vasque",
+      "nom": "Meuble vasque",
+      "pieces": [
+        "bain"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N13",
+      "gamme": "origine"
+    },
+    {
+      "id": "toilettes",
+      "nom": "Toilettes",
+      "pieces": [
+        "bain"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N14",
+      "gamme": "origine"
+    },
+    {
+      "id": "cabine_douche",
+      "nom": "Cabine de douche",
+      "pieces": [
+        "bain"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 2,
+        "h": 2
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 190,
+      "rarete": "commun",
+      "planche": "N14",
+      "gamme": "origine"
+    },
+    {
+      "id": "machine_a_laver",
+      "nom": "Machine à laver",
+      "pieces": [
+        "bain"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N14",
+      "gamme": "origine"
+    },
+    {
+      "id": "armoire_sdb",
+      "nom": "Armoire de salle de bain",
+      "pieces": [
+        "bain"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N15",
+      "gamme": "origine"
+    },
+    {
+      "id": "etagere_sdb",
+      "nom": "Étagère à serviettes",
+      "pieces": [
+        "bain"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N15",
+      "gamme": "origine"
+    },
+    {
+      "id": "coffre_linge",
+      "nom": "Coffre à linge",
+      "pieces": [
+        "bain"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N15",
+      "gamme": "origine"
+    },
+    {
+      "id": "console",
+      "nom": "Console",
+      "pieces": [
+        "couloir"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 2,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 110,
+      "rarete": "commun",
+      "planche": "N16",
+      "gamme": "origine"
+    },
+    {
+      "id": "banc_entree",
+      "nom": "Banc d’entrée",
+      "pieces": [
+        "couloir"
+      ],
+      "mural": false,
+      "taille": {
+        "l": 2,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 110,
+      "rarete": "commun",
+      "planche": "N16",
+      "gamme": "origine"
+    },
+    {
+      "id": "meuble_chaussures",
+      "nom": "Meuble à chaussures",
+      "pieces": [
+        "couloir"
+      ],
+      "mural": true,
+      "taille": {
+        "l": 1,
+        "h": 1
+      },
+      "vues": [
+        "face",
+        "cote",
+        "dos",
+        "diag"
+      ],
+      "fichiers_miroir": [
+        "cote_droite",
+        "diag_droite"
+      ],
+      "prix": 70,
+      "rarete": "commun",
+      "planche": "N16",
+      "gamme": "origine"
+    }
+  ]
+}

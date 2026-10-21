@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "grille_pose": {
+    "colonnes": 12,
+    "rangees": 8
+  },
+  "portes_couleurs": {
+    "salon": "orange",
+    "cuisine": "vert",
+    "chambre": "rose",
+    "bain": "jaune",
+    "bureau": "rouge"
+  },
+  "pieces": [
+    {
+      "id": "couloir",
+      "fichier": "piece_couloir",
+      "type": "rectangulaire",
+      "prix_achat": 0,
+      "note": "5 portes (version à refaire, cadrage serré)"
+    },
+    {
+      "id": "salon",
+      "fichier": "piece_salon",
+      "type": "rectangulaire",
+      "prix_achat": 0,
+      "note": "pièce de départ"
+    },
+    {
+      "id": "cuisine",
+      "fichier": "piece_cuisine",
+      "type": "rectangulaire",
+      "prix_achat": 200,
+      "note": ""
+    },
+    {
+      "id": "chambre",
+      "fichier": "piece_chambre",
+      "type": "rectangulaire",
+      "prix_achat": 250,
+      "note": ""
+    },
+    {
+      "id": "bureau",
+      "fichier": "piece_bureau",
+      "type": "rectangulaire",
+      "prix_achat": 300,
+      "note": ""
+    },
+    {
+      "id": "bain",
+      "fichier": "piece_bain",
+      "type": "rectangulaire",
+      "prix_achat": 350,
+      "note": ""
+    },
+    {
+      "id": "ronde",
+      "fichier": "piece_ronde_v2",
+      "variante": "piece_ronde",
+      "type": "ronde",
+      "prix_achat": 0,
+      "note": "maison ronde à une pièce"
+    },
+    {
+      "id": "duplex_rez",
+      "fichier": "duplex_rez",
+      "type": "ronde_duplex",
+      "etage_suivant": "duplex_etage",
+      "prix_achat": 0,
+      "note": "escalier vers l’étage"
+    },
+    {
+      "id": "duplex_etage",
+      "fichier": "duplex_etage",
+      "type": "ronde_duplex",
+      "etage_precedent": "duplex_rez",
+      "prix_achat": 0,
+      "note": "ouverture d’escalier"
+    },
+    {
+      "id": "couloir_2",
+      "fichier": "couloir_2",
+      "type": "couloir",
+      "portes": 2,
+      "statut": "a_generer"
+    },
+    {
+      "id": "couloir_3",
+      "fichier": "couloir_3",
+      "type": "couloir",
+      "portes": 3,
+      "statut": "a_generer"
+    },
+    {
+      "id": "couloir_4",
+      "fichier": "couloir_4",
+      "type": "couloir",
+      "portes": 4,
+      "statut": "a_generer"
+    },
+    {
+      "id": "couloir_5",
+      "fichier": "couloir_5",
+      "type": "couloir",
+      "portes": 5,
+      "statut": "a_refaire"
+    }
+  ]
+}

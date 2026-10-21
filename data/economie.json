@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "note": "Valeurs indicatives, à régler en jouant.",
+  "reponse": {
+    "difficulte_1": 2,
+    "difficulte_2": 4,
+    "difficulte_3": 6,
+    "deuxieme_essai": "moitie"
+  },
+  "serie": {
+    "terminee": {
+      "cadeau": 1,
+      "pieces": 10
+    },
+    "parfaite": {
+      "cadeau": "rare",
+      "pieces": 25
+    }
+  },
+  "module": {
+    "coffre": "rare"
+  },
+  "test_placement": {
+    "pieces": 300
+  },
+  "maison_depart": "couloir + salon",
+  "raretes": [
+    "commun",
+    "beau",
+    "rare"
+  ],
+  "variantes_couleur": {
+    "textile": [
+      "rouge",
+      "orange",
+      "jaune",
+      "vert",
+      "rose",
+      "violet",
+      "bleu",
+      "creme"
+    ],
+    "bois": [
+      "chene_clair",
+      "noyer",
+      "peint_creme",
+      "peint_vert_sauge"
+    ],
+    "murs_sols": 4
+  },
+  "doublon": "converti en pièces"
+}

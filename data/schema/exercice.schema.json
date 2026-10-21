@@ -1,0 +1,202 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "exercice.schema.json",
+  "title": "Exercice",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "forme",
+    "competence",
+    "difficulte",
+    "consigne",
+    "explication"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+-[0-9]{3}$"
+    },
+    "type": {
+      "enum": [
+        "qcm",
+        "vrai_faux",
+        "texte_trous",
+        "saisie",
+        "tri",
+        "clic_mot",
+        "association",
+        "ordre",
+        "corriger"
+      ]
+    },
+    "forme": {
+      "enum": [
+        "reconnaitre",
+        "completer",
+        "produire",
+        "transformer",
+        "corriger",
+        "contexte"
+      ]
+    },
+    "competence": {
+      "type": "string"
+    },
+    "difficulte": {
+      "enum": [
+        1,
+        2,
+        3
+      ]
+    },
+    "consigne": {
+      "type": "string"
+    },
+    "enonce": {
+      "type": "string"
+    },
+    "explication": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "qcm"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "choix",
+          "reponse"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "vrai_faux"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "enonce",
+          "reponse"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "texte_trous"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "enonce",
+          "trous"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "saisie"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "reponses_acceptees"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "tri"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "elements",
+          "categories",
+          "solution"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "clic_mot"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "mots",
+          "cibles"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "association"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "paires"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "ordre"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "elements_melanges",
+          "reponse"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "corriger"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "phrase_fautive",
+          "corrections_acceptees"
+        ]
+      }
+    }
+  ]
+}

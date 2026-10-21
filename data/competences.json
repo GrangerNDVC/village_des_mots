@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "competences": [
+    {
+      "id": "gram-6e-nature-nom",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Identifier un nom (commun, propre)"
+    },
+    {
+      "id": "gram-6e-nature-determinant",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Identifier un déterminant"
+    },
+    {
+      "id": "gram-6e-nature-adjectif",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Identifier un adjectif qualificatif"
+    },
+    {
+      "id": "gram-6e-nature-verbe",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Identifier un verbe conjugué et son infinitif"
+    },
+    {
+      "id": "gram-6e-nature-pronom",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Identifier un pronom personnel"
+    },
+    {
+      "id": "gram-6e-nature-phrase",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Reconnaître les natures dans une phrase"
+    }
+  ]
+}

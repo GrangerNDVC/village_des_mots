@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "genere_par": "tools/construire_index.py",
+  "domaines": [
+    "grammaire",
+    "orthographe",
+    "conjugaison",
+    "vocabulaire"
+  ],
+  "niveaux": [
+    6,
+    5,
+    4,
+    3
+  ],
+  "totaux": {
+    "modules": 1,
+    "exercices": 30
+  },
+  "modules": [
+    {
+      "id": "gram-6e-natures",
+      "titre": "Les natures de mots",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "grade": "page",
+      "version": 1,
+      "fichier": "data/exercices/grammaire/6e/gram-6e-natures.json",
+      "nb_exercices": 30,
+      "competences": [
+        "gram-6e-nature-nom",
+        "gram-6e-nature-determinant",
+        "gram-6e-nature-adjectif",
+        "gram-6e-nature-verbe",
+        "gram-6e-nature-pronom",
+        "gram-6e-nature-phrase"
+      ],
+      "formes": [
+        "completer",
+        "contexte",
+        "corriger",
+        "produire",
+        "reconnaitre",
+        "transformer"
+      ]
+    }
+  ]
+}

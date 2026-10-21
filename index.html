@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>La Quête de Plume</title>
+<style>
+:root{--bg:#3b1f4a;--card:#fff4dc;--ink:#2f1d12;--accent:#f28c28}
+body{margin:0;background:var(--bg);color:var(--card);font:16px/1.5 system-ui,sans-serif;padding:16px}
+main{max-width:720px;margin:0 auto}
+.card{background:var(--card);color:var(--ink);border-radius:14px;padding:16px;margin:12px 0}
+button{font:inherit;border:0;border-radius:10px;padding:12px 16px;margin:4px 0;background:var(--accent);color:#2a1500;cursor:pointer;min-height:48px;display:block;width:100%;text-align:left}
+</style>
+</head>
+<body>
+<main>
+<h1>La Quête de Plume</h1>
+<p>Page provisoire : elle vérifie que l’index et le premier module se chargent. Le vrai moteur sera construit au chantier 01.</p>
+<div id="app" class="card">Chargement…</div>
+</main>
+<script>
+async function charger(){
+  const app=document.getElementById('app');
+  try{
+    const idx=await (await fetch('data/index.json')).json();
+    app.innerHTML='<strong>'+idx.totaux.modules+' module(s), '+idx.totaux.exercices+' exercice(s)</strong><ul id="liste"></ul><div id="exo"></div>';
+    const ul=document.getElementById('liste');
+    idx.modules.forEach(m=>{const li=document.createElement('li');li.textContent=m.titre+' ('+m.niveau+'ᵉ, '+m.nb_exercices+' exercices)';ul.appendChild(li);});
+    const mod=await (await fetch(idx.modules[0].fichier)).json();
+    const e=mod.exercices.find(x=>x.type==='qcm');
+    const div=document.getElementById('exo');
+    div.innerHTML='<h2>Exemple</h2><p></p><div></div>';
+    div.querySelector('p').textContent=e.consigne+' '+(e.enonce||'');
+    e.choix.forEach((c,i)=>{const b=document.createElement('button');b.textContent=c;b.onclick=()=>{b.textContent=(i===e.reponse?'✔ ':'✘ ')+c+' — '+e.explication;};div.lastChild.appendChild(b);});
+  }catch(err){
+    app.textContent='Impossible de charger les données. Ouvrez la page avec un serveur : python -m http.server 8000';
+  }
+}
+charger();
+</script>
+</body>
+</html>

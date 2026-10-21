@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "batiments": [
+    {
+      "id": "batiment_epicerie",
+      "nom": "Épicerie",
+      "grade": "page",
+      "niveau": 6,
+      "statut": "livre"
+    },
+    {
+      "id": "batiment_cafe",
+      "nom": "Café-boulangerie",
+      "grade": "ecuyer",
+      "niveau": 5,
+      "statut": "livre"
+    },
+    {
+      "id": "batiment_cinema",
+      "nom": "Cinéma",
+      "grade": "chevalier",
+      "niveau": 4,
+      "statut": "livre"
+    },
+    {
+      "id": "batiment_theatre",
+      "nom": "Théâtre",
+      "grade": "maitre",
+      "niveau": 3,
+      "statut": "livre"
+    },
+    {
+      "id": "batiment_bibliotheque",
+      "nom": "Bibliothèque",
+      "statut": "reserve_a_generer"
+    },
+    {
+      "id": "batiment_ecole",
+      "nom": "École",
+      "statut": "reserve_a_generer"
+    },
+    {
+      "id": "batiment_mairie",
+      "nom": "Mairie",
+      "statut": "reserve_a_generer"
+    },
+    {
+      "id": "batiment_poste",
+      "nom": "Bureau de poste",
+      "statut": "reserve_a_generer"
+    }
+  ]
+}

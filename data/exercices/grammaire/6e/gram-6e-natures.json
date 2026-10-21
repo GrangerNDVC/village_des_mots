@@ -1,0 +1,663 @@
+{
+  "module": "gram-6e-natures",
+  "titre": "Les natures de mots",
+  "domaine": "grammaire",
+  "niveau": 6,
+  "grade": "page",
+  "version": 1,
+  "description": "Reconnaître le nom, le déterminant, l’adjectif qualificatif, le verbe et le pronom personnel.",
+  "rappel": {
+    "titre": "Reconnaître la nature d’un mot",
+    "points": [
+      {
+        "mot": "nom",
+        "definition": "Le nom désigne une personne, un animal, une chose ou une idée.",
+        "exemple": "Le chat dort."
+      },
+      {
+        "mot": "déterminant",
+        "definition": "Le déterminant se place devant le nom.",
+        "exemple": "Un chat, ma sœur, les enfants."
+      },
+      {
+        "mot": "adjectif qualificatif",
+        "definition": "L’adjectif précise le nom.",
+        "exemple": "Un gros chat."
+      },
+      {
+        "mot": "verbe",
+        "definition": "Le verbe exprime une action ou un état et change de forme.",
+        "exemple": "Les enfants chantent."
+      },
+      {
+        "mot": "pronom personnel",
+        "definition": "Le pronom personnel remplace un nom.",
+        "exemple": "Julie dort. Elle dort."
+      }
+    ]
+  },
+  "competences": [
+    "gram-6e-nature-nom",
+    "gram-6e-nature-determinant",
+    "gram-6e-nature-adjectif",
+    "gram-6e-nature-verbe",
+    "gram-6e-nature-pronom",
+    "gram-6e-nature-phrase"
+  ],
+  "exercices": [
+    {
+      "id": "gram-6e-natures-001",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-nature-nom",
+      "difficulte": 1,
+      "consigne": "Quel mot est un nom ?",
+      "enonce": "Le chat dort sur le tapis.",
+      "choix": [
+        "Le",
+        "dort",
+        "chat",
+        "sur"
+      ],
+      "reponse": 2,
+      "explication": "« chat » désigne un animal : c’est un nom."
+    },
+    {
+      "id": "gram-6e-natures-002",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-nature-nom",
+      "difficulte": 1,
+      "consigne": "Clique sur tous les noms.",
+      "mots": [
+        "Le",
+        "renard",
+        "mange",
+        "une",
+        "pomme",
+        "rouge"
+      ],
+      "cibles": [
+        1,
+        4
+      ],
+      "explication": "« renard » et « pomme » désignent un animal et un fruit : ce sont des noms."
+    },
+    {
+      "id": "gram-6e-natures-003",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-nature-nom",
+      "difficulte": 2,
+      "consigne": "Classe ces noms : nom propre ou nom commun ?",
+      "elements": [
+        "Julie",
+        "maison",
+        "Bretagne",
+        "livre",
+        "Paris",
+        "cheval"
+      ],
+      "categories": [
+        "nom propre",
+        "nom commun"
+      ],
+      "solution": {
+        "Julie": 0,
+        "maison": 1,
+        "Bretagne": 0,
+        "livre": 1,
+        "Paris": 0,
+        "cheval": 1
+      },
+      "explication": "Un nom propre désigne un être ou un lieu unique et prend une majuscule : Julie, Bretagne, Paris."
+    },
+    {
+      "id": "gram-6e-natures-004",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-nature-nom",
+      "difficulte": 2,
+      "consigne": "Complète la phrase.",
+      "enonce": "Dans « Léa nourrit son lapin. », le nom propre est {{1}} et le nom commun est {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "Léa",
+            "lapin",
+            "nourrit"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "Léa",
+            "lapin",
+            "son"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "« Léa » est un nom propre (une personne) ; « lapin » est un nom commun (un animal)."
+    },
+    {
+      "id": "gram-6e-natures-005",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-nature-nom",
+      "difficulte": 1,
+      "consigne": "Recopie le nom commun de la phrase.",
+      "enonce": "Mia lit un livre.",
+      "reponses_acceptees": [
+        "livre"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« livre » est un nom commun. « Mia » est un nom propre."
+    },
+    {
+      "id": "gram-6e-natures-006",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-nature-determinant",
+      "difficulte": 1,
+      "consigne": "Quel mot est un déterminant ?",
+      "enonce": "Ma sœur ouvre doucement.",
+      "choix": [
+        "sœur",
+        "ouvre",
+        "doucement",
+        "Ma"
+      ],
+      "reponse": 3,
+      "explication": "« Ma » se place devant le nom « sœur » : c’est un déterminant."
+    },
+    {
+      "id": "gram-6e-natures-007",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-nature-determinant",
+      "difficulte": 1,
+      "consigne": "Clique sur les déterminants.",
+      "mots": [
+        "Les",
+        "enfants",
+        "lisent",
+        "un",
+        "livre",
+        "passionnant"
+      ],
+      "cibles": [
+        0,
+        3
+      ],
+      "explication": "« Les » et « un » se placent devant un nom : ce sont des déterminants."
+    },
+    {
+      "id": "gram-6e-natures-008",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-nature-determinant",
+      "difficulte": 2,
+      "consigne": "Complète avec le bon déterminant.",
+      "enonce": "{{1}} souris grignote {{2}} fromage.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "Une",
+            "Un",
+            "Le"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "le",
+            "la",
+            "une"
+          ],
+          "reponse": 0
+        }
+      ],
+      "explication": "« souris » est féminin : « une souris ». « fromage » est masculin : « le fromage »."
+    },
+    {
+      "id": "gram-6e-natures-009",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-nature-determinant",
+      "difficulte": 2,
+      "consigne": "Écris le déterminant défini masculin singulier qui manque.",
+      "enonce": "… lapin court vite.",
+      "reponses_acceptees": [
+        "le"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "Devant « lapin » (masculin singulier), le déterminant défini est « le »."
+    },
+    {
+      "id": "gram-6e-natures-010",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-nature-determinant",
+      "difficulte": 2,
+      "consigne": "Corrige le déterminant pour que la phrase soit correcte.",
+      "phrase_fautive": "Une chat dort.",
+      "corrections_acceptees": [
+        "Un chat dort.",
+        "Le chat dort."
+      ],
+      "explication": "« chat » est masculin : on dit « un chat » ou « le chat »."
+    },
+    {
+      "id": "gram-6e-natures-011",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-nature-adjectif",
+      "difficulte": 1,
+      "consigne": "Quel mot est un adjectif qualificatif ?",
+      "enonce": "Le gros chat dort.",
+      "choix": [
+        "Le",
+        "gros",
+        "chat",
+        "dort"
+      ],
+      "reponse": 1,
+      "explication": "« gros » précise le nom « chat » : c’est un adjectif qualificatif."
+    },
+    {
+      "id": "gram-6e-natures-012",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-nature-adjectif",
+      "difficulte": 1,
+      "consigne": "Clique sur les adjectifs qualificatifs.",
+      "mots": [
+        "Une",
+        "petite",
+        "maison",
+        "rouge",
+        "brille",
+        "au",
+        "soleil"
+      ],
+      "cibles": [
+        1,
+        3
+      ],
+      "explication": "« petite » et « rouge » précisent le nom « maison »."
+    },
+    {
+      "id": "gram-6e-natures-013",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-nature-adjectif",
+      "difficulte": 2,
+      "consigne": "Classe ces mots : adjectif ou nom ?",
+      "elements": [
+        "joli",
+        "fleur",
+        "grand",
+        "arbre",
+        "doux",
+        "nuage"
+      ],
+      "categories": [
+        "adjectif",
+        "nom"
+      ],
+      "solution": {
+        "joli": 0,
+        "fleur": 1,
+        "grand": 0,
+        "arbre": 1,
+        "doux": 0,
+        "nuage": 1
+      },
+      "explication": "Un adjectif précise un nom (joli, grand, doux) ; un nom désigne un être ou une chose (fleur, arbre, nuage)."
+    },
+    {
+      "id": "gram-6e-natures-014",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-nature-adjectif",
+      "difficulte": 2,
+      "consigne": "Complète avec un adjectif.",
+      "enonce": "La neige est {{1}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "froide",
+            "courir",
+            "dans"
+          ],
+          "reponse": 0
+        }
+      ],
+      "explication": "Il faut un adjectif qui précise le nom « neige » : « froide »."
+    },
+    {
+      "id": "gram-6e-natures-015",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-nature-adjectif",
+      "difficulte": 2,
+      "consigne": "Recopie l’adjectif qualificatif.",
+      "enonce": "Une soupe chaude fume.",
+      "reponses_acceptees": [
+        "chaude"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« chaude » précise le nom « soupe »."
+    },
+    {
+      "id": "gram-6e-natures-016",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-nature-verbe",
+      "difficulte": 1,
+      "consigne": "Quel mot est un verbe conjugué ?",
+      "enonce": "Les enfants chantent une chanson.",
+      "choix": [
+        "Les",
+        "enfants",
+        "chantent",
+        "chanson"
+      ],
+      "reponse": 2,
+      "explication": "« chantent » exprime une action et se conjugue : c’est un verbe."
+    },
+    {
+      "id": "gram-6e-natures-017",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-nature-verbe",
+      "difficulte": 1,
+      "consigne": "Clique sur le verbe conjugué.",
+      "mots": [
+        "Tu",
+        "manges",
+        "une",
+        "pomme"
+      ],
+      "cibles": [
+        1
+      ],
+      "explication": "« manges » exprime une action : c’est le verbe, conjugué avec « tu »."
+    },
+    {
+      "id": "gram-6e-natures-018",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-nature-verbe",
+      "difficulte": 2,
+      "consigne": "Classe ces mots : verbe à l’infinitif ou nom ?",
+      "elements": [
+        "courir",
+        "table",
+        "manger",
+        "jardin",
+        "finir",
+        "fenêtre"
+      ],
+      "categories": [
+        "verbe à l’infinitif",
+        "nom"
+      ],
+      "solution": {
+        "courir": 0,
+        "table": 1,
+        "manger": 0,
+        "jardin": 1,
+        "finir": 0,
+        "fenêtre": 1
+      },
+      "explication": "Courir, manger et finir sont des verbes à l’infinitif ; table, jardin et fenêtre sont des noms."
+    },
+    {
+      "id": "gram-6e-natures-019",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-nature-verbe",
+      "difficulte": 1,
+      "consigne": "Complète avec le verbe qui convient.",
+      "enonce": "Léa {{1}} un gâteau.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "mange",
+            "table",
+            "rouge"
+          ],
+          "reponse": 0
+        }
+      ],
+      "explication": "Il faut un verbe : « mange »."
+    },
+    {
+      "id": "gram-6e-natures-020",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-nature-verbe",
+      "difficulte": 3,
+      "consigne": "Écris l’infinitif du verbe.",
+      "enonce": "Le chien aboie fort.",
+      "reponses_acceptees": [
+        "aboyer"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "Le verbe conjugué « aboie » a pour infinitif « aboyer »."
+    },
+    {
+      "id": "gram-6e-natures-021",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-nature-pronom",
+      "difficulte": 1,
+      "consigne": "Quel mot est un pronom personnel ?",
+      "enonce": "Elle ouvre la fenêtre.",
+      "choix": [
+        "Elle",
+        "ouvre",
+        "la",
+        "fenêtre"
+      ],
+      "reponse": 0,
+      "explication": "« Elle » remplace un nom : c’est un pronom personnel."
+    },
+    {
+      "id": "gram-6e-natures-022",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-nature-pronom",
+      "difficulte": 1,
+      "consigne": "Clique sur le pronom personnel sujet.",
+      "mots": [
+        "Nous",
+        "mangeons",
+        "des",
+        "fraises"
+      ],
+      "cibles": [
+        0
+      ],
+      "explication": "« Nous » est le pronom personnel sujet du verbe « mangeons »."
+    },
+    {
+      "id": "gram-6e-natures-023",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-nature-pronom",
+      "difficulte": 2,
+      "consigne": "Remplace le groupe de mots par le pronom qui convient.",
+      "enonce": "Mon frère dort. → {{1}} dort.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "Il",
+            "Elle",
+            "Ils"
+          ],
+          "reponse": 0
+        }
+      ],
+      "explication": "Le pronom « il » remplace « mon frère » (masculin, singulier)."
+    },
+    {
+      "id": "gram-6e-natures-024",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-nature-pronom",
+      "difficulte": 2,
+      "consigne": "Quel pronom personnel peut remplacer « les filles » ?",
+      "reponses_acceptees": [
+        "elles"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« Les filles » est féminin pluriel : le pronom est « elles »."
+    },
+    {
+      "id": "gram-6e-natures-025",
+      "type": "association",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-nature-pronom",
+      "difficulte": 2,
+      "consigne": "Associe chaque groupe au pronom qui le remplace.",
+      "paires": [
+        [
+          "Julie",
+          "elle"
+        ],
+        [
+          "Paul",
+          "il"
+        ],
+        [
+          "Julie et Paul",
+          "ils"
+        ],
+        [
+          "Julie et Léa",
+          "elles"
+        ]
+      ],
+      "explication": "Il, elle, ils, elles : le pronom s’accorde en genre et en nombre avec le groupe remplacé."
+    },
+    {
+      "id": "gram-6e-natures-026",
+      "type": "association",
+      "forme": "contexte",
+      "competence": "gram-6e-nature-phrase",
+      "difficulte": 2,
+      "consigne": "Associe chaque mot de la phrase « Le petit chat dort. » à sa nature.",
+      "paires": [
+        [
+          "Le",
+          "déterminant"
+        ],
+        [
+          "petit",
+          "adjectif"
+        ],
+        [
+          "chat",
+          "nom"
+        ],
+        [
+          "dort",
+          "verbe"
+        ]
+      ],
+      "explication": "Le = déterminant, petit = adjectif, chat = nom, dort = verbe."
+    },
+    {
+      "id": "gram-6e-natures-027",
+      "type": "ordre",
+      "forme": "contexte",
+      "competence": "gram-6e-nature-phrase",
+      "difficulte": 2,
+      "consigne": "Remets les mots dans l’ordre pour former une phrase.",
+      "elements_melanges": [
+        "dort",
+        "petit",
+        "Le",
+        "chat"
+      ],
+      "reponse": [
+        "Le",
+        "petit",
+        "chat",
+        "dort"
+      ],
+      "explication": "L’ordre habituel : déterminant, adjectif, nom, verbe."
+    },
+    {
+      "id": "gram-6e-natures-028",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-nature-phrase",
+      "difficulte": 3,
+      "consigne": "Combien y a-t-il de noms dans cette phrase ?",
+      "enonce": "Elle chante une jolie chanson.",
+      "choix": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "reponse": 1,
+      "explication": "Seul « chanson » est un nom. « Elle » est un pronom, « une » un déterminant, « jolie » un adjectif, « chante » un verbe."
+    },
+    {
+      "id": "gram-6e-natures-029",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-nature-phrase",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Dans « Il mange. », le mot « Il » est un déterminant.",
+      "reponse": false,
+      "explication": "« Il » est un pronom personnel : il remplace un nom et ne se place pas devant un nom."
+    },
+    {
+      "id": "gram-6e-natures-030",
+      "type": "saisie",
+      "forme": "corriger",
+      "competence": "gram-6e-nature-phrase",
+      "difficulte": 3,
+      "consigne": "Cette affirmation est fausse. Quelle est la vraie nature de « petit » ?",
+      "enonce": "Dans « le petit chat », « petit » est un nom.",
+      "reponses_acceptees": [
+        "adjectif",
+        "adjectif qualificatif"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« petit » précise le nom « chat » : c’est un adjectif qualificatif."
+    }
+  ]
+}

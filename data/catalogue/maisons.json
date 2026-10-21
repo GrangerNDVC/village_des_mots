@@ -1,0 +1,276 @@
+{
+  "version": 1,
+  "note": "nb_pieces et interieur sont des propositions. Les couloirs à 2, 3, 4 portes et le couloir à 5 portes refait restent à générer.",
+  "maisons": [
+    {
+      "id": "maison_terrier",
+      "forme": "ronde",
+      "nb_pieces": 1,
+      "interieur": "piece_ronde_v2",
+      "planche": "I2",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_feuilles",
+      "forme": "ronde",
+      "nb_pieces": 1,
+      "interieur": "piece_ronde_v2",
+      "planche": "I2",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_castor",
+      "forme": "ronde",
+      "nb_pieces": 1,
+      "interieur": "piece_ronde_v2",
+      "planche": "I2",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_taupiniere",
+      "forme": "ronde",
+      "nb_pieces": 1,
+      "interieur": "piece_ronde_v2",
+      "planche": "I2",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_champignon",
+      "forme": "ronde",
+      "nb_pieces": 1,
+      "interieur": "piece_ronde_v2",
+      "planche": "I3",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_souche",
+      "forme": "ronde",
+      "nb_pieces": 1,
+      "interieur": "piece_ronde_v2",
+      "planche": "I3",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_tour_ronde",
+      "forme": "ronde_duplex",
+      "nb_pieces": 2,
+      "interieur": "duplex_rez+duplex_etage",
+      "planche": "I3",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_moulin",
+      "forme": "ronde_duplex",
+      "nb_pieces": 2,
+      "interieur": "duplex_rez+duplex_etage",
+      "planche": "I3",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_lodge",
+      "forme": "rectangulaire",
+      "nb_pieces": 3,
+      "interieur": "couloir_3",
+      "planche": "I2",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_nichoir",
+      "forme": "rectangulaire",
+      "nb_pieces": 1,
+      "interieur": "piece_*",
+      "planche": "I2",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_grange",
+      "forme": "rectangulaire",
+      "nb_pieces": 3,
+      "interieur": "couloir_3",
+      "planche": "I3",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_toit_herbe",
+      "forme": "rectangulaire",
+      "nb_pieces": 2,
+      "interieur": "couloir_2",
+      "planche": "I3",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_creme_rouge",
+      "forme": "rectangulaire",
+      "nb_pieces": 2,
+      "interieur": "couloir_2",
+      "planche": "M1",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_jaune_verte",
+      "forme": "rectangulaire",
+      "nb_pieces": 2,
+      "interieur": "couloir_2",
+      "planche": "M1",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_rose",
+      "forme": "rectangulaire",
+      "nb_pieces": 3,
+      "interieur": "couloir_3",
+      "planche": "M1",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_brique_etage",
+      "forme": "rectangulaire",
+      "nb_pieces": 4,
+      "interieur": "couloir_4",
+      "planche": "M1",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_colombages",
+      "forme": "rectangulaire",
+      "nb_pieces": 4,
+      "interieur": "couloir_4",
+      "planche": "M1",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_familiale",
+      "forme": "rectangulaire",
+      "nb_pieces": 5,
+      "interieur": "couloir_5",
+      "planche": "M1",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_etroite",
+      "forme": "rectangulaire",
+      "nb_pieces": 3,
+      "interieur": "couloir_3",
+      "planche": "M2",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_ferme",
+      "forme": "rectangulaire",
+      "nb_pieces": 4,
+      "interieur": "couloir_4",
+      "planche": "M2",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_chaume_creme",
+      "forme": "rectangulaire",
+      "nb_pieces": 3,
+      "interieur": "couloir_3",
+      "planche": "M2",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_veranda",
+      "forme": "rectangulaire",
+      "nb_pieces": 4,
+      "interieur": "couloir_4",
+      "planche": "M2",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_pierre_ardoise",
+      "forme": "rectangulaire",
+      "nb_pieces": 3,
+      "interieur": "couloir_3",
+      "planche": "M2",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_petit_manoir",
+      "forme": "rectangulaire",
+      "nb_pieces": 5,
+      "interieur": "couloir_5",
+      "planche": "M2",
+      "neige": false,
+      "statut": "livree"
+    },
+    {
+      "id": "maison_rondins",
+      "forme": "rectangulaire",
+      "nb_pieces": 3,
+      "interieur": "à définir",
+      "planche": "I",
+      "neige": true,
+      "statut": "avec neige, à remplacer par la version sans neige (I_sn)"
+    },
+    {
+      "id": "maison_chaumiere",
+      "forme": "rectangulaire",
+      "nb_pieces": 2,
+      "interieur": "à définir",
+      "planche": "I",
+      "neige": true,
+      "statut": "avec neige, à remplacer par la version sans neige (I_sn)"
+    },
+    {
+      "id": "maison_pierre",
+      "forme": "rectangulaire",
+      "nb_pieces": 3,
+      "interieur": "à définir",
+      "planche": "I",
+      "neige": true,
+      "statut": "avec neige, à remplacer par la version sans neige (I_sn)"
+    },
+    {
+      "id": "maison_chalet",
+      "forme": "rectangulaire",
+      "nb_pieces": 4,
+      "interieur": "à définir",
+      "planche": "I",
+      "neige": true,
+      "statut": "avec neige, à remplacer par la version sans neige (I_sn)"
+    },
+    {
+      "id": "maison_arbre",
+      "forme": "rectangulaire",
+      "nb_pieces": 1,
+      "interieur": "à définir",
+      "planche": "I",
+      "neige": true,
+      "statut": "avec neige, à remplacer par la version sans neige (I_sn)"
+    },
+    {
+      "id": "maison_hutte",
+      "forme": "ronde",
+      "nb_pieces": 1,
+      "interieur": "à définir",
+      "planche": "I",
+      "neige": true,
+      "statut": "avec neige, à remplacer par la version sans neige (I_sn)"
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+{
+  "version": 1,
+  "note": "type : sol, sur_meuble, mural (vue de face au mur du fond ; murs de côté par déformation en code), tapis. Les tapis vus du dessus (planche T1) s'ajouteront.",
+  "objets": [
+    {
+      "id": "table_basse",
+      "piece": "salon",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S1"
+    },
+    {
+      "id": "lampadaire",
+      "piece": "salon",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S1"
+    },
+    {
+      "id": "plante",
+      "piece": "salon",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S1"
+    },
+    {
+      "id": "panier_buches",
+      "piece": "salon",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S1"
+    },
+    {
+      "id": "tapis_rond",
+      "piece": "salon",
+      "type": "tapis",
+      "vues": [
+        "unique"
+      ],
+      "prix": 60,
+      "rarete": "commun",
+      "planche": "S1"
+    },
+    {
+      "id": "tapis_rectangle",
+      "piece": "salon",
+      "type": "tapis",
+      "vues": [
+        "unique"
+      ],
+      "prix": 60,
+      "rarete": "commun",
+      "planche": "S1"
+    },
+    {
+      "id": "tableau",
+      "piece": "salon",
+      "type": "mural",
+      "vues": [
+        "unique"
+      ],
+      "prix": 50,
+      "rarete": "commun",
+      "planche": "S1"
+    },
+    {
+      "id": "etagere_murale",
+      "piece": "salon",
+      "type": "mural",
+      "vues": [
+        "unique"
+      ],
+      "prix": 50,
+      "rarete": "commun",
+      "planche": "S1"
+    },
+    {
+      "id": "gueridon",
+      "piece": "salon",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S1"
+    },
+    {
+      "id": "vase",
+      "piece": "salon",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S1"
+    },
+    {
+      "id": "lampe_table",
+      "piece": "salon",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S1"
+    },
+    {
+      "id": "plaid",
+      "piece": "salon",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S1"
+    },
+    {
+      "id": "panier_fruits",
+      "piece": "cuisine",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S2"
+    },
+    {
+      "id": "planche_pain",
+      "piece": "cuisine",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S2"
+    },
+    {
+      "id": "theiere",
+      "piece": "cuisine",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S2"
+    },
+    {
+      "id": "marmite",
+      "piece": "cuisine",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S2"
+    },
+    {
+      "id": "etagere_bocaux",
+      "piece": "cuisine",
+      "type": "mural",
+      "vues": [
+        "unique"
+      ],
+      "prix": 50,
+      "rarete": "commun",
+      "planche": "S2"
+    },
+    {
+      "id": "rack_casseroles",
+      "piece": "cuisine",
+      "type": "mural",
+      "vues": [
+        "unique"
+      ],
+      "prix": 50,
+      "rarete": "commun",
+      "planche": "S2"
+    },
+    {
+      "id": "tabouret",
+      "piece": "cuisine",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S2"
+    },
+    {
+      "id": "pile_assiettes",
+      "piece": "cuisine",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S2"
+    },
+    {
+      "id": "tresse_ail",
+      "piece": "cuisine",
+      "type": "mural",
+      "vues": [
+        "unique"
+      ],
+      "prix": 50,
+      "rarete": "commun",
+      "planche": "S2"
+    },
+    {
+      "id": "pichet",
+      "piece": "cuisine",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S2"
+    },
+    {
+      "id": "tapis_cuisine",
+      "piece": "cuisine",
+      "type": "tapis",
+      "vues": [
+        "unique"
+      ],
+      "prix": 60,
+      "rarete": "commun",
+      "planche": "S2"
+    },
+    {
+      "id": "herbes",
+      "piece": "cuisine",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S2"
+    },
+    {
+      "id": "lampe_chevet",
+      "piece": "chambre",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S3"
+    },
+    {
+      "id": "pouf",
+      "piece": "chambre",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S3"
+    },
+    {
+      "id": "tapis_rayures",
+      "piece": "chambre",
+      "type": "tapis",
+      "vues": [
+        "unique"
+      ],
+      "prix": 60,
+      "rarete": "commun",
+      "planche": "S3"
+    },
+    {
+      "id": "tapis_rose",
+      "piece": "chambre",
+      "type": "tapis",
+      "vues": [
+        "unique"
+      ],
+      "prix": 60,
+      "rarete": "commun",
+      "planche": "S3"
+    },
+    {
+      "id": "portemanteau",
+      "piece": "chambre",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S3"
+    },
+    {
+      "id": "tableau_fleurs",
+      "piece": "chambre",
+      "type": "mural",
+      "vues": [
+        "unique"
+      ],
+      "prix": 50,
+      "rarete": "commun",
+      "planche": "S3"
+    },
+    {
+      "id": "horloge_murale",
+      "piece": "chambre",
+      "type": "mural",
+      "vues": [
+        "unique"
+      ],
+      "prix": 50,
+      "rarete": "commun",
+      "planche": "S3"
+    },
+    {
+      "id": "ours_peluche",
+      "piece": "chambre",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S3"
+    },
+    {
+      "id": "couettes",
+      "piece": "chambre",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S3"
+    },
+    {
+      "id": "reveil",
+      "piece": "chambre",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S3"
+    },
+    {
+      "id": "chaussons",
+      "piece": "chambre",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S3"
+    },
+    {
+      "id": "tabouret_livres",
+      "piece": "chambre",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S3"
+    },
+    {
+      "id": "lampe_bureau",
+      "piece": "bureau",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S4"
+    },
+    {
+      "id": "encrier_plume",
+      "piece": "bureau",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S4"
+    },
+    {
+      "id": "globe",
+      "piece": "bureau",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S4"
+    },
+    {
+      "id": "corbeille",
+      "piece": "bureau",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S4"
+    },
+    {
+      "id": "tapis_rouge",
+      "piece": "bureau",
+      "type": "tapis",
+      "vues": [
+        "unique"
+      ],
+      "prix": 60,
+      "rarete": "commun",
+      "planche": "S4"
+    },
+    {
+      "id": "tapis_vert",
+      "piece": "bureau",
+      "type": "tapis",
+      "vues": [
+        "unique"
+      ],
+      "prix": 60,
+      "rarete": "commun",
+      "planche": "S4"
+    },
+    {
+      "id": "panneau_liege",
+      "piece": "bureau",
+      "type": "mural",
+      "vues": [
+        "unique"
+      ],
+      "prix": 50,
+      "rarete": "commun",
+      "planche": "S4"
+    },
+    {
+      "id": "tableau_vert",
+      "piece": "bureau",
+      "type": "mural",
+      "vues": [
+        "unique"
+      ],
+      "prix": 50,
+      "rarete": "commun",
+      "planche": "S4"
+    },
+    {
+      "id": "horloge_pendule",
+      "piece": "bureau",
+      "type": "mural",
+      "vues": [
+        "unique"
+      ],
+      "prix": 50,
+      "rarete": "commun",
+      "planche": "S4"
+    },
+    {
+      "id": "pot_crayons",
+      "piece": "bureau",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S4"
+    },
+    {
+      "id": "lierre",
+      "piece": "bureau",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S4"
+    },
+    {
+      "id": "machine_ecrire",
+      "piece": "bureau",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S4"
+    },
+    {
+      "id": "tapis_bain",
+      "piece": "bain",
+      "type": "tapis",
+      "vues": [
+        "unique"
+      ],
+      "prix": 60,
+      "rarete": "commun",
+      "planche": "S5"
+    },
+    {
+      "id": "serviettes",
+      "piece": "bain",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S5"
+    },
+    {
+      "id": "panier_linge",
+      "piece": "bain",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S5"
+    },
+    {
+      "id": "miroir_mural",
+      "piece": "bain",
+      "type": "mural",
+      "vues": [
+        "unique"
+      ],
+      "prix": 50,
+      "rarete": "commun",
+      "planche": "S5"
+    },
+    {
+      "id": "porte_serviettes",
+      "piece": "bain",
+      "type": "mural",
+      "vues": [
+        "unique"
+      ],
+      "prix": 50,
+      "rarete": "commun",
+      "planche": "S5"
+    },
+    {
+      "id": "plateau_savon",
+      "piece": "bain",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S5"
+    },
+    {
+      "id": "fougere",
+      "piece": "bain",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S5"
+    },
+    {
+      "id": "tabouret_bain",
+      "piece": "bain",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S5"
+    },
+    {
+      "id": "etagere_flacons",
+      "piece": "bain",
+      "type": "mural",
+      "vues": [
+        "unique"
+      ],
+      "prix": 50,
+      "rarete": "commun",
+      "planche": "S5"
+    },
+    {
+      "id": "canard",
+      "piece": "bain",
+      "type": "sur_meuble",
+      "vues": [
+        "unique"
+      ],
+      "prix": 20,
+      "rarete": "commun",
+      "planche": "S5"
+    },
+    {
+      "id": "peignoir",
+      "piece": "bain",
+      "type": "mural",
+      "vues": [
+        "unique"
+      ],
+      "prix": 50,
+      "rarete": "commun",
+      "planche": "S5"
+    },
+    {
+      "id": "seau_eponge",
+      "piece": "bain",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S5"
+    },
+    {
+      "id": "portemanteau_pied",
+      "piece": "couloir",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S6"
+    },
+    {
+      "id": "porte_parapluies",
+      "piece": "couloir",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S6"
+    },
+    {
+      "id": "fougere_haute",
+      "piece": "couloir",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S6"
+    },
+    {
+      "id": "tapis_couloir",
+      "piece": "couloir",
+      "type": "tapis",
+      "vues": [
+        "unique"
+      ],
+      "prix": 60,
+      "rarete": "commun",
+      "planche": "S6"
+    },
+    {
+      "id": "miroir_rond",
+      "piece": "couloir",
+      "type": "mural",
+      "vues": [
+        "unique"
+      ],
+      "prix": 50,
+      "rarete": "commun",
+      "planche": "S6"
+    },
+    {
+      "id": "tableau_cles",
+      "piece": "couloir",
+      "type": "mural",
+      "vues": [
+        "unique"
+      ],
+      "prix": 50,
+      "rarete": "commun",
+      "planche": "S6"
+    },
+    {
+      "id": "pateres",
+      "piece": "couloir",
+      "type": "mural",
+      "vues": [
+        "unique"
+      ],
+      "prix": 50,
+      "rarete": "commun",
+      "planche": "S6"
+    },
+    {
+      "id": "lanterne_murale",
+      "piece": "couloir",
+      "type": "mural",
+      "vues": [
+        "unique"
+      ],
+      "prix": 50,
+      "rarete": "commun",
+      "planche": "S6"
+    },
+    {
+      "id": "paillasson",
+      "piece": "couloir",
+      "type": "tapis",
+      "vues": [
+        "unique"
+      ],
+      "prix": 60,
+      "rarete": "commun",
+      "planche": "S6"
+    },
+    {
+      "id": "bottes",
+      "piece": "couloir",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S6"
+    },
+    {
+      "id": "lanterne_sol",
+      "piece": "couloir",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S6"
+    },
+    {
+      "id": "panier_bonnets",
+      "piece": "couloir",
+      "type": "sol",
+      "vues": [
+        "unique"
+      ],
+      "prix": 40,
+      "rarete": "commun",
+      "planche": "S6"
+    }
+  ]
+}

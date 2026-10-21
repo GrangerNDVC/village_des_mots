@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "personnages": [
+    {
+      "id": "plume",
+      "nom": "Plume",
+      "espece": "renard",
+      "role": "héros, joueur",
+      "assets": [
+        "plume_*"
+      ],
+      "notes": "tenues par grade : page, ecuyer, chevalier, maitre ; version avant (haillons) et après (cape verte)"
+    },
+    {
+      "id": "hibou",
+      "nom": "Maître Hibou",
+      "espece": "hibou",
+      "role": "mentor, présente les rappels de cours",
+      "assets": [
+        "hibou_*"
+      ]
+    },
+    {
+      "id": "pates",
+      "nom": "Les Pâtés d’encre",
+      "espece": "taches d’encre",
+      "role": "adversaires des boss de palier (à confirmer)",
+      "assets": [
+        "pate_*",
+        "grand_pate"
+      ]
+    },
+    {
+      "id": "maman_souris",
+      "nom": "Maman souris",
+      "espece": "souris",
+      "role": "ami du village (avec son bébé)",
+      "assets": [
+        "maman_souris_*"
+      ],
+      "histoire": "à écrire"
+    },
+    {
+      "id": "chatte",
+      "nom": "La chatte",
+      "espece": "chat",
+      "role": "ami du village",
+      "assets": [
+        "chatte_*"
+      ],
+      "histoire": "à écrire"
+    },
+    {
+      "id": "ecureuil",
+      "nom": "L’écureuil",
+      "espece": "écureuil",
+      "role": "ami du village",
+      "assets": [
+        "ecureuil_*"
+      ],
+      "histoire": "à écrire"
+    },
+    {
+      "id": "lapin",
+      "nom": "Le lapin explorateur",
+      "espece": "lapin",
+      "role": "ami du village",
+      "assets": [
+        "lapin_*"
+      ],
+      "histoire": "à écrire"
+    }
+  ]
+}

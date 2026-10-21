@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "module.schema.json",
+  "title": "Module d’exercices",
+  "type": "object",
+  "required": [
+    "module",
+    "titre",
+    "domaine",
+    "niveau",
+    "grade",
+    "version",
+    "rappel",
+    "competences",
+    "exercices"
+  ],
+  "properties": {
+    "module": {
+      "type": "string",
+      "pattern": "^(gram|ortho|conj|vocab)-[3-6]e-[a-z0-9-]+$"
+    },
+    "titre": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "domaine": {
+      "enum": [
+        "grammaire",
+        "orthographe",
+        "conjugaison",
+        "vocabulaire"
+      ]
+    },
+    "niveau": {
+      "enum": [
+        6,
+        5,
+        4,
+        3
+      ]
+    },
+    "grade": {
+      "enum": [
+        "page",
+        "ecuyer",
+        "chevalier",
+        "maitre"
+      ]
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "rappel": {
+      "type": "object",
+      "required": [
+        "titre",
+        "points"
+      ]
+    },
+    "competences": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "exercices": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "exercice.schema.json"
+      }
+    }
+  }
+}
