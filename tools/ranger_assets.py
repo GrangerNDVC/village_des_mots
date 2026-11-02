@@ -18,23 +18,38 @@ def charger(nom):
 
 MEUBLES = {m["id"]: m for m in charger("meubles.json")["meubles"]}
 OBJETS = {o["id"]: o for o in charger("objets.json")["objets"]}
-PREFIXES = [
-    (r"^plume_", "personnages/plume"), (r"^hibou_", "personnages/hibou"), (r"^(pate_|grand_pate)", "personnages/pates"),
-    (r"^maman_souris_", "personnages/maman_souris"), (r"^chatte_", "personnages/chatte"),
-    (r"^ecureuil_", "personnages/ecureuil"), (r"^lapin_", "personnages/lapin"),
-    (r"^emb_", "decor/emblemes"), (r"^coffre_", "recompenses"), (r"^maison_", "maisons"), (r"^batiment_", "batiments"),
-    (r"^(piece_|duplex_)", "pieces"), (r"^fond_", "fonds"), (r"^(couloir_)", "pieces"), (r".*_v2$", "variantes"),
-]
+MAISONS = {m["id"]: m for m in charger("maisons.json")["maisons"]}
 
 
 def destination(stem):
-    for motif, dest in PREFIXES:
-        if re.match(motif, stem):
-            return dest
+    m = re.match(r"^(plume|maman_souris|chatte|ecureuil|lapin)_(.*)$", stem)
+    if m:
+        nom, reste = m.groups()
+        if nom == "plume":
+            if reste.startswith("buste_"): sous = "expressions"
+            elif reste.startswith("modele_"): sous = "modele"
+            elif reste.startswith("tenue_") or reste == "sans_cape": sous = "tenues"
+            else: sous = "postures"
+        else:
+            sous = "expressions" if reste.startswith("expr_") else "postures"
+        return "personnages/" + nom + "/" + sous
+    if stem.startswith("hibou_"): return "personnages/hibou"
+    if re.match(r"^(pate_|grand_pate)", stem): return "personnages/pates"
+    if stem.startswith("emb_"): return "ui/domaines"
+    if re.match(r"^coffre_(ferme|ouvert)$", stem): return "recompenses"
+    if stem.startswith("maison_"):
+        info = MAISONS.get(stem)
+        if info is None: return "maisons"
+        if info.get("neige"): return "maisons/anciennes_avec_neige"
+        return "maisons/rondes" if info["forme"].startswith("ronde") else "maisons/rectangulaires"
+    if stem.startswith("batiment_"): return "batiments"
+    if re.match(r"^(piece_|duplex_|couloir_)", stem): return "pieces"
+    if stem.startswith("fond_"): return "fonds"
+    if stem.endswith("_v2"): return "variantes"
     base = stem
-    for s in SUFFIXES:
-        if stem.endswith(s):
-            base = stem[: -len(s)]
+    for suf in SUFFIXES:
+        if stem.endswith(suf):
+            base = stem[: -len(suf)]
             break
     if base in MEUBLES:
         return "meubles/" + MEUBLES[base]["pieces"][0]

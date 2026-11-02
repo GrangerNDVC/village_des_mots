@@ -1,4 +1,6 @@
-# La Quête de Plume
+# Le village des mots
+
+**Chapitre 1 : La Quête de Plume.**
 
 Serious game de français (grammaire, orthographe, conjugaison, vocabulaire) de la 6ᵉ à la 3ᵉ, en HTML, jouable sur PC, tablette et smartphone.
 Plume, un jeune renard scribe, réchauffe des amis, bâtit un village et le meuble grâce aux bonnes réponses.
@@ -6,7 +8,7 @@ Plume, un jeune renard scribe, réchauffe des amis, bâtit un village et le meub
 ## Arborescence
 
 ```
-quete-de-plume/
+village-des-mots/
 ├─ README.md
 ├─ index.html                      point d’entrée du jeu (provisoire : liste les modules)
 ├─ docs/
