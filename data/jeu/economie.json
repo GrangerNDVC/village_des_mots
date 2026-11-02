@@ -1,0 +1,727 @@
+{
+ "version": 1,
+ "note": "Economie du jeu (pieces). Les chiffres sont calibres par tools/valider_economie.py. Tout est a valider ; maisons 3 et 4 = gabarit.",
+ "devise": "pièces",
+ "depart": {
+  "pieces": 50,
+  "maison": "maison-1",
+  "piece_offerte": "m1-p1",
+  "objets_offerts": [
+   {
+    "id": "fauteuil",
+    "n": 1
+   }
+  ]
+ },
+ "gains": {
+  "note": "Un peu d'argent pour avoir fini, plus pour avoir bien repondu. Serie de 5 : de 2 a 15 pieces.",
+  "serie_terminee": 2,
+  "question": {
+   "bon_du_premier_coup": 2,
+   "bon_au_second_essai": 1,
+   "faux": 0
+  },
+  "serie_parfaite_bonus": 3,
+  "maitrise_module": 30,
+  "revision_reussie": 10,
+  "variete_acceptee": 5,
+  "test_placement_par_module_valide": 15
+ },
+ "jalons": {
+  "note": "Cadeaux a chaque nombre de modules maitrises (tous domaines et niveaux confondus) : il y a toujours une marche proche.",
+  "liste": [
+   {
+    "modules": 1,
+    "pieces": 20
+   },
+   {
+    "modules": 3,
+    "objet": "coussin"
+   },
+   {
+    "modules": 6,
+    "pieces": 40
+   },
+   {
+    "modules": 10,
+    "objet": "jouet_dino"
+   },
+   {
+    "modules": 15,
+    "pieces": 60
+   },
+   {
+    "modules": 20,
+    "pieces": 80
+   },
+   {
+    "modules": 30,
+    "pieces": 100
+   },
+   {
+    "modules": 45,
+    "pieces": 120
+   },
+   {
+    "modules": 60,
+    "pieces": 150
+   }
+  ]
+ },
+ "paliers_domaine": [
+  {
+   "id": "palier-6e-grammaire",
+   "niveau": 6,
+   "domaine": "grammaire",
+   "condition": "tous les modules (notion, 6e) du domaine sont a l'etat maitrise",
+   "recompense": {
+    "personnage_offert": "perso-6e-grammaire",
+    "pieces": 0
+   },
+   "effet": "ouvre a l'achat la piece suivante de la maison (n-ieme palier de domaine -> piece n+1) ; au 4e palier : niveau complet"
+  },
+  {
+   "id": "palier-6e-conjugaison",
+   "niveau": 6,
+   "domaine": "conjugaison",
+   "condition": "tous les modules (notion, 6e) du domaine sont a l'etat maitrise",
+   "recompense": {
+    "personnage_offert": "perso-6e-conjugaison",
+    "pieces": 0
+   },
+   "effet": "ouvre a l'achat la piece suivante de la maison (n-ieme palier de domaine -> piece n+1) ; au 4e palier : niveau complet"
+  },
+  {
+   "id": "palier-6e-orthographe",
+   "niveau": 6,
+   "domaine": "orthographe",
+   "condition": "tous les modules (notion, 6e) du domaine sont a l'etat maitrise",
+   "recompense": {
+    "personnage_offert": "perso-6e-orthographe",
+    "pieces": 0
+   },
+   "effet": "ouvre a l'achat la piece suivante de la maison (n-ieme palier de domaine -> piece n+1) ; au 4e palier : niveau complet"
+  },
+  {
+   "id": "palier-6e-vocabulaire",
+   "niveau": 6,
+   "domaine": "vocabulaire",
+   "condition": "tous les modules (notion, 6e) du domaine sont a l'etat maitrise",
+   "recompense": {
+    "personnage_offert": "perso-6e-vocabulaire",
+    "pieces": 0
+   },
+   "effet": "ouvre a l'achat la piece suivante de la maison (n-ieme palier de domaine -> piece n+1) ; au 4e palier : niveau complet"
+  },
+  {
+   "id": "palier-5e-grammaire",
+   "niveau": 5,
+   "domaine": "grammaire",
+   "condition": "tous les modules (notion, 5e) du domaine sont a l'etat maitrise",
+   "recompense": {
+    "personnage_offert": "perso-5e-grammaire",
+    "pieces": 0
+   },
+   "effet": "ouvre a l'achat la piece suivante de la maison (n-ieme palier de domaine -> piece n+1) ; au 4e palier : niveau complet"
+  },
+  {
+   "id": "palier-5e-conjugaison",
+   "niveau": 5,
+   "domaine": "conjugaison",
+   "condition": "tous les modules (notion, 5e) du domaine sont a l'etat maitrise",
+   "recompense": {
+    "personnage_offert": "perso-5e-conjugaison",
+    "pieces": 0
+   },
+   "effet": "ouvre a l'achat la piece suivante de la maison (n-ieme palier de domaine -> piece n+1) ; au 4e palier : niveau complet"
+  },
+  {
+   "id": "palier-5e-orthographe",
+   "niveau": 5,
+   "domaine": "orthographe",
+   "condition": "tous les modules (notion, 5e) du domaine sont a l'etat maitrise",
+   "recompense": {
+    "personnage_offert": "perso-5e-orthographe",
+    "pieces": 0
+   },
+   "effet": "ouvre a l'achat la piece suivante de la maison (n-ieme palier de domaine -> piece n+1) ; au 4e palier : niveau complet"
+  },
+  {
+   "id": "palier-5e-vocabulaire",
+   "niveau": 5,
+   "domaine": "vocabulaire",
+   "condition": "tous les modules (notion, 5e) du domaine sont a l'etat maitrise",
+   "recompense": {
+    "personnage_offert": "perso-5e-vocabulaire",
+    "pieces": 0
+   },
+   "effet": "ouvre a l'achat la piece suivante de la maison (n-ieme palier de domaine -> piece n+1) ; au 4e palier : niveau complet"
+  },
+  {
+   "id": "palier-4e-grammaire",
+   "niveau": 4,
+   "domaine": "grammaire",
+   "condition": "tous les modules (notion, 4e) du domaine sont a l'etat maitrise",
+   "recompense": {
+    "personnage_offert": "perso-4e-grammaire",
+    "pieces": 0
+   },
+   "effet": "ouvre a l'achat la piece suivante de la maison (n-ieme palier de domaine -> piece n+1) ; au 4e palier : niveau complet"
+  },
+  {
+   "id": "palier-4e-conjugaison",
+   "niveau": 4,
+   "domaine": "conjugaison",
+   "condition": "tous les modules (notion, 4e) du domaine sont a l'etat maitrise",
+   "recompense": {
+    "personnage_offert": "perso-4e-conjugaison",
+    "pieces": 0
+   },
+   "effet": "ouvre a l'achat la piece suivante de la maison (n-ieme palier de domaine -> piece n+1) ; au 4e palier : niveau complet"
+  },
+  {
+   "id": "palier-4e-orthographe",
+   "niveau": 4,
+   "domaine": "orthographe",
+   "condition": "tous les modules (notion, 4e) du domaine sont a l'etat maitrise",
+   "recompense": {
+    "personnage_offert": "perso-4e-orthographe",
+    "pieces": 0
+   },
+   "effet": "ouvre a l'achat la piece suivante de la maison (n-ieme palier de domaine -> piece n+1) ; au 4e palier : niveau complet"
+  },
+  {
+   "id": "palier-4e-vocabulaire",
+   "niveau": 4,
+   "domaine": "vocabulaire",
+   "condition": "tous les modules (notion, 4e) du domaine sont a l'etat maitrise",
+   "recompense": {
+    "personnage_offert": "perso-4e-vocabulaire",
+    "pieces": 0
+   },
+   "effet": "ouvre a l'achat la piece suivante de la maison (n-ieme palier de domaine -> piece n+1) ; au 4e palier : niveau complet"
+  },
+  {
+   "id": "palier-3e-grammaire",
+   "niveau": 3,
+   "domaine": "grammaire",
+   "condition": "tous les modules (notion, 3e) du domaine sont a l'etat maitrise",
+   "recompense": {
+    "personnage_offert": "perso-3e-grammaire",
+    "pieces": 0
+   },
+   "effet": "ouvre a l'achat la piece suivante de la maison (n-ieme palier de domaine -> piece n+1) ; au 4e palier : niveau complet"
+  },
+  {
+   "id": "palier-3e-conjugaison",
+   "niveau": 3,
+   "domaine": "conjugaison",
+   "condition": "tous les modules (notion, 3e) du domaine sont a l'etat maitrise",
+   "recompense": {
+    "personnage_offert": "perso-3e-conjugaison",
+    "pieces": 0
+   },
+   "effet": "ouvre a l'achat la piece suivante de la maison (n-ieme palier de domaine -> piece n+1) ; au 4e palier : niveau complet"
+  },
+  {
+   "id": "palier-3e-orthographe",
+   "niveau": 3,
+   "domaine": "orthographe",
+   "condition": "tous les modules (notion, 3e) du domaine sont a l'etat maitrise",
+   "recompense": {
+    "personnage_offert": "perso-3e-orthographe",
+    "pieces": 0
+   },
+   "effet": "ouvre a l'achat la piece suivante de la maison (n-ieme palier de domaine -> piece n+1) ; au 4e palier : niveau complet"
+  },
+  {
+   "id": "palier-3e-vocabulaire",
+   "niveau": 3,
+   "domaine": "vocabulaire",
+   "condition": "tous les modules (notion, 3e) du domaine sont a l'etat maitrise",
+   "recompense": {
+    "personnage_offert": "perso-3e-vocabulaire",
+    "pieces": 0
+   },
+   "effet": "ouvre a l'achat la piece suivante de la maison (n-ieme palier de domaine -> piece n+1) ; au 4e palier : niveau complet"
+  }
+ ],
+ "palier_niveau": {
+  "note": "Quand les 4 paliers de domaine d'un niveau sont atteints.",
+  "recompense_pieces": 100,
+  "effet": "la maison suivante devient achetable ; la suivante encore apparait en silhouette"
+ },
+ "apparition": {
+  "etats": [
+   "cache",
+   "silhouette",
+   "achetable",
+   "achetee"
+  ],
+  "regles": [
+   "La piece (ou maison) suivante a debloquer est toujours visible en silhouette grise, avec ses meubles en ombres.",
+   "La suivante de celle-ci reste cachee.",
+   "Une piece achetee ouvre la boutique de ses meubles.",
+   "Les objets achetes sont a l'inventaire et placables dans toute piece achetee."
+  ]
+ },
+ "colorisation": {
+  "disponible_a_partir_de": "maison-2",
+  "facteur_prix": 2.5,
+  "premiere_couleur_gratuite": true,
+  "prix_changement_couleur": 10,
+  "mode": "decalage de teinte depuis le rouge de base",
+  "palette": [
+   {
+    "id": "rouge",
+    "mode": "base"
+   },
+   {
+    "id": "orange",
+    "teinte": 25
+   },
+   {
+    "id": "jaune",
+    "teinte": 48
+   },
+   {
+    "id": "vert",
+    "teinte": 110
+   },
+   {
+    "id": "turquoise",
+    "teinte": 170
+   },
+   {
+    "id": "bleu",
+    "teinte": 215
+   },
+   {
+    "id": "violet",
+    "teinte": 270
+   },
+   {
+    "id": "rose",
+    "teinte": 335,
+    "luminosite": 12
+   },
+   {
+    "id": "marron",
+    "teinte": 20,
+    "luminosite": -25
+   },
+   {
+    "id": "blanc",
+    "mode": "desature",
+    "luminosite": 55
+   },
+   {
+    "id": "gris",
+    "mode": "desature"
+   },
+   {
+    "id": "noir",
+    "mode": "desature",
+    "luminosite": -45
+   }
+  ]
+ },
+ "garde_fous": {
+  "note": "Verifies par la simulation de tools/valider_economie.py.",
+  "ecart_max_modules_sans_achat_possible": 2,
+  "prix_max_objet_en_modules": 1.6,
+  "prix_max_piece_en_modules": 4.5
+ },
+ "objets": {
+  "bol_legumes": {
+   "prix": 15,
+   "max_exemplaires": 4,
+   "colorable": false
+  },
+  "canape": {
+   "prix": 90,
+   "max_exemplaires": 2,
+   "colorable": false
+  },
+  "canape_colorable": {
+   "prix": 225,
+   "max_exemplaires": 2,
+   "variante_de": "canape",
+   "colorable": true
+  },
+  "chaise_bois": {
+   "prix": 25,
+   "max_exemplaires": 4,
+   "colorable": false
+  },
+  "chaise_bois_colorable": {
+   "prix": 60,
+   "max_exemplaires": 4,
+   "variante_de": "chaise_bois",
+   "colorable": true
+  },
+  "chaise_metal": {
+   "prix": 25,
+   "max_exemplaires": 4,
+   "colorable": false
+  },
+  "chaise_metal_colorable": {
+   "prix": 60,
+   "max_exemplaires": 4,
+   "variante_de": "chaise_metal",
+   "colorable": true
+  },
+  "chaise_rotin": {
+   "prix": 35,
+   "max_exemplaires": 4,
+   "colorable": false
+  },
+  "chaise_rotin_colorable": {
+   "prix": 90,
+   "max_exemplaires": 4,
+   "variante_de": "chaise_rotin",
+   "colorable": true
+  },
+  "commode": {
+   "prix": 55,
+   "max_exemplaires": 2,
+   "colorable": false
+  },
+  "commode_colorable": {
+   "prix": 140,
+   "max_exemplaires": 2,
+   "variante_de": "commode",
+   "colorable": true
+  },
+  "coussin": {
+   "prix": 12,
+   "max_exemplaires": 4,
+   "colorable": false
+  },
+  "coussin2": {
+   "prix": 12,
+   "max_exemplaires": 4,
+   "colorable": false
+  },
+  "coussin_colorable": {
+   "prix": 30,
+   "max_exemplaires": 4,
+   "variante_de": "coussin",
+   "colorable": true
+  },
+  "coussin_colorable2": {
+   "prix": 30,
+   "max_exemplaires": 4,
+   "variante_de": "coussin2",
+   "colorable": true
+  },
+  "cubes_jouets": {
+   "prix": 10,
+   "max_exemplaires": 3,
+   "colorable": false
+  },
+  "fauteuil": {
+   "prix": 60,
+   "max_exemplaires": 2,
+   "colorable": false
+  },
+  "fauteuil_colorable": {
+   "prix": 150,
+   "max_exemplaires": 2,
+   "variante_de": "fauteuil",
+   "colorable": true
+  },
+  "fauteuil_rotin": {
+   "prix": 70,
+   "max_exemplaires": 2,
+   "colorable": false
+  },
+  "fauteuil_rotin_colorable": {
+   "prix": 175,
+   "max_exemplaires": 2,
+   "variante_de": "fauteuil_rotin",
+   "colorable": true
+  },
+  "lit": {
+   "prix": 80,
+   "max_exemplaires": 2,
+   "colorable": false
+  },
+  "lit_colorable": {
+   "prix": 200,
+   "max_exemplaires": 2,
+   "variante_de": "lit",
+   "colorable": true
+  },
+  "meuble_PC": {
+   "prix": 120,
+   "max_exemplaires": 1,
+   "colorable": false
+  },
+  "meuble_PC_colorable": {
+   "prix": 300,
+   "max_exemplaires": 1,
+   "variante_de": "meuble_PC",
+   "colorable": true
+  },
+  "meuble_TV": {
+   "prix": 140,
+   "max_exemplaires": 1,
+   "colorable": false
+  },
+  "meuble_TV_colorable": {
+   "prix": 350,
+   "max_exemplaires": 1,
+   "variante_de": "meuble_TV",
+   "colorable": true
+  },
+  "pouf": {
+   "prix": 35,
+   "max_exemplaires": 3,
+   "colorable": false
+  },
+  "pouf_colorable": {
+   "prix": 90,
+   "max_exemplaires": 3,
+   "variante_de": "pouf",
+   "colorable": true
+  },
+  "jouet_dino": {
+   "prix": 25,
+   "max_exemplaires": 1,
+   "colorable": false
+  },
+  "jouet_dino_colorable": {
+   "prix": 60,
+   "max_exemplaires": 1,
+   "variante_de": "jouet_dino",
+   "colorable": true
+  },
+  "jouet_train": {
+   "prix": 25,
+   "max_exemplaires": 1,
+   "colorable": false
+  },
+  "jouet_anneaux": {
+   "prix": 20,
+   "max_exemplaires": 1,
+   "colorable": false
+  },
+  "poulet": {
+   "prix": 20,
+   "max_exemplaires": 2,
+   "colorable": false
+  },
+  "gateau": {
+   "prix": 20,
+   "max_exemplaires": 2,
+   "colorable": false
+  },
+  "part_gateau": {
+   "prix": 10,
+   "max_exemplaires": 4,
+   "colorable": false
+  },
+  "hamburger": {
+   "prix": 15,
+   "max_exemplaires": 4,
+   "colorable": false
+  }
+ },
+ "maisons": [
+  {
+   "id": "maison-1",
+   "nom": "Chaumière du Page",
+   "niveau": 6,
+   "grade": "page",
+   "colorisation": false,
+   "pieces": [
+    {
+     "id": "m1-p1",
+     "nom": "Salon",
+     "prix": 0,
+     "mobilier": [
+      "canape",
+      "fauteuil",
+      "coussin",
+      "coussin2",
+      "commode",
+      "meuble_TV"
+     ],
+     "statut_contenu": "propose"
+    },
+    {
+     "id": "m1-p2",
+     "nom": "Chambre",
+     "prix": 150,
+     "mobilier": [
+      "lit",
+      "pouf",
+      "jouet_dino",
+      "jouet_train",
+      "jouet_anneaux",
+      "cubes_jouets"
+     ],
+     "statut_contenu": "propose"
+    },
+    {
+     "id": "m1-p3",
+     "nom": "Cuisine",
+     "prix": 250,
+     "mobilier": [
+      "chaise_bois",
+      "chaise_metal",
+      "poulet",
+      "gateau",
+      "part_gateau",
+      "hamburger",
+      "bol_legumes"
+     ],
+     "statut_contenu": "propose"
+    },
+    {
+     "id": "m1-p4",
+     "nom": "Bureau",
+     "prix": 350,
+     "mobilier": [
+      "meuble_PC"
+     ],
+     "statut_contenu": "propose"
+    }
+   ]
+  },
+  {
+   "id": "maison-2",
+   "nom": "Maison de l'Écuyer",
+   "niveau": 5,
+   "grade": "ecuyer",
+   "colorisation": true,
+   "pieces": [
+    {
+     "id": "m2-p1",
+     "nom": "Salon moderne",
+     "prix": 600,
+     "mobilier": [
+      "canape_colorable",
+      "fauteuil_colorable",
+      "coussin_colorable",
+      "coussin_colorable2",
+      "commode_colorable",
+      "meuble_TV_colorable"
+     ],
+     "statut_contenu": "propose"
+    },
+    {
+     "id": "m2-p2",
+     "nom": "Chambre claire",
+     "prix": 400,
+     "mobilier": [
+      "lit_colorable",
+      "pouf_colorable",
+      "jouet_dino_colorable",
+      "fauteuil_rotin"
+     ],
+     "statut_contenu": "propose"
+    },
+    {
+     "id": "m2-p3",
+     "nom": "Salle à manger",
+     "prix": 500,
+     "mobilier": [
+      "chaise_bois_colorable",
+      "chaise_metal_colorable",
+      "chaise_rotin",
+      "chaise_rotin_colorable"
+     ],
+     "statut_contenu": "propose"
+    },
+    {
+     "id": "m2-p4",
+     "nom": "Bureau moderne",
+     "prix": 600,
+     "mobilier": [
+      "meuble_PC_colorable",
+      "fauteuil_rotin_colorable"
+     ],
+     "statut_contenu": "propose"
+    }
+   ]
+  },
+  {
+   "id": "maison-3",
+   "nom": "Manoir du Chevalier",
+   "niveau": 4,
+   "grade": "chevalier",
+   "colorisation": true,
+   "statut": "a_creer",
+   "pieces": [
+    {
+     "id": "m3-p1",
+     "nom": "(à créer)",
+     "prix": 1200,
+     "mobilier": [],
+     "statut_contenu": "a_creer"
+    },
+    {
+     "id": "m3-p2",
+     "nom": "(à créer)",
+     "prix": 800,
+     "mobilier": [],
+     "statut_contenu": "a_creer"
+    },
+    {
+     "id": "m3-p3",
+     "nom": "(à créer)",
+     "prix": 1000,
+     "mobilier": [],
+     "statut_contenu": "a_creer"
+    },
+    {
+     "id": "m3-p4",
+     "nom": "(à créer)",
+     "prix": 1200,
+     "mobilier": [],
+     "statut_contenu": "a_creer"
+    }
+   ]
+  },
+  {
+   "id": "maison-4",
+   "nom": "Château du Maître",
+   "niveau": 3,
+   "grade": "maitre",
+   "colorisation": true,
+   "statut": "a_creer",
+   "pieces": [
+    {
+     "id": "m4-p1",
+     "nom": "(à créer)",
+     "prix": 2000,
+     "mobilier": [],
+     "statut_contenu": "a_creer"
+    },
+    {
+     "id": "m4-p2",
+     "nom": "(à créer)",
+     "prix": 1400,
+     "mobilier": [],
+     "statut_contenu": "a_creer"
+    },
+    {
+     "id": "m4-p3",
+     "nom": "(à créer)",
+     "prix": 1700,
+     "mobilier": [],
+     "statut_contenu": "a_creer"
+    },
+    {
+     "id": "m4-p4",
+     "nom": "(à créer)",
+     "prix": 2000,
+     "mobilier": [],
+     "statut_contenu": "a_creer"
+    }
+   ]
+  }
+ ]
+}

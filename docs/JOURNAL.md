@@ -13,3 +13,11 @@
 ## Chantier 1 : moteur du prototype (à venir)
 
 Premier module de test : `gram-6e-natures` (30 exercices).
+
+## Fusion v0.8 (reprise du projet)
+
+- Les 16 modules de la v0.8 (11 en 6e, 5 en 5e) sont rangés dans `data/exercices/grammaire/{6e,5e}/`, validés par `tools/valider_donnees.py` (0 erreur).
+- `data/competences.json` : référentiel v0.8 (54 compétences) ; `gram-6e-natures` conservé.
+- `data/jeu/` : fichiers propres au jeu v0.8 (carte-notions, progression, epreuves, catalogue-objets, economie). L’économie et le catalogue de `data/` (squelette initial) ne sont pas écrasés : à unifier.
+- `tools/archive/` : scripts de fabrication de la v0.8 (build_04/05, gen_economie, valider_progression, controle_module).
+- À faire : verser `source/tpl.html` et `build.py` (non encore dans le dépôt), puis Firebase.

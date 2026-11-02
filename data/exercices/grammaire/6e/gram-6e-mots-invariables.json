@@ -1,0 +1,814 @@
+{
+  "module": "gram-6e-mots-invariables",
+  "titre": "Les mots invariables",
+  "domaine": "grammaire",
+  "niveau": 6,
+  "grade": "page",
+  "version": 1,
+  "description": "Reconnaître les adverbes, les prépositions et les conjonctions (de coordination et de subordination), mots qui ne changent jamais de forme.",
+  "rappel": {
+    "titre": "Les mots invariables",
+    "points": [
+      {
+        "mot": "mot invariable",
+        "definition": "Un mot invariable n’a ni genre ni nombre : il garde toujours la même forme. Les adverbes, les prépositions et les conjonctions sont des mots invariables.",
+        "exemple": "bien, dans, mais"
+      },
+      {
+        "mot": "adverbe",
+        "definition": "L’adverbe complète ou modifie le sens d’un verbe, d’un adjectif, d’un autre adverbe ou d’une phrase. Il peut exprimer le lieu, le temps, la manière, la négation, l’interrogation, la quantité ou l’intensité.",
+        "exemple": "Tu écris bien. Elle est très contente."
+      },
+      {
+        "mot": "préposition",
+        "definition": "La préposition introduit un mot ou un groupe de mots qui a une fonction dans la phrase. Quelques-unes : à, de, dans, en, par, pour, sur, sous, avec, sans, chez.",
+        "exemple": "Je vais chez mes amis pour jouer."
+      },
+      {
+        "mot": "conjonction de coordination",
+        "definition": "La conjonction de coordination relie deux mots, deux groupes de mots ou deux propositions : mais, ou, et, donc, or, ni, car.",
+        "exemple": "Le temps est sec et chaud."
+      },
+      {
+        "mot": "conjonction de subordination",
+        "definition": "La conjonction de subordination introduit une proposition subordonnée : que, quand, lorsque, puisque, comme, quoique…",
+        "exemple": "Je sais que tu viendras."
+      }
+    ]
+  },
+  "competences": [
+    "gram-6e-adverbe-reconnaitre",
+    "gram-6e-preposition-emploi",
+    "gram-6e-conjonction-types"
+  ],
+  "exercices": [
+    {
+      "id": "gram-6e-mots-invariables-001",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-adverbe-reconnaitre",
+      "difficulte": 1,
+      "consigne": "Quel mot est un adverbe ?",
+      "enonce": "Le renard court vite.",
+      "choix": [
+        "renard",
+        "court",
+        "vite",
+        "Le"
+      ],
+      "reponse": 2,
+      "explication": "« vite » complète le verbe « court » et ne change jamais de forme : c’est un adverbe.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-002",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-adverbe-reconnaitre",
+      "difficulte": 1,
+      "consigne": "Clique sur l’adverbe.",
+      "mots": [
+        "Plume",
+        "parle",
+        "doucement",
+        "à",
+        "ses",
+        "amis"
+      ],
+      "cibles": [
+        2
+      ],
+      "explication": "« doucement » complète le verbe « parle » : c’est un adverbe.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-003",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-adverbe-reconnaitre",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Un adverbe est un mot invariable.",
+      "reponse": true,
+      "explication": "Les adverbes n’ont ni genre ni nombre : ils gardent toujours la même forme.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-004",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-adverbe-reconnaitre",
+      "difficulte": 1,
+      "consigne": "Recopie l’adverbe de la phrase.",
+      "enonce": "Nous mangeons rapidement.",
+      "reponses_acceptees": [
+        "rapidement"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« rapidement » complète le verbe « mangeons » : c’est un adverbe.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-005",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-adverbe-reconnaitre",
+      "difficulte": 2,
+      "consigne": "Quel mot l’adverbe « très » complète-t-il ?",
+      "enonce": "Cette soupe est très chaude.",
+      "choix": [
+        "soupe",
+        "est",
+        "chaude",
+        "Cette"
+      ],
+      "reponse": 2,
+      "explication": "« très » précise l’adjectif « chaude » : il exprime l’intensité.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-006",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-adverbe-reconnaitre",
+      "difficulte": 2,
+      "consigne": "Classe ces adverbes selon ce qu’ils expriment.",
+      "elements": [
+        "ici",
+        "souvent",
+        "vite",
+        "partout",
+        "demain",
+        "doucement"
+      ],
+      "categories": [
+        "lieu",
+        "temps",
+        "manière"
+      ],
+      "solution": {
+        "ici": 0,
+        "souvent": 1,
+        "vite": 2,
+        "partout": 0,
+        "demain": 1,
+        "doucement": 2
+      },
+      "explication": "Les adverbes circonstanciels indiquent le lieu (ici, partout), le temps (souvent, demain) ou la manière (vite, doucement).",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-007",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-adverbe-reconnaitre",
+      "difficulte": 2,
+      "consigne": "Classe ces adverbes : négatif, interrogatif ou quantité/intensité ?",
+      "elements": [
+        "ne… pas",
+        "pourquoi",
+        "beaucoup",
+        "ne… plus",
+        "combien",
+        "très"
+      ],
+      "categories": [
+        "négatif",
+        "interrogatif",
+        "quantité ou intensité"
+      ],
+      "solution": {
+        "ne… pas": 0,
+        "pourquoi": 1,
+        "beaucoup": 2,
+        "ne… plus": 0,
+        "combien": 1,
+        "très": 2
+      },
+      "explication": "Négatifs : ne… pas, ne… plus. Interrogatifs : pourquoi, combien. Quantité ou intensité : beaucoup, très.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-008",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-adverbe-reconnaitre",
+      "difficulte": 2,
+      "consigne": "Complète la phrase.",
+      "enonce": "Dans « Elle chante très bien. », « très » complète {{1}} et « bien » complète {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "un verbe",
+            "un adjectif",
+            "un adverbe"
+          ],
+          "reponse": 2
+        },
+        {
+          "id": 2,
+          "choix": [
+            "un verbe",
+            "un adjectif",
+            "un adverbe"
+          ],
+          "reponse": 0
+        }
+      ],
+      "explication": "« très » complète l’adverbe « bien » ; « bien » complète le verbe « chante ».",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-009",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-adverbe-reconnaitre",
+      "difficulte": 2,
+      "consigne": "Forme l’adverbe en -ment à partir de l’adjectif « rapide ».",
+      "enonce": "rapide → …",
+      "reponses_acceptees": [
+        "rapidement"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "On ajoute -ment à l’adjectif féminin : rapide → rapidement.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-010",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-adverbe-reconnaitre",
+      "difficulte": 2,
+      "consigne": "Corrige la phrase : il manque un mot de la négation.",
+      "phrase_fautive": "Je mange pas de poisson.",
+      "corrections_acceptees": [
+        "Je ne mange pas de poisson."
+      ],
+      "explication": "La négation se construit avec deux mots : « ne » devant le verbe et « pas » après lui.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-011",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-adverbe-reconnaitre",
+      "difficulte": 3,
+      "consigne": "Dans quelle phrase le mot « bien » est-il un adverbe ?",
+      "choix": [
+        "Ce bien appartient à ma famille.",
+        "Tu chantes bien.",
+        "Le bien l’emporte sur le mal.",
+        "Il a fait du bien à tous."
+      ],
+      "reponse": 1,
+      "explication": "« bien » est un adverbe quand il complète un verbe (chantes bien). Dans les autres phrases, c’est un nom : « ce bien », « le bien », « du bien ».",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-012",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-adverbe-reconnaitre",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les adverbes.",
+      "mots": [
+        "Hier",
+        "nous",
+        "avons",
+        "très",
+        "bien",
+        "dormi",
+        "mais",
+        "aujourd’hui",
+        "nous",
+        "parlons",
+        "peu"
+      ],
+      "cibles": [
+        0,
+        3,
+        4,
+        7,
+        10
+      ],
+      "explication": "« Hier », « très », « bien », « aujourd’hui » et « peu » sont des adverbes. « mais » est une conjonction.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-013",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-preposition-emploi",
+      "difficulte": 1,
+      "consigne": "Quel mot est une préposition ?",
+      "enonce": "Plume habite dans la forêt.",
+      "choix": [
+        "Plume",
+        "habite",
+        "dans",
+        "forêt"
+      ],
+      "reponse": 2,
+      "explication": "« dans » introduit le groupe « la forêt » et ne change jamais de forme : c’est une préposition.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-014",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-preposition-emploi",
+      "difficulte": 1,
+      "consigne": "Clique sur la préposition.",
+      "mots": [
+        "Le",
+        "livre",
+        "est",
+        "sur",
+        "la",
+        "table"
+      ],
+      "cibles": [
+        3
+      ],
+      "explication": "« sur » introduit le groupe « la table » : c’est une préposition.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-015",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-preposition-emploi",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Une préposition change de forme au pluriel.",
+      "reponse": false,
+      "explication": "Les prépositions sont des mots invariables : elles gardent toujours la même forme.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-016",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-preposition-emploi",
+      "difficulte": 1,
+      "consigne": "Recopie la préposition de la phrase.",
+      "enonce": "Léa part avec ses amis.",
+      "reponses_acceptees": [
+        "avec"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« avec » introduit le groupe « ses amis » : c’est une préposition.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-017",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-preposition-emploi",
+      "difficulte": 2,
+      "consigne": "Complète avec les prépositions qui conviennent.",
+      "enonce": "Plume range ses livres {{1}} l’étagère et ses clés {{2}} sa poche.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "sur",
+            "sous",
+            "sans"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "sur",
+            "dans",
+            "contre"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "On range des livres « sur » une étagère et des clés « dans » une poche.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-018",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-preposition-emploi",
+      "difficulte": 2,
+      "consigne": "Classe ces mots : préposition ou autre mot ?",
+      "elements": [
+        "dans",
+        "chat",
+        "avec",
+        "courir",
+        "chez",
+        "petit"
+      ],
+      "categories": [
+        "préposition",
+        "autre mot"
+      ],
+      "solution": {
+        "dans": 0,
+        "chat": 1,
+        "avec": 0,
+        "courir": 1,
+        "chez": 0,
+        "petit": 1
+      },
+      "explication": "Les prépositions (dans, avec, chez) sont invariables et introduisent un groupe de mots. « chat » est un nom, « courir » un verbe, « petit » un adjectif.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-019",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-preposition-emploi",
+      "difficulte": 2,
+      "consigne": "Quel groupe de mots est introduit par une préposition ?",
+      "enonce": "Léa lit un conte dans sa chambre.",
+      "choix": [
+        "Léa",
+        "un conte",
+        "dans sa chambre",
+        "lit"
+      ],
+      "reponse": 2,
+      "explication": "« dans » introduit le groupe « sa chambre » : le groupe « dans sa chambre » commence par une préposition.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-020",
+      "type": "qcm",
+      "forme": "completer",
+      "competence": "gram-6e-preposition-emploi",
+      "difficulte": 2,
+      "consigne": "Quelle préposition complète la phrase ?",
+      "enonce": "Nous voyageons … train.",
+      "choix": [
+        "en",
+        "chez",
+        "sans",
+        "vers"
+      ],
+      "reponse": 0,
+      "explication": "On voyage « en » train : c’est la seule préposition qui convient ici.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-021",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-preposition-emploi",
+      "difficulte": 2,
+      "consigne": "Réécris la phrase en remplaçant « avec » par la préposition « sans ».",
+      "enonce": "Il part avec son manteau.",
+      "reponses_acceptees": [
+        "Il part sans son manteau.",
+        "Il part sans son manteau"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "On remplace seulement la préposition : « Il part sans son manteau. »",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-022",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-preposition-emploi",
+      "difficulte": 2,
+      "consigne": "Corrige la phrase : deux prépositions se suivent à tort.",
+      "phrase_fautive": "Nous allons à chez mamie.",
+      "corrections_acceptees": [
+        "Nous allons chez mamie."
+      ],
+      "explication": "« chez » est déjà une préposition : on dit « chez mamie » et non « à chez mamie ».",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-023",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-preposition-emploi",
+      "difficulte": 3,
+      "consigne": "Quelle phrase contient une locution prépositive ?",
+      "choix": [
+        "Il pleut à cause de l’orage.",
+        "Il pleut beaucoup.",
+        "Il pleut parce que c’est l’automne.",
+        "Il pleut souvent."
+      ],
+      "reponse": 0,
+      "explication": "« à cause de » est un groupe de mots qui joue le rôle d’une préposition : c’est une locution prépositive. « parce que » est une locution conjonctive.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-024",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-preposition-emploi",
+      "difficulte": 3,
+      "consigne": "Clique sur toutes les prépositions.",
+      "mots": [
+        "Après",
+        "l’école",
+        "je",
+        "vais",
+        "chez",
+        "Paul",
+        "pour",
+        "jouer",
+        "avec",
+        "lui"
+      ],
+      "cibles": [
+        0,
+        4,
+        6,
+        8
+      ],
+      "explication": "« Après », « chez », « pour » et « avec » sont des prépositions : chacune introduit un mot ou un groupe de mots.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-025",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-conjonction-types",
+      "difficulte": 1,
+      "consigne": "Quel mot est une conjonction de coordination ?",
+      "enonce": "Léa lit et Hugo dessine.",
+      "choix": [
+        "lit",
+        "et",
+        "Hugo",
+        "dessine"
+      ],
+      "reponse": 1,
+      "explication": "« et » relie deux propositions : c’est une conjonction de coordination.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-026",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-conjonction-types",
+      "difficulte": 1,
+      "consigne": "Clique sur la conjonction de coordination.",
+      "mots": [
+        "Tu",
+        "préfères",
+        "le",
+        "thé",
+        "ou",
+        "le",
+        "café"
+      ],
+      "cibles": [
+        4
+      ],
+      "explication": "« ou » relie les groupes « le thé » et « le café » : c’est une conjonction de coordination.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-027",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-conjonction-types",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Le mot « mais » est une conjonction de coordination.",
+      "reponse": true,
+      "explication": "« mais », comme « et, ou, ni, or, car, donc », est une conjonction de coordination.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-028",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-conjonction-types",
+      "difficulte": 1,
+      "consigne": "Recopie la conjonction de coordination de la phrase.",
+      "enonce": "Il pleut mais nous sortons.",
+      "reponses_acceptees": [
+        "mais"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« mais » relie deux propositions : c’est une conjonction de coordination.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-029",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-conjonction-types",
+      "difficulte": 2,
+      "consigne": "Ces conjonctions sont-elles de coordination ou de subordination ?",
+      "elements": [
+        "et",
+        "puisque",
+        "mais",
+        "quand",
+        "car",
+        "lorsque"
+      ],
+      "categories": [
+        "coordination",
+        "subordination"
+      ],
+      "solution": {
+        "et": 0,
+        "puisque": 1,
+        "mais": 0,
+        "quand": 1,
+        "car": 0,
+        "lorsque": 1
+      },
+      "explication": "Coordination : et, mais, car. Subordination : puisque, quand, lorsque (elles introduisent une proposition subordonnée).",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-030",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-conjonction-types",
+      "difficulte": 2,
+      "consigne": "Complète avec les conjonctions de coordination qui conviennent.",
+      "enonce": "Il est tard, {{1}} nous rentrons. Tu bois du thé {{2}} du café ?",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "donc",
+            "ou",
+            "ni"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "ou",
+            "car",
+            "donc"
+          ],
+          "reponse": 0
+        }
+      ],
+      "explication": "« donc » exprime une conséquence ; « ou » propose un choix.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-031",
+      "type": "qcm",
+      "forme": "completer",
+      "competence": "gram-6e-conjonction-types",
+      "difficulte": 2,
+      "consigne": "Quelle conjonction de subordination complète la phrase ?",
+      "enonce": "Tu viendras … tu auras fini tes devoirs.",
+      "choix": [
+        "lorsque",
+        "mais",
+        "et",
+        "ou"
+      ],
+      "reponse": 0,
+      "explication": "« lorsque » introduit une proposition subordonnée : « lorsque tu auras fini tes devoirs ».",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-032",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-conjonction-types",
+      "difficulte": 2,
+      "consigne": "Clique sur la conjonction de subordination.",
+      "mots": [
+        "Je",
+        "sais",
+        "que",
+        "tu",
+        "viendras"
+      ],
+      "cibles": [
+        2
+      ],
+      "explication": "« que » introduit la proposition subordonnée « tu viendras » : c’est une conjonction de subordination.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-033",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-conjonction-types",
+      "difficulte": 2,
+      "consigne": "Recopie la conjonction de subordination de la phrase.",
+      "enonce": "Elle sourit lorsque tu entres.",
+      "reponses_acceptees": [
+        "lorsque"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« lorsque » introduit la proposition subordonnée « tu entres » : c’est une conjonction de subordination.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-034",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-conjonction-types",
+      "difficulte": 2,
+      "consigne": "Quelle phrase contient une conjonction de subordination ?",
+      "choix": [
+        "Léa chante et Hugo danse.",
+        "Tu viens ou tu restes ?",
+        "Je rentre car il fait nuit.",
+        "Je pense qu’il viendra."
+      ],
+      "reponse": 3,
+      "explication": "« que » introduit la proposition subordonnée « il viendra ». Dans les autres phrases, « et », « ou » et « car » sont des conjonctions de coordination.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-035",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-6e-conjonction-types",
+      "difficulte": 3,
+      "consigne": "Classe ces mots invariables selon leur catégorie.",
+      "elements": [
+        "souvent",
+        "chez",
+        "donc",
+        "lorsque",
+        "très",
+        "sans",
+        "mais",
+        "puisque"
+      ],
+      "categories": [
+        "adverbe",
+        "préposition",
+        "conjonction de coordination",
+        "conjonction de subordination"
+      ],
+      "solution": {
+        "souvent": 0,
+        "chez": 1,
+        "donc": 2,
+        "lorsque": 3,
+        "très": 0,
+        "sans": 1,
+        "mais": 2,
+        "puisque": 3
+      },
+      "explication": "Adverbes : souvent, très. Prépositions : chez, sans. Conjonctions de coordination : donc, mais. Conjonctions de subordination : lorsque, puisque.",
+      "source": "manuel-6e-f7-p20"
+    },
+    {
+      "id": "gram-6e-mots-invariables-036",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-conjonction-types",
+      "difficulte": 3,
+      "consigne": "Clique sur toutes les conjonctions (coordination et subordination).",
+      "mots": [
+        "Tu",
+        "viendras",
+        "quand",
+        "tu",
+        "auras",
+        "fini",
+        "et",
+        "je",
+        "t’attendrai"
+      ],
+      "cibles": [
+        2,
+        6
+      ],
+      "explication": "« quand » introduit une subordonnée et « et » relie deux propositions : ce sont deux conjonctions.",
+      "source": "manuel-6e-f7-p20"
+    }
+  ]
+}

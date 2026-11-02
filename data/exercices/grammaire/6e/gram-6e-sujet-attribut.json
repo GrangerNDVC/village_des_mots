@@ -1,0 +1,800 @@
+{
+  "module": "gram-6e-sujet-attribut",
+  "titre": "Le sujet et l’attribut du sujet",
+  "domaine": "grammaire",
+  "niveau": 6,
+  "grade": "page",
+  "version": 1,
+  "description": "Repérer le sujet d’un verbe et sa classe grammaticale, reconnaître l’attribut du sujet et le verbe qui l’introduit.",
+  "rappel": {
+    "titre": "Le sujet et l’attribut du sujet",
+    "points": [
+      {
+        "mot": "sujet",
+        "definition": "Le sujet est l’être ou la chose dont on parle dans la phrase. Le plus souvent, il fait l’action exprimée par le verbe ou se trouve dans l’état exprimé par le verbe. On le trouve en posant la question « Qui est-ce qui ? » ou « Qu’est-ce qui ? » devant le verbe.",
+        "exemple": "Les enfants parviennent sur la plage."
+      },
+      {
+        "mot": "classe grammaticale du sujet",
+        "definition": "Le sujet peut être un nom, un groupe nominal, un pronom, un infinitif ou un groupe infinitif.",
+        "exemple": "Chloé lit. Elle aime les romans. Lire est un plaisir."
+      },
+      {
+        "mot": "sujet inversé",
+        "definition": "Le plus souvent, le sujet est placé avant le verbe. Il arrive qu’il soit placé après : on dit qu’il est inversé. Les verbes à l’impératif n’ont pas de sujet exprimé.",
+        "exemple": "Dans la forêt vivent des lutins. Viens !"
+      },
+      {
+        "mot": "attribut du sujet",
+        "definition": "L’attribut du sujet exprime une qualité ou une caractéristique du sujet par l’intermédiaire d’un verbe attributif. Il peut être un adjectif, un nom, un groupe nominal, un pronom ou un infinitif. On ne peut pas le supprimer.",
+        "exemple": "Le nénufar est une plante aquatique."
+      },
+      {
+        "mot": "verbe attributif",
+        "definition": "Les verbes attributifs sont le plus souvent des verbes d’état : être, paraître, sembler, devenir, demeurer, rester. D’autres verbes peuvent aussi introduire un attribut : avoir l’air, passer pour, s’appeler…",
+        "exemple": "Mon chien s’appelle Milou."
+      }
+    ]
+  },
+  "competences": [
+    "gram-6e-sujet-identifier",
+    "gram-6e-sujet-nature",
+    "gram-6e-attribut-sujet"
+  ],
+  "exercices": [
+    {
+      "id": "gram-6e-sujet-attribut-001",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-sujet-identifier",
+      "difficulte": 1,
+      "consigne": "Quel est le sujet du verbe « guette » ?",
+      "enonce": "Le renard guette le poulailler.",
+      "choix": [
+        "Le renard",
+        "guette",
+        "le poulailler",
+        "Le"
+      ],
+      "reponse": 0,
+      "explication": "On pose la question « Qui est-ce qui guette ? » : c’est le renard. Le sujet est « Le renard ».",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-002",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-sujet-identifier",
+      "difficulte": 1,
+      "consigne": "Clique sur tous les mots du sujet.",
+      "mots": [
+        "Les",
+        "oiseaux",
+        "chantent",
+        "au",
+        "matin"
+      ],
+      "cibles": [
+        0,
+        1
+      ],
+      "explication": "« Qui est-ce qui chante ? » Les oiseaux. Le sujet est « Les oiseaux ».",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-003",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-sujet-identifier",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Pour trouver le sujet d’un verbe, on pose la question « Qui est-ce qui ? » ou « Qu’est-ce qui ? » devant le verbe.",
+      "reponse": true,
+      "explication": "On trouve le sujet en posant devant le verbe la question « Qui est-ce qui ? » ou « Qu’est-ce qui ? ».",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-004",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-sujet-identifier",
+      "difficulte": 1,
+      "consigne": "Recopie le sujet du verbe.",
+      "enonce": "Plume allume la lanterne.",
+      "reponses_acceptees": [
+        "Plume"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« Qui est-ce qui allume la lanterne ? » Plume. Le sujet est « Plume ».",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-005",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-sujet-identifier",
+      "difficulte": 2,
+      "consigne": "Quel est le sujet du verbe « vivent » ?",
+      "enonce": "Dans la forêt vivent des lutins joyeux.",
+      "choix": [
+        "la forêt",
+        "des lutins joyeux",
+        "Dans la forêt",
+        "vivent"
+      ],
+      "reponse": 1,
+      "explication": "« Qui est-ce qui vit dans la forêt ? » Des lutins joyeux. Le sujet est placé après le verbe : il est inversé.",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-006",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-sujet-identifier",
+      "difficulte": 2,
+      "consigne": "Clique sur tous les mots du sujet du verbe « arrive ».",
+      "mots": [
+        "Demain",
+        "arrive",
+        "mon",
+        "cousin",
+        "de",
+        "Brest"
+      ],
+      "cibles": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "explication": "« Qui est-ce qui arrive ? » Mon cousin de Brest. « Demain » indique quand.",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-007",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-sujet-identifier",
+      "difficulte": 2,
+      "consigne": "Le sujet est-il placé avant ou après le verbe ?",
+      "elements": [
+        "Le vent souffle.",
+        "Dans la forêt vivent des lutins.",
+        "Peut-être viendra-t-il.",
+        "Les nuages arrivent."
+      ],
+      "categories": [
+        "sujet avant le verbe",
+        "sujet inversé"
+      ],
+      "solution": {
+        "Le vent souffle.": 0,
+        "Dans la forêt vivent des lutins.": 1,
+        "Peut-être viendra-t-il.": 1,
+        "Les nuages arrivent.": 0
+      },
+      "explication": "Le sujet se place le plus souvent avant le verbe. Il peut aussi être placé après : on dit qu’il est inversé.",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-008",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-sujet-identifier",
+      "difficulte": 2,
+      "consigne": "Complète la phrase.",
+      "enonce": "Dans « Quand arrive l’hiver, les lutins dorment. », le sujet de « arrive » est {{1}} et le sujet de « dorment » est {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "l’hiver",
+            "les lutins",
+            "Quand"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "l’hiver",
+            "les lutins",
+            "Quand"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "« Qui est-ce qui arrive ? » L’hiver. « Qui est-ce qui dort ? » Les lutins.",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-009",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-sujet-identifier",
+      "difficulte": 2,
+      "consigne": "Corrige le verbe pour qu’il s’accorde avec son sujet.",
+      "phrase_fautive": "Les lutins dort dans la tour.",
+      "corrections_acceptees": [
+        "Les lutins dorment dans la tour."
+      ],
+      "explication": "Le sujet « Les lutins » est pluriel : le verbe s’accorde et devient « dorment ».",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-010",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-sujet-identifier",
+      "difficulte": 2,
+      "consigne": "Écris le verbe entre parenthèses au présent, accordé avec son sujet.",
+      "enonce": "Mes cousins … (arriver) demain.",
+      "reponses_acceptees": [
+        "arrivent"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "Le sujet « Mes cousins » est pluriel : le verbe est « arrivent ».",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-011",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-sujet-identifier",
+      "difficulte": 3,
+      "consigne": "Quels sont les sujets des trois verbes ?",
+      "enonce": "Il rit, elle pleure et nous les regardons.",
+      "choix": [
+        "il, elle, nous",
+        "il, elle, les",
+        "rit, pleure, regardons",
+        "il, elle"
+      ],
+      "reponse": 0,
+      "explication": "« Qui rit ? » il. « Qui pleure ? » elle. « Qui regarde ? » nous. « les » est un complément.",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-012",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-sujet-identifier",
+      "difficulte": 3,
+      "consigne": "Quel verbe n’a pas de sujet exprimé ?",
+      "enonce": "Viens ici, dit Plume.",
+      "choix": [
+        "Viens",
+        "dit",
+        "Plume",
+        "ici"
+      ],
+      "reponse": 0,
+      "explication": "« Viens » est à l’impératif : il n’a pas de sujet exprimé. « dit » a pour sujet « Plume ».",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-013",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-sujet-nature",
+      "difficulte": 1,
+      "consigne": "Quelle est la classe grammaticale du sujet ?",
+      "enonce": "Chloé lit dans le jardin.",
+      "choix": [
+        "nom",
+        "pronom",
+        "groupe nominal",
+        "infinitif"
+      ],
+      "reponse": 0,
+      "explication": "« Chloé » est un nom propre : le sujet est un nom.",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-014",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-sujet-nature",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Dans « Nager est agréable. », le sujet est un infinitif.",
+      "reponse": true,
+      "explication": "« Nager » est un verbe à l’infinitif : le sujet peut être un infinitif.",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-015",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-sujet-nature",
+      "difficulte": 1,
+      "consigne": "Clique sur le pronom sujet.",
+      "mots": [
+        "Ce",
+        "soir",
+        "nous",
+        "dînons",
+        "chez",
+        "Léa"
+      ],
+      "cibles": [
+        2
+      ],
+      "explication": "« nous » remplace un nom et fait l’action de « dînons » : c’est le pronom sujet.",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-016",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-sujet-nature",
+      "difficulte": 1,
+      "consigne": "Recopie le sujet de la phrase : c’est un pronom.",
+      "enonce": "Ils jouent dans la cour.",
+      "reponses_acceptees": [
+        "Ils"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« Ils » remplace un groupe nominal et fait l’action de « jouent » : c’est le pronom sujet.",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-017",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-sujet-nature",
+      "difficulte": 2,
+      "consigne": "Classe ces sujets selon leur classe grammaticale.",
+      "elements": [
+        "Léa",
+        "Elle",
+        "Les voisins",
+        "Chanter",
+        "Mon petit frère",
+        "Tu"
+      ],
+      "categories": [
+        "nom",
+        "groupe nominal",
+        "pronom",
+        "infinitif"
+      ],
+      "solution": {
+        "Léa": 0,
+        "Elle": 2,
+        "Les voisins": 1,
+        "Chanter": 3,
+        "Mon petit frère": 1,
+        "Tu": 2
+      },
+      "explication": "Un sujet peut être un nom (Léa), un groupe nominal (les voisins, mon petit frère), un pronom (elle, tu) ou un infinitif (chanter).",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-018",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-sujet-nature",
+      "difficulte": 2,
+      "consigne": "Quelle phrase a pour sujet un infinitif ?",
+      "choix": [
+        "Courir est bon pour la santé.",
+        "Le coureur est fatigué.",
+        "Il court vite.",
+        "Les enfants courent."
+      ],
+      "reponse": 0,
+      "explication": "Dans « Courir est bon pour la santé », le sujet « Courir » est un verbe à l’infinitif.",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-019",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-sujet-nature",
+      "difficulte": 2,
+      "consigne": "Complète les phrases.",
+      "enonce": "Dans « Voyager me plaît. », le sujet est {{1}} ; dans « Il pleut. », le sujet est {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "un infinitif",
+            "un pronom",
+            "un groupe nominal"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "un infinitif",
+            "un pronom",
+            "un groupe nominal"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "« Voyager » est un infinitif. « Il » est un pronom.",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-020",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-sujet-nature",
+      "difficulte": 2,
+      "consigne": "Réécris la phrase en remplaçant le sujet par un pronom.",
+      "enonce": "Les lutins dorment.",
+      "reponses_acceptees": [
+        "Ils dorment.",
+        "Ils dorment"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« Les lutins » est masculin pluriel : on le remplace par « Ils ».",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-021",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-sujet-nature",
+      "difficulte": 2,
+      "consigne": "Quel est le sujet de la phrase et quelle est sa classe ?",
+      "enonce": "Chanter en chœur est un bonheur.",
+      "choix": [
+        "Chanter en chœur : groupe infinitif",
+        "un bonheur : groupe nominal",
+        "chœur : nom",
+        "Chanter : nom"
+      ],
+      "reponse": 0,
+      "explication": "« Chanter en chœur » est un groupe infinitif : c’est le sujet de « est ». « un bonheur » est l’attribut.",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-022",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-sujet-nature",
+      "difficulte": 2,
+      "consigne": "Dans quelle phrase le sujet est-il un pronom ?",
+      "choix": [
+        "Chloé lit un roman.",
+        "Elle lit un roman.",
+        "Lire est un plaisir.",
+        "Mon amie lit un roman."
+      ],
+      "reponse": 1,
+      "explication": "Dans « Elle lit un roman », « Elle » est un pronom qui remplace un nom.",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-023",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-6e-sujet-nature",
+      "difficulte": 3,
+      "consigne": "Quelle est la classe grammaticale du sujet de chaque phrase ?",
+      "elements": [
+        "Marcher aide à penser.",
+        "Les nuages grossissent.",
+        "Il fait nuit.",
+        "Julie dessine.",
+        "Nous rions.",
+        "Un voisin sonne."
+      ],
+      "categories": [
+        "nom",
+        "groupe nominal",
+        "pronom",
+        "infinitif"
+      ],
+      "solution": {
+        "Marcher aide à penser.": 3,
+        "Les nuages grossissent.": 1,
+        "Il fait nuit.": 2,
+        "Julie dessine.": 0,
+        "Nous rions.": 2,
+        "Un voisin sonne.": 1
+      },
+      "explication": "Marcher : infinitif. Les nuages, Un voisin : groupe nominal. Il, Nous : pronom. Julie : nom.",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-024",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-sujet-nature",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les mots du sujet de « est ».",
+      "mots": [
+        "Écouter",
+        "de",
+        "la",
+        "musique",
+        "calme",
+        "est",
+        "un",
+        "plaisir"
+      ],
+      "cibles": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "explication": "« Qu’est-ce qui est un plaisir ? » Écouter de la musique calme : c’est un groupe infinitif.",
+      "source": "manuel-6e-f10-p30"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-025",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-attribut-sujet",
+      "difficulte": 1,
+      "consigne": "Quel mot est l’attribut du sujet ?",
+      "enonce": "Mon frère est médecin.",
+      "choix": [
+        "Mon frère",
+        "est",
+        "médecin",
+        "Mon"
+      ],
+      "reponse": 2,
+      "explication": "« médecin » est relié au sujet « Mon frère » par le verbe « est » : c’est l’attribut du sujet.",
+      "source": "manuel-6e-f11-p32"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-026",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-attribut-sujet",
+      "difficulte": 1,
+      "consigne": "Clique sur le verbe qui introduit l’attribut.",
+      "mots": [
+        "Ce",
+        "chien",
+        "semble",
+        "docile"
+      ],
+      "cibles": [
+        2
+      ],
+      "explication": "« semble » relie le sujet « chien » à l’attribut « docile » : c’est un verbe attributif.",
+      "source": "manuel-6e-f11-p32"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-027",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-attribut-sujet",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "L’attribut du sujet exprime une qualité ou une caractéristique du sujet.",
+      "reponse": true,
+      "explication": "L’attribut du sujet exprime une qualité ou une caractéristique du sujet, par l’intermédiaire d’un verbe.",
+      "source": "manuel-6e-f11-p32"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-028",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-attribut-sujet",
+      "difficulte": 1,
+      "consigne": "Recopie l’attribut du sujet.",
+      "enonce": "Le chat devient paresseux.",
+      "reponses_acceptees": [
+        "paresseux"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« paresseux » est relié au sujet « chat » par le verbe « devient » : c’est l’attribut du sujet.",
+      "source": "manuel-6e-f11-p32"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-029",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-attribut-sujet",
+      "difficulte": 2,
+      "consigne": "Quelle phrase contient un attribut du sujet ?",
+      "choix": [
+        "Le dragon dévore un mouton.",
+        "Le dragon semble affamé.",
+        "Le dragon dort sous la montagne.",
+        "Le dragon crache du feu."
+      ],
+      "reponse": 1,
+      "explication": "Dans « Le dragon semble affamé », « affamé » est relié au sujet par le verbe « semble ». Les autres phrases n’ont pas d’attribut.",
+      "source": "manuel-6e-f11-p32"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-030",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-attribut-sujet",
+      "difficulte": 2,
+      "consigne": "Le groupe « un château » est-il attribut du sujet ?",
+      "elements": [
+        "Cette cabane est devenue un château.",
+        "Ils visitent un château.",
+        "Il habite un château.",
+        "Ce palais est un château."
+      ],
+      "categories": [
+        "attribut du sujet",
+        "pas attribut"
+      ],
+      "solution": {
+        "Cette cabane est devenue un château.": 0,
+        "Ils visitent un château.": 1,
+        "Il habite un château.": 1,
+        "Ce palais est un château.": 0
+      },
+      "explication": "« un château » est attribut quand un verbe attributif le relie au sujet (est devenue, est). Après « visitent » ou « habite », c’est un complément d’objet.",
+      "source": "manuel-6e-f11-p32"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-031",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-attribut-sujet",
+      "difficulte": 2,
+      "consigne": "Complète avec les verbes attributifs qui conviennent.",
+      "enonce": "Mon voisin {{1}} Hugo. Avec le temps, cette jeune fille {{2}} une grande artiste.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "s’appelle",
+            "devient",
+            "paraît"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "habite",
+            "devient",
+            "dort"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "« s’appelle » introduit le nom « Hugo » ; « devient » introduit le groupe « une grande artiste ».",
+      "source": "manuel-6e-f11-p32"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-032",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-attribut-sujet",
+      "difficulte": 2,
+      "consigne": "Quelle est la classe grammaticale de l’attribut de chaque phrase ?",
+      "elements": [
+        "Ce chemin paraît dangereux.",
+        "Mon cousin est devenu un grand pilote.",
+        "Cette clé est la mienne.",
+        "Mon rêve est de voyager."
+      ],
+      "categories": [
+        "adjectif",
+        "groupe nominal",
+        "pronom",
+        "infinitif"
+      ],
+      "solution": {
+        "Ce chemin paraît dangereux.": 0,
+        "Mon cousin est devenu un grand pilote.": 1,
+        "Cette clé est la mienne.": 2,
+        "Mon rêve est de voyager.": 3
+      },
+      "explication": "L’attribut peut être un adjectif (dangereux), un groupe nominal (un grand pilote), un pronom (la mienne) ou un infinitif (de voyager).",
+      "source": "manuel-6e-f11-p32"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-033",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-attribut-sujet",
+      "difficulte": 2,
+      "consigne": "Recopie le verbe attributif de la phrase.",
+      "enonce": "Le ciel devient sombre.",
+      "reponses_acceptees": [
+        "devient"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« devient » relie le sujet « ciel » à l’attribut « sombre » : c’est un verbe attributif.",
+      "source": "manuel-6e-f11-p32"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-034",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-attribut-sujet",
+      "difficulte": 2,
+      "consigne": "Dans quelle phrase « est » introduit-il un attribut du sujet ?",
+      "choix": [
+        "Le chat est sur le toit.",
+        "Le chat est un animal.",
+        "Le chat est parti.",
+        "Le chat est dehors."
+      ],
+      "reponse": 1,
+      "explication": "Dans « Le chat est un animal », « un animal » est l’attribut. « est parti » est un temps composé ; « sur le toit » et « dehors » indiquent le lieu.",
+      "source": "manuel-6e-f11-p32"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-035",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-6e-attribut-sujet",
+      "difficulte": 3,
+      "consigne": "Dans chaque phrase, le verbe « rester » introduit-il un attribut ?",
+      "elements": [
+        "Le soir, il reste calme.",
+        "Il reste trois jours chez nous.",
+        "Elle reste immobile.",
+        "Nous restons à la maison."
+      ],
+      "categories": [
+        "attribut du sujet",
+        "pas attribut"
+      ],
+      "solution": {
+        "Le soir, il reste calme.": 0,
+        "Il reste trois jours chez nous.": 1,
+        "Elle reste immobile.": 0,
+        "Nous restons à la maison.": 1
+      },
+      "explication": "« reste calme » et « reste immobile » : l’adjectif est un attribut. « reste trois jours » et « restons à la maison » : ce sont des compléments qui indiquent le temps et le lieu.",
+      "source": "manuel-6e-f11-p32"
+    },
+    {
+      "id": "gram-6e-sujet-attribut-036",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-attribut-sujet",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les mots de l’attribut du sujet.",
+      "mots": [
+        "Malgré",
+        "la",
+        "pluie",
+        "le",
+        "spectacle",
+        "reste",
+        "un",
+        "grand",
+        "succès"
+      ],
+      "cibles": [
+        6,
+        7,
+        8
+      ],
+      "explication": "« reste » introduit l’attribut « un grand succès », qui qualifie le sujet « le spectacle ».",
+      "source": "manuel-6e-f11-p32"
+    }
+  ]
+}

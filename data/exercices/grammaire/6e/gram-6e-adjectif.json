@@ -1,0 +1,798 @@
+{
+  "module": "gram-6e-adjectif",
+  "titre": "L’adjectif qualificatif",
+  "domaine": "grammaire",
+  "niveau": 6,
+  "grade": "page",
+  "version": 1,
+  "description": "Reconnaître un adjectif qualificatif, l’accorder avec le nom, et distinguer l’épithète de l’attribut du sujet.",
+  "rappel": {
+    "titre": "L’adjectif qualificatif",
+    "points": [
+      {
+        "mot": "adjectif qualificatif",
+        "definition": "L’adjectif qualificatif précise un nom ou un pronom auquel il se rapporte. Il s’accorde en genre et en nombre avec lui.",
+        "exemple": "une rue silencieuse ; ils sont satisfaits"
+      },
+      {
+        "mot": "accord de l’adjectif",
+        "definition": "L’adjectif prend le genre et le nombre du nom : il prend souvent un -e au féminin et un -s au pluriel.",
+        "exemple": "un chat noir, des chattes noires"
+      },
+      {
+        "mot": "épithète",
+        "definition": "L’adjectif est épithète quand il est directement lié au nom. Il se place avant ou après le nom, et un nom peut avoir plusieurs épithètes.",
+        "exemple": "un beau gâteau appétissant"
+      },
+      {
+        "mot": "attribut du sujet",
+        "definition": "L’adjectif est attribut du sujet quand il est relié au sujet par un verbe d’état : être, devenir, paraître, sembler, rester…",
+        "exemple": "Elle semble contente."
+      },
+      {
+        "mot": "participe passé employé comme adjectif",
+        "definition": "Un participe passé employé sans auxiliaire peut avoir la valeur d’un adjectif qualificatif et s’accorde comme lui.",
+        "exemple": "des fleurs fanées, une œuvre connue"
+      }
+    ]
+  },
+  "competences": [
+    "gram-6e-adjectif-identifier",
+    "gram-6e-adjectif-accord",
+    "gram-6e-adjectif-fonction"
+  ],
+  "exercices": [
+    {
+      "id": "gram-6e-adjectif-001",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-adjectif-identifier",
+      "difficulte": 1,
+      "consigne": "Quel mot est un adjectif qualificatif ?",
+      "enonce": "Le renard rusé traverse la forêt.",
+      "choix": [
+        "renard",
+        "rusé",
+        "traverse",
+        "forêt"
+      ],
+      "reponse": 1,
+      "explication": "« rusé » précise le nom « renard » : c’est un adjectif qualificatif.",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-002",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-adjectif-identifier",
+      "difficulte": 1,
+      "consigne": "Clique sur tous les adjectifs qualificatifs.",
+      "mots": [
+        "Une",
+        "petite",
+        "souris",
+        "grise",
+        "grignote",
+        "un",
+        "gros",
+        "fromage"
+      ],
+      "cibles": [
+        1,
+        3,
+        6
+      ],
+      "explication": "« petite », « grise » et « gros » précisent les noms « souris » et « fromage » : ce sont des adjectifs.",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-003",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-adjectif-identifier",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Dans « une soupe chaude », le mot « chaude » est un adjectif qualificatif.",
+      "reponse": true,
+      "explication": "« chaude » précise le nom « soupe » : c’est bien un adjectif qualificatif.",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-004",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-adjectif-identifier",
+      "difficulte": 1,
+      "consigne": "Recopie l’adjectif qualificatif de la phrase.",
+      "enonce": "Plume habite une cabane minuscule.",
+      "reponses_acceptees": [
+        "minuscule"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« minuscule » précise le nom « cabane » : c’est un adjectif qualificatif.",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-005",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-adjectif-identifier",
+      "difficulte": 2,
+      "consigne": "À quel nom l’adjectif « ancienne » se rapporte-t-il ?",
+      "enonce": "Le bibliothécaire ouvre une ancienne armoire.",
+      "choix": [
+        "bibliothécaire",
+        "ouvre",
+        "armoire",
+        "une"
+      ],
+      "reponse": 2,
+      "explication": "« ancienne » est féminin singulier et accompagne « armoire » : c’est l’armoire qui est ancienne.",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-006",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-adjectif-identifier",
+      "difficulte": 2,
+      "consigne": "Classe ces mots : adjectif ou nom ?",
+      "elements": [
+        "courageux",
+        "courage",
+        "joyeux",
+        "joie",
+        "fragile",
+        "fragilité"
+      ],
+      "categories": [
+        "adjectif",
+        "nom"
+      ],
+      "solution": {
+        "courageux": 0,
+        "courage": 1,
+        "joyeux": 0,
+        "joie": 1,
+        "fragile": 0,
+        "fragilité": 1
+      },
+      "explication": "Un adjectif précise un nom (courageux, joyeux, fragile). Un nom désigne une personne, un animal, une chose ou une idée (courage, joie, fragilité).",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-007",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-6e-adjectif-identifier",
+      "difficulte": 2,
+      "consigne": "Dans chaque phrase, le mot « rouge » est-il un adjectif ou un nom ?",
+      "elements": [
+        "Le rouge te va bien.",
+        "Une jupe rouge flotte.",
+        "Elle porte un pull rouge.",
+        "J’aime le rouge."
+      ],
+      "categories": [
+        "adjectif",
+        "nom"
+      ],
+      "solution": {
+        "Le rouge te va bien.": 1,
+        "Une jupe rouge flotte.": 0,
+        "Elle porte un pull rouge.": 0,
+        "J’aime le rouge.": 1
+      },
+      "explication": "« rouge » est un adjectif quand il précise un nom (une jupe rouge) ; c’est un nom quand il est précédé d’un déterminant (le rouge).",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-008",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-adjectif-identifier",
+      "difficulte": 2,
+      "consigne": "Complète la phrase.",
+      "enonce": "Dans « Les nuages gris arrivent, ils semblent menaçants. », « gris » se rapporte à {{1}} et « menaçants » se rapporte à {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "nuages",
+            "ils",
+            "arrivent"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "nuages",
+            "ils",
+            "arrivent"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "« gris » précise « nuages ». « menaçants » est employé avec « semblent » et se rapporte au pronom « ils ».",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-009",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-adjectif-identifier",
+      "difficulte": 2,
+      "consigne": "Écris le participe passé du verbe entre parenthèses pour en faire un adjectif.",
+      "enonce": "une porte … (fermer)",
+      "reponses_acceptees": [
+        "fermée"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "Un participe passé employé sans auxiliaire s’accorde comme un adjectif : une porte fermée.",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-010",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-adjectif-identifier",
+      "difficulte": 2,
+      "consigne": "Dans quelle phrase le mot « cassé » est-il un adjectif qualificatif ?",
+      "choix": [
+        "Le vase cassé est sur la table.",
+        "Il a cassé le vase.",
+        "Elle avait cassé son jouet.",
+        "Nous avons cassé la vitre."
+      ],
+      "reponse": 0,
+      "explication": "Dans « Le vase cassé », « cassé » est employé sans auxiliaire et précise le nom : il a la valeur d’un adjectif. Dans les autres phrases, il fait partie d’un verbe conjugué.",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-011",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-adjectif-identifier",
+      "difficulte": 3,
+      "consigne": "Combien d’adjectifs qualificatifs cette phrase contient-elle ?",
+      "enonce": "Un vieux pêcheur silencieux ramène un grand poisson argenté.",
+      "choix": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reponse": 2,
+      "explication": "Les adjectifs sont « vieux », « silencieux », « grand » et « argenté » : il y en a quatre.",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-012",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-adjectif-identifier",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les adjectifs qualificatifs.",
+      "mots": [
+        "Les",
+        "feuilles",
+        "dorées",
+        "tombent",
+        "sur",
+        "le",
+        "chemin",
+        "désert",
+        "et",
+        "la",
+        "brise",
+        "paraît",
+        "douce"
+      ],
+      "cibles": [
+        2,
+        7,
+        12
+      ],
+      "explication": "« dorées » précise « feuilles », « désert » précise « chemin » et « douce » se rapporte à « brise » : ce sont des adjectifs.",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-013",
+      "type": "qcm",
+      "forme": "completer",
+      "competence": "gram-6e-adjectif-accord",
+      "difficulte": 1,
+      "consigne": "Choisis l’adjectif bien accordé.",
+      "enonce": "une … maison",
+      "choix": [
+        "grand",
+        "grande",
+        "grands",
+        "grandes"
+      ],
+      "reponse": 1,
+      "explication": "« maison » est féminin singulier : l’adjectif s’accorde et devient « grande ».",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-014",
+      "type": "qcm",
+      "forme": "completer",
+      "competence": "gram-6e-adjectif-accord",
+      "difficulte": 1,
+      "consigne": "Choisis l’adjectif bien accordé.",
+      "enonce": "des chats …",
+      "choix": [
+        "noir",
+        "noire",
+        "noirs",
+        "noires"
+      ],
+      "reponse": 2,
+      "explication": "« chats » est masculin pluriel : l’adjectif prend un -s et devient « noirs ».",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-015",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-adjectif-accord",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Dans « des fleurs rouges », l’adjectif « rouges » est au féminin pluriel.",
+      "reponse": true,
+      "explication": "« fleurs » est féminin pluriel : l’adjectif « rouges » est donc au féminin pluriel.",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-016",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-adjectif-accord",
+      "difficulte": 1,
+      "consigne": "Écris l’adjectif « petit » à la forme qui convient.",
+      "enonce": "une … fille",
+      "reponses_acceptees": [
+        "petite"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« fille » est féminin singulier : l’adjectif devient « petite ».",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-017",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-adjectif-accord",
+      "difficulte": 2,
+      "consigne": "Complète avec les adjectifs bien accordés.",
+      "enonce": "Mes cousines sont {{1}} et {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "gentil",
+            "gentille",
+            "gentilles"
+          ],
+          "reponse": 2
+        },
+        {
+          "id": 2,
+          "choix": [
+            "joyeux",
+            "joyeuse",
+            "joyeuses"
+          ],
+          "reponse": 2
+        }
+      ],
+      "explication": "« cousines » est féminin pluriel : les deux adjectifs s’accordent, « gentilles » et « joyeuses ».",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-018",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-adjectif-accord",
+      "difficulte": 2,
+      "consigne": "Classe ces groupes nominaux selon le genre et le nombre de l’adjectif.",
+      "elements": [
+        "un vent froid",
+        "une nuit froide",
+        "des vents froids",
+        "des nuits froides"
+      ],
+      "categories": [
+        "masculin singulier",
+        "féminin singulier",
+        "masculin pluriel",
+        "féminin pluriel"
+      ],
+      "solution": {
+        "un vent froid": 0,
+        "une nuit froide": 1,
+        "des vents froids": 2,
+        "des nuits froides": 3
+      },
+      "explication": "L’adjectif prend le genre (féminin : -e) et le nombre (pluriel : -s) du nom : froid, froide, froids, froides.",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-019",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-adjectif-accord",
+      "difficulte": 2,
+      "consigne": "Corrige l’adjectif qui ne convient pas.",
+      "phrase_fautive": "Les petits souris grignotent le fromage.",
+      "corrections_acceptees": [
+        "Les petites souris grignotent le fromage."
+      ],
+      "explication": "« souris » est un nom féminin : l’adjectif s’accorde et devient « petites ».",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-020",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-adjectif-accord",
+      "difficulte": 2,
+      "consigne": "Mets ce groupe nominal au pluriel.",
+      "enonce": "un chemin étroit",
+      "reponses_acceptees": [
+        "des chemins étroits"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "Au pluriel, le déterminant devient « des » et le nom et l’adjectif prennent un -s : des chemins étroits.",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-021",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-adjectif-accord",
+      "difficulte": 2,
+      "consigne": "Mets ce groupe nominal au féminin.",
+      "enonce": "un élève attentif",
+      "reponses_acceptees": [
+        "une élève attentive"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "Au féminin, le déterminant devient « une » et l’adjectif prend un -e : une élève attentive.",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-022",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-adjectif-accord",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est correctement accordée ?",
+      "choix": [
+        "Les robes bleues sont neuves.",
+        "Les robes bleu sont neuves.",
+        "Les robes bleues sont neuf.",
+        "Les robe bleues sont neuves."
+      ],
+      "reponse": 0,
+      "explication": "« robes » est féminin pluriel : « bleues » et « neuves » s’accordent avec lui.",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-023",
+      "type": "texte_trous",
+      "forme": "contexte",
+      "competence": "gram-6e-adjectif-accord",
+      "difficulte": 3,
+      "consigne": "Complète la phrase avec les adjectifs bien accordés.",
+      "enonce": "Dans cette forêt {{1}}, des lutins {{2}} cueillent des baies {{3}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "profond",
+            "profonde",
+            "profondes"
+          ],
+          "reponse": 1
+        },
+        {
+          "id": 2,
+          "choix": [
+            "malin",
+            "maline",
+            "malins"
+          ],
+          "reponse": 2
+        },
+        {
+          "id": 3,
+          "choix": [
+            "mûre",
+            "mûrs",
+            "mûres"
+          ],
+          "reponse": 2
+        }
+      ],
+      "explication": "« forêt » est féminin singulier : « profonde ». « lutins » est masculin pluriel : « malins ». « baies » est féminin pluriel : « mûres ».",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-024",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-adjectif-accord",
+      "difficulte": 3,
+      "consigne": "Corrige l’adjectif qui ne convient pas.",
+      "phrase_fautive": "Ces tartes aux pommes sont délicieux.",
+      "corrections_acceptees": [
+        "Ces tartes aux pommes sont délicieuses."
+      ],
+      "explication": "L’adjectif attribut s’accorde avec le sujet « tartes » : féminin pluriel, donc « délicieuses ». « pommes » ne commande pas l’accord.",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-025",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-adjectif-fonction",
+      "difficulte": 1,
+      "consigne": "Quelle est la fonction de l’adjectif « gros » ?",
+      "enonce": "Un gros chat dort.",
+      "choix": [
+        "épithète",
+        "attribut du sujet",
+        "verbe"
+      ],
+      "reponse": 0,
+      "explication": "« gros » est placé directement à côté du nom « chat » : c’est une épithète.",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-026",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-adjectif-fonction",
+      "difficulte": 1,
+      "consigne": "Quelle est la fonction de l’adjectif « chaude » ?",
+      "enonce": "Cette soupe semble chaude.",
+      "choix": [
+        "épithète",
+        "attribut du sujet",
+        "complément du nom"
+      ],
+      "reponse": 1,
+      "explication": "« chaude » est relié au sujet « soupe » par le verbe d’état « semble » : c’est un attribut du sujet.",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-027",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-adjectif-fonction",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Dans « Plume est curieux. », l’adjectif « curieux » est attribut du sujet.",
+      "reponse": true,
+      "explication": "« curieux » est relié au sujet « Plume » par le verbe d’état « est » : c’est un attribut du sujet.",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-028",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-adjectif-fonction",
+      "difficulte": 1,
+      "consigne": "Clique sur le verbe d’état qui relie le sujet à l’adjectif.",
+      "mots": [
+        "Le",
+        "ciel",
+        "devient",
+        "orageux"
+      ],
+      "cibles": [
+        2
+      ],
+      "explication": "« devient » est un verbe d’état : il relie le sujet « ciel » à l’adjectif « orageux ».",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-029",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-adjectif-fonction",
+      "difficulte": 2,
+      "consigne": "L’adjectif de chaque phrase est-il épithète ou attribut ?",
+      "elements": [
+        "Un vieux pont enjambe la rivière.",
+        "Ce pont semble solide.",
+        "Les enfants restent calmes.",
+        "Une lourde porte claque."
+      ],
+      "categories": [
+        "épithète",
+        "attribut"
+      ],
+      "solution": {
+        "Un vieux pont enjambe la rivière.": 0,
+        "Ce pont semble solide.": 1,
+        "Les enfants restent calmes.": 1,
+        "Une lourde porte claque.": 0
+      },
+      "explication": "Épithète : l’adjectif est directement lié au nom (un vieux pont). Attribut : il est relié au sujet par un verbe d’état (semble, reste…).",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-030",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-adjectif-fonction",
+      "difficulte": 2,
+      "consigne": "Complète la phrase.",
+      "enonce": "Dans « Une brise fraîche paraît agréable. », « fraîche » est {{1}} et « agréable » est {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "épithète",
+            "attribut du sujet"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "épithète",
+            "attribut du sujet"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "« fraîche » est directement lié au nom « brise » : épithète. « agréable » est relié au sujet par « paraît » : attribut du sujet.",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-031",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-adjectif-fonction",
+      "difficulte": 2,
+      "consigne": "Quelle phrase contient un adjectif attribut du sujet ?",
+      "choix": [
+        "Un orage violent éclate.",
+        "La nuit devient fraîche.",
+        "Une fraîche brise souffle.",
+        "Le petit chat dort."
+      ],
+      "reponse": 1,
+      "explication": "Dans « La nuit devient fraîche », « fraîche » est relié au sujet par le verbe d’état « devient ». Dans les autres phrases, l’adjectif est épithète.",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-032",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-adjectif-fonction",
+      "difficulte": 2,
+      "consigne": "Clique sur l’adjectif attribut du sujet.",
+      "mots": [
+        "Les",
+        "lutins",
+        "semblent",
+        "épuisés",
+        "après",
+        "cette",
+        "longue",
+        "journée"
+      ],
+      "cibles": [
+        3
+      ],
+      "explication": "« épuisés » est relié au sujet « lutins » par le verbe d’état « semblent » : c’est un attribut du sujet. « longue » est une épithète.",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-033",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-adjectif-fonction",
+      "difficulte": 2,
+      "consigne": "Recopie le verbe d’état de la phrase.",
+      "enonce": "Mon voisin paraît inquiet.",
+      "reponses_acceptees": [
+        "paraît",
+        "parait"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« paraît » est un verbe d’état : il relie le sujet « voisin » à l’adjectif « inquiet ».",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-034",
+      "type": "ordre",
+      "forme": "contexte",
+      "competence": "gram-6e-adjectif-fonction",
+      "difficulte": 2,
+      "consigne": "Remets les mots dans l’ordre pour former une phrase.",
+      "elements_melanges": [
+        "devient",
+        "Le",
+        "calme",
+        "lac"
+      ],
+      "reponse": [
+        "Le",
+        "lac",
+        "devient",
+        "calme"
+      ],
+      "explication": "L’ordre habituel : sujet, verbe d’état, attribut : « Le lac devient calme ».",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-035",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-6e-adjectif-fonction",
+      "difficulte": 3,
+      "consigne": "Dans chaque phrase, l’adjectif « timide » est-il épithète ou attribut ?",
+      "elements": [
+        "Un enfant timide s’approche.",
+        "Cet enfant semble timide.",
+        "L’enfant timide rougit.",
+        "L’enfant devient timide."
+      ],
+      "categories": [
+        "épithète",
+        "attribut"
+      ],
+      "solution": {
+        "Un enfant timide s’approche.": 0,
+        "Cet enfant semble timide.": 1,
+        "L’enfant timide rougit.": 0,
+        "L’enfant devient timide.": 1
+      },
+      "explication": "« timide » est épithète quand il est directement lié au nom (un enfant timide) et attribut quand un verbe d’état le relie au sujet (l’enfant devient timide).",
+      "source": "manuel-6e-f4-p14"
+    },
+    {
+      "id": "gram-6e-adjectif-036",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-adjectif-fonction",
+      "difficulte": 3,
+      "consigne": "Recopie l’adjectif attribut du sujet.",
+      "enonce": "Cette réponse me paraît évidente.",
+      "reponses_acceptees": [
+        "évidente"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« évidente » est relié au sujet « réponse » par le verbe d’état « paraît » : c’est l’attribut du sujet.",
+      "source": "manuel-6e-f4-p14"
+    }
+  ]
+}

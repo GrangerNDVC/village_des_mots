@@ -1,0 +1,71 @@
+{
+ "version": 1,
+ "note": "Règles de progression du jeu. Maîtrise et déblocage se jugent par (notion, niveau). Le moteur lit ce fichier : aucun seuil n’est codé en dur.",
+ "niveaux": { "ordre": [6, 5, 4, 3], "grades": { "6": "page", "5": "ecuyer", "4": "chevalier", "3": "maitre" } },
+
+ "serie": {
+  "note": "Une série = un « exercice » au sens de la règle de maîtrise : 5 questions tirées du module (notion, niveau).",
+  "taille": 5,
+  "points": { "bon_du_premier_coup": 1, "bon_au_second_essai": 0.5, "faux": 0 },
+  "score": "somme des points / taille",
+  "composition": {
+   "difficultes": { "1": 2, "2": 2, "3": 1 },
+   "competences_min": 2,
+   "formes_differentes_min": 3
+  },
+  "tirage": {
+   "exclure": "questions déjà posées dans les 2 séries précédentes du même module",
+   "si_reserve_epuisee": "reprendre les questions les plus anciennement posées"
+  }
+ },
+
+ "maitrise": {
+  "seuil": 0.8,
+  "comparateur": ">=",
+  "series_requises": 3,
+  "regles": [
+   "Les 3 dernières séries du module (notion, niveau) doivent toutes atteindre le seuil.",
+   "Ces 3 séries doivent être différentes : aucune question en commun.",
+   "Une série sous le seuil ne remet pas le compteur à zéro : elle entre dans la fenêtre glissante et il faut 3 réussites d’affilée pour valider."
+  ],
+  "effet": {
+   "module": "maitrise",
+   "deblocage": "le niveau suivant de la même notion passe à « disponible » ; s’il n’existe pas, la notion passe à « terminee »",
+   "recompense": "voir economie.json (récompense de fin de module)"
+  },
+  "etats_module": ["verrouille", "disponible", "en_cours", "maitrise"],
+  "depart": "le premier niveau existant de chaque notion est « disponible » ; le test de placement (economie.json) peut en ouvrir d’autres"
+ },
+
+ "difficulte_en_echec": {
+  "declencheur": "2 séries consécutives < 0,5 sur le même module",
+  "actions": [
+   "Plume propose la fiche de rappel du module",
+   "composition de la série suivante allégée : difficultés 1:3, 2:2, 3:0",
+   "si niveau > premier niveau de la notion : proposer de revoir le niveau précédent"
+  ]
+ },
+
+ "variete": {
+  "note": "Proposition douce, jamais un blocage. Elle n’arrive qu’en fin de série, jamais en cours de série.",
+  "par_notion": { "fenetre_series": 8, "seuil_series": 6, "message": "changer_de_notion" },
+  "par_domaine": { "fenetre_series": 10, "seuil_series": 8, "message": "changer_de_domaine" },
+  "reponses_possibles": ["changer", "continuer"],
+  "pause_apres_proposition_series": 4,
+  "bonus_si_accepte": { "pieces": 5, "note": "à valider avec economie.json" },
+  "priorite_suggestions": [
+   "notion jamais travaillée (module disponible)",
+   "notion dont la dernière série est sous le seuil",
+   "notion maîtrisée depuis plus de 21 jours (révision)",
+   "notion d’un autre domaine que celui des dernières séries"
+  ],
+  "exclure_des_suggestions": "la notion en cours et les notions « terminee » récemment révisées"
+ },
+
+ "revision": {
+  "actif": true,
+  "delai_jours": 21,
+  "serie": "1 série mixte de 5 questions tirées des niveaux déjà maîtrisés de la notion",
+  "si_sous_seuil": "le dernier niveau maîtrisé repasse à « en_cours »"
+ }
+}

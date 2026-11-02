@@ -1,0 +1,793 @@
+{
+  "module": "gram-5e-adjectif",
+  "titre": "L’adjectif qualificatif et ses degrés",
+  "domaine": "grammaire",
+  "niveau": 5,
+  "grade": "ecuyer",
+  "version": 1,
+  "description": "Reconnaître l’adjectif qualificatif et l’accorder, former et reconnaître le comparatif, le superlatif relatif et le superlatif absolu, et les degrés d’intensité.",
+  "rappel": {
+    "titre": "L’adjectif qualificatif et ses degrés",
+    "points": [
+      {
+        "mot": "adjectif qualificatif",
+        "definition": "L’adjectif qualificatif apporte une précision sur un nom ou un pronom. Il s’accorde avec lui.",
+        "exemple": "Ils sont fiers de leur belle réussite."
+      },
+      {
+        "mot": "comparatif",
+        "definition": "Le comparatif établit une comparaison entre deux êtres ou deux choses. Il peut être accompagné d’un complément : supériorité (plus… que), égalité (aussi… que), infériorité (moins… que).",
+        "exemple": "Ce livre-ci est plus intéressant que ce livre-là."
+      },
+      {
+        "mot": "superlatif relatif",
+        "definition": "Le superlatif relatif établit une comparaison entre un être ou une chose et un ensemble d’êtres ou de choses. Il peut être accompagné d’un complément : le plus (supériorité), le moins (infériorité).",
+        "exemple": "Plume est le plus petit des lutins."
+      },
+      {
+        "mot": "degrés d’intensité",
+        "definition": "On fait varier le degré d’intensité d’un adjectif avec des adverbes : peu, assez, légèrement, suffisamment, trop…",
+        "exemple": "C’était assez facile."
+      },
+      {
+        "mot": "superlatif absolu",
+        "definition": "Le superlatif absolu exprime un degré d’intensité maximum grâce à des adverbes : très, fort, extrêmement…",
+        "exemple": "Cette porte est très belle, mais extrêmement fragile."
+      }
+    ]
+  },
+  "competences": [
+    "gram-5e-adjectif-accord",
+    "gram-5e-adjectif-comparatif",
+    "gram-5e-adjectif-superlatif"
+  ],
+  "exercices": [
+    {
+      "id": "gram-5e-adjectif-001",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-adjectif-accord",
+      "difficulte": 1,
+      "consigne": "Quel mot est un adjectif qualificatif ?",
+      "enonce": "Une brise fraîche souffle sur la colline.",
+      "choix": [
+        "brise",
+        "fraîche",
+        "souffle",
+        "colline"
+      ],
+      "reponse": 1,
+      "explication": "« fraîche » apporte une précision sur le nom « brise » : c’est un adjectif qualificatif.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-002",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-adjectif-accord",
+      "difficulte": 1,
+      "consigne": "Clique sur tous les adjectifs qualificatifs.",
+      "mots": [
+        "Un",
+        "vieux",
+        "hibou",
+        "silencieux",
+        "guette"
+      ],
+      "cibles": [
+        1,
+        3
+      ],
+      "explication": "« vieux » et « silencieux » apportent une précision sur le nom « hibou » : ce sont des adjectifs qualificatifs.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-003",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-adjectif-accord",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "L’adjectif qualificatif s’accorde avec le nom ou le pronom auquel il se rapporte.",
+      "reponse": true,
+      "explication": "L’adjectif qualificatif apporte une précision sur un nom ou un pronom et s’accorde avec lui.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-004",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-5e-adjectif-accord",
+      "difficulte": 1,
+      "consigne": "Recopie l’adjectif qualificatif.",
+      "enonce": "Hugo cueille une baie sucrée.",
+      "reponses_acceptees": [
+        "sucrée"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« sucrée » apporte une précision sur le nom « baie » : c’est un adjectif qualificatif.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-005",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-adjectif-accord",
+      "difficulte": 2,
+      "consigne": "À quel mot l’adjectif « inquiets » se rapporte-t-il ?",
+      "enonce": "Les lutins se dépêchent : ils semblent inquiets.",
+      "choix": [
+        "lutins",
+        "ils",
+        "dépêchent",
+        "semblent"
+      ],
+      "reponse": 1,
+      "explication": "« inquiets » est au masculin pluriel et se rapporte au pronom « ils », qui reprend « les lutins ».",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-006",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-adjectif-accord",
+      "difficulte": 2,
+      "consigne": "Classe ces mots : adjectif ou nom ?",
+      "elements": [
+        "brillant",
+        "éclat",
+        "sombre",
+        "obscurité",
+        "doux",
+        "douceur"
+      ],
+      "categories": [
+        "adjectif",
+        "nom"
+      ],
+      "solution": {
+        "brillant": 0,
+        "éclat": 1,
+        "sombre": 0,
+        "obscurité": 1,
+        "doux": 0,
+        "douceur": 1
+      },
+      "explication": "Un adjectif apporte une précision sur un nom (brillant, sombre, doux). Un nom désigne une personne, un animal, une chose ou une idée (éclat, obscurité, douceur).",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-007",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-5e-adjectif-accord",
+      "difficulte": 2,
+      "consigne": "Complète avec les adjectifs bien accordés.",
+      "enonce": "La lune {{1}} éclaire des champs {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "pleine",
+            "plein",
+            "pleines"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "gelé",
+            "gelés",
+            "gelées"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "« lune » est féminin singulier : « pleine ». « champs » est masculin pluriel : « gelés ».",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-008",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-5e-adjectif-accord",
+      "difficulte": 2,
+      "consigne": "Mets ce groupe nominal au féminin.",
+      "enonce": "un voisin curieux",
+      "reponses_acceptees": [
+        "une voisine curieuse"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "Au féminin, le déterminant devient « une », le nom devient « voisine » et l’adjectif devient « curieuse ».",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-009",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-5e-adjectif-accord",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est correctement accordée ?",
+      "choix": [
+        "Des fleurs sauvages et parfumées bordent le chemin.",
+        "Des fleurs sauvage et parfumé bordent le chemin.",
+        "Des fleurs sauvages et parfumés bordent le chemin.",
+        "Des fleur sauvages et parfumées bordent le chemin."
+      ],
+      "reponse": 0,
+      "explication": "« fleurs » est féminin pluriel : les deux adjectifs « sauvages » et « parfumées » s’accordent avec lui.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-010",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-5e-adjectif-accord",
+      "difficulte": 2,
+      "consigne": "Corrige l’adjectif qui ne convient pas.",
+      "phrase_fautive": "Hugo et Léa sont fatigué.",
+      "corrections_acceptees": [
+        "Hugo et Léa sont fatigués."
+      ],
+      "explication": "L’adjectif s’accorde avec le sujet « Hugo et Léa » (masculin pluriel) : « fatigués ».",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-011",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-5e-adjectif-accord",
+      "difficulte": 3,
+      "consigne": "Combien d’adjectifs qualificatifs cette phrase contient-elle ?",
+      "enonce": "Une brume épaisse et glacée enveloppe la vieille tour.",
+      "choix": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reponse": 1,
+      "explication": "Les adjectifs sont « épaisse », « glacée » et « vieille » : il y en a trois.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-012",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-5e-adjectif-accord",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les adjectifs qualificatifs.",
+      "mots": [
+        "Les",
+        "lutins",
+        "fatigués",
+        "rentrent",
+        "sous",
+        "un",
+        "ciel",
+        "étoilé",
+        "et",
+        "paraissent",
+        "heureux"
+      ],
+      "cibles": [
+        2,
+        7,
+        10
+      ],
+      "explication": "« fatigués » se rapporte à « lutins », « étoilé » à « ciel » et « heureux » à « lutins » (par le verbe « paraissent »).",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-013",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-adjectif-comparatif",
+      "difficulte": 1,
+      "consigne": "Quelle phrase exprime une comparaison de supériorité ?",
+      "choix": [
+        "Ce chemin est aussi long que l’autre.",
+        "Ce chemin est plus long que l’autre.",
+        "Ce chemin est moins long que l’autre.",
+        "Ce chemin est très long."
+      ],
+      "reponse": 1,
+      "explication": "« plus long que » exprime la supériorité : le premier chemin dépasse le second.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-014",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-adjectif-comparatif",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "« Hugo est aussi grand que Léa » est un comparatif d’égalité.",
+      "reponse": true,
+      "explication": "« aussi… que » exprime un comparatif d’égalité.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-015",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-adjectif-comparatif",
+      "difficulte": 1,
+      "consigne": "Clique sur tous les mots du complément du comparatif.",
+      "mots": [
+        "Hugo",
+        "est",
+        "plus",
+        "rapide",
+        "que",
+        "Plume"
+      ],
+      "cibles": [
+        4,
+        5
+      ],
+      "explication": "Le complément du comparatif est « que Plume » : il indique l’être auquel Hugo est comparé.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-016",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-5e-adjectif-comparatif",
+      "difficulte": 1,
+      "consigne": "Recopie le mot qui exprime l’infériorité.",
+      "enonce": "Cette cabane est moins haute que la tour.",
+      "reponses_acceptees": [
+        "moins"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« moins » exprime l’infériorité : la cabane est moins haute que la tour.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-017",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-adjectif-comparatif",
+      "difficulte": 2,
+      "consigne": "Le comparatif exprime-t-il la supériorité, l’égalité ou l’infériorité ?",
+      "elements": [
+        "Le renard est plus rusé que le loup.",
+        "Le hibou est aussi silencieux que la nuit.",
+        "La cabane est moins haute que la tour.",
+        "Hugo est plus lent que Plume.",
+        "Léa est aussi courageuse que Hugo.",
+        "Le lundi est moins agréable que le samedi."
+      ],
+      "categories": [
+        "supériorité",
+        "égalité",
+        "infériorité"
+      ],
+      "solution": {
+        "Le renard est plus rusé que le loup.": 0,
+        "Le hibou est aussi silencieux que la nuit.": 1,
+        "La cabane est moins haute que la tour.": 2,
+        "Hugo est plus lent que Plume.": 0,
+        "Léa est aussi courageuse que Hugo.": 1,
+        "Le lundi est moins agréable que le samedi.": 2
+      },
+      "explication": "Supériorité : plus… que. Égalité : aussi… que. Infériorité : moins… que.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-018",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-adjectif-comparatif",
+      "difficulte": 2,
+      "consigne": "Quel est le complément du comparatif ?",
+      "enonce": "Ce chemin est moins long que l’autre.",
+      "choix": [
+        "moins long",
+        "que l’autre",
+        "Ce chemin",
+        "long"
+      ],
+      "reponse": 1,
+      "explication": "Le complément du comparatif est « que l’autre » : il indique l’élément auquel on compare.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-019",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-5e-adjectif-comparatif",
+      "difficulte": 2,
+      "consigne": "Complète avec plus, moins ou aussi.",
+      "enonce": "La tour est {{1}} haute que la cabane, donc la cabane est {{2}} haute que la tour.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "plus",
+            "moins",
+            "aussi"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "plus",
+            "moins",
+            "aussi"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "Si la tour est plus haute que la cabane, alors la cabane est moins haute que la tour.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-020",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-5e-adjectif-comparatif",
+      "difficulte": 2,
+      "consigne": "Réunis ces deux phrases en un comparatif d’égalité avec « aussi… que ».",
+      "enonce": "Hugo est rapide. Plume est rapide.",
+      "reponses_acceptees": [
+        "Hugo est aussi rapide que Plume.",
+        "Hugo est aussi rapide que Plume",
+        "Plume est aussi rapide que Hugo.",
+        "Plume est aussi rapide que Hugo"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "On compare Hugo et Plume avec « aussi… que » : « Hugo est aussi rapide que Plume. »",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-021",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-5e-adjectif-comparatif",
+      "difficulte": 2,
+      "consigne": "Corrige la phrase : le comparatif est mal formé.",
+      "phrase_fautive": "Plume est plus rapide de Hugo.",
+      "corrections_acceptees": [
+        "Plume est plus rapide que Hugo."
+      ],
+      "explication": "Le complément du comparatif est introduit par « que » : « plus rapide que Hugo ».",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-022",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-5e-adjectif-comparatif",
+      "difficulte": 2,
+      "consigne": "Dans quelle phrase y a-t-il un comparatif ?",
+      "choix": [
+        "Le dragon est très effrayant.",
+        "Le dragon est plus effrayant que l’ogre.",
+        "Le dragon est le plus effrayant des monstres.",
+        "Le dragon est effrayant."
+      ],
+      "reponse": 1,
+      "explication": "« plus effrayant que l’ogre » compare deux êtres : c’est un comparatif. « le plus effrayant des monstres » est un superlatif relatif ; « très effrayant » est un superlatif absolu.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-023",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-5e-adjectif-comparatif",
+      "difficulte": 3,
+      "consigne": "Quelle phrase contient un comparatif d’infériorité ?",
+      "choix": [
+        "Ma chambre est la moins grande de la maison.",
+        "Ma chambre est moins grande que la cuisine.",
+        "Ma chambre est très petite.",
+        "Ma chambre est aussi grande que la cuisine."
+      ],
+      "reponse": 1,
+      "explication": "« moins grande que la cuisine » compare deux pièces : c’est un comparatif d’infériorité. « la moins grande de la maison » est un superlatif relatif.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-024",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-5e-adjectif-comparatif",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les mots du comparatif : l’adverbe, l’adjectif et le complément.",
+      "mots": [
+        "La",
+        "forêt",
+        "est",
+        "plus",
+        "fraîche",
+        "que",
+        "la",
+        "ville"
+      ],
+      "cibles": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "explication": "Le comparatif est « plus fraîche que la ville » : l’adverbe « plus », l’adjectif « fraîche » et le complément « que la ville ».",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-025",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-adjectif-superlatif",
+      "difficulte": 1,
+      "consigne": "Quelle phrase contient un superlatif relatif ?",
+      "choix": [
+        "La tour est très haute.",
+        "La tour est la plus haute du village.",
+        "La tour est plus haute que la cabane.",
+        "La tour est haute."
+      ],
+      "reponse": 1,
+      "explication": "« la plus haute du village » compare la tour à l’ensemble des bâtiments : c’est un superlatif relatif.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-026",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-adjectif-superlatif",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Le superlatif absolu exprime un degré d’intensité maximum, avec des adverbes comme « très » ou « extrêmement ».",
+      "reponse": true,
+      "explication": "Le superlatif absolu exprime un degré d’intensité maximum grâce à des adverbes : très, fort, extrêmement…",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-027",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-adjectif-superlatif",
+      "difficulte": 1,
+      "consigne": "Clique sur l’adverbe qui exprime le superlatif absolu.",
+      "mots": [
+        "Cette",
+        "porte",
+        "est",
+        "extrêmement",
+        "lourde"
+      ],
+      "cibles": [
+        3
+      ],
+      "explication": "« extrêmement » exprime un degré d’intensité maximum : c’est un superlatif absolu.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-028",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-5e-adjectif-superlatif",
+      "difficulte": 1,
+      "consigne": "Recopie l’adverbe d’intensité.",
+      "enonce": "Hugo est trop fatigué pour jouer.",
+      "reponses_acceptees": [
+        "trop"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« trop » est un adverbe qui fait varier le degré d’intensité de l’adjectif « fatigué ».",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-029",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-adjectif-superlatif",
+      "difficulte": 2,
+      "consigne": "Cette phrase contient-elle un comparatif, un superlatif relatif ou un superlatif absolu ?",
+      "elements": [
+        "Hugo est plus rapide que Plume.",
+        "Hugo est le plus rapide des lutins.",
+        "Hugo est extrêmement rapide.",
+        "La forêt est moins sombre que la grotte.",
+        "La forêt est la moins sombre du pays.",
+        "Cette cabane est très solide."
+      ],
+      "categories": [
+        "comparatif",
+        "superlatif relatif",
+        "superlatif absolu"
+      ],
+      "solution": {
+        "Hugo est plus rapide que Plume.": 0,
+        "Hugo est le plus rapide des lutins.": 1,
+        "Hugo est extrêmement rapide.": 2,
+        "La forêt est moins sombre que la grotte.": 0,
+        "La forêt est la moins sombre du pays.": 1,
+        "Cette cabane est très solide.": 2
+      },
+      "explication": "Comparatif : comparaison entre deux êtres. Superlatif relatif : comparaison avec un ensemble. Superlatif absolu : intensité maximum, sans comparaison.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-030",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-adjectif-superlatif",
+      "difficulte": 2,
+      "consigne": "Quel est le complément du superlatif relatif ?",
+      "enonce": "Plume est le plus petit des lutins.",
+      "choix": [
+        "des lutins",
+        "le plus petit",
+        "Plume",
+        "petit"
+      ],
+      "reponse": 0,
+      "explication": "Le complément du superlatif est « des lutins » : il indique l’ensemble auquel Plume est comparé.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-031",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-5e-adjectif-superlatif",
+      "difficulte": 2,
+      "consigne": "Complète avec le superlatif qui convient.",
+      "enonce": "Le renard est {{1}} rusé des animaux de la forêt. Ce lutin est {{2}} timide : il ne parle presque jamais.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "le plus",
+            "plus",
+            "très"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "le moins",
+            "extrêmement",
+            "plus"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "« le plus » forme un superlatif relatif avec le complément « des animaux » ; « extrêmement » forme un superlatif absolu.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-032",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-5e-adjectif-superlatif",
+      "difficulte": 2,
+      "consigne": "Ajoute l’adverbe « très » devant l’adjectif.",
+      "enonce": "La nuit est sombre.",
+      "reponses_acceptees": [
+        "La nuit est très sombre.",
+        "La nuit est très sombre"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« très » exprime un degré d’intensité maximum : c’est un superlatif absolu.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-033",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-5e-adjectif-superlatif",
+      "difficulte": 2,
+      "consigne": "Corrige la phrase : le superlatif relatif est mal formé.",
+      "phrase_fautive": "Plume est le plus petit de les lutins.",
+      "corrections_acceptees": [
+        "Plume est le plus petit des lutins."
+      ],
+      "explication": "« de les » se contracte en « des » : « le plus petit des lutins ».",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-034",
+      "type": "ordre",
+      "forme": "contexte",
+      "competence": "gram-5e-adjectif-superlatif",
+      "difficulte": 2,
+      "consigne": "Range ces groupes de mots du degré le plus faible au plus fort.",
+      "elements_melanges": [
+        "très grand",
+        "peu grand",
+        "immensément grand",
+        "assez grand"
+      ],
+      "reponse": [
+        "peu grand",
+        "assez grand",
+        "très grand",
+        "immensément grand"
+      ],
+      "explication": "Le degré d’intensité augmente : peu, assez, très, puis le superlatif absolu « immensément ».",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-035",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-5e-adjectif-superlatif",
+      "difficulte": 3,
+      "consigne": "Quel degré d’intensité exprime chaque phrase ?",
+      "elements": [
+        "Hugo est le plus rapide des lutins.",
+        "Hugo est extrêmement rapide.",
+        "Hugo est assez rapide.",
+        "Hugo est fort rapide.",
+        "Hugo est peu rapide.",
+        "Hugo est le moins rapide des lutins."
+      ],
+      "categories": [
+        "superlatif relatif",
+        "superlatif absolu",
+        "autre degré d’intensité"
+      ],
+      "solution": {
+        "Hugo est le plus rapide des lutins.": 0,
+        "Hugo est extrêmement rapide.": 1,
+        "Hugo est assez rapide.": 2,
+        "Hugo est fort rapide.": 1,
+        "Hugo est peu rapide.": 2,
+        "Hugo est le moins rapide des lutins.": 0
+      },
+      "explication": "Le superlatif relatif compare avec un ensemble (le plus, le moins… de). Le superlatif absolu exprime l’intensité maximum (très, fort, extrêmement). Peu, assez, trop font simplement varier l’intensité.",
+      "source": "manuel-5e-f3-p12"
+    },
+    {
+      "id": "gram-5e-adjectif-036",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-5e-adjectif-superlatif",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les mots du superlatif relatif et de son complément.",
+      "mots": [
+        "Plume",
+        "est",
+        "le",
+        "plus",
+        "petit",
+        "des",
+        "lutins"
+      ],
+      "cibles": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "explication": "Le superlatif relatif est « le plus petit » et son complément est « des lutins ».",
+      "source": "manuel-5e-f3-p12"
+    }
+  ]
+}

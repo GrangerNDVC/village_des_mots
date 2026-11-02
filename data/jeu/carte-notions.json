@@ -1,0 +1,1543 @@
+{
+ "version": 1,
+ "note": "Carte des notions : une notion = une ligne de progression verticale 6e → 5e → 4e → 3e. Chaque cellule (notion, niveau) = un module de 2 à 3 compétences. Sources : sommaires des 4 manuels (« fNN pPP » = fiche NN, page PP). Hors périmètre du jeu : fiches d’expression écrite, méthodes et préparations à la dictée.",
+ "manuels": {
+  "6": "La grammaire par les exercices 6e (cycle 3, Bordas/Sejer 2017)",
+  "5": "…5e (2018)",
+  "4": "…4e (nouvelle édition 2021)",
+  "3": "…3e (nouvelle édition, programme 2018)"
+ },
+ "notions": [
+  {
+   "id": "gram-nom-determinant",
+   "domaine": "grammaire",
+   "libelle": "Le nom et les déterminants",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "gram-6e-nom-determinant",
+     "titre": "Le nom et le groupe nominal ; les déterminants",
+     "chantier": "03",
+     "source": [
+      "manuel-6e-f2-p10",
+      "manuel-6e-f3-p12"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "gram-5e-nom-determinant",
+     "titre": "Le nom et les déterminants",
+     "chantier": "03",
+     "source": [
+      "manuel-5e-f1-p8"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "gram-4e-nom-determinant",
+     "titre": "Le nom et ses déterminants",
+     "chantier": "04",
+     "source": [
+      "manuel-4e-f2-p8"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "gram-3e-nom-determinant",
+     "titre": "Les classes de mots (synthèse)",
+     "chantier": "04",
+     "source": [
+      "manuel-3e-f1-p6"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gram-pronom",
+   "domaine": "grammaire",
+   "libelle": "Les pronoms",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "gram-6e-pronom",
+     "titre": "Pronoms personnels, possessifs et démonstratifs",
+     "chantier": "03",
+     "source": [
+      "manuel-6e-f5-p16",
+      "manuel-6e-f6-p18"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "gram-5e-pronom",
+     "titre": "Les pronoms",
+     "chantier": "03",
+     "source": [
+      "manuel-5e-f2-p10"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "gram-4e-pronom",
+     "titre": "Les pronoms",
+     "chantier": "04",
+     "source": [
+      "manuel-4e-f3-p10"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "gram-3e-pronom",
+     "titre": "Les classes de mots (synthèse)",
+     "chantier": "04",
+     "source": [
+      "manuel-3e-f1-p6"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gram-adjectif",
+   "domaine": "grammaire",
+   "libelle": "L’adjectif qualificatif",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "gram-6e-adjectif",
+     "titre": "L’adjectif qualificatif",
+     "chantier": "03",
+     "source": [
+      "manuel-6e-f4-p14"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "gram-5e-adjectif",
+     "titre": "L’adjectif qualificatif et ses degrés",
+     "chantier": "03",
+     "source": [
+      "manuel-5e-f3-p12"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "gram-4e-adjectif",
+     "titre": "L’adjectif, ses degrés, le groupe adjectival",
+     "chantier": "04",
+     "source": [
+      "manuel-4e-f4-p12"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "gram-3e-adjectif",
+     "titre": "Les classes de mots (synthèse)",
+     "chantier": "04",
+     "source": [
+      "manuel-3e-f1-p6"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gram-mots-invariables",
+   "domaine": "grammaire",
+   "libelle": "Adverbes, prépositions, conjonctions",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "gram-6e-mots-invariables",
+     "titre": "Les mots invariables",
+     "chantier": "03",
+     "source": [
+      "manuel-6e-f7-p20"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "gram-5e-mots-invariables",
+     "titre": "Prépositions, conjonctions, adverbes",
+     "chantier": "03",
+     "source": [
+      "manuel-5e-f4-p14",
+      "manuel-5e-f5-p15"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "gram-4e-mots-invariables",
+     "titre": "Les adverbes",
+     "chantier": "04",
+     "source": [
+      "manuel-4e-f5-p14"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "gram-3e-mots-invariables",
+     "titre": "Le mot « que » et ses emplois",
+     "chantier": "04",
+     "source": [
+      "manuel-3e-f6-p16"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gram-verbe",
+   "domaine": "grammaire",
+   "libelle": "Le verbe et ses constructions",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "gram-6e-verbe",
+     "titre": "Le verbe et le groupe verbal",
+     "chantier": "03",
+     "source": [
+      "manuel-6e-f1-p8"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "gram-4e-verbe",
+     "titre": "Verbes passifs, transitifs, impersonnels, pronominaux",
+     "chantier": "04",
+     "source": [
+      "manuel-4e-f27-p56",
+      "manuel-4e-f28-p57",
+      "manuel-4e-f29-p58",
+      "manuel-4e-f30-p59"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "gram-3e-verbe",
+     "titre": "Le verbe : modes, temps, voix",
+     "chantier": "04",
+     "source": [
+      "manuel-3e-f16-p36"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gram-expansions-nom",
+   "domaine": "grammaire",
+   "libelle": "Les expansions du nom",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "gram-6e-expansions-nom",
+     "titre": "L’épithète et le complément du nom",
+     "chantier": "03",
+     "source": [
+      "manuel-6e-f8-p26",
+      "manuel-6e-f9-p28"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "gram-5e-expansions-nom",
+     "titre": "Épithète, complément du nom, subordonnée relative",
+     "chantier": "03",
+     "source": [
+      "manuel-5e-f6-p16",
+      "manuel-5e-f7-p18"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "gram-4e-expansions-nom",
+     "titre": "Expansions du nom et apposition",
+     "chantier": "04",
+     "source": [
+      "manuel-4e-f7-p18",
+      "manuel-4e-f8-p20"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "gram-3e-expansions-nom",
+     "titre": "Les fonctions liées au nom, à l’adjectif et au pronom",
+     "chantier": "04",
+     "source": [
+      "manuel-3e-f2-p8"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gram-sujet-attribut",
+   "domaine": "grammaire",
+   "libelle": "Le sujet et l’attribut du sujet",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "gram-6e-sujet-attribut",
+     "titre": "Le sujet et l’attribut du sujet",
+     "chantier": "03",
+     "source": [
+      "manuel-6e-f10-p30",
+      "manuel-6e-f11-p32"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "gram-5e-sujet-attribut",
+     "titre": "Le sujet et l’attribut du sujet",
+     "chantier": "03",
+     "source": [
+      "manuel-5e-f8-p20"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "gram-4e-sujet-attribut",
+     "titre": "Les fonctions par rapport au verbe",
+     "chantier": "04",
+     "source": [
+      "manuel-4e-f6-p16"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "gram-3e-sujet-attribut",
+     "titre": "Les fonctions liées au verbe",
+     "chantier": "04",
+     "source": [
+      "manuel-3e-f3-p10"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gram-complements-verbe",
+   "domaine": "grammaire",
+   "libelle": "Les compléments du verbe (COD, COI)",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "gram-6e-complements-verbe",
+     "titre": "Les compléments d’objet",
+     "chantier": "03",
+     "source": [
+      "manuel-6e-f12-p34"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "gram-5e-complements-verbe",
+     "titre": "Les compléments du verbe",
+     "chantier": "03",
+     "source": [
+      "manuel-5e-f9-p22"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "gram-4e-complements-verbe",
+     "titre": "Les fonctions par rapport au verbe",
+     "chantier": "04",
+     "source": [
+      "manuel-4e-f6-p16"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "gram-3e-complements-verbe",
+     "titre": "Les fonctions liées au verbe",
+     "chantier": "04",
+     "source": [
+      "manuel-3e-f3-p10"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gram-complements-circ",
+   "domaine": "grammaire",
+   "libelle": "Les compléments circonstanciels",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "gram-6e-complements-circ",
+     "titre": "Les compléments circonstanciels",
+     "chantier": "03",
+     "source": [
+      "manuel-6e-f13-p36"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "gram-5e-complements-circ",
+     "titre": "CC de temps, lieu, moyen, manière, cause, conséquence, but, comparaison",
+     "chantier": "03",
+     "source": [
+      "manuel-5e-f10-p24",
+      "manuel-5e-f11-p26",
+      "manuel-5e-f12-p28"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "gram-4e-complements-circ",
+     "titre": "Les compléments circonstanciels",
+     "chantier": "04",
+     "source": [
+      "manuel-4e-f9-p22"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "gram-3e-complements-circ",
+     "titre": "Les compléments circonstanciels",
+     "chantier": "04",
+     "source": [
+      "manuel-3e-f4-p12"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gram-types-formes-phrase",
+   "domaine": "grammaire",
+   "libelle": "Types et formes de phrase",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "gram-6e-types-formes-phrase",
+     "titre": "Types de phrase ; phrases affirmatives et négatives",
+     "chantier": "03",
+     "source": [
+      "manuel-6e-f16-p44",
+      "manuel-6e-f17-p46"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "gram-5e-types-formes-phrase",
+     "titre": "Types de phrase, phrase interrogative, phrase négative",
+     "chantier": "03",
+     "source": [
+      "manuel-5e-f13-p34",
+      "manuel-5e-f14-p36",
+      "manuel-5e-f15-p38"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "gram-4e-types-formes-phrase",
+     "titre": "Les types et les formes de phrase",
+     "chantier": "04",
+     "source": [
+      "manuel-4e-f13-p28"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "gram-3e-types-formes-phrase",
+     "titre": "Les types et les formes de phrase",
+     "chantier": "04",
+     "source": [
+      "manuel-3e-f7-p18"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gram-phrase-complexe",
+   "domaine": "grammaire",
+   "libelle": "Phrase simple et phrase complexe",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "gram-6e-phrase-complexe",
+     "titre": "La phrase simple et l’initiation à la phrase complexe",
+     "chantier": "03",
+     "source": [
+      "manuel-6e-f14-p40",
+      "manuel-6e-f15-p42"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "gram-5e-phrase-complexe",
+     "titre": "Juxtaposition, coordination, principales et subordonnées",
+     "chantier": "03",
+     "source": [
+      "manuel-5e-f16-p40",
+      "manuel-5e-f17-p42"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "gram-4e-phrase-complexe",
+     "titre": "La phrase simple et la phrase complexe",
+     "chantier": "04",
+     "source": [
+      "manuel-4e-f14-p30"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "gram-3e-phrase-complexe",
+     "titre": "La construction de la phrase complexe",
+     "chantier": "04",
+     "source": [
+      "manuel-3e-f8-p20"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gram-subordonnees",
+   "domaine": "grammaire",
+   "libelle": "Les propositions subordonnées",
+   "niveaux": [
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "gram-5e-subordonnees",
+     "titre": "Les subordonnées conjonctives",
+     "chantier": "03",
+     "source": [
+      "manuel-5e-f18-p44"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "gram-4e-subordonnees",
+     "titre": "Subordonnées COD, temps, but, cause, conséquence",
+     "chantier": "04",
+     "source": [
+      "manuel-4e-f15-p32",
+      "manuel-4e-f16-p34",
+      "manuel-4e-f17-p36"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "gram-3e-subordonnees",
+     "titre": "Relatives, conjonctives, cause/conséquence/but, opposition, condition",
+     "chantier": "04",
+     "source": [
+      "manuel-3e-f9-p22",
+      "manuel-3e-f10-p24",
+      "manuel-3e-f11-p26",
+      "manuel-3e-f12-p28",
+      "manuel-3e-f13-p30",
+      "manuel-3e-f14-p32",
+      "manuel-3e-f15-p34"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gram-paroles-rapportees",
+   "domaine": "grammaire",
+   "libelle": "Les paroles rapportées",
+   "niveaux": [
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "gram-5e-paroles-rapportees",
+     "titre": "Les paroles rapportées directement : le dialogue",
+     "chantier": "03",
+     "source": [
+      "manuel-5e-f19-p46"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "gram-4e-paroles-rapportees",
+     "titre": "Discours direct et discours indirect",
+     "chantier": "04",
+     "source": [
+      "manuel-4e-f37-p68",
+      "manuel-4e-f38-p70"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "gram-3e-paroles-rapportees",
+     "titre": "Les paroles rapportées",
+     "chantier": "04",
+     "source": [
+      "manuel-3e-f23-p50"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gram-texte-coherence",
+   "domaine": "grammaire",
+   "libelle": "Cohérence et organisation du texte",
+   "niveaux": [
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "gram-4e-texte-coherence",
+     "titre": "Énonciation, pronoms dans les textes, connecteurs",
+     "chantier": "04",
+     "source": [
+      "manuel-4e-f34-p64",
+      "manuel-4e-f36-p66",
+      "manuel-4e-f39-p72"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "gram-3e-texte-coherence",
+     "titre": "Implicite, reprises, connecteurs, énonciation",
+     "chantier": "04",
+     "source": [
+      "manuel-3e-f22-p48",
+      "manuel-3e-f24-p52",
+      "manuel-3e-f25-p54",
+      "manuel-3e-f26-p55"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "conj-infinitif-participe",
+   "domaine": "conjugaison",
+   "libelle": "Infinitif, groupes du verbe, participe",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "conj-6e-infinitif-participe",
+     "titre": "L’infinitif et les groupes du verbe",
+     "chantier": "07",
+     "source": [
+      "manuel-6e-f18-p53"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "conj-5e-infinitif-participe",
+     "titre": "L’infinitif, le participe et leurs emplois",
+     "chantier": "07",
+     "source": [
+      "manuel-5e-f28-p68"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "conj-present",
+   "domaine": "conjugaison",
+   "libelle": "Le présent de l’indicatif",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "conj-6e-present",
+     "titre": "Le présent de l’indicatif",
+     "chantier": "07",
+     "source": [
+      "manuel-6e-f19-p54"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "conj-5e-present",
+     "titre": "Le présent et ses emplois",
+     "chantier": "07",
+     "source": [
+      "manuel-5e-f20-p52"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "conj-4e-present",
+     "titre": "La conjugaison de l’indicatif (1)",
+     "chantier": "08",
+     "source": [
+      "manuel-4e-f21-p42"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "conj-3e-present",
+     "titre": "La conjugaison de l’indicatif",
+     "chantier": "08",
+     "source": [
+      "manuel-3e-f17-p38"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "conj-futur",
+   "domaine": "conjugaison",
+   "libelle": "Le futur de l’indicatif",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "conj-6e-futur",
+     "titre": "Le futur",
+     "chantier": "07",
+     "source": [
+      "manuel-6e-f20-p57"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "conj-5e-futur",
+     "titre": "Le futur et ses emplois",
+     "chantier": "07",
+     "source": [
+      "manuel-5e-f21-p54"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "conj-4e-futur",
+     "titre": "La conjugaison de l’indicatif (2)",
+     "chantier": "08",
+     "source": [
+      "manuel-4e-f22-p44"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "conj-3e-futur",
+     "titre": "L’emploi des temps de l’indicatif",
+     "chantier": "08",
+     "source": [
+      "manuel-3e-f18-p40"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "conj-imparfait-passe-simple",
+   "domaine": "conjugaison",
+   "libelle": "L’imparfait et le passé simple",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "conj-6e-imparfait-passe-simple",
+     "titre": "L’imparfait ; le passé simple",
+     "chantier": "07",
+     "source": [
+      "manuel-6e-f21-p58",
+      "manuel-6e-f22-p60"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "conj-5e-imparfait-passe-simple",
+     "titre": "Imparfait, passé simple, choisir entre les deux",
+     "chantier": "07",
+     "source": [
+      "manuel-5e-f22-p56",
+      "manuel-5e-f23-p58"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "conj-4e-imparfait-passe-simple",
+     "titre": "Les emplois des temps de l’indicatif",
+     "chantier": "08",
+     "source": [
+      "manuel-4e-f23-p46"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "conj-3e-imparfait-passe-simple",
+     "titre": "L’emploi des temps de l’indicatif",
+     "chantier": "08",
+     "source": [
+      "manuel-3e-f18-p40"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "conj-temps-composes",
+   "domaine": "conjugaison",
+   "libelle": "Les temps composés",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "conj-6e-temps-composes",
+     "titre": "Les temps composés de l’indicatif",
+     "chantier": "07",
+     "source": [
+      "manuel-6e-f23-p62"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "conj-5e-temps-composes",
+     "titre": "Les temps composés et leurs emplois",
+     "chantier": "07",
+     "source": [
+      "manuel-5e-f24-p60"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "conj-4e-temps-composes",
+     "titre": "Les temps composés (emplois)",
+     "chantier": "08",
+     "source": [
+      "manuel-4e-f23-p46"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "conj-3e-temps-composes",
+     "titre": "L’emploi des temps de l’indicatif",
+     "chantier": "08",
+     "source": [
+      "manuel-3e-f18-p40"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "conj-conditionnel",
+   "domaine": "conjugaison",
+   "libelle": "Le conditionnel",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "conj-6e-conditionnel",
+     "titre": "Le conditionnel",
+     "chantier": "07",
+     "source": [
+      "manuel-6e-f24-p65"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "conj-5e-conditionnel",
+     "titre": "Le conditionnel et ses emplois",
+     "chantier": "07",
+     "source": [
+      "manuel-5e-f26-p64"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "conj-4e-conditionnel",
+     "titre": "Conjugaison et emplois du conditionnel",
+     "chantier": "08",
+     "source": [
+      "manuel-4e-f24-p50",
+      "manuel-4e-f25-p52"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "conj-3e-conditionnel",
+     "titre": "Le conditionnel et ses emplois",
+     "chantier": "08",
+     "source": [
+      "manuel-3e-f20-p44"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "conj-imperatif",
+   "domaine": "conjugaison",
+   "libelle": "L’impératif",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "conj-6e-imperatif",
+     "titre": "L’impératif",
+     "chantier": "07",
+     "source": [
+      "manuel-6e-f25-p67"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "conj-5e-imperatif",
+     "titre": "L’impératif présent et ses emplois",
+     "chantier": "07",
+     "source": [
+      "manuel-5e-f25-p63"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "conj-4e-imperatif",
+     "titre": "Conjugaison de l’impératif",
+     "chantier": "08",
+     "source": [
+      "manuel-4e-f24-p50"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "conj-subjonctif",
+   "domaine": "conjugaison",
+   "libelle": "Le subjonctif",
+   "niveaux": [
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "conj-5e-subjonctif",
+     "titre": "Le subjonctif présent et ses emplois",
+     "chantier": "07",
+     "source": [
+      "manuel-5e-f27-p66"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "conj-4e-subjonctif",
+     "titre": "Conjugaison et emplois du subjonctif",
+     "chantier": "08",
+     "source": [
+      "manuel-4e-f24-p50",
+      "manuel-4e-f26-p54"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "conj-3e-subjonctif",
+     "titre": "Le subjonctif et ses emplois",
+     "chantier": "08",
+     "source": [
+      "manuel-3e-f19-p42"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "conj-concordance",
+   "domaine": "conjugaison",
+   "libelle": "La concordance des temps",
+   "niveaux": [
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "conj-4e-concordance",
+     "titre": "Emplois des temps de l’indicatif (récit)",
+     "chantier": "08",
+     "source": [
+      "manuel-4e-f23-p46"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "conj-3e-concordance",
+     "titre": "La concordance des temps",
+     "chantier": "08",
+     "source": [
+      "manuel-3e-f21-p46"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "orth-ponctuation-majuscules",
+   "domaine": "orthographe",
+   "libelle": "Ponctuation, majuscules et minuscules",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "ortho-6e-ponctuation-majuscules",
+     "titre": "La ponctuation, les majuscules et les minuscules",
+     "chantier": "05",
+     "source": [
+      "manuel-6e-f26-p72"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "orth-genre-nombre",
+   "domaine": "orthographe",
+   "libelle": "Féminin et pluriel des noms et adjectifs",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "ortho-6e-genre-nombre",
+     "titre": "Féminin ; pluriel des noms et des adjectifs",
+     "chantier": "05",
+     "source": [
+      "manuel-6e-f27-p74",
+      "manuel-6e-f28-p76"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "ortho-5e-genre-nombre",
+     "titre": "Féminin et pluriel des noms ; des adjectifs",
+     "chantier": "05",
+     "source": [
+      "manuel-5e-f29-p74",
+      "manuel-5e-f30-p76"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "orth-accord-gn",
+   "domaine": "orthographe",
+   "libelle": "L’accord dans le groupe nominal",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "ortho-6e-accord-gn",
+     "titre": "L’accord dans le groupe nominal",
+     "chantier": "05",
+     "source": [
+      "manuel-6e-f29-p78"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "ortho-5e-accord-gn",
+     "titre": "L’accord de l’adjectif",
+     "chantier": "05",
+     "source": [
+      "manuel-5e-f31-p78"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "ortho-3e-accord-gn",
+     "titre": "L’accord de l’épithète et de l’attribut",
+     "chantier": "06",
+     "source": [
+      "manuel-3e-f29-p62"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "orth-accord-verbe",
+   "domaine": "orthographe",
+   "libelle": "L’accord du verbe avec le sujet",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "ortho-6e-accord-verbe",
+     "titre": "L’accord du verbe avec le sujet",
+     "chantier": "05",
+     "source": [
+      "manuel-6e-f30-p80"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "ortho-5e-accord-verbe",
+     "titre": "L’accord du verbe avec le sujet",
+     "chantier": "05",
+     "source": [
+      "manuel-5e-f32-p80"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "ortho-4e-accord-verbe",
+     "titre": "L’accord du verbe avec le sujet",
+     "chantier": "06",
+     "source": [
+      "manuel-4e-f43-p78"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "ortho-3e-accord-verbe",
+     "titre": "L’accord du verbe : cas particuliers",
+     "chantier": "06",
+     "source": [
+      "manuel-3e-f27-p58"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "orth-participe-passe",
+   "domaine": "orthographe",
+   "libelle": "Le participe passé",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "ortho-6e-participe-passe",
+     "titre": "L’accord du participe passé",
+     "chantier": "05",
+     "source": [
+      "manuel-6e-f31-p84"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "ortho-5e-participe-passe",
+     "titre": "L’accord du participe passé",
+     "chantier": "05",
+     "source": [
+      "manuel-5e-f33-p82"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "ortho-4e-participe-passe",
+     "titre": "Accord et formation du participe passé",
+     "chantier": "06",
+     "source": [
+      "manuel-4e-f44-p80",
+      "manuel-4e-f45-p82"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "ortho-3e-participe-passe",
+     "titre": "L’accord du participe passé",
+     "chantier": "06",
+     "source": [
+      "manuel-3e-f28-p60"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "orth-homophones",
+   "domaine": "orthographe",
+   "libelle": "Les homophones grammaticaux",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "ortho-6e-homophones",
+     "titre": "Homophones (1) et (2)",
+     "chantier": "05",
+     "source": [
+      "manuel-6e-f32-p86",
+      "manuel-6e-f33-p88"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "ortho-5e-homophones",
+     "titre": "Homophones grammaticaux ; -ais/-ai, -rai/-rais",
+     "chantier": "05",
+     "source": [
+      "manuel-5e-f34-p84",
+      "manuel-5e-f35-p87"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "ortho-4e-homophones",
+     "titre": "Homophones (1) et (2)",
+     "chantier": "06",
+     "source": [
+      "manuel-4e-f49-p86",
+      "manuel-4e-f50-p88"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "ortho-3e-homophones",
+     "titre": "Tout, même, leur, demi",
+     "chantier": "06",
+     "source": [
+      "manuel-3e-f30-p64"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "orth-formes-mots-speciaux",
+   "domaine": "orthographe",
+   "libelle": "Formes en -ant, adverbes en -ment, mots à accord particulier",
+   "niveaux": [
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "ortho-4e-formes-mots-speciaux",
+     "titre": "Nul/tel/quel ; formes en -ant ; adverbes en -ment",
+     "chantier": "06",
+     "source": [
+      "manuel-4e-f46-p83",
+      "manuel-4e-f47-p84",
+      "manuel-4e-f48-p85"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "ortho-3e-formes-mots-speciaux",
+     "titre": "Quelque, quelque… que, quel que, quoique, quoi que",
+     "chantier": "06",
+     "source": [
+      "manuel-3e-f31-p66"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vocab-formation-mots",
+   "domaine": "vocabulaire",
+   "libelle": "Formation des mots (familles, préfixes, suffixes)",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "vocab-6e-formation-mots",
+     "titre": "La formation des mots et les familles de mots",
+     "chantier": "09",
+     "source": [
+      "manuel-6e-f34-p94"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "vocab-5e-formation-mots",
+     "titre": "Préfixes et suffixes d’origine latine et grecque",
+     "chantier": "09",
+     "source": [
+      "manuel-5e-f37-p94"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "vocab-4e-formation-mots",
+     "titre": "La formation des mots",
+     "chantier": "10",
+     "source": [
+      "manuel-4e-f54-p94"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "vocab-3e-formation-mots",
+     "titre": "La formation des mots",
+     "chantier": "10",
+     "source": [
+      "manuel-3e-f32-p70"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vocab-origines",
+   "domaine": "vocabulaire",
+   "libelle": "Origine des mots (latin, grec)",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "vocab-6e-origines",
+     "titre": "Les mots d’origine latine et grecque",
+     "chantier": "09",
+     "source": [
+      "manuel-6e-f35-p96"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "vocab-5e-origines",
+     "titre": "L’histoire des mots",
+     "chantier": "09",
+     "source": [
+      "manuel-5e-f36-p92"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "vocab-4e-origines",
+     "titre": "Les mots d’origine latine et grecque",
+     "chantier": "10",
+     "source": [
+      "manuel-4e-f55-p96"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vocab-sens-mots",
+   "domaine": "vocabulaire",
+   "libelle": "Le sens des mots",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "vocab-6e-sens-mots",
+     "titre": "Sens propre/figuré ; synonymes et antonymes",
+     "chantier": "09",
+     "source": [
+      "manuel-6e-f36-p98",
+      "manuel-6e-f37-p100"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "vocab-5e-sens-mots",
+     "titre": "Sens propre et figuré ; mots génériques et spécifiques",
+     "chantier": "09",
+     "source": [
+      "manuel-5e-f38-p96",
+      "manuel-5e-f39-p98"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "vocab-4e-sens-mots",
+     "titre": "Sens propre, sens figuré, synonymes, antonymes",
+     "chantier": "10",
+     "source": [
+      "manuel-4e-f56-p98"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "vocab-3e-sens-mots",
+     "titre": "Le sens des mots",
+     "chantier": "10",
+     "source": [
+      "manuel-3e-f33-p72"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vocab-niveaux-langue",
+   "domaine": "vocabulaire",
+   "libelle": "Les niveaux de langue",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "vocab-6e-niveaux-langue",
+     "titre": "Les niveaux de langue",
+     "chantier": "09",
+     "source": [
+      "manuel-6e-f38-p102"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "vocab-5e-niveaux-langue",
+     "titre": "Les niveaux de langue",
+     "chantier": "09",
+     "source": [
+      "manuel-5e-f40-p99"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "vocab-4e-niveaux-langue",
+     "titre": "Les niveaux de langue",
+     "chantier": "10",
+     "source": [
+      "manuel-4e-f35-p65"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vocab-champs-lexicaux",
+   "domaine": "vocabulaire",
+   "libelle": "Champs lexicaux et vocabulaire thématique",
+   "niveaux": [
+    {
+     "niveau": 6,
+     "grade": "page",
+     "module": "vocab-6e-champs-lexicaux",
+     "titre": "Champs lexicaux ; monstres, aventures, création",
+     "chantier": "09",
+     "source": [
+      "manuel-6e-f39-p104",
+      "manuel-6e-f40-p106",
+      "manuel-6e-f41-p108",
+      "manuel-6e-f42-p110"
+     ]
+    },
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "vocab-5e-champs-lexicaux",
+     "titre": "Roman, comédie, imaginaire, relations sociales, héroïsme",
+     "chantier": "09",
+     "source": [
+      "manuel-5e-f41-p100",
+      "manuel-5e-f42-p102",
+      "manuel-5e-f43-p104",
+      "manuel-5e-f44-p106"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "vocab-4e-champs-lexicaux",
+     "titre": "Fantastique, sentiments, informer, valeurs, ville",
+     "chantier": "10",
+     "source": [
+      "manuel-4e-f59-p104",
+      "manuel-4e-f60-p106",
+      "manuel-4e-f61-p108",
+      "manuel-4e-f62-p110",
+      "manuel-4e-f63-p111"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "vocab-3e-champs-lexicaux",
+     "titre": "Subjectivité, raisonnement et argumentation",
+     "chantier": "10",
+     "source": [
+      "manuel-3e-f35-p76",
+      "manuel-3e-f38-p82"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vocab-figures-style",
+   "domaine": "vocabulaire",
+   "libelle": "Figures de style",
+   "niveaux": [
+    {
+     "niveau": 5,
+     "grade": "ecuyer",
+     "module": "vocab-5e-figures-style",
+     "titre": "Comparaison, métaphore, personnification",
+     "chantier": "09",
+     "source": [
+      "manuel-5e-f45-p108"
+     ]
+    },
+    {
+     "niveau": 4,
+     "grade": "chevalier",
+     "module": "vocab-4e-figures-style",
+     "titre": "Figures de style ; versification",
+     "chantier": "10",
+     "source": [
+      "manuel-4e-f57-p100",
+      "manuel-4e-f58-p102"
+     ]
+    },
+    {
+     "niveau": 3,
+     "grade": "maitre",
+     "module": "vocab-3e-figures-style",
+     "titre": "Figures de style ; ironie ; poésie et lyrisme",
+     "chantier": "10",
+     "source": [
+      "manuel-3e-f34-p74",
+      "manuel-3e-f36-p78",
+      "manuel-3e-f37-p80"
+     ]
+    }
+   ]
+  }
+ ]
+}

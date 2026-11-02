@@ -1,0 +1,790 @@
+{
+  "module": "gram-6e-phrase-complexe",
+  "titre": "La phrase simple et l’initiation à la phrase complexe",
+  "domaine": "grammaire",
+  "niveau": 6,
+  "grade": "page",
+  "version": 1,
+  "description": "Reconnaître une phrase simple et ses constituants (sujet, prédicat), distinguer phrase simple et phrase complexe, repérer les propositions juxtaposées, coordonnées et subordonnées.",
+  "rappel": {
+    "titre": "La phrase simple et la phrase complexe",
+    "points": [
+      {
+        "mot": "phrase simple",
+        "definition": "La phrase simple est construite autour d’un seul verbe conjugué à un mode personnel. Elle est composée d’un sujet (ce dont on parle) et d’un prédicat (ce qu’on en dit).",
+        "exemple": "Les lutins cachent un trésor."
+      },
+      {
+        "mot": "sujet et prédicat",
+        "definition": "Le sujet peut être un nom, un groupe nominal, un pronom… Le prédicat est un verbe ou un groupe verbal. Quand le verbe est à l’impératif, il n’y a pas de sujet exprimé. Une phrase simple peut aussi avoir des compléments de phrase, facultatifs.",
+        "exemple": "Plume écoute le vent. Écoute le vent. Ce soir, Plume écoute le vent."
+      },
+      {
+        "mot": "phrase complexe",
+        "definition": "Une phrase complexe contient deux ou plusieurs noyaux verbaux, donc deux ou plusieurs propositions. Un prédicat accompagné d’un sujet est une proposition.",
+        "exemple": "Il pleut, nous restons à la maison."
+      },
+      {
+        "mot": "propositions juxtaposées",
+        "definition": "Des propositions séparées par une virgule, un point-virgule ou deux-points sont juxtaposées.",
+        "exemple": "Plume rit, Hugo sourit."
+      },
+      {
+        "mot": "propositions coordonnées",
+        "definition": "Des propositions reliées par une conjonction de coordination (et, ou, ni, mais, or, car, donc) ou par un adverbe de liaison (puis, ensuite…) sont coordonnées.",
+        "exemple": "Plume lit un conte et Hugo joue."
+      },
+      {
+        "mot": "principale et subordonnée",
+        "definition": "Une phrase complexe peut être composée d’une proposition principale et d’une proposition subordonnée. La subordonnée est reliée à la principale par un subordonnant (pronom relatif, conjonction de subordination…) et ne peut pas exister sans elle.",
+        "exemple": "Plume sourit quand Hugo arrive."
+      }
+    ]
+  },
+  "competences": [
+    "gram-6e-phrase-simple",
+    "gram-6e-phrase-complexe-reperer",
+    "gram-6e-phrase-complexe-liens"
+  ],
+  "exercices": [
+    {
+      "id": "gram-6e-phrase-complexe-001",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-phrase-simple",
+      "difficulte": 1,
+      "consigne": "Quel est le verbe conjugué de cette phrase simple ?",
+      "enonce": "Les lutins cachent un trésor.",
+      "choix": [
+        "lutins",
+        "cachent",
+        "trésor",
+        "Les"
+      ],
+      "reponse": 1,
+      "explication": "« cachent » est le seul verbe conjugué : une phrase simple est construite autour d’un seul verbe conjugué.",
+      "source": "manuel-6e-f14-p40"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-002",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-phrase-simple",
+      "difficulte": 1,
+      "consigne": "Clique sur tous les mots du sujet.",
+      "mots": [
+        "Mon",
+        "frère",
+        "range",
+        "sa",
+        "chambre"
+      ],
+      "cibles": [
+        0,
+        1
+      ],
+      "explication": "« Qui est-ce qui range sa chambre ? » Mon frère. Le sujet est « Mon frère ».",
+      "source": "manuel-6e-f14-p40"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-003",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-phrase-simple",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Une phrase simple est construite autour d’un seul verbe conjugué.",
+      "reponse": true,
+      "explication": "Une phrase simple est construite autour d’un seul verbe conjugué à un mode personnel.",
+      "source": "manuel-6e-f14-p40"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-004",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-phrase-simple",
+      "difficulte": 1,
+      "consigne": "Recopie le sujet de la phrase.",
+      "enonce": "Plume allume la lanterne.",
+      "reponses_acceptees": [
+        "Plume"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« Qui est-ce qui allume la lanterne ? » Plume. Le sujet est « Plume ».",
+      "source": "manuel-6e-f14-p40"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-005",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-phrase-simple",
+      "difficulte": 2,
+      "consigne": "Quel groupe de mots est le prédicat de la phrase ?",
+      "enonce": "Le vieux hibou observe la lune.",
+      "choix": [
+        "Le vieux hibou",
+        "observe la lune",
+        "observe",
+        "la lune"
+      ],
+      "reponse": 1,
+      "explication": "Le prédicat dit ce que l’on dit du sujet : « observe la lune ». C’est un groupe verbal dont le verbe est le noyau.",
+      "source": "manuel-6e-f14-p40"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-006",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-phrase-simple",
+      "difficulte": 2,
+      "consigne": "Le groupe entre crochets est-il le sujet ou le prédicat ?",
+      "elements": [
+        "[Mon petit frère] lit un conte.",
+        "Mon petit frère [lit un conte].",
+        "[Elle] sourit.",
+        "Elle [sourit].",
+        "Les voisins [semblent fatigués].",
+        "[Les voisins] semblent fatigués."
+      ],
+      "categories": [
+        "sujet",
+        "prédicat"
+      ],
+      "solution": {
+        "[Mon petit frère] lit un conte.": 0,
+        "Mon petit frère [lit un conte].": 1,
+        "[Elle] sourit.": 0,
+        "Elle [sourit].": 1,
+        "Les voisins [semblent fatigués].": 1,
+        "[Les voisins] semblent fatigués.": 0
+      },
+      "explication": "Le sujet est ce dont on parle ; le prédicat est ce qu’on en dit. Le prédicat est un verbe ou un groupe verbal.",
+      "source": "manuel-6e-f14-p40"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-007",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-phrase-simple",
+      "difficulte": 2,
+      "consigne": "Complète la phrase.",
+      "enonce": "Dans « Plume lit un conte. », « Plume » est le {{1}} et « lit un conte » est le {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "sujet",
+            "prédicat",
+            "complément de phrase"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "sujet",
+            "prédicat",
+            "complément de phrase"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "« Plume » est ce dont on parle : le sujet. « lit un conte » dit ce qu’on en dit : le prédicat.",
+      "source": "manuel-6e-f14-p40"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-008",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-phrase-simple",
+      "difficulte": 2,
+      "consigne": "Remplace le sujet par un pronom.",
+      "enonce": "Ma sœur chante.",
+      "reponses_acceptees": [
+        "Elle chante.",
+        "Elle chante"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« Ma sœur » est féminin singulier : on le remplace par « Elle ».",
+      "source": "manuel-6e-f14-p40"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-009",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-phrase-simple",
+      "difficulte": 2,
+      "consigne": "Quelle est la classe grammaticale du prédicat « range sa chambre » ?",
+      "enonce": "Léa range sa chambre.",
+      "choix": [
+        "groupe nominal",
+        "groupe verbal",
+        "pronom",
+        "adverbe"
+      ],
+      "reponse": 1,
+      "explication": "Un prédicat est un verbe ou un groupe verbal : « range sa chambre » est un groupe verbal, dont le verbe est le noyau.",
+      "source": "manuel-6e-f14-p40"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-010",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-phrase-simple",
+      "difficulte": 2,
+      "consigne": "Corrige le verbe pour qu’il s’accorde avec son sujet.",
+      "phrase_fautive": "Les girafes mange des feuilles.",
+      "corrections_acceptees": [
+        "Les girafes mangent des feuilles."
+      ],
+      "explication": "Le sujet « Les girafes » est pluriel : le verbe s’accorde et devient « mangent ».",
+      "source": "manuel-6e-f14-p40"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-011",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-phrase-simple",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les mots du prédicat (sans le complément de phrase).",
+      "mots": [
+        "Hugo",
+        "prépare",
+        "un",
+        "gâteau",
+        "ce",
+        "soir"
+      ],
+      "cibles": [
+        1,
+        2,
+        3
+      ],
+      "explication": "Le prédicat est « prépare un gâteau ». « ce soir » est un complément de phrase : il est facultatif et ne fait pas partie du prédicat.",
+      "source": "manuel-6e-f14-p40"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-012",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-phrase-simple",
+      "difficulte": 3,
+      "consigne": "Quelle phrase n’a pas de sujet exprimé ?",
+      "choix": [
+        "Écoute le vent.",
+        "Plume écoute le vent.",
+        "Nous écoutons le vent.",
+        "Elle écoute le vent."
+      ],
+      "reponse": 0,
+      "explication": "« Écoute le vent. » est à l’impératif : une phrase simple dont le verbe est à l’impératif n’a pas de sujet exprimé. Elle ne contient alors qu’un prédicat.",
+      "source": "manuel-6e-f14-p40"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-013",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-phrase-complexe-reperer",
+      "difficulte": 1,
+      "consigne": "Quelle phrase est une phrase complexe ?",
+      "choix": [
+        "Léa lit un conte.",
+        "Léa lit un conte et Hugo dessine.",
+        "Les lutins dorment.",
+        "Plume ouvre la porte."
+      ],
+      "reponse": 1,
+      "explication": "« Léa lit un conte et Hugo dessine. » contient deux verbes conjugués, donc deux propositions : c’est une phrase complexe.",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-014",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-phrase-complexe-reperer",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Une phrase complexe contient au moins deux verbes conjugués.",
+      "reponse": true,
+      "explication": "Une phrase complexe contient deux ou plusieurs noyaux verbaux, donc deux ou plusieurs verbes conjugués.",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-015",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-phrase-complexe-reperer",
+      "difficulte": 1,
+      "consigne": "Clique sur tous les verbes conjugués.",
+      "mots": [
+        "Plume",
+        "dort",
+        "et",
+        "Hugo",
+        "veille"
+      ],
+      "cibles": [
+        1,
+        4
+      ],
+      "explication": "« dort » et « veille » sont deux verbes conjugués : la phrase contient deux propositions.",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-016",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-phrase-complexe-reperer",
+      "difficulte": 1,
+      "consigne": "Écris, en chiffre, le nombre de propositions de la phrase.",
+      "enonce": "Il pleut et nous restons à la maison.",
+      "reponses_acceptees": [
+        "2",
+        "deux"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "Il y a deux verbes conjugués, « pleut » et « restons » : la phrase contient deux propositions.",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-017",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-phrase-complexe-reperer",
+      "difficulte": 2,
+      "consigne": "Ces phrases sont-elles des phrases simples ou des phrases complexes ?",
+      "elements": [
+        "Les lutins dorment dans la tour.",
+        "Plume cueille des baies et Hugo les range.",
+        "Il pleut, nous restons ici.",
+        "Hugo adore les contes.",
+        "Je pense que tu viendras.",
+        "La nuit tombe."
+      ],
+      "categories": [
+        "phrase simple",
+        "phrase complexe"
+      ],
+      "solution": {
+        "Les lutins dorment dans la tour.": 0,
+        "Plume cueille des baies et Hugo les range.": 1,
+        "Il pleut, nous restons ici.": 1,
+        "Hugo adore les contes.": 0,
+        "Je pense que tu viendras.": 1,
+        "La nuit tombe.": 0
+      },
+      "explication": "Une phrase simple contient un seul verbe conjugué. Une phrase complexe en contient au moins deux.",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-018",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-phrase-complexe-reperer",
+      "difficulte": 2,
+      "consigne": "Combien de propositions cette phrase contient-elle ?",
+      "enonce": "Le vent se lève, les feuilles tombent et la nuit arrive.",
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reponse": 2,
+      "explication": "Il y a trois verbes conjugués : « se lève », « tombent » et « arrive ». La phrase contient donc trois propositions.",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-019",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-phrase-complexe-reperer",
+      "difficulte": 2,
+      "consigne": "Complète la phrase.",
+      "enonce": "Une phrase simple contient {{1}} ; une phrase complexe contient {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "un seul verbe conjugué",
+            "deux verbes conjugués ou plus",
+            "aucun verbe conjugué"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "un seul verbe conjugué",
+            "deux verbes conjugués ou plus",
+            "aucun verbe conjugué"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "Une phrase simple est construite autour d’un seul verbe conjugué ; une phrase complexe en contient plusieurs.",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-020",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-phrase-complexe-reperer",
+      "difficulte": 2,
+      "consigne": "Réunis ces deux phrases simples en une phrase complexe, avec une virgule.",
+      "enonce": "Léa lit. Hugo dessine.",
+      "reponses_acceptees": [
+        "Léa lit, Hugo dessine.",
+        "Léa lit, Hugo dessine"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "On obtient deux propositions séparées par une virgule : elles sont juxtaposées.",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-021",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-phrase-complexe-reperer",
+      "difficulte": 2,
+      "consigne": "Corrige la phrase : il manque une virgule entre les deux propositions.",
+      "phrase_fautive": "Il pleut nous restons à la maison.",
+      "corrections_acceptees": [
+        "Il pleut, nous restons à la maison."
+      ],
+      "explication": "Deux propositions juxtaposées sont séparées par une virgule, un point-virgule ou deux-points.",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-022",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-phrase-complexe-reperer",
+      "difficulte": 2,
+      "consigne": "Dans quelle phrase les deux propositions sont-elles juxtaposées ?",
+      "choix": [
+        "Il pleut, nous restons à la maison.",
+        "Il pleut et nous restons à la maison.",
+        "Nous restons car il pleut.",
+        "Nous restons parce qu’il pleut."
+      ],
+      "reponse": 0,
+      "explication": "Dans « Il pleut, nous restons à la maison. », les propositions sont séparées par une virgule, sans mot de liaison : elles sont juxtaposées.",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-023",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-6e-phrase-complexe-reperer",
+      "difficulte": 3,
+      "consigne": "Ces phrases sont-elles des phrases simples ou des phrases complexes ?",
+      "elements": [
+        "Ils ont mangé, puis ils sont partis.",
+        "Ils ont mangé tous les gâteaux.",
+        "Je crois qu’il dort.",
+        "Les lutins qui dorment rêvent.",
+        "Plume écoute le vent.",
+        "Hugo est fatigué."
+      ],
+      "categories": [
+        "phrase simple",
+        "phrase complexe"
+      ],
+      "solution": {
+        "Ils ont mangé, puis ils sont partis.": 1,
+        "Ils ont mangé tous les gâteaux.": 0,
+        "Je crois qu’il dort.": 1,
+        "Les lutins qui dorment rêvent.": 1,
+        "Plume écoute le vent.": 0,
+        "Hugo est fatigué.": 0
+      },
+      "explication": "Il faut compter les verbes conjugués : les auxiliaires font partie du verbe (ont mangé = un seul verbe). Une relative ou une subordonnée ajoute un verbe conjugué : la phrase est complexe.",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-024",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-phrase-complexe-reperer",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les mots qui forment les verbes conjugués.",
+      "mots": [
+        "Plume",
+        "a",
+        "dormi",
+        "mais",
+        "Hugo",
+        "veille"
+      ],
+      "cibles": [
+        1,
+        2,
+        5
+      ],
+      "explication": "« a dormi » (temps composé) et « veille » sont deux verbes conjugués : la phrase contient deux propositions.",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-025",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-phrase-complexe-liens",
+      "difficulte": 1,
+      "consigne": "Quel mot relie les deux propositions ?",
+      "enonce": "Léa chante et Hugo danse.",
+      "choix": [
+        "Léa",
+        "chante",
+        "et",
+        "danse"
+      ],
+      "reponse": 2,
+      "explication": "« et » relie les deux propositions : c’est une conjonction de coordination.",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-026",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-phrase-complexe-liens",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Les mots « mais », « ou » et « car » servent à coordonner des propositions.",
+      "reponse": true,
+      "explication": "Les conjonctions de coordination (et, ou, ni, mais, or, car, donc) servent à relier des propositions coordonnées.",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-027",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-phrase-complexe-liens",
+      "difficulte": 1,
+      "consigne": "Clique sur le mot qui introduit la proposition subordonnée.",
+      "mots": [
+        "Je",
+        "pense",
+        "que",
+        "tu",
+        "viendras"
+      ],
+      "cibles": [
+        2
+      ],
+      "explication": "« que » est le subordonnant : il relie la subordonnée « que tu viendras » à la principale « Je pense ».",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-028",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-phrase-complexe-liens",
+      "difficulte": 1,
+      "consigne": "Recopie la conjonction de coordination de la phrase.",
+      "enonce": "Tu ranges ta chambre ou tu fais tes devoirs.",
+      "reponses_acceptees": [
+        "ou"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« ou » relie les deux propositions : c’est une conjonction de coordination.",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-029",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-phrase-complexe-liens",
+      "difficulte": 2,
+      "consigne": "Les propositions sont-elles juxtaposées, coordonnées, ou l’une est-elle subordonnée à l’autre ?",
+      "elements": [
+        "Il pleut, nous restons.",
+        "Il pleut donc nous restons.",
+        "Nous restons parce qu’il pleut.",
+        "Plume lit et Hugo dessine.",
+        "Je dors, tu veilles.",
+        "Je sais que tu viendras."
+      ],
+      "categories": [
+        "juxtaposées",
+        "coordonnées",
+        "principale et subordonnée"
+      ],
+      "solution": {
+        "Il pleut, nous restons.": 0,
+        "Il pleut donc nous restons.": 1,
+        "Nous restons parce qu’il pleut.": 2,
+        "Plume lit et Hugo dessine.": 1,
+        "Je dors, tu veilles.": 0,
+        "Je sais que tu viendras.": 2
+      },
+      "explication": "Juxtaposées : séparées par une virgule, un point-virgule ou deux-points. Coordonnées : reliées par et, mais, donc… Subordonnée : introduite par un subordonnant (que, parce que…).",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-030",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-phrase-complexe-liens",
+      "difficulte": 2,
+      "consigne": "Quelle phrase contient une proposition subordonnée ?",
+      "choix": [
+        "Léa lit et Hugo dessine.",
+        "Il pleut, nous restons.",
+        "Je pense que tu as raison.",
+        "Plume range sa chambre."
+      ],
+      "reponse": 2,
+      "explication": "Dans « Je pense que tu as raison. », « que tu as raison » est une proposition subordonnée, introduite par « que ».",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-031",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-phrase-complexe-liens",
+      "difficulte": 2,
+      "consigne": "Complète la phrase.",
+      "enonce": "Dans « Je sais que tu viendras. », « Je sais » est la proposition {{1}} et « que tu viendras » est la proposition {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "principale",
+            "subordonnée",
+            "coordonnée"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "principale",
+            "subordonnée",
+            "coordonnée"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "La proposition « Je sais » est la principale ; « que tu viendras » dépend d’elle et ne peut pas exister sans elle : c’est la subordonnée.",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-032",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-phrase-complexe-liens",
+      "difficulte": 2,
+      "consigne": "Relie ces deux phrases simples par « car ».",
+      "enonce": "Plume reste ici. Il est fatigué.",
+      "reponses_acceptees": [
+        "Plume reste ici car il est fatigué.",
+        "Plume reste ici car il est fatigué"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« car » est une conjonction de coordination : elle relie les deux propositions.",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-033",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-phrase-complexe-liens",
+      "difficulte": 2,
+      "consigne": "Quel mot introduit la proposition subordonnée ?",
+      "enonce": "Plume sourit quand Hugo arrive.",
+      "choix": [
+        "Plume",
+        "sourit",
+        "quand",
+        "arrive"
+      ],
+      "reponse": 2,
+      "explication": "« quand » est le subordonnant : il introduit la subordonnée « quand Hugo arrive ».",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-034",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-phrase-complexe-liens",
+      "difficulte": 2,
+      "consigne": "Corrige la phrase : il manque le subordonnant « que ».",
+      "phrase_fautive": "Je pense tu as raison.",
+      "corrections_acceptees": [
+        "Je pense que tu as raison."
+      ],
+      "explication": "La subordonnée complète est introduite par « que » : « Je pense que tu as raison. »",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-035",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-6e-phrase-complexe-liens",
+      "difficulte": 3,
+      "consigne": "Quel lien relie les deux propositions de chaque phrase ?",
+      "elements": [
+        "Léa chante, elle est contente.",
+        "Léa chante car elle est contente.",
+        "Léa chante parce qu’elle est contente.",
+        "Léa chante puis elle sort."
+      ],
+      "categories": [
+        "juxtaposées",
+        "coordonnées",
+        "principale et subordonnée"
+      ],
+      "solution": {
+        "Léa chante, elle est contente.": 0,
+        "Léa chante car elle est contente.": 1,
+        "Léa chante parce qu’elle est contente.": 2,
+        "Léa chante puis elle sort.": 1
+      },
+      "explication": "Virgule seule : juxtaposition. « car » et « puis » relient des propositions coordonnées. « parce que » introduit une subordonnée.",
+      "source": "manuel-6e-f15-p42"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-036",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-phrase-complexe-liens",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les mots de la proposition subordonnée.",
+      "mots": [
+        "Hugo",
+        "croit",
+        "que",
+        "le",
+        "trésor",
+        "existe"
+      ],
+      "cibles": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "explication": "La principale est « Hugo croit » ; la subordonnée est « que le trésor existe », introduite par « que ».",
+      "source": "manuel-6e-f15-p42"
+    }
+  ]
+}

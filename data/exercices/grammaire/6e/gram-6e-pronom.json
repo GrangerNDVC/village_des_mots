@@ -1,0 +1,812 @@
+{
+  "module": "gram-6e-pronom",
+  "titre": "Pronoms personnels, possessifs et démonstratifs",
+  "domaine": "grammaire",
+  "niveau": 6,
+  "grade": "page",
+  "version": 1,
+  "description": "Reconnaître les pronoms personnels (personne, nombre, fonction), les employer pour remplacer un groupe nominal, reconnaître les pronoms possessifs et démonstratifs.",
+  "rappel": {
+    "titre": "Les pronoms personnels, possessifs et démonstratifs",
+    "points": [
+      {
+        "mot": "pronom",
+        "definition": "Un pronom remplace un nom ou un groupe nominal déjà utilisé. Il évite les répétitions.",
+        "exemple": "Plume range sa cabane, puis il la nettoie."
+      },
+      {
+        "mot": "pronoms personnels sujets",
+        "definition": "Ils varient selon la personne, le genre et le nombre : je, tu, il, elle, on, nous, vous, ils, elles. « je » et « nous » : 1re personne ; « tu » et « vous » : 2e personne ; il, elle, on, ils, elles : 3e personne.",
+        "exemple": "Nous cueillons des baies."
+      },
+      {
+        "mot": "pronoms personnels compléments",
+        "definition": "Ils se placent avant le verbe. COD : le, la, les. COI : lui, leur. On trouve aussi me, te, nous, vous.",
+        "exemple": "Hugo les range. Léa lui parle."
+      },
+      {
+        "mot": "pronoms possessifs",
+        "definition": "Ils remplacent un nom précédé d’un déterminant possessif : le mien, la tienne, le sien, la nôtre, les vôtres, le leur…",
+        "exemple": "Ma lanterne est neuve, la tienne est vieille."
+      },
+      {
+        "mot": "pronoms démonstratifs",
+        "definition": "Ils remplacent un nom précédé d’un déterminant démonstratif : celui, celle, ceux, celles, celui-ci, celui-là, ce, cela.",
+        "exemple": "Cette cabane est plus grande que celle de Hugo."
+      }
+    ]
+  },
+  "competences": [
+    "gram-6e-pronom-personnel-forme",
+    "gram-6e-pronom-personnel-reprise",
+    "gram-6e-pronom-possessif-demonstratif"
+  ],
+  "exercices": [
+    {
+      "id": "gram-6e-pronom-001",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-pronom-personnel-forme",
+      "difficulte": 1,
+      "consigne": "Quel mot est un pronom personnel ?",
+      "enonce": "Elle ouvre la porte.",
+      "choix": [
+        "Elle",
+        "ouvre",
+        "la",
+        "porte"
+      ],
+      "reponse": 0,
+      "explication": "« Elle » remplace une personne et fait l’action de « ouvre » : c’est un pronom personnel sujet.",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-002",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-pronom-personnel-forme",
+      "difficulte": 1,
+      "consigne": "Clique sur le pronom personnel sujet.",
+      "mots": [
+        "Nous",
+        "cueillons",
+        "des",
+        "baies"
+      ],
+      "cibles": [
+        0
+      ],
+      "explication": "« Nous » fait l’action de « cueillons » : c’est le pronom personnel sujet.",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-003",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-pronom-personnel-forme",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "« Ils » est un pronom personnel de la 3e personne du pluriel.",
+      "reponse": true,
+      "explication": "« ils » désigne plusieurs personnes ou choses dont on parle : 3e personne du pluriel.",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-004",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-pronom-personnel-forme",
+      "difficulte": 1,
+      "consigne": "Recopie le pronom personnel sujet.",
+      "enonce": "Tu chantes très bien.",
+      "reponses_acceptees": [
+        "Tu"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« Tu » est un pronom personnel de la 2e personne du singulier : il est sujet de « chantes ».",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-005",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-pronom-personnel-forme",
+      "difficulte": 2,
+      "consigne": "À quelle personne est le pronom « vous » ?",
+      "enonce": "Plume dit à Hugo et à Léa : « Vous êtes sages. »",
+      "choix": [
+        "1re personne du singulier",
+        "2e personne du pluriel",
+        "3e personne du pluriel",
+        "3e personne du singulier"
+      ],
+      "reponse": 1,
+      "explication": "Plume parle à plusieurs personnes : « vous » est de la 2e personne du pluriel.",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-006",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-pronom-personnel-forme",
+      "difficulte": 2,
+      "consigne": "Classe ces pronoms selon leur personne.",
+      "elements": [
+        "je",
+        "tu",
+        "elle",
+        "nous",
+        "vous",
+        "ils"
+      ],
+      "categories": [
+        "1re personne",
+        "2e personne",
+        "3e personne"
+      ],
+      "solution": {
+        "je": 0,
+        "tu": 1,
+        "elle": 2,
+        "nous": 0,
+        "vous": 1,
+        "ils": 2
+      },
+      "explication": "1re personne : je, nous. 2e personne : tu, vous. 3e personne : il, elle, on, ils, elles.",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-007",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-pronom-personnel-forme",
+      "difficulte": 2,
+      "consigne": "Complète la phrase.",
+      "enonce": "« Nous » est de la {{1}} personne du {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "1re",
+            "2e",
+            "3e"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "singulier",
+            "pluriel"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "« nous » désigne celui qui parle et d’autres personnes : 1re personne du pluriel.",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-008",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-pronom-personnel-forme",
+      "difficulte": 2,
+      "consigne": "Remplace « Léa et Hugo » par un pronom personnel sujet.",
+      "enonce": "Léa et Hugo cueillent des baies.",
+      "reponses_acceptees": [
+        "Ils cueillent des baies.",
+        "Ils cueillent des baies"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "Un groupe qui réunit une fille et un garçon se remplace par le masculin pluriel « Ils ».",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-009",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-pronom-personnel-forme",
+      "difficulte": 2,
+      "consigne": "Corrige le pronom sujet qui ne convient pas.",
+      "phrase_fautive": "Léa et Julie sont arrivées : ils sourient.",
+      "corrections_acceptees": [
+        "Léa et Julie sont arrivées : elles sourient."
+      ],
+      "explication": "« Léa et Julie » est féminin pluriel : le pronom est « elles ».",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-010",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-pronom-personnel-forme",
+      "difficulte": 2,
+      "consigne": "Dans quelle phrase « la » est-il un pronom personnel ?",
+      "choix": [
+        "La lune brille.",
+        "Hugo la regarde.",
+        "Plume ouvre la porte.",
+        "La forêt dort."
+      ],
+      "reponse": 1,
+      "explication": "Dans « Hugo la regarde », « la » remplace un nom et complète le verbe : c’est un pronom. Dans les autres phrases, il précède un nom : c’est un article.",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-011",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-6e-pronom-personnel-forme",
+      "difficulte": 3,
+      "consigne": "Quelle est la fonction du pronom entre crochets ?",
+      "elements": [
+        "[Elle] sourit.",
+        "Léa [le] regarde.",
+        "Hugo [lui] parle.",
+        "[Nous] rions.",
+        "Plume [la] cherche.",
+        "Léa [leur] répond."
+      ],
+      "categories": [
+        "sujet",
+        "COD",
+        "COI"
+      ],
+      "solution": {
+        "[Elle] sourit.": 0,
+        "Léa [le] regarde.": 1,
+        "Hugo [lui] parle.": 2,
+        "[Nous] rions.": 0,
+        "Plume [la] cherche.": 1,
+        "Léa [leur] répond.": 2
+      },
+      "explication": "Sujet : il fait l’action (elle, nous). COD : complément direct (le, la). COI : complément introduit par « à » (lui, leur).",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-012",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-pronom-personnel-forme",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les pronoms personnels.",
+      "mots": [
+        "Ils",
+        "les",
+        "aident",
+        "et",
+        "elle",
+        "leur",
+        "sourit"
+      ],
+      "cibles": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "explication": "« Ils » et « elle » sont sujets ; « les » est COD et « leur » est COI. Ce sont tous des pronoms personnels.",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-013",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-pronom-personnel-reprise",
+      "difficulte": 1,
+      "consigne": "Quels mots le pronom « ils » remplace-t-il ?",
+      "enonce": "Les lutins rangent leurs lanternes, puis ils les éteignent.",
+      "choix": [
+        "Les lutins",
+        "leurs lanternes",
+        "Les lutins et leurs lanternes",
+        "puis"
+      ],
+      "reponse": 0,
+      "explication": "« ils » est sujet de « éteignent » et reprend « Les lutins ».",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-014",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-pronom-personnel-reprise",
+      "difficulte": 1,
+      "consigne": "Clique sur le pronom qui remplace « Plume ».",
+      "mots": [
+        "Plume",
+        "range",
+        "sa",
+        "cabane",
+        "et",
+        "il",
+        "dort"
+      ],
+      "cibles": [
+        5
+      ],
+      "explication": "« il » reprend « Plume » pour éviter de le répéter.",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-015",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-pronom-personnel-reprise",
+      "difficulte": 1,
+      "consigne": "Clique sur le pronom personnel COD.",
+      "mots": [
+        "Plume",
+        "cherche",
+        "la",
+        "clé",
+        "et",
+        "il",
+        "la",
+        "trouve"
+      ],
+      "cibles": [
+        6
+      ],
+      "explication": "Le premier « la » est un article (la clé). Le second « la » remplace « la clé » : c’est le pronom COD.",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-016",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-pronom-personnel-reprise",
+      "difficulte": 1,
+      "consigne": "Écris le pronom sujet qui remplace « Les lutins ».",
+      "enonce": "Les lutins dorment.",
+      "reponses_acceptees": [
+        "Ils",
+        "ils"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« Les lutins » est masculin pluriel : on le remplace par « Ils ».",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-017",
+      "type": "qcm",
+      "forme": "completer",
+      "competence": "gram-6e-pronom-personnel-reprise",
+      "difficulte": 2,
+      "consigne": "Quel pronom remplace « la porte » ?",
+      "enonce": "Plume ferme la porte. → Plume … ferme.",
+      "choix": [
+        "le",
+        "la",
+        "les",
+        "lui"
+      ],
+      "reponse": 1,
+      "explication": "« la porte » est un COD féminin singulier : on le remplace par « la », placé avant le verbe.",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-018",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-pronom-personnel-reprise",
+      "difficulte": 2,
+      "consigne": "Par quel pronom remplace-t-on chaque groupe nominal COD ?",
+      "elements": [
+        "le coffre",
+        "la lanterne",
+        "les clés",
+        "le chapeau",
+        "la clé",
+        "les lutins"
+      ],
+      "categories": [
+        "le",
+        "la",
+        "les"
+      ],
+      "solution": {
+        "le coffre": 0,
+        "la lanterne": 1,
+        "les clés": 2,
+        "le chapeau": 0,
+        "la clé": 1,
+        "les lutins": 2
+      },
+      "explication": "Le COD masculin singulier devient « le », féminin singulier « la », pluriel « les ».",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-019",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-pronom-personnel-reprise",
+      "difficulte": 2,
+      "consigne": "Complète avec les bons pronoms.",
+      "enonce": "Hugo parle à Léa, il {{1}} offre une fleur. Plume cherche ses clés et il {{2}} trouve.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "lui",
+            "le",
+            "leur"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "la",
+            "les",
+            "lui"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "« offre une fleur à Léa » : « lui » (COI). « trouve ses clés » : « les » (COD pluriel).",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-020",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-pronom-personnel-reprise",
+      "difficulte": 2,
+      "consigne": "Remplace « la porte » par un pronom.",
+      "enonce": "Plume ferme la porte.",
+      "reponses_acceptees": [
+        "Plume la ferme.",
+        "Plume la ferme"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "Le pronom COD se place avant le verbe : « Plume la ferme. »",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-021",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-pronom-personnel-reprise",
+      "difficulte": 2,
+      "consigne": "Corrige le pronom : il doit remplacer « les clés ».",
+      "phrase_fautive": "Léa cherche les clés et elle le trouve.",
+      "corrections_acceptees": [
+        "Léa cherche les clés et elle les trouve."
+      ],
+      "explication": "« les clés » est pluriel : le pronom COD est « les ».",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-022",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-pronom-personnel-reprise",
+      "difficulte": 2,
+      "consigne": "Par quel pronom remplace-t-on « à ses amis » ?",
+      "enonce": "Hugo parle à ses amis.",
+      "choix": [
+        "les",
+        "leur",
+        "lui",
+        "eux"
+      ],
+      "reponse": 1,
+      "explication": "« à ses amis » est un COI pluriel : on le remplace par « leur ».",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-023",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-pronom-personnel-reprise",
+      "difficulte": 3,
+      "consigne": "Remplace « Léa » par un pronom sujet et « les baies » par un pronom COD.",
+      "enonce": "Léa mange les baies.",
+      "reponses_acceptees": [
+        "Elle les mange.",
+        "Elle les mange"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« Léa » devient « Elle » ; « les baies » devient « les », placé avant le verbe.",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-024",
+      "type": "ordre",
+      "forme": "contexte",
+      "competence": "gram-6e-pronom-personnel-reprise",
+      "difficulte": 3,
+      "consigne": "Remets les mots dans l’ordre pour former une phrase.",
+      "elements_melanges": [
+        "range",
+        "Il",
+        "les"
+      ],
+      "reponse": [
+        "Il",
+        "les",
+        "range"
+      ],
+      "explication": "Le pronom COD se place avant le verbe : « Il les range ».",
+      "source": "manuel-6e-f5-p16"
+    },
+    {
+      "id": "gram-6e-pronom-025",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-pronom-possessif-demonstratif",
+      "difficulte": 1,
+      "consigne": "Quel mot est un pronom démonstratif ?",
+      "enonce": "Cette cabane est plus grande que celle de Hugo.",
+      "choix": [
+        "Cette",
+        "cabane",
+        "celle",
+        "grande"
+      ],
+      "reponse": 2,
+      "explication": "« celle » remplace « la cabane » : c’est un pronom démonstratif.",
+      "source": "manuel-6e-f6-p18"
+    },
+    {
+      "id": "gram-6e-pronom-026",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-pronom-possessif-demonstratif",
+      "difficulte": 1,
+      "consigne": "Clique sur tous les mots du pronom possessif.",
+      "mots": [
+        "Ma",
+        "cabane",
+        "est",
+        "petite",
+        "mais",
+        "la",
+        "tienne",
+        "est",
+        "grande"
+      ],
+      "cibles": [
+        5,
+        6
+      ],
+      "explication": "« la tienne » remplace « ta cabane » : c’est un pronom possessif.",
+      "source": "manuel-6e-f6-p18"
+    },
+    {
+      "id": "gram-6e-pronom-027",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-pronom-possessif-demonstratif",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "« celui-ci » est un pronom démonstratif.",
+      "reponse": true,
+      "explication": "celui, celle, ceux, celles, celui-ci, celui-là… sont des pronoms démonstratifs.",
+      "source": "manuel-6e-f6-p18"
+    },
+    {
+      "id": "gram-6e-pronom-028",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-pronom-possessif-demonstratif",
+      "difficulte": 1,
+      "consigne": "Recopie le pronom démonstratif.",
+      "enonce": "Ces baies sont mûres, celles de Hugo sont vertes.",
+      "reponses_acceptees": [
+        "celles"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« celles » remplace « les baies » : c’est un pronom démonstratif.",
+      "source": "manuel-6e-f6-p18"
+    },
+    {
+      "id": "gram-6e-pronom-029",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-pronom-possessif-demonstratif",
+      "difficulte": 2,
+      "consigne": "Par quel pronom possessif remplace-t-on « ta lanterne » ?",
+      "enonce": "Ma lanterne est neuve, ta lanterne est vieille.",
+      "choix": [
+        "la mienne",
+        "la tienne",
+        "la sienne",
+        "la nôtre"
+      ],
+      "reponse": 1,
+      "explication": "« ta lanterne » (2e personne, féminin singulier) devient « la tienne ».",
+      "source": "manuel-6e-f6-p18"
+    },
+    {
+      "id": "gram-6e-pronom-030",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-pronom-possessif-demonstratif",
+      "difficulte": 2,
+      "consigne": "Ce pronom est-il démonstratif ou possessif ?",
+      "elements": [
+        "celui",
+        "le mien",
+        "ceux",
+        "la sienne",
+        "celle-ci",
+        "les nôtres"
+      ],
+      "categories": [
+        "démonstratif",
+        "possessif"
+      ],
+      "solution": {
+        "celui": 0,
+        "le mien": 1,
+        "ceux": 0,
+        "la sienne": 1,
+        "celle-ci": 0,
+        "les nôtres": 1
+      },
+      "explication": "Démonstratifs : celui, celle, ceux, celles… Possessifs : le mien, le tien, le sien, le nôtre, le vôtre, le leur…",
+      "source": "manuel-6e-f6-p18"
+    },
+    {
+      "id": "gram-6e-pronom-031",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-pronom-possessif-demonstratif",
+      "difficulte": 2,
+      "consigne": "Complète avec les bons pronoms.",
+      "enonce": "Cette cabane est plus grande que {{1}} de Hugo. Ces clés sont à moi, ce sont {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "celui",
+            "celle",
+            "ceux"
+          ],
+          "reponse": 1
+        },
+        {
+          "id": 2,
+          "choix": [
+            "les miennes",
+            "la mienne",
+            "les siennes"
+          ],
+          "reponse": 0
+        }
+      ],
+      "explication": "« cabane » est féminin singulier : « celle ». « clés » est féminin pluriel et appartient à moi : « les miennes ».",
+      "source": "manuel-6e-f6-p18"
+    },
+    {
+      "id": "gram-6e-pronom-032",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-pronom-possessif-demonstratif",
+      "difficulte": 2,
+      "consigne": "Remplace « ses clés » par un pronom possessif.",
+      "enonce": "Mes clés sont ici, ses clés sont là-bas.",
+      "reponses_acceptees": [
+        "Mes clés sont ici, les siennes sont là-bas.",
+        "Mes clés sont ici, les siennes sont là-bas"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« ses clés » (3e personne, féminin pluriel) devient « les siennes ».",
+      "source": "manuel-6e-f6-p18"
+    },
+    {
+      "id": "gram-6e-pronom-033",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-pronom-possessif-demonstratif",
+      "difficulte": 2,
+      "consigne": "Corrige le pronom possessif.",
+      "phrase_fautive": "Nos dessins ressemblent aux vôtre.",
+      "corrections_acceptees": [
+        "Nos dessins ressemblent aux vôtres."
+      ],
+      "explication": "Le pronom possessif s’accorde avec le nom qu’il remplace : « dessins » est pluriel, donc « aux vôtres ».",
+      "source": "manuel-6e-f6-p18"
+    },
+    {
+      "id": "gram-6e-pronom-034",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-pronom-possessif-demonstratif",
+      "difficulte": 2,
+      "consigne": "Dans quelle phrase « son » est-il un déterminant et non un pronom ?",
+      "choix": [
+        "Mon sac est lourd, le sien est léger.",
+        "Hugo range son sac.",
+        "Ta clé est ici, la sienne est là.",
+        "Ces livres sont à lui : ce sont les siens."
+      ],
+      "reponse": 1,
+      "explication": "Dans « Hugo range son sac », « son » précède un nom : c’est un déterminant possessif. Dans les autres phrases, « le sien », « la sienne », « les siens » remplacent un nom : ce sont des pronoms.",
+      "source": "manuel-6e-f6-p18"
+    },
+    {
+      "id": "gram-6e-pronom-035",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-6e-pronom-possessif-demonstratif",
+      "difficulte": 3,
+      "consigne": "Le mot entre crochets est-il un déterminant ou un pronom ?",
+      "elements": [
+        "[Ce] chat dort.",
+        "[Ce] sont mes clés.",
+        "Hugo préfère [celui-là].",
+        "Plume range [sa] lanterne.",
+        "[Cela] me plaît.",
+        "Léa cherche [la sienne]."
+      ],
+      "categories": [
+        "déterminant",
+        "pronom"
+      ],
+      "solution": {
+        "[Ce] chat dort.": 0,
+        "[Ce] sont mes clés.": 1,
+        "Hugo préfère [celui-là].": 1,
+        "Plume range [sa] lanterne.": 0,
+        "[Cela] me plaît.": 1,
+        "Léa cherche [la sienne].": 1
+      },
+      "explication": "Un déterminant précède un nom (ce chat, sa lanterne). Un pronom remplace un nom ou un groupe (ce sont, celui-là, cela, la sienne).",
+      "source": "manuel-6e-f6-p18"
+    },
+    {
+      "id": "gram-6e-pronom-036",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-pronom-possessif-demonstratif",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les mots des pronoms possessifs et démonstratifs.",
+      "mots": [
+        "Ton",
+        "sac",
+        "est",
+        "lourd",
+        "le",
+        "mien",
+        "est",
+        "léger",
+        "celui",
+        "de",
+        "Léa",
+        "est",
+        "neuf"
+      ],
+      "cibles": [
+        4,
+        5,
+        8
+      ],
+      "explication": "« le mien » remplace « mon sac » (pronom possessif) et « celui » remplace « le sac » (pronom démonstratif). « Ton » est un déterminant.",
+      "source": "manuel-6e-f6-p18"
+    }
+  ]
+}

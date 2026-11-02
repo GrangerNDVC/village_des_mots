@@ -36,6 +36,294 @@
       "domaine": "grammaire",
       "niveau": 6,
       "libelle": "Reconnaître les natures dans une phrase"
+    },
+    {
+      "id": "gram-6e-nom-identifier",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Reconnaître un nom (commun ou propre), son genre et son nombre"
+    },
+    {
+      "id": "gram-6e-groupe-nominal",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Repérer un groupe nominal et son nom noyau"
+    },
+    {
+      "id": "gram-6e-determinant-emploi",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Reconnaître et choisir le bon déterminant"
+    },
+    {
+      "id": "gram-6e-pronom-personnel-forme",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Identifier la personne, le nombre et la fonction d’un pronom personnel"
+    },
+    {
+      "id": "gram-6e-pronom-personnel-reprise",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Employer un pronom personnel pour remplacer un groupe nominal"
+    },
+    {
+      "id": "gram-6e-pronom-possessif-demonstratif",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Reconnaître et employer les pronoms possessifs et démonstratifs"
+    },
+    {
+      "id": "gram-6e-adjectif-identifier",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Reconnaître un adjectif qualificatif et le nom auquel il se rapporte"
+    },
+    {
+      "id": "gram-6e-adjectif-accord",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Accorder l’adjectif en genre et en nombre avec le nom"
+    },
+    {
+      "id": "gram-6e-adjectif-fonction",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Distinguer l’adjectif épithète et l’adjectif attribut du sujet"
+    },
+    {
+      "id": "gram-6e-adverbe-reconnaitre",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Reconnaître un adverbe, le mot qu’il complète et sa catégorie"
+    },
+    {
+      "id": "gram-6e-preposition-emploi",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Reconnaître et employer les prépositions"
+    },
+    {
+      "id": "gram-6e-conjonction-types",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Distinguer les conjonctions de coordination et de subordination"
+    },
+    {
+      "id": "gram-6e-verbe-identifier",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Reconnaître un verbe conjugué, son infinitif, son radical et sa terminaison"
+    },
+    {
+      "id": "gram-6e-verbe-types",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Distinguer verbes d’action, verbes d’état et auxiliaires"
+    },
+    {
+      "id": "gram-6e-groupe-verbal",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Repérer un groupe verbal et son verbe noyau"
+    },
+    {
+      "id": "gram-6e-epithete-reconnaitre",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Reconnaître l’épithète (adjectif ou participe passé) et le nom qu’elle qualifie"
+    },
+    {
+      "id": "gram-6e-cdn-reconnaitre",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Reconnaître le complément du nom et la préposition qui l’introduit"
+    },
+    {
+      "id": "gram-6e-cdn-nature",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Identifier la nature et le sens d’un complément du nom, et le distinguer de l’épithète"
+    },
+    {
+      "id": "gram-6e-sujet-identifier",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Repérer le sujet d’un verbe, y compris le sujet inversé"
+    },
+    {
+      "id": "gram-6e-sujet-nature",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Identifier la classe grammaticale du sujet (nom, groupe nominal, pronom, infinitif)"
+    },
+    {
+      "id": "gram-6e-attribut-sujet",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Reconnaître l’attribut du sujet et le verbe qui l’introduit"
+    },
+    {
+      "id": "gram-6e-cdv-reperer",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Repérer le complément du verbe, son caractère essentiel et sa place"
+    },
+    {
+      "id": "gram-6e-cdv-nature",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Identifier la classe grammaticale du complément du verbe (nom, groupe nominal, pronom, infinitif)"
+    },
+    {
+      "id": "gram-6e-cod-coi-cos",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Distinguer le complément d’objet direct (COD), indirect (COI) et second (COS)"
+    },
+    {
+      "id": "gram-6e-cc-reperer",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Reconnaître un complément circonstanciel (supprimable et déplaçable) et le distinguer du complément du verbe"
+    },
+    {
+      "id": "gram-6e-cc-nature",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Identifier la classe grammaticale du complément circonstanciel (adverbe, groupe nominal, groupe infinitif)"
+    },
+    {
+      "id": "gram-6e-cc-valeur",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Distinguer les compléments circonstanciels de temps, de lieu, de moyen et de manière"
+    },
+    {
+      "id": "gram-6e-phrase-simple",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Reconnaître une phrase simple, son verbe conjugué, son sujet et son prédicat"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-reperer",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Distinguer phrase simple et phrase complexe en comptant les propositions"
+    },
+    {
+      "id": "gram-6e-phrase-complexe-liens",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Distinguer les propositions juxtaposées, coordonnées et subordonnées"
+    },
+    {
+      "id": "gram-6e-types-phrase",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Reconnaître les quatre types de phrase (déclaratif, injonctif, exclamatif, interrogatif)"
+    },
+    {
+      "id": "gram-6e-phrase-interrogative",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Reconnaître la phrase interrogative, distinguer l’interrogation totale et partielle et ses niveaux de langue"
+    },
+    {
+      "id": "gram-6e-forme-negative",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "libelle": "Reconnaître la forme affirmative et la forme négative, et employer la négation"
+    },
+    {
+      "id": "gram-5e-nom-gn",
+      "domaine": "grammaire",
+      "niveau": 5,
+      "libelle": "Identifier le nom, le groupe nominal et ses expansions, distinguer noms propres, communs, animés et non animés"
+    },
+    {
+      "id": "gram-5e-article",
+      "domaine": "grammaire",
+      "niveau": 5,
+      "libelle": "Reconnaître et employer les articles définis, indéfinis, partitifs et définis contractés"
+    },
+    {
+      "id": "gram-5e-determinant-demonstratif-possessif",
+      "domaine": "grammaire",
+      "niveau": 5,
+      "libelle": "Reconnaître et employer les déterminants démonstratifs et possessifs"
+    },
+    {
+      "id": "gram-5e-pronom-personnel",
+      "domaine": "grammaire",
+      "niveau": 5,
+      "libelle": "Comprendre le rôle du pronom et reconnaître les pronoms personnels (personne, fonction)"
+    },
+    {
+      "id": "gram-5e-pronom-demonstratif-possessif",
+      "domaine": "grammaire",
+      "niveau": 5,
+      "libelle": "Reconnaître les pronoms démonstratifs et possessifs et les distinguer des déterminants"
+    },
+    {
+      "id": "gram-5e-pronom-relatif-interrogatif",
+      "domaine": "grammaire",
+      "niveau": 5,
+      "libelle": "Reconnaître les pronoms relatifs et interrogatifs"
+    },
+    {
+      "id": "gram-5e-adjectif-accord",
+      "domaine": "grammaire",
+      "niveau": 5,
+      "libelle": "Reconnaître l’adjectif qualificatif, le nom ou le pronom auquel il se rapporte, et l’accorder"
+    },
+    {
+      "id": "gram-5e-adjectif-comparatif",
+      "domaine": "grammaire",
+      "niveau": 5,
+      "libelle": "Reconnaître et former le comparatif (supériorité, égalité, infériorité) et son complément"
+    },
+    {
+      "id": "gram-5e-adjectif-superlatif",
+      "domaine": "grammaire",
+      "niveau": 5,
+      "libelle": "Reconnaître le superlatif relatif et absolu et les degrés d’intensité de l’adjectif"
+    },
+    {
+      "id": "gram-5e-preposition-emploi",
+      "domaine": "grammaire",
+      "niveau": 5,
+      "libelle": "Reconnaître et employer les prépositions et les locutions prépositives"
+    },
+    {
+      "id": "gram-5e-conjonction-types",
+      "domaine": "grammaire",
+      "niveau": 5,
+      "libelle": "Distinguer et employer les conjonctions de coordination et de subordination"
+    },
+    {
+      "id": "gram-5e-adverbe-categories",
+      "domaine": "grammaire",
+      "niveau": 5,
+      "libelle": "Reconnaître l’adverbe et sa catégorie (circonstanciel, intensité ou quantité, liaison, négation)"
+    },
+    {
+      "id": "gram-5e-epithete-place",
+      "domaine": "grammaire",
+      "niveau": 5,
+      "libelle": "Reconnaître l’épithète (adjectif ou participe), sa place et son effet sur le sens"
+    },
+    {
+      "id": "gram-5e-cdn-nature",
+      "domaine": "grammaire",
+      "niveau": 5,
+      "libelle": "Reconnaître le complément du nom, sa préposition, sa classe grammaticale et l’information qu’il apporte"
+    },
+    {
+      "id": "gram-5e-relative-reperer",
+      "domaine": "grammaire",
+      "niveau": 5,
+      "libelle": "Reconnaître la subordonnée relative, son antécédent, le pronom relatif et leurs fonctions"
     }
   ]
 }

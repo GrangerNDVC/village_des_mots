@@ -1,0 +1,812 @@
+{
+  "module": "gram-6e-complements-circ",
+  "titre": "Les compléments circonstanciels : temps, lieu, moyen, manière",
+  "domaine": "grammaire",
+  "niveau": 6,
+  "grade": "page",
+  "version": 1,
+  "description": "Reconnaître un complément circonstanciel (complément de phrase), identifier sa classe grammaticale, distinguer les compléments de temps, de lieu, de moyen et de manière.",
+  "rappel": {
+    "titre": "Les compléments de phrase : les compléments circonstanciels",
+    "points": [
+      {
+        "mot": "complément circonstanciel",
+        "definition": "Les compléments de phrase complètent la phrase dans son ensemble. Comme ils expriment les circonstances d’une action (temps, lieu, moyen, manière…), on les appelle aussi compléments circonstanciels. Ils peuvent, le plus souvent, être supprimés et déplacés.",
+        "exemple": "Hier, les lutins ont chanté dans la forêt."
+      },
+      {
+        "mot": "classe grammaticale du complément circonstanciel",
+        "definition": "Le complément circonstanciel peut être un groupe nominal, un groupe infinitif, un adverbe… Le groupe nominal peut être précédé d’une préposition : à, en, sur, par, avec, sans, pendant…",
+        "exemple": "Plume sort demain. Plume dort sur le canapé. Plume lit chaque soir."
+      },
+      {
+        "mot": "complément de temps",
+        "definition": "Le complément circonstanciel de temps situe les faits dans le temps, indique leur durée ou leur fréquence. Questions : Quand ? Pendant combien de temps ? À quelle fréquence ?",
+        "exemple": "Pendant trois jours, il a plu."
+      },
+      {
+        "mot": "complément de lieu",
+        "definition": "Le complément circonstanciel de lieu situe les faits, les êtres et les choses dans l’espace. Questions : Où ? D’où ? Par où ?",
+        "exemple": "Les lutins dorment dans la tour."
+      },
+      {
+        "mot": "complément de moyen",
+        "definition": "Le complément circonstanciel de moyen indique avec quel objet l’action est réalisée. Question : Au moyen de quoi ?",
+        "exemple": "Hugo ouvre la porte avec une clé."
+      },
+      {
+        "mot": "complément de manière",
+        "definition": "Le complément circonstanciel de manière indique de quelle façon l’action est réalisée. Question : De quelle manière ? Il peut être un groupe nominal ou un adverbe en -ment.",
+        "exemple": "Léa écoute avec attention. Léa écoute attentivement."
+      }
+    ]
+  },
+  "competences": [
+    "gram-6e-cc-reperer",
+    "gram-6e-cc-nature",
+    "gram-6e-cc-valeur"
+  ],
+  "exercices": [
+    {
+      "id": "gram-6e-complements-circ-001",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cc-reperer",
+      "difficulte": 1,
+      "consigne": "Quel groupe de mots est un complément circonstanciel ?",
+      "enonce": "Le renard dort dans sa tanière.",
+      "choix": [
+        "Le renard",
+        "dort",
+        "dans sa tanière",
+        "sa"
+      ],
+      "reponse": 2,
+      "explication": "« dans sa tanière » indique où dort le renard et peut être supprimé : c’est un complément circonstanciel.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-002",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cc-reperer",
+      "difficulte": 1,
+      "consigne": "Clique sur tous les mots du complément circonstanciel.",
+      "mots": [
+        "Plume",
+        "chante",
+        "pendant",
+        "la",
+        "nuit"
+      ],
+      "cibles": [
+        2,
+        3,
+        4
+      ],
+      "explication": "« pendant la nuit » indique quand Plume chante et peut être supprimé : c’est un complément circonstanciel.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-003",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cc-reperer",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Un complément circonstanciel peut être supprimé.",
+      "reponse": true,
+      "explication": "Un complément circonstanciel n’est pas indispensable : on peut le supprimer.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-004",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-cc-reperer",
+      "difficulte": 1,
+      "consigne": "Recopie le complément circonstanciel.",
+      "enonce": "Les lutins dorment dans la tour.",
+      "reponses_acceptees": [
+        "dans la tour"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« dans la tour » indique le lieu et peut être supprimé : c’est le complément circonstanciel.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-005",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-cc-reperer",
+      "difficulte": 2,
+      "consigne": "Quelle phrase contient un complément circonstanciel ?",
+      "choix": [
+        "Plume cueille des baies.",
+        "Plume sourit à Hugo.",
+        "Plume dort sous un arbre.",
+        "Plume adore chanter."
+      ],
+      "reponse": 2,
+      "explication": "Dans « Plume dort sous un arbre », « sous un arbre » indique le lieu et peut être supprimé. Dans les autres phrases, les groupes qui suivent le verbe sont des compléments du verbe.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-006",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cc-reperer",
+      "difficulte": 2,
+      "consigne": "Le groupe entre crochets est-il un complément circonstanciel ou un complément du verbe ?",
+      "elements": [
+        "Les lutins dorment [dans la tour].",
+        "Les lutins construisent [une cabane].",
+        "Plume cueille [des baies] dans la forêt.",
+        "Plume cueille des baies [dans la forêt].",
+        "Hugo parle [à Léa] ce soir.",
+        "Hugo parle à Léa [ce soir]."
+      ],
+      "categories": [
+        "complément circonstanciel",
+        "complément du verbe"
+      ],
+      "solution": {
+        "Les lutins dorment [dans la tour].": 0,
+        "Les lutins construisent [une cabane].": 1,
+        "Plume cueille [des baies] dans la forêt.": 1,
+        "Plume cueille des baies [dans la forêt].": 0,
+        "Hugo parle [à Léa] ce soir.": 1,
+        "Hugo parle à Léa [ce soir].": 0
+      },
+      "explication": "Un complément circonstanciel peut être supprimé et déplacé (dans la tour, dans la forêt, ce soir). Un complément du verbe est indispensable (une cabane, des baies, à Léa).",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-007",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-cc-reperer",
+      "difficulte": 2,
+      "consigne": "Complète la phrase.",
+      "enonce": "Dans « Plume veille pendant la nuit. », on peut {{1}} « pendant la nuit » ou le {{2}} : « Pendant la nuit, Plume veille. »",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "supprimer",
+            "répéter",
+            "accorder"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "déplacer",
+            "remplacer",
+            "accorder"
+          ],
+          "reponse": 0
+        }
+      ],
+      "explication": "Un complément circonstanciel n’est pas indispensable : on peut le supprimer ou le déplacer.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-008",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-cc-reperer",
+      "difficulte": 2,
+      "consigne": "Déplace le complément circonstanciel au début de la phrase.",
+      "enonce": "Les lutins dansent dans la clairière.",
+      "reponses_acceptees": [
+        "Dans la clairière, les lutins dansent.",
+        "Dans la clairière, les lutins dansent",
+        "Dans la clairière les lutins dansent.",
+        "Dans la clairière les lutins dansent"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "Le complément circonstanciel peut être déplacé : « Dans la clairière, les lutins dansent. »",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-009",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-cc-reperer",
+      "difficulte": 2,
+      "consigne": "Combien de compléments circonstanciels cette phrase contient-elle ?",
+      "enonce": "Demain, les lutins partiront dans la forêt avec une lanterne.",
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reponse": 2,
+      "explication": "« Demain », « dans la forêt » et « avec une lanterne » peuvent être supprimés ou déplacés : il y a trois compléments circonstanciels.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-010",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-cc-reperer",
+      "difficulte": 2,
+      "consigne": "Corrige la phrase : il manque une virgule après le complément circonstanciel placé en début de phrase.",
+      "phrase_fautive": "Dans la clairière les lutins dansent.",
+      "corrections_acceptees": [
+        "Dans la clairière, les lutins dansent."
+      ],
+      "explication": "Quand un complément circonstanciel est placé au début de la phrase, on le sépare du reste par une virgule.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-011",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-cc-reperer",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les mots des compléments circonstanciels.",
+      "mots": [
+        "Hier",
+        "Plume",
+        "a",
+        "cueilli",
+        "des",
+        "baies",
+        "dans",
+        "la",
+        "forêt"
+      ],
+      "cibles": [
+        0,
+        6,
+        7,
+        8
+      ],
+      "explication": "« Hier » et « dans la forêt » peuvent être supprimés ou déplacés : ce sont des compléments circonstanciels. « des baies » est le complément du verbe.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-012",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-6e-cc-reperer",
+      "difficulte": 3,
+      "consigne": "Le groupe entre crochets est-il un complément circonstanciel ?",
+      "elements": [
+        "Plume explore [la forêt].",
+        "Plume chante [dans la forêt].",
+        "Hugo adore [le soir].",
+        "Hugo rentre [le soir].",
+        "Léa pense [à la fête].",
+        "Léa danse [à la fête]."
+      ],
+      "categories": [
+        "complément circonstanciel",
+        "pas un complément circonstanciel"
+      ],
+      "solution": {
+        "Plume explore [la forêt].": 1,
+        "Plume chante [dans la forêt].": 0,
+        "Hugo adore [le soir].": 1,
+        "Hugo rentre [le soir].": 0,
+        "Léa pense [à la fête].": 1,
+        "Léa danse [à la fête].": 0
+      },
+      "explication": "« dans la forêt », « le soir » et « à la fête » sont circonstanciels quand on peut les supprimer. Ce sont des compléments du verbe quand ils sont indispensables (explore la forêt, adore le soir, pense à la fête).",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-013",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cc-nature",
+      "difficulte": 1,
+      "consigne": "Quelle est la classe grammaticale du complément circonstanciel ?",
+      "enonce": "Plume avance lentement.",
+      "choix": [
+        "adverbe",
+        "groupe nominal",
+        "groupe infinitif"
+      ],
+      "reponse": 0,
+      "explication": "« lentement » ne change jamais de forme et complète le verbe : c’est un adverbe.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-014",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cc-nature",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Dans « Hugo rentre demain. », le complément circonstanciel « demain » est un adverbe.",
+      "reponse": true,
+      "explication": "« demain » est un mot invariable qui indique le temps : c’est un adverbe.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-015",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cc-nature",
+      "difficulte": 1,
+      "consigne": "Clique sur l’adverbe complément circonstanciel.",
+      "mots": [
+        "Les",
+        "lutins",
+        "dansent",
+        "joyeusement"
+      ],
+      "cibles": [
+        3
+      ],
+      "explication": "« joyeusement » complète le verbe « dansent » et ne change jamais de forme : c’est un adverbe.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-016",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-cc-nature",
+      "difficulte": 1,
+      "consigne": "Recopie le complément circonstanciel : c’est un adverbe.",
+      "enonce": "Plume cherche partout.",
+      "reponses_acceptees": [
+        "partout"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« partout » indique le lieu et ne change jamais de forme : c’est un adverbe.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-017",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cc-nature",
+      "difficulte": 2,
+      "consigne": "Classe les compléments circonstanciels (entre crochets) selon leur classe grammaticale.",
+      "elements": [
+        "Plume dort [dans la tour].",
+        "Plume sort [demain].",
+        "Hugo marche [lentement].",
+        "Léa rentre [après la pluie].",
+        "Hugo se repose [pour mieux rêver].",
+        "Léa chante [chaque matin]."
+      ],
+      "categories": [
+        "adverbe",
+        "groupe nominal",
+        "groupe infinitif"
+      ],
+      "solution": {
+        "Plume dort [dans la tour].": 1,
+        "Plume sort [demain].": 0,
+        "Hugo marche [lentement].": 0,
+        "Léa rentre [après la pluie].": 1,
+        "Hugo se repose [pour mieux rêver].": 2,
+        "Léa chante [chaque matin].": 1
+      },
+      "explication": "Un complément circonstanciel peut être un adverbe (demain, lentement), un groupe nominal, avec ou sans préposition (dans la tour, après la pluie, chaque matin) ou un groupe infinitif (pour mieux rêver).",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-018",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cc-nature",
+      "difficulte": 2,
+      "consigne": "Quelle phrase contient un complément circonstanciel formé d’un groupe nominal précédé d’une préposition ?",
+      "choix": [
+        "Plume avance lentement.",
+        "Plume avance sur le chemin.",
+        "Plume avance chaque jour.",
+        "Plume avance demain."
+      ],
+      "reponse": 1,
+      "explication": "« sur le chemin » est un groupe nominal (le chemin) précédé de la préposition « sur ».",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-019",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-cc-nature",
+      "difficulte": 2,
+      "consigne": "Complète les phrases.",
+      "enonce": "Dans « Hugo travaille avec soin. », le complément circonstanciel est {{1}} ; dans « Hugo travaille soigneusement. », le complément circonstanciel est {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "un groupe nominal",
+            "un adverbe",
+            "un groupe infinitif"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "un groupe nominal",
+            "un adverbe",
+            "un groupe infinitif"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "« avec soin » est un groupe nominal précédé de la préposition « avec ». « soigneusement » est un adverbe.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-020",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-cc-nature",
+      "difficulte": 2,
+      "consigne": "Remplace le groupe nominal complément circonstanciel par un adverbe en -ment.",
+      "enonce": "Plume répond avec politesse.",
+      "reponses_acceptees": [
+        "Plume répond poliment.",
+        "Plume répond poliment"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« avec politesse » peut être remplacé par l’adverbe « poliment ».",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-021",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-cc-nature",
+      "difficulte": 2,
+      "consigne": "Corrige la phrase : le complément circonstanciel de manière doit être un adverbe.",
+      "phrase_fautive": "Il répond courageux.",
+      "corrections_acceptees": [
+        "Il répond courageusement."
+      ],
+      "explication": "Le complément circonstanciel de manière est ici un adverbe en -ment : « courageusement ».",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-022",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-cc-nature",
+      "difficulte": 2,
+      "consigne": "Quelle est la classe grammaticale du complément circonstanciel ?",
+      "enonce": "Pour y voir clair, Plume allume sa lanterne.",
+      "choix": [
+        "adverbe",
+        "groupe nominal",
+        "groupe infinitif"
+      ],
+      "reponse": 2,
+      "explication": "« Pour y voir clair » est un groupe formé autour d’un verbe à l’infinitif (voir) : c’est un groupe infinitif.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-023",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-6e-cc-nature",
+      "difficulte": 3,
+      "consigne": "Quelle est la classe grammaticale du complément circonstanciel de chaque phrase ?",
+      "elements": [
+        "Parfois, Plume rêve.",
+        "Chaque soir, Plume lit.",
+        "Avant de dormir, Plume écoute le vent.",
+        "Plume lit près du feu."
+      ],
+      "categories": [
+        "adverbe",
+        "groupe nominal",
+        "groupe infinitif"
+      ],
+      "solution": {
+        "Parfois, Plume rêve.": 0,
+        "Chaque soir, Plume lit.": 1,
+        "Avant de dormir, Plume écoute le vent.": 2,
+        "Plume lit près du feu.": 1
+      },
+      "explication": "Parfois : adverbe. Chaque soir, près du feu : groupes nominaux. Avant de dormir : groupe infinitif.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-024",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-cc-nature",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les mots des trois compléments circonstanciels.",
+      "mots": [
+        "Souvent",
+        "les",
+        "lutins",
+        "chantent",
+        "dans",
+        "la",
+        "forêt",
+        "pour",
+        "s’amuser"
+      ],
+      "cibles": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "explication": "Les trois compléments sont l’adverbe « Souvent », le groupe nominal « dans la forêt » et le groupe infinitif « pour s’amuser ».",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-025",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cc-valeur",
+      "difficulte": 1,
+      "consigne": "Quelle question permet de trouver un complément circonstanciel de lieu ?",
+      "choix": [
+        "Quand ?",
+        "Où ?",
+        "De quelle manière ?",
+        "Au moyen de quoi ?"
+      ],
+      "reponse": 1,
+      "explication": "Le complément de lieu répond à la question « Où ? » (ou « D’où ? », « Par où ? »).",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-026",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cc-valeur",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Le complément circonstanciel de moyen répond à la question « Au moyen de quoi ? ».",
+      "reponse": true,
+      "explication": "Le complément circonstanciel de moyen indique avec quel objet l’action est réalisée : « Au moyen de quoi ? »",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-027",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cc-valeur",
+      "difficulte": 1,
+      "consigne": "Clique sur le complément circonstanciel de temps.",
+      "mots": [
+        "Plume",
+        "sort",
+        "ce",
+        "soir"
+      ],
+      "cibles": [
+        2,
+        3
+      ],
+      "explication": "« ce soir » répond à la question « Quand ? » : c’est un complément circonstanciel de temps.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-028",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-cc-valeur",
+      "difficulte": 1,
+      "consigne": "Recopie le complément circonstanciel de lieu.",
+      "enonce": "Le chat dort sur le canapé.",
+      "reponses_acceptees": [
+        "sur le canapé"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« sur le canapé » répond à la question « Où ? » : c’est un complément circonstanciel de lieu.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-029",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cc-valeur",
+      "difficulte": 2,
+      "consigne": "Le complément circonstanciel (entre crochets) exprime-t-il le temps, le lieu, le moyen ou la manière ?",
+      "elements": [
+        "Plume travaille [avec soin].",
+        "Plume voyage [en bateau].",
+        "Plume arrive [à midi].",
+        "Plume habite [près du lac].",
+        "Plume coupe le pain [avec un couteau].",
+        "Plume répond [sans hésitation]."
+      ],
+      "categories": [
+        "temps",
+        "lieu",
+        "moyen",
+        "manière"
+      ],
+      "solution": {
+        "Plume travaille [avec soin].": 3,
+        "Plume voyage [en bateau].": 2,
+        "Plume arrive [à midi].": 0,
+        "Plume habite [près du lac].": 1,
+        "Plume coupe le pain [avec un couteau].": 2,
+        "Plume répond [sans hésitation].": 3
+      },
+      "explication": "Temps : « Quand ? » (à midi). Lieu : « Où ? » (près du lac). Moyen : « Au moyen de quoi ? » (en bateau, avec un couteau). Manière : « De quelle manière ? » (avec soin, sans hésitation).",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-030",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cc-valeur",
+      "difficulte": 2,
+      "consigne": "Quel complément circonstanciel de temps indique une durée ?",
+      "choix": [
+        "chaque matin",
+        "demain",
+        "pendant trois jours",
+        "souvent"
+      ],
+      "reponse": 2,
+      "explication": "« pendant trois jours » répond à la question « Pendant combien de temps ? » : il indique la durée. « chaque matin » et « souvent » indiquent la fréquence ; « demain » situe dans le temps.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-031",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-cc-valeur",
+      "difficulte": 2,
+      "consigne": "Complète les phrases.",
+      "enonce": "Dans « Hugo voyage en train. », « en train » est un complément de {{1}} ; dans « Hugo voyage de nuit. », « de nuit » est un complément de {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "temps",
+            "lieu",
+            "moyen",
+            "manière"
+          ],
+          "reponse": 2
+        },
+        {
+          "id": 2,
+          "choix": [
+            "temps",
+            "lieu",
+            "moyen",
+            "manière"
+          ],
+          "reponse": 0
+        }
+      ],
+      "explication": "« en train » répond à « Au moyen de quoi ? » : moyen. « de nuit » répond à « Quand ? » : temps.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-032",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-cc-valeur",
+      "difficulte": 2,
+      "consigne": "Remplace le complément circonstanciel de lieu par l’adverbe « ici ».",
+      "enonce": "Plume cueille des baies dans la forêt.",
+      "reponses_acceptees": [
+        "Plume cueille des baies ici.",
+        "Plume cueille des baies ici"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« dans la forêt » indique le lieu : on peut le remplacer par l’adverbe de lieu « ici ».",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-033",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-cc-valeur",
+      "difficulte": 2,
+      "consigne": "Corrige la phrase : il manque la préposition « avec ».",
+      "phrase_fautive": "Hugo ouvre la porte une clé.",
+      "corrections_acceptees": [
+        "Hugo ouvre la porte avec une clé."
+      ],
+      "explication": "Le complément de moyen « avec une clé » est introduit par une préposition.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-034",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-cc-valeur",
+      "difficulte": 2,
+      "consigne": "Dans quelle phrase y a-t-il un complément circonstanciel de manière ?",
+      "choix": [
+        "Léa lit dans sa chambre.",
+        "Léa lit avec attention.",
+        "Léa lit le soir.",
+        "Léa lit un conte."
+      ],
+      "reponse": 1,
+      "explication": "« avec attention » répond à la question « De quelle manière ? » : c’est un complément de manière.",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-035",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-6e-cc-valeur",
+      "difficulte": 3,
+      "consigne": "Le complément circonstanciel (entre crochets) exprime-t-il le temps, le lieu, le moyen ou la manière ?",
+      "elements": [
+        "Plume coupe le pain [avec un couteau].",
+        "Plume coupe le pain [avec soin].",
+        "Plume coupe le pain [sur la table].",
+        "Plume coupe le pain [chaque matin]."
+      ],
+      "categories": [
+        "temps",
+        "lieu",
+        "moyen",
+        "manière"
+      ],
+      "solution": {
+        "Plume coupe le pain [avec un couteau].": 2,
+        "Plume coupe le pain [avec soin].": 3,
+        "Plume coupe le pain [sur la table].": 1,
+        "Plume coupe le pain [chaque matin].": 0
+      },
+      "explication": "Le sens du complément dépend de la question qu’on pose : « Au moyen de quoi ? » (avec un couteau), « De quelle manière ? » (avec soin), « Où ? » (sur la table), « Quand ? » (chaque matin).",
+      "source": "manuel-6e-f13-p36"
+    },
+    {
+      "id": "gram-6e-complements-circ-036",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-cc-valeur",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les mots du complément circonstanciel de moyen.",
+      "mots": [
+        "Plume",
+        "dessine",
+        "avec",
+        "un",
+        "crayon",
+        "sur",
+        "le",
+        "mur"
+      ],
+      "cibles": [
+        2,
+        3,
+        4
+      ],
+      "explication": "« avec un crayon » répond à la question « Au moyen de quoi ? » : c’est le complément de moyen. « sur le mur » indique le lieu.",
+      "source": "manuel-6e-f13-p36"
+    }
+  ]
+}

@@ -1,0 +1,852 @@
+{
+  "module": "gram-6e-nom-determinant",
+  "titre": "Le nom et le groupe nominal ; les déterminants",
+  "domaine": "grammaire",
+  "niveau": 6,
+  "grade": "page",
+  "version": 1,
+  "description": "Reconnaître un nom, repérer un groupe nominal et son nom noyau, reconnaître et choisir le bon déterminant.",
+  "rappel": {
+    "titre": "Le nom, le groupe nominal et les déterminants",
+    "points": [
+      {
+        "mot": "nom",
+        "definition": "Le nom désigne une personne, un animal, une chose ou une idée. Il a un genre (masculin ou féminin) et un nombre (singulier ou pluriel).",
+        "exemple": "un renard, une idée, des livres"
+      },
+      {
+        "mot": "nom commun et nom propre",
+        "definition": "Le nom commun désigne une catégorie d’êtres ou de choses. Le nom propre désigne un être ou un lieu unique et prend une majuscule.",
+        "exemple": "une ville ; Rennes"
+      },
+      {
+        "mot": "groupe nominal",
+        "definition": "Un groupe nominal est formé d’un nom, le noyau, et de son déterminant. Il peut avoir d’autres mots qui le complètent : un adjectif, un complément du nom.",
+        "exemple": "la petite cabane du bûcheron"
+      },
+      {
+        "mot": "déterminant",
+        "definition": "Le déterminant se place avant le nom et donne son genre et son nombre. Il y a les articles (le, un, du), les démonstratifs (ce, cet, cette, ces) et les possessifs (mon, ta, leurs).",
+        "exemple": "une camarade, ces chocolats, mes livres"
+      }
+    ]
+  },
+  "competences": [
+    "gram-6e-nom-identifier",
+    "gram-6e-groupe-nominal",
+    "gram-6e-determinant-emploi"
+  ],
+  "exercices": [
+    {
+      "id": "gram-6e-nom-determinant-001",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-nom-identifier",
+      "difficulte": 1,
+      "consigne": "Quel mot est un nom ?",
+      "enonce": "La rivière traverse le village.",
+      "choix": [
+        "La",
+        "rivière",
+        "traverse",
+        "le"
+      ],
+      "reponse": 1,
+      "explication": "« rivière » désigne une chose : c’est un nom. On peut dire « une rivière ».",
+      "source": "manuel-6e-f2-p10"
+    },
+    {
+      "id": "gram-6e-nom-determinant-002",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-nom-identifier",
+      "difficulte": 1,
+      "consigne": "Clique sur tous les noms.",
+      "mots": [
+        "Le",
+        "hibou",
+        "range",
+        "les",
+        "livres",
+        "anciens"
+      ],
+      "cibles": [
+        1,
+        4
+      ],
+      "explication": "« hibou » et « livres » désignent un animal et des objets : ce sont des noms. « range » est un verbe.",
+      "source": "manuel-6e-f2-p10"
+    },
+    {
+      "id": "gram-6e-nom-determinant-003",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-nom-identifier",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Dans « Le pain sent bon. », le mot « pain » est un nom.",
+      "reponse": true,
+      "explication": "« pain » désigne une chose et on peut dire « un pain » : c’est bien un nom.",
+      "source": "manuel-6e-f2-p10"
+    },
+    {
+      "id": "gram-6e-nom-determinant-004",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-nom-identifier",
+      "difficulte": 1,
+      "consigne": "Recopie le nom propre de la phrase.",
+      "enonce": "Hugo ramasse des noix.",
+      "reponses_acceptees": [
+        "Hugo"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« Hugo » est le prénom d’une personne : c’est un nom propre. « noix » est un nom commun.",
+      "source": "manuel-6e-f2-p10"
+    },
+    {
+      "id": "gram-6e-nom-determinant-005",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-nom-identifier",
+      "difficulte": 2,
+      "consigne": "Classe ces noms : nom propre ou nom commun ?",
+      "elements": [
+        "Rennes",
+        "ville",
+        "Mozart",
+        "musicien",
+        "Loire",
+        "fleuve"
+      ],
+      "categories": [
+        "nom propre",
+        "nom commun"
+      ],
+      "solution": {
+        "Rennes": 0,
+        "ville": 1,
+        "Mozart": 0,
+        "musicien": 1,
+        "Loire": 0,
+        "fleuve": 1
+      },
+      "explication": "Un nom propre désigne un être ou un lieu unique et commence par une majuscule : Rennes, Mozart, Loire.",
+      "source": "manuel-6e-f2-p10"
+    },
+    {
+      "id": "gram-6e-nom-determinant-006",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-nom-identifier",
+      "difficulte": 2,
+      "consigne": "Classe ces noms selon leur genre.",
+      "elements": [
+        "fromage",
+        "souris",
+        "tapis",
+        "fourmi",
+        "orage",
+        "pluie"
+      ],
+      "categories": [
+        "masculin",
+        "féminin"
+      ],
+      "solution": {
+        "fromage": 0,
+        "souris": 1,
+        "tapis": 0,
+        "fourmi": 1,
+        "orage": 0,
+        "pluie": 1
+      },
+      "explication": "Pour trouver le genre, essaie « un » ou « une » : un fromage, une souris, un tapis, une fourmi, un orage, une pluie.",
+      "source": "manuel-6e-f2-p10"
+    },
+    {
+      "id": "gram-6e-nom-determinant-007",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-nom-identifier",
+      "difficulte": 2,
+      "consigne": "Complète la phrase.",
+      "enonce": "Dans « Les fourmis travaillent. », le nom « fourmis » est {{1}} et {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "masculin",
+            "féminin"
+          ],
+          "reponse": 1
+        },
+        {
+          "id": 2,
+          "choix": [
+            "singulier",
+            "pluriel"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "« fourmis » est précédé de « les » et se dit « une fourmi » : le nom est féminin ; il y en a plusieurs : il est pluriel.",
+      "source": "manuel-6e-f2-p10"
+    },
+    {
+      "id": "gram-6e-nom-determinant-008",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-nom-identifier",
+      "difficulte": 2,
+      "consigne": "Mets ce groupe de mots au pluriel.",
+      "enonce": "une étoile",
+      "reponses_acceptees": [
+        "des étoiles"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "Au pluriel, « une » devient « des » et le nom prend un -s : des étoiles.",
+      "source": "manuel-6e-f2-p10"
+    },
+    {
+      "id": "gram-6e-nom-determinant-009",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-nom-identifier",
+      "difficulte": 2,
+      "consigne": "Corrige la phrase : un nom propre a perdu sa majuscule.",
+      "phrase_fautive": "Léa a visité la bretagne en été.",
+      "corrections_acceptees": [
+        "Léa a visité la Bretagne en été."
+      ],
+      "explication": "Un nom propre commence toujours par une majuscule : la Bretagne.",
+      "source": "manuel-6e-f2-p10"
+    },
+    {
+      "id": "gram-6e-nom-determinant-010",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-nom-identifier",
+      "difficulte": 2,
+      "consigne": "Dans quelle phrase le mot « marche » est-il un nom ?",
+      "choix": [
+        "Le renard marche lentement.",
+        "La marche est longue jusqu’au village.",
+        "Tu marches vers la rivière.",
+        "Nous marchons en silence."
+      ],
+      "reponse": 1,
+      "explication": "Dans « La marche est longue », « marche » est précédé de « la » : c’est un nom. Dans les autres phrases, c’est un verbe conjugué.",
+      "source": "manuel-6e-f2-p10"
+    },
+    {
+      "id": "gram-6e-nom-determinant-011",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-6e-nom-identifier",
+      "difficulte": 3,
+      "consigne": "Dans chaque phrase, le mot « porte » est-il un nom ou un verbe ?",
+      "elements": [
+        "La porte est ouverte.",
+        "Il porte un sac.",
+        "Une porte claque.",
+        "Elle porte un manteau."
+      ],
+      "categories": [
+        "nom",
+        "verbe"
+      ],
+      "solution": {
+        "La porte est ouverte.": 0,
+        "Il porte un sac.": 1,
+        "Une porte claque.": 0,
+        "Elle porte un manteau.": 1
+      },
+      "explication": "« porte » est un nom quand on peut le faire précéder de « la » ou « une » ; c’est un verbe quand il se conjugue : il porte, elle porte.",
+      "source": "manuel-6e-f2-p10"
+    },
+    {
+      "id": "gram-6e-nom-determinant-012",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-nom-identifier",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les noms.",
+      "mots": [
+        "Plume",
+        "range",
+        "les",
+        "parchemins",
+        "de",
+        "la",
+        "bibliothèque",
+        "avec",
+        "patience"
+      ],
+      "cibles": [
+        0,
+        3,
+        6,
+        8
+      ],
+      "explication": "« Plume », « parchemins », « bibliothèque » et « patience » sont des noms. « range » est un verbe.",
+      "source": "manuel-6e-f2-p10"
+    },
+    {
+      "id": "gram-6e-nom-determinant-013",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-groupe-nominal",
+      "difficulte": 1,
+      "consigne": "Quel groupe de mots est un groupe nominal ?",
+      "choix": [
+        "court vite",
+        "le petit renard",
+        "dort dans",
+        "très bien"
+      ],
+      "reponse": 1,
+      "explication": "Un groupe nominal est construit autour d’un nom : « le petit renard » (déterminant + adjectif + nom).",
+      "source": "manuel-6e-f2-p11"
+    },
+    {
+      "id": "gram-6e-nom-determinant-014",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-groupe-nominal",
+      "difficulte": 1,
+      "consigne": "Clique sur le nom noyau de ce groupe nominal.",
+      "mots": [
+        "Les",
+        "vieux",
+        "livres",
+        "poussiéreux"
+      ],
+      "cibles": [
+        2
+      ],
+      "explication": "Le noyau est le nom autour duquel se construit le groupe : ici « livres ».",
+      "source": "manuel-6e-f2-p11"
+    },
+    {
+      "id": "gram-6e-nom-determinant-015",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-groupe-nominal",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Un groupe nominal contient toujours un nom.",
+      "reponse": true,
+      "explication": "Le nom est le noyau du groupe nominal : sans lui, il n’y a pas de groupe nominal.",
+      "source": "manuel-6e-f2-p11"
+    },
+    {
+      "id": "gram-6e-nom-determinant-016",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-groupe-nominal",
+      "difficulte": 1,
+      "consigne": "Recopie le nom noyau de ce groupe nominal.",
+      "enonce": "la grande tour du château",
+      "reponses_acceptees": [
+        "tour"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "Le groupe est construit autour de « tour » ; « château » est seulement une précision ajoutée.",
+      "source": "manuel-6e-f2-p11"
+    },
+    {
+      "id": "gram-6e-nom-determinant-017",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-groupe-nominal",
+      "difficulte": 2,
+      "consigne": "Complète la phrase.",
+      "enonce": "Dans « un chat noir », « chat » est le {{1}} et « un » est le {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "nom noyau",
+            "déterminant",
+            "adjectif"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "nom noyau",
+            "déterminant",
+            "adjectif"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "Dans « un chat noir », « chat » est le noyau, « un » est le déterminant et « noir » est l’adjectif.",
+      "source": "manuel-6e-f2-p11"
+    },
+    {
+      "id": "gram-6e-nom-determinant-018",
+      "type": "ordre",
+      "forme": "contexte",
+      "competence": "gram-6e-groupe-nominal",
+      "difficulte": 2,
+      "consigne": "Remets les mots dans l’ordre pour former un groupe nominal.",
+      "elements_melanges": [
+        "bûcheron",
+        "la",
+        "du",
+        "cabane"
+      ],
+      "reponse": [
+        "la",
+        "cabane",
+        "du",
+        "bûcheron"
+      ],
+      "explication": "L’ordre habituel : déterminant, nom, puis le complément du nom : « la cabane du bûcheron ».",
+      "source": "manuel-6e-f2-p11"
+    },
+    {
+      "id": "gram-6e-nom-determinant-019",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-groupe-nominal",
+      "difficulte": 2,
+      "consigne": "Quel est le nom noyau du groupe nominal « un vieux pont de bois » ?",
+      "choix": [
+        "un",
+        "vieux",
+        "pont",
+        "bois"
+      ],
+      "reponse": 2,
+      "explication": "Le groupe parle d’un pont : « pont » est le noyau. « bois » précise seulement de quoi il est fait.",
+      "source": "manuel-6e-f2-p11"
+    },
+    {
+      "id": "gram-6e-nom-determinant-020",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-groupe-nominal",
+      "difficulte": 2,
+      "consigne": "Ne garde que le déterminant et le nom noyau de « les vieux livres poussiéreux ».",
+      "enonce": "les vieux livres poussiéreux",
+      "reponses_acceptees": [
+        "les livres"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "On supprime les adjectifs : il reste le déterminant et le nom noyau, « les livres ».",
+      "source": "manuel-6e-f2-p11"
+    },
+    {
+      "id": "gram-6e-nom-determinant-021",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-groupe-nominal",
+      "difficulte": 2,
+      "consigne": "Ces groupes de mots sont-ils des groupes nominaux ?",
+      "elements": [
+        "la grande clairière",
+        "court vite",
+        "un ruisseau clair",
+        "chante joyeusement",
+        "mes nouveaux amis",
+        "très lentement"
+      ],
+      "categories": [
+        "groupe nominal",
+        "autre groupe"
+      ],
+      "solution": {
+        "la grande clairière": 0,
+        "court vite": 1,
+        "un ruisseau clair": 0,
+        "chante joyeusement": 1,
+        "mes nouveaux amis": 0,
+        "très lentement": 1
+      },
+      "explication": "Un groupe nominal contient un nom noyau : la clairière, un ruisseau, mes amis. Les autres groupes contiennent un verbe ou un adverbe.",
+      "source": "manuel-6e-f2-p11"
+    },
+    {
+      "id": "gram-6e-nom-determinant-022",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-groupe-nominal",
+      "difficulte": 3,
+      "consigne": "Quel groupe nominal contient un complément du nom ?",
+      "choix": [
+        "un renard roux",
+        "le toit de la maison",
+        "ma petite sœur",
+        "des chaussures neuves"
+      ],
+      "reponse": 1,
+      "explication": "Dans « le toit de la maison », « de la maison » complète le nom « toit » : c’est un complément du nom.",
+      "source": "manuel-6e-f2-p11"
+    },
+    {
+      "id": "gram-6e-nom-determinant-023",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-groupe-nominal",
+      "difficulte": 3,
+      "consigne": "Clique sur les noms noyaux des groupes nominaux de la phrase.",
+      "mots": [
+        "Les",
+        "jeunes",
+        "lutins",
+        "cachent",
+        "un",
+        "petit",
+        "trésor",
+        "dans",
+        "la",
+        "vieille",
+        "tour"
+      ],
+      "cibles": [
+        2,
+        6,
+        10
+      ],
+      "explication": "Les trois groupes nominaux sont « les jeunes lutins », « un petit trésor » et « la vieille tour » ; leurs noyaux sont « lutins », « trésor » et « tour ».",
+      "source": "manuel-6e-f2-p11"
+    },
+    {
+      "id": "gram-6e-nom-determinant-024",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-groupe-nominal",
+      "difficulte": 3,
+      "consigne": "Recopie le nom noyau du groupe nominal.",
+      "enonce": "une corbeille de fruits sucrés",
+      "reponses_acceptees": [
+        "corbeille"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "On parle d’une corbeille : « corbeille » est le noyau. « fruits » est dans le complément du nom.",
+      "source": "manuel-6e-f2-p11"
+    },
+    {
+      "id": "gram-6e-nom-determinant-025",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-determinant-emploi",
+      "difficulte": 1,
+      "consigne": "Quel mot est un déterminant ?",
+      "enonce": "Mon frère cueille des pommes.",
+      "choix": [
+        "frère",
+        "cueille",
+        "Mon",
+        "pommes"
+      ],
+      "reponse": 2,
+      "explication": "« Mon » se place devant le nom « frère » : c’est un déterminant possessif.",
+      "source": "manuel-6e-f3-p12"
+    },
+    {
+      "id": "gram-6e-nom-determinant-026",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-determinant-emploi",
+      "difficulte": 1,
+      "consigne": "Clique sur tous les déterminants.",
+      "mots": [
+        "Cette",
+        "renarde",
+        "garde",
+        "les",
+        "clés",
+        "de",
+        "sa",
+        "cabane"
+      ],
+      "cibles": [
+        0,
+        3,
+        6
+      ],
+      "explication": "« Cette », « les » et « sa » se placent devant un nom : ce sont des déterminants. « de » est une préposition.",
+      "source": "manuel-6e-f3-p12"
+    },
+    {
+      "id": "gram-6e-nom-determinant-027",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-determinant-emploi",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Le déterminant se place après le nom.",
+      "reponse": false,
+      "explication": "Le déterminant se place avant le nom : le chat, une idée.",
+      "source": "manuel-6e-f3-p12"
+    },
+    {
+      "id": "gram-6e-nom-determinant-028",
+      "type": "association",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-determinant-emploi",
+      "difficulte": 1,
+      "consigne": "Associe chaque déterminant à sa catégorie.",
+      "paires": [
+        [
+          "un",
+          "article indéfini"
+        ],
+        [
+          "le",
+          "article défini"
+        ],
+        [
+          "ce",
+          "déterminant démonstratif"
+        ],
+        [
+          "mon",
+          "déterminant possessif"
+        ]
+      ],
+      "explication": "« un » est un article indéfini, « le » un article défini, « ce » un déterminant démonstratif et « mon » un déterminant possessif.",
+      "source": "manuel-6e-f3-p12"
+    },
+    {
+      "id": "gram-6e-nom-determinant-029",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-determinant-emploi",
+      "difficulte": 2,
+      "consigne": "Complète avec le bon déterminant démonstratif.",
+      "enonce": "Regarde {{1}} arbre et {{2}} fleurs !",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "ce",
+            "cet",
+            "cette"
+          ],
+          "reponse": 1
+        },
+        {
+          "id": 2,
+          "choix": [
+            "ces",
+            "cet",
+            "ce"
+          ],
+          "reponse": 0
+        }
+      ],
+      "explication": "« arbre » est masculin et commence par une voyelle : « cet arbre ». « fleurs » est pluriel : « ces fleurs ».",
+      "source": "manuel-6e-f3-p12"
+    },
+    {
+      "id": "gram-6e-nom-determinant-030",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-determinant-emploi",
+      "difficulte": 2,
+      "consigne": "Complète avec le bon déterminant possessif.",
+      "enonce": "Les lutins ont perdu {{1}} clés. Plume allume {{2}} lanterne.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "leur",
+            "leurs",
+            "sa"
+          ],
+          "reponse": 1
+        },
+        {
+          "id": 2,
+          "choix": [
+            "son",
+            "sa",
+            "ses"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "« clés » est pluriel et appartient à plusieurs personnes : « leurs clés ». « lanterne » est féminin et appartient à Plume : « sa lanterne ».",
+      "source": "manuel-6e-f3-p12"
+    },
+    {
+      "id": "gram-6e-nom-determinant-031",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-determinant-emploi",
+      "difficulte": 2,
+      "consigne": "Corrige le déterminant qui ne convient pas.",
+      "phrase_fautive": "Mon ami habite près de le rivière.",
+      "corrections_acceptees": [
+        "Mon ami habite près de la rivière."
+      ],
+      "explication": "« rivière » est un nom féminin : on dit « la rivière » et non « le rivière ».",
+      "source": "manuel-6e-f3-p12"
+    },
+    {
+      "id": "gram-6e-nom-determinant-032",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-determinant-emploi",
+      "difficulte": 2,
+      "consigne": "Classe ces articles : défini ou indéfini ?",
+      "elements": [
+        "le",
+        "une",
+        "les",
+        "un",
+        "la",
+        "des"
+      ],
+      "categories": [
+        "article défini",
+        "article indéfini"
+      ],
+      "solution": {
+        "le": 0,
+        "une": 1,
+        "les": 0,
+        "un": 1,
+        "la": 0,
+        "des": 1
+      },
+      "explication": "Les articles définis (le, la, les) désignent quelque chose de connu ; les articles indéfinis (un, une, des) désignent quelque chose de non précisé.",
+      "source": "manuel-6e-f3-p12"
+    },
+    {
+      "id": "gram-6e-nom-determinant-033",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-determinant-emploi",
+      "difficulte": 2,
+      "consigne": "Mets ce groupe nominal au pluriel.",
+      "enonce": "cet arbre",
+      "reponses_acceptees": [
+        "ces arbres"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "Au pluriel, « cet » devient « ces » et le nom prend un -s : ces arbres.",
+      "source": "manuel-6e-f3-p12"
+    },
+    {
+      "id": "gram-6e-nom-determinant-034",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-determinant-emploi",
+      "difficulte": 3,
+      "consigne": "Dans quelle phrase « du » est-il un article partitif ?",
+      "choix": [
+        "Plume revient du marché.",
+        "Plume prend du miel.",
+        "Plume parle du chef.",
+        "Plume rentre du village."
+      ],
+      "reponse": 1,
+      "explication": "« du miel » désigne une partie d’un ensemble : on peut dire « un peu de miel ». Dans les autres phrases, « du » veut dire « de le » (article contracté).",
+      "source": "manuel-6e-f3-p12"
+    },
+    {
+      "id": "gram-6e-nom-determinant-035",
+      "type": "texte_trous",
+      "forme": "contexte",
+      "competence": "gram-6e-determinant-emploi",
+      "difficulte": 3,
+      "consigne": "Complète le texte avec les déterminants qui conviennent.",
+      "enonce": "Chaque soir, Plume lit {{1}} histoire à {{2}} amis. {{3}} histoires sont courtes, mais {{4}} héros est toujours courageux.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "une",
+            "un",
+            "des"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "ses",
+            "son",
+            "sa"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 3,
+          "choix": [
+            "Ces",
+            "Cet",
+            "Cette"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 4,
+          "choix": [
+            "leur",
+            "leurs",
+            "les"
+          ],
+          "reponse": 0
+        }
+      ],
+      "explication": "« une histoire » (féminin singulier), « ses amis » (pluriel), « Ces histoires » (pluriel) et « leur héros » (un seul héros, « est » est au singulier).",
+      "source": "manuel-6e-f3-p12"
+    },
+    {
+      "id": "gram-6e-nom-determinant-036",
+      "type": "ordre",
+      "forme": "contexte",
+      "competence": "gram-6e-determinant-emploi",
+      "difficulte": 3,
+      "consigne": "Remets les mots dans l’ordre pour former une phrase.",
+      "elements_melanges": [
+        "étagères",
+        "sur",
+        "rangé",
+        "livres",
+        "Nous",
+        "nos",
+        "ces",
+        "avons"
+      ],
+      "reponse": [
+        "Nous",
+        "avons",
+        "rangé",
+        "nos",
+        "livres",
+        "sur",
+        "ces",
+        "étagères"
+      ],
+      "explication": "Chaque déterminant précède son nom : « nos livres », « ces étagères ».",
+      "source": "manuel-6e-f3-p12"
+    }
+  ]
+}

@@ -1,0 +1,789 @@
+{
+  "module": "gram-6e-types-formes-phrase",
+  "titre": "Types de phrase ; phrases affirmatives et négatives",
+  "domaine": "grammaire",
+  "niveau": 6,
+  "grade": "page",
+  "version": 1,
+  "description": "Reconnaître les quatre types de phrase, distinguer l’interrogation totale et partielle, reconnaître la forme affirmative et la forme négative.",
+  "rappel": {
+    "titre": "Les types et les formes de phrase",
+    "points": [
+      {
+        "mot": "types de phrase",
+        "definition": "Il existe quatre types de phrase : déclaratif (une information), injonctif (un ordre, un conseil, une interdiction), exclamatif (une émotion) et interrogatif (une question).",
+        "exemple": "Le village dort. Range tes livres. Quelle belle nuit ! Où vas-tu ?"
+      },
+      {
+        "mot": "phrase injonctive",
+        "definition": "Une phrase injonctive donne un ordre, un conseil ou exprime une interdiction. Son verbe est à l’impératif, à l’infinitif ou au futur.",
+        "exemple": "Ne cours pas ! Ne pas courir. Tu ne courras pas."
+      },
+      {
+        "mot": "phrase interrogative",
+        "definition": "Une phrase interrogative pose une question et se termine par un point d’interrogation. L’interrogation totale porte sur toute la phrase (réponse par oui ou non) ; l’interrogation partielle est introduite par un mot interrogatif.",
+        "exemple": "Est-ce que tu viens ? Où habites-tu ?"
+      },
+      {
+        "mot": "niveaux de langue de l’interrogation",
+        "definition": "On peut poser la même question de trois façons : au niveau soutenu (inversion du sujet), courant (est-ce que) ou familier (ordre de la phrase déclarative).",
+        "exemple": "Pleut-il ? Est-ce qu’il pleut ? Il pleut ?"
+      },
+      {
+        "mot": "forme affirmative et négative",
+        "definition": "Une phrase est de forme affirmative quand elle ne contient pas de négation, et de forme négative quand elle en contient une.",
+        "exemple": "Le chat dort. Le chat ne dort pas."
+      },
+      {
+        "mot": "la négation",
+        "definition": "La négation est généralement composée de deux éléments : ne (n’) associé à pas, plus, guère, jamais, rien, aucun… Ni est généralement redoublé : ni… ni. On peut mettre à la forme négative des phrases déclaratives, injonctives ou interrogatives.",
+        "exemple": "Hugo ne chante jamais. Il ne mange ni pain ni fromage."
+      }
+    ]
+  },
+  "competences": [
+    "gram-6e-types-phrase",
+    "gram-6e-phrase-interrogative",
+    "gram-6e-forme-negative"
+  ],
+  "exercices": [
+    {
+      "id": "gram-6e-types-formes-phrase-001",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-types-phrase",
+      "difficulte": 1,
+      "consigne": "Quel est le type de cette phrase ?",
+      "enonce": "La forêt dort sous la lune.",
+      "choix": [
+        "déclaratif",
+        "injonctif",
+        "exclamatif",
+        "interrogatif"
+      ],
+      "reponse": 0,
+      "explication": "La phrase donne une information et se termine par un point : elle est de type déclaratif.",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-002",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-types-phrase",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Une phrase interrogative pose une question.",
+      "reponse": true,
+      "explication": "Une phrase interrogative pose une question et se termine par un point d’interrogation.",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-003",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-types-phrase",
+      "difficulte": 1,
+      "consigne": "Clique sur le verbe de cette phrase injonctive.",
+      "mots": [
+        "Range",
+        "tes",
+        "livres"
+      ],
+      "cibles": [
+        0
+      ],
+      "explication": "« Range » est un verbe à l’impératif : la phrase donne un ordre, elle est injonctive.",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-004",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-types-phrase",
+      "difficulte": 1,
+      "consigne": "Écris le type de cette phrase : déclaratif, injonctif, exclamatif ou interrogatif.",
+      "enonce": "Quelle belle journée !",
+      "reponses_acceptees": [
+        "exclamatif",
+        "exclamative"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "La phrase exprime une émotion et se termine par un point d’exclamation : elle est de type exclamatif.",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-005",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-types-phrase",
+      "difficulte": 2,
+      "consigne": "Classe ces phrases selon leur type.",
+      "elements": [
+        "Plume range ses livres.",
+        "Range tes livres.",
+        "Quelle belle forêt !",
+        "Où habitent les lutins ?",
+        "Il fait nuit.",
+        "Comme ce village est calme !"
+      ],
+      "categories": [
+        "déclaratif",
+        "injonctif",
+        "exclamatif",
+        "interrogatif"
+      ],
+      "solution": {
+        "Plume range ses livres.": 0,
+        "Range tes livres.": 1,
+        "Quelle belle forêt !": 2,
+        "Où habitent les lutins ?": 3,
+        "Il fait nuit.": 0,
+        "Comme ce village est calme !": 2
+      },
+      "explication": "Déclaratif : une information. Injonctif : un ordre, un conseil ou une interdiction. Exclamatif : une émotion. Interrogatif : une question.",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-006",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-types-phrase",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est une phrase injonctive ?",
+      "choix": [
+        "Tu viens ce soir.",
+        "Viens ce soir.",
+        "Viens-tu ce soir ?",
+        "Comme tu viens tard !"
+      ],
+      "reponse": 1,
+      "explication": "« Viens ce soir. » donne un ordre, avec un verbe à l’impératif : elle est de type injonctif.",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-007",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-types-phrase",
+      "difficulte": 2,
+      "consigne": "Complète la phrase.",
+      "enonce": "Une phrase déclarative se termine par {{1}} ; une phrase interrogative se termine par {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "un point",
+            "un point d’interrogation",
+            "un point d’exclamation"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "un point",
+            "un point d’interrogation",
+            "un point d’exclamation"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "Une phrase déclarative se termine par un point ; une phrase interrogative se termine par un point d’interrogation.",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-008",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-types-phrase",
+      "difficulte": 2,
+      "consigne": "Transforme cette phrase déclarative en phrase exclamative commençant par « Comme ».",
+      "enonce": "Le village est calme.",
+      "reponses_acceptees": [
+        "Comme le village est calme !",
+        "Comme le village est calme"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "Une phrase exclamative exprime un sentiment fort et se termine par un point d’exclamation.",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-009",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-types-phrase",
+      "difficulte": 2,
+      "consigne": "Quelle phrase injonctive a son verbe à l’infinitif ?",
+      "choix": [
+        "Ne cours pas !",
+        "Ne pas courir.",
+        "Tu ne courras pas.",
+        "Cours !"
+      ],
+      "reponse": 1,
+      "explication": "« Ne pas courir. » est une phrase injonctive dont le verbe est à l’infinitif. « Ne cours pas ! » est à l’impératif et « Tu ne courras pas. » est au futur.",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-010",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-types-phrase",
+      "difficulte": 2,
+      "consigne": "Corrige la ponctuation de cette phrase interrogative.",
+      "phrase_fautive": "Où habitent les lutins.",
+      "corrections_acceptees": [
+        "Où habitent les lutins ?"
+      ],
+      "explication": "Une phrase interrogative se termine par un point d’interrogation.",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-011",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-6e-types-phrase",
+      "difficulte": 3,
+      "consigne": "Quel est le type de chaque phrase ?",
+      "elements": [
+        "Tu ranges déjà ta chambre.",
+        "Tu ranges déjà ta chambre ?",
+        "Tu ranges déjà ta chambre !",
+        "Range déjà ta chambre."
+      ],
+      "categories": [
+        "déclaratif",
+        "injonctif",
+        "exclamatif",
+        "interrogatif"
+      ],
+      "solution": {
+        "Tu ranges déjà ta chambre.": 0,
+        "Tu ranges déjà ta chambre ?": 3,
+        "Tu ranges déjà ta chambre !": 2,
+        "Range déjà ta chambre.": 1
+      },
+      "explication": "Les mots sont presque les mêmes : c’est le sens et la ponctuation qui donnent le type de la phrase.",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-012",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-types-phrase",
+      "difficulte": 3,
+      "consigne": "Clique sur l’infinitif de cette phrase injonctive.",
+      "mots": [
+        "Ne",
+        "pas",
+        "courir",
+        "dans",
+        "la",
+        "forêt"
+      ],
+      "cibles": [
+        2
+      ],
+      "explication": "« courir » est l’infinitif : une phrase injonctive peut être à l’impératif, à l’infinitif ou au futur.",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-013",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-phrase-interrogative",
+      "difficulte": 1,
+      "consigne": "Quelle phrase est une phrase interrogative ?",
+      "choix": [
+        "Les lutins habitent ici.",
+        "Habitez ici.",
+        "Où habitent les lutins ?",
+        "Comme ils habitent loin !"
+      ],
+      "reponse": 2,
+      "explication": "« Où habitent les lutins ? » pose une question : elle est de type interrogatif.",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-014",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-phrase-interrogative",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Une interrogation totale appelle une réponse par oui ou par non.",
+      "reponse": true,
+      "explication": "L’interrogation totale porte sur toute la phrase : on y répond par oui ou par non.",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-015",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-phrase-interrogative",
+      "difficulte": 1,
+      "consigne": "Clique sur le mot interrogatif.",
+      "mots": [
+        "Où",
+        "habitent",
+        "les",
+        "lutins"
+      ],
+      "cibles": [
+        0
+      ],
+      "explication": "« Où » est un mot interrogatif : il introduit une interrogation partielle.",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-016",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-phrase-interrogative",
+      "difficulte": 1,
+      "consigne": "Recopie le mot interrogatif.",
+      "enonce": "Quand part Plume ?",
+      "reponses_acceptees": [
+        "Quand"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« Quand » est un mot interrogatif : il porte sur le moment du départ.",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-017",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-phrase-interrogative",
+      "difficulte": 2,
+      "consigne": "L’interrogation est-elle totale ou partielle ?",
+      "elements": [
+        "Est-ce que tu as vu le hibou ?",
+        "Pourquoi les lutins dorment-ils ?",
+        "Qui a ouvert la porte ?",
+        "Plume viendra-t-il ?",
+        "Où est la clé ?",
+        "Les lutins dansent-ils ?"
+      ],
+      "categories": [
+        "interrogation totale",
+        "interrogation partielle"
+      ],
+      "solution": {
+        "Est-ce que tu as vu le hibou ?": 0,
+        "Pourquoi les lutins dorment-ils ?": 1,
+        "Qui a ouvert la porte ?": 1,
+        "Plume viendra-t-il ?": 0,
+        "Où est la clé ?": 1,
+        "Les lutins dansent-ils ?": 0
+      },
+      "explication": "Totale : on répond par oui ou par non. Partielle : elle porte sur une partie de la phrase et commence par un mot interrogatif.",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-018",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-phrase-interrogative",
+      "difficulte": 2,
+      "consigne": "À quelle question peut-on répondre par oui ou par non ?",
+      "choix": [
+        "Quand part Plume ?",
+        "Plume part-il ce soir ?",
+        "Qui part ce soir ?",
+        "Pourquoi Plume part-il ?"
+      ],
+      "reponse": 1,
+      "explication": "« Plume part-il ce soir ? » est une interrogation totale : on y répond par oui ou par non. Les autres commencent par un mot interrogatif.",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-019",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-phrase-interrogative",
+      "difficulte": 2,
+      "consigne": "Complète la phrase.",
+      "enonce": "Une interrogation {{1}} porte sur toute la phrase ; une interrogation {{2}} est introduite par un mot interrogatif.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "totale",
+            "partielle"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "totale",
+            "partielle"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "L’interrogation totale porte sur toute la phrase ; l’interrogation partielle est introduite par un mot interrogatif.",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-020",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-phrase-interrogative",
+      "difficulte": 2,
+      "consigne": "Transforme cette phrase en question avec « est-ce que ».",
+      "enonce": "Tu viens ce soir.",
+      "reponses_acceptees": [
+        "Est-ce que tu viens ce soir ?",
+        "Est-ce que tu viens ce soir?",
+        "Est-ce que tu viens ce soir"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "On place « Est-ce que » devant la phrase et on termine par un point d’interrogation.",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-021",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-phrase-interrogative",
+      "difficulte": 2,
+      "consigne": "Corrige la question : il manque le « t » entre deux traits d’union.",
+      "phrase_fautive": "Plume viendra-il ce soir ?",
+      "corrections_acceptees": [
+        "Plume viendra-t-il ce soir ?"
+      ],
+      "explication": "Quand le verbe se termine par une voyelle, on ajoute « -t- » devant « il » : « viendra-t-il ».",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-022",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-phrase-interrogative",
+      "difficulte": 2,
+      "consigne": "Quelle question est de niveau familier ?",
+      "choix": [
+        "Les lutins dansent-ils ?",
+        "Est-ce que les lutins dansent ?",
+        "Les lutins dansent ?",
+        "Dansent-ils ?"
+      ],
+      "reponse": 2,
+      "explication": "À l’oral familier, on pose la question en gardant l’ordre de la phrase déclarative et en montant la voix : « Les lutins dansent ? »",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-023",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-6e-phrase-interrogative",
+      "difficulte": 3,
+      "consigne": "Quel est le niveau de langue de chaque question ?",
+      "elements": [
+        "Plume dort-il ?",
+        "Est-ce que Plume dort ?",
+        "Plume dort ?",
+        "Viendras-tu ?",
+        "Est-ce que tu viens ?",
+        "Tu viens ?"
+      ],
+      "categories": [
+        "soutenu",
+        "courant",
+        "familier"
+      ],
+      "solution": {
+        "Plume dort-il ?": 0,
+        "Est-ce que Plume dort ?": 1,
+        "Plume dort ?": 2,
+        "Viendras-tu ?": 0,
+        "Est-ce que tu viens ?": 1,
+        "Tu viens ?": 2
+      },
+      "explication": "Soutenu : le pronom est inversé (dort-il, viendras-tu). Courant : « est-ce que ». Familier : l’ordre de la phrase déclarative.",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-024",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-phrase-interrogative",
+      "difficulte": 3,
+      "consigne": "Quelle question est à la fois partielle et de niveau courant ?",
+      "choix": [
+        "Où est-ce que Plume habite ?",
+        "Plume habite-t-il ici ?",
+        "Est-ce que Plume habite ici ?",
+        "Où habite Plume ?"
+      ],
+      "reponse": 0,
+      "explication": "« Où est-ce que Plume habite ? » commence par un mot interrogatif (partielle) et utilise « est-ce que » (niveau courant).",
+      "source": "manuel-6e-f16-p44"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-025",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-forme-negative",
+      "difficulte": 1,
+      "consigne": "Quelle phrase est négative ?",
+      "choix": [
+        "Le chat dort.",
+        "Le chat ne dort pas.",
+        "Le chat dort encore.",
+        "Le chat dort ici."
+      ],
+      "reponse": 1,
+      "explication": "« Le chat ne dort pas. » contient une négation (ne… pas) : elle est de forme négative.",
+      "source": "manuel-6e-f17-p46"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-026",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-forme-negative",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "La négation est généralement composée de deux éléments.",
+      "reponse": true,
+      "explication": "Une négation est généralement composée de deux éléments : ne associé à pas, plus, jamais, rien, personne…",
+      "source": "manuel-6e-f17-p46"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-027",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-forme-negative",
+      "difficulte": 1,
+      "consigne": "Clique sur les deux mots de la négation.",
+      "mots": [
+        "Plume",
+        "ne",
+        "dort",
+        "pas"
+      ],
+      "cibles": [
+        1,
+        3
+      ],
+      "explication": "La négation est formée de « ne » et de « pas ».",
+      "source": "manuel-6e-f17-p46"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-028",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-forme-negative",
+      "difficulte": 1,
+      "consigne": "Recopie le mot qui complète « ne » dans la négation.",
+      "enonce": "Hugo ne chante jamais.",
+      "reponses_acceptees": [
+        "jamais"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "La négation est formée de « ne » et de « jamais ».",
+      "source": "manuel-6e-f17-p46"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-029",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-forme-negative",
+      "difficulte": 2,
+      "consigne": "Ces phrases sont-elles affirmatives ou négatives ?",
+      "elements": [
+        "Plume ouvre la porte.",
+        "Plume n’ouvre pas la porte.",
+        "Personne ne vient.",
+        "Quelqu’un vient.",
+        "Hugo ne voit rien.",
+        "Hugo voit quelque chose."
+      ],
+      "categories": [
+        "affirmative",
+        "négative"
+      ],
+      "solution": {
+        "Plume ouvre la porte.": 0,
+        "Plume n’ouvre pas la porte.": 1,
+        "Personne ne vient.": 1,
+        "Quelqu’un vient.": 0,
+        "Hugo ne voit rien.": 1,
+        "Hugo voit quelque chose.": 0
+      },
+      "explication": "Une phrase négative contient une négation (ne… pas, personne ne…, ne… rien). Une phrase affirmative n’en contient pas.",
+      "source": "manuel-6e-f17-p46"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-030",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-forme-negative",
+      "difficulte": 2,
+      "consigne": "Quel mot complète « ne » dans cette phrase ?",
+      "enonce": "Hugo ne mange rien.",
+      "choix": [
+        "Hugo",
+        "mange",
+        "rien",
+        "ne"
+      ],
+      "reponse": 2,
+      "explication": "« ne… rien » est une négation : « rien » est associé à « ne ».",
+      "source": "manuel-6e-f17-p46"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-031",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-forme-negative",
+      "difficulte": 2,
+      "consigne": "Complète les phrases.",
+      "enonce": "Pour nier « toujours », on emploie {{1}} ; pour nier « quelqu’un », on emploie {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "jamais",
+            "plus",
+            "rien"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "rien",
+            "personne",
+            "plus"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "« toujours » devient « jamais » à la forme négative ; « quelqu’un » devient « personne ».",
+      "source": "manuel-6e-f17-p46"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-032",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-forme-negative",
+      "difficulte": 2,
+      "consigne": "Mets cette phrase à la forme négative avec ne… pas.",
+      "enonce": "Plume range sa chambre.",
+      "reponses_acceptees": [
+        "Plume ne range pas sa chambre.",
+        "Plume ne range pas sa chambre"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "On place « ne » devant le verbe et « pas » après lui : « Plume ne range pas sa chambre. »",
+      "source": "manuel-6e-f17-p46"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-033",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-forme-negative",
+      "difficulte": 2,
+      "consigne": "Corrige la phrase : il manque une partie de la négation.",
+      "phrase_fautive": "Hugo mange pas de fruits.",
+      "corrections_acceptees": [
+        "Hugo ne mange pas de fruits."
+      ],
+      "explication": "La négation se construit avec deux mots : « ne » devant le verbe et « pas » après lui.",
+      "source": "manuel-6e-f17-p46"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-034",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-forme-negative",
+      "difficulte": 2,
+      "consigne": "Quelle phrase injonctive est à la forme négative ?",
+      "choix": [
+        "Sors maintenant.",
+        "Ne sors pas.",
+        "Sors-tu ?",
+        "Quelle belle sortie !"
+      ],
+      "reponse": 1,
+      "explication": "« Ne sors pas. » est une phrase injonctive (ordre) qui contient la négation ne… pas.",
+      "source": "manuel-6e-f17-p46"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-035",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-6e-forme-negative",
+      "difficulte": 3,
+      "consigne": "Classe ces phrases négatives selon leur type.",
+      "elements": [
+        "Plume ne dort pas.",
+        "Ne dormez pas.",
+        "Ne dort-il pas ?",
+        "Personne ne vient.",
+        "Ne cours pas !",
+        "Les lutins ne chantent-ils jamais ?"
+      ],
+      "categories": [
+        "déclarative négative",
+        "injonctive négative",
+        "interrogative négative"
+      ],
+      "solution": {
+        "Plume ne dort pas.": 0,
+        "Ne dormez pas.": 1,
+        "Ne dort-il pas ?": 2,
+        "Personne ne vient.": 0,
+        "Ne cours pas !": 1,
+        "Les lutins ne chantent-ils jamais ?": 2
+      },
+      "explication": "On peut mettre à la forme négative des phrases déclaratives, injonctives ou interrogatives.",
+      "source": "manuel-6e-f17-p46"
+    },
+    {
+      "id": "gram-6e-types-formes-phrase-036",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-forme-negative",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les mots qui forment la négation.",
+      "mots": [
+        "Hugo",
+        "ne",
+        "mange",
+        "ni",
+        "pain",
+        "ni",
+        "fromage"
+      ],
+      "cibles": [
+        1,
+        3,
+        5
+      ],
+      "explication": "« ni » est généralement redoublé : la négation est formée de « ne », « ni » et « ni ».",
+      "source": "manuel-6e-f17-p46"
+    }
+  ]
+}

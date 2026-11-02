@@ -1,0 +1,871 @@
+{
+ "version": 1,
+ "calques": {
+  "0": "piece (sol, murs)",
+  "1": "tapis",
+  "2": "meuble",
+  "3": "deco (posee sur meuble ou sol) ; les objets de ce calque n'ont aucune surface de pose"
+ },
+ "objets": [
+  {
+   "id": "bol_legumes",
+   "categorie": "deco",
+   "calque": 3,
+   "posable_sur": [
+    "meuble"
+   ],
+   "colorable": false,
+   "variante_de": null,
+   "vues": [
+    "bol_legumes_cote.png",
+    "bol_legumes_dos.png",
+    "bol_legumes_face.png",
+    "bol_legumes_trois_quarts.png"
+   ],
+   "taille": [
+    187,
+    311
+   ]
+  },
+  {
+   "id": "canape",
+   "categorie": "meuble",
+   "calque": 2,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "colorable": false,
+   "variante_de": null,
+   "vues": [
+    "canape_cote.png",
+    "canape_dos.png",
+    "canape_face.png",
+    "canape_trois_quarts.png"
+   ],
+   "taille": [
+    193,
+    212
+   ]
+  },
+  {
+   "id": "canape_colorable",
+   "categorie": "meuble",
+   "calque": 2,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "colorable": true,
+   "variante_de": "canape",
+   "vues": [
+    "canape_colorable_cote.png",
+    "canape_colorable_dos.png",
+    "canape_colorable_face.png",
+    "canape_colorable_trois_quarts.png"
+   ],
+   "taille": [
+    193,
+    212
+   ]
+  },
+  {
+   "id": "chaise_bois",
+   "categorie": "meuble",
+   "calque": 2,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "colorable": false,
+   "variante_de": null,
+   "vues": [
+    "chaise_bois_cote.png",
+    "chaise_bois_dos.png",
+    "chaise_bois_face.png",
+    "chaise_bois_trois_quarts.png"
+   ],
+   "taille": [
+    240,
+    417
+   ]
+  },
+  {
+   "id": "chaise_bois_colorable",
+   "categorie": "meuble",
+   "calque": 2,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "colorable": true,
+   "variante_de": "chaise_bois",
+   "vues": [
+    "chaise_bois_colorable_cote.png",
+    "chaise_bois_colorable_dos.png",
+    "chaise_bois_colorable_face.png",
+    "chaise_bois_colorable_trois_quarts.png"
+   ],
+   "taille": [
+    240,
+    417
+   ]
+  },
+  {
+   "id": "chaise_metal",
+   "categorie": "meuble",
+   "calque": 2,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "colorable": false,
+   "variante_de": null,
+   "vues": [
+    "chaise_metal_cote.png",
+    "chaise_metal_dos.png",
+    "chaise_metal_face.png",
+    "chaise_metal_trois_quarts.png"
+   ],
+   "taille": [
+    240,
+    416
+   ]
+  },
+  {
+   "id": "chaise_metal_colorable",
+   "categorie": "meuble",
+   "calque": 2,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "colorable": true,
+   "variante_de": "chaise_metal",
+   "vues": [
+    "chaise_metal_colorable_cote.png",
+    "chaise_metal_colorable_dos.png",
+    "chaise_metal_colorable_face.png",
+    "chaise_metal_colorable_trois_quarts.png"
+   ],
+   "taille": [
+    240,
+    417
+   ]
+  },
+  {
+   "id": "chaise_rotin",
+   "categorie": "meuble",
+   "calque": 2,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "colorable": false,
+   "variante_de": null,
+   "vues": [
+    "chaise_rotin_cote.png",
+    "chaise_rotin_dos.png",
+    "chaise_rotin_face.png",
+    "chaise_rotin_trois_quarts.png"
+   ],
+   "taille": [
+    249,
+    419
+   ]
+  },
+  {
+   "id": "chaise_rotin_colorable",
+   "categorie": "meuble",
+   "calque": 2,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "colorable": true,
+   "variante_de": "chaise_rotin",
+   "vues": [
+    "chaise_rotin_colorable_cote.png",
+    "chaise_rotin_colorable_dos.png",
+    "chaise_rotin_colorable_face.png",
+    "chaise_rotin_colorable_trois_quarts.png"
+   ],
+   "taille": [
+    249,
+    419
+   ]
+  },
+  {
+   "id": "commode",
+   "categorie": "meuble",
+   "calque": 3,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "colorable": false,
+   "variante_de": null,
+   "vues": [
+    "commode_cote.png",
+    "commode_dos.png",
+    "commode_face.png",
+    "commode_trois_quarts.png"
+   ],
+   "taille": [
+    178,
+    407
+   ],
+   "note": "meuble avec plante et livres integres au sprite : calque 3, rien ne peut etre pose dessus",
+   "surfaces_pose": 0
+  },
+  {
+   "id": "commode_colorable",
+   "categorie": "meuble",
+   "calque": 2,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "colorable": true,
+   "variante_de": "commode",
+   "vues": [
+    "commode_colorable_cote.png",
+    "commode_colorable_dos.png",
+    "commode_colorable_face.png",
+    "commode_colorable_trois_quarts.png"
+   ],
+   "taille": [
+    178,
+    310
+   ],
+   "surfaces_pose": 1,
+   "note": "dessus vide : on peut y poser de la deco (calque 3)"
+  },
+  {
+   "id": "coussin",
+   "categorie": "deco",
+   "calque": 3,
+   "posable_sur": [
+    "meuble"
+   ],
+   "colorable": false,
+   "variante_de": null,
+   "vues": [
+    "coussin_cote.png",
+    "coussin_dos.png",
+    "coussin_face.png",
+    "coussin_trois_quarts.png"
+   ],
+   "taille": [
+    133,
+    371
+   ]
+  },
+  {
+   "id": "coussin2",
+   "categorie": "deco",
+   "calque": 3,
+   "posable_sur": [
+    "meuble"
+   ],
+   "colorable": false,
+   "variante_de": null,
+   "vues": [
+    "coussin2_cote.png",
+    "coussin2_dos.png",
+    "coussin2_face.png",
+    "coussin2_trois_quarts.png"
+   ],
+   "taille": [
+    165,
+    348
+   ]
+  },
+  {
+   "id": "coussin_colorable",
+   "categorie": "deco",
+   "calque": 3,
+   "posable_sur": [
+    "meuble"
+   ],
+   "colorable": true,
+   "variante_de": "coussin",
+   "vues": [
+    "coussin_colorable_cote.png",
+    "coussin_colorable_dos.png",
+    "coussin_colorable_face.png",
+    "coussin_colorable_trois_quarts.png"
+   ],
+   "taille": [
+    135,
+    371
+   ]
+  },
+  {
+   "id": "coussin_colorable2",
+   "categorie": "deco",
+   "calque": 3,
+   "posable_sur": [
+    "meuble"
+   ],
+   "colorable": true,
+   "variante_de": "coussin2",
+   "vues": [
+    "coussin_colorable2_cote.png",
+    "coussin_colorable2_dos.png",
+    "coussin_colorable2_face.png",
+    "coussin_colorable2_trois_quarts.png"
+   ],
+   "taille": [
+    166,
+    350
+   ]
+  },
+  {
+   "id": "cubes_jouets",
+   "categorie": "deco",
+   "calque": 3,
+   "posable_sur": [
+    "sol",
+    "tapis",
+    "meuble"
+   ],
+   "colorable": false,
+   "variante_de": null,
+   "vues": [
+    "cubes_jouets_cube_01.png",
+    "cubes_jouets_cube_02.png",
+    "cubes_jouets_cube_03.png",
+    "cubes_jouets_cube_04.png",
+    "cubes_jouets_cube_05.png",
+    "cubes_jouets_cube_06.png",
+    "cubes_jouets_cube_07.png",
+    "cubes_jouets_cube_08.png",
+    "cubes_jouets_cube_09.png",
+    "cubes_jouets_cube_10.png",
+    "cubes_jouets_cube_11.png",
+    "cubes_jouets_cube_12.png",
+    "cubes_jouets_cube_13.png",
+    "cubes_jouets_cube_14.png",
+    "cubes_jouets_cube_15.png",
+    "cubes_jouets_cube_16.png",
+    "cubes_jouets_cube_17.png",
+    "cubes_jouets_cube_18.png",
+    "cubes_jouets_cube_19.png",
+    "cubes_jouets_cube_20.png",
+    "cubes_jouets_cube_21.png",
+    "cubes_jouets_cube_22.png",
+    "cubes_jouets_cube_23.png",
+    "cubes_jouets_cube_24.png",
+    "cubes_jouets_cube_25.png",
+    "cubes_jouets_cube_26.png",
+    "cubes_jouets_cube_27.png",
+    "cubes_jouets_cube_28.png",
+    "cubes_jouets_cube_29.png",
+    "cubes_jouets_cube_30.png",
+    "cubes_jouets_cube_31.png",
+    "cubes_jouets_cube_32.png",
+    "cubes_jouets_objet_1.png",
+    "cubes_jouets_objet_10.png",
+    "cubes_jouets_objet_11.png",
+    "cubes_jouets_objet_12.png",
+    "cubes_jouets_objet_13.png",
+    "cubes_jouets_objet_14.png",
+    "cubes_jouets_objet_15.png",
+    "cubes_jouets_objet_16.png",
+    "cubes_jouets_objet_17.png",
+    "cubes_jouets_objet_18.png",
+    "cubes_jouets_objet_19.png",
+    "cubes_jouets_objet_2.png",
+    "cubes_jouets_objet_20.png",
+    "cubes_jouets_objet_21.png",
+    "cubes_jouets_objet_22.png",
+    "cubes_jouets_objet_23.png",
+    "cubes_jouets_objet_24.png",
+    "cubes_jouets_objet_25.png",
+    "cubes_jouets_objet_26.png",
+    "cubes_jouets_objet_3.png",
+    "cubes_jouets_objet_4.png",
+    "cubes_jouets_objet_5.png",
+    "cubes_jouets_objet_6.png",
+    "cubes_jouets_objet_7.png",
+    "cubes_jouets_objet_8.png",
+    "cubes_jouets_objet_9.png"
+   ],
+   "taille": [
+    128,
+    127
+   ],
+   "note": "32 cubes : 8 couleurs x (face, profil, face large, iso)"
+  },
+  {
+   "id": "fauteuil",
+   "categorie": "meuble",
+   "calque": 2,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "colorable": false,
+   "variante_de": null,
+   "vues": [
+    "fauteuil_cote.png",
+    "fauteuil_dos.png",
+    "fauteuil_face.png",
+    "fauteuil_trois_quarts.png"
+   ],
+   "taille": [
+    262,
+    326
+   ]
+  },
+  {
+   "id": "fauteuil_colorable",
+   "categorie": "meuble",
+   "calque": 2,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "colorable": true,
+   "variante_de": "fauteuil",
+   "vues": [
+    "fauteuil_colorable_cote.png",
+    "fauteuil_colorable_dos.png",
+    "fauteuil_colorable_face.png",
+    "fauteuil_colorable_trois_quarts.png"
+   ],
+   "taille": [
+    260,
+    324
+   ]
+  },
+  {
+   "id": "fauteuil_rotin",
+   "categorie": "meuble",
+   "calque": 2,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "colorable": false,
+   "variante_de": null,
+   "vues": [
+    "fauteuil_rotin_cote.png",
+    "fauteuil_rotin_dos.png",
+    "fauteuil_rotin_face.png",
+    "fauteuil_rotin_trois_quarts.png"
+   ],
+   "taille": [
+    260,
+    423
+   ]
+  },
+  {
+   "id": "fauteuil_rotin_colorable",
+   "categorie": "meuble",
+   "calque": 2,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "surfaces_pose": 0,
+   "colorable": true,
+   "variante_de": "fauteuil_rotin",
+   "dossier": "fauteuil_rotin_colorable",
+   "vues": [
+    "fauteuil_rotin_colorable_cote.png",
+    "fauteuil_rotin_colorable_dos.png",
+    "fauteuil_rotin_colorable_face.png",
+    "fauteuil_rotin_colorable_trois_quarts.png"
+   ],
+   "taille": [
+    260,
+    423
+   ]
+  },
+  {
+   "id": "lit",
+   "categorie": "meuble",
+   "calque": 2,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "surfaces_pose": 1,
+   "colorable": false,
+   "variante_de": null,
+   "dossier": "lit",
+   "vues": [
+    "lit_cote.png",
+    "lit_dos.png",
+    "lit_face.png",
+    "lit_trois_quarts.png"
+   ],
+   "taille": [
+    304,
+    242
+   ],
+   "note": "surface de pose = dessus du lit (peluche, coussin)"
+  },
+  {
+   "id": "lit_colorable",
+   "categorie": "meuble",
+   "calque": 2,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "surfaces_pose": 1,
+   "colorable": true,
+   "variante_de": "lit",
+   "dossier": "lit_colorable",
+   "vues": [
+    "lit_colorable_1_oreiller_cote.png",
+    "lit_colorable_1_oreiller_dos.png",
+    "lit_colorable_1_oreiller_face.png",
+    "lit_colorable_1_oreiller_trois_quarts.png",
+    "lit_colorable_2_oreillers_cote.png",
+    "lit_colorable_2_oreillers_dos.png",
+    "lit_colorable_2_oreillers_face.png",
+    "lit_colorable_2_oreillers_trois_quarts.png"
+   ],
+   "taille": [
+    303,
+    218
+   ],
+   "note": "2 variantes : 2 oreillers / 1 oreiller (prefixes 2_oreillers, 1_oreiller)"
+  },
+  {
+   "id": "meuble_PC",
+   "categorie": "meuble",
+   "calque": 3,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "surfaces_pose": 0,
+   "colorable": false,
+   "variante_de": null,
+   "dossier": "meuble_PC",
+   "vues": [
+    "meuble_PC_cote.png",
+    "meuble_PC_dos.png",
+    "meuble_PC_face.png",
+    "meuble_PC_trois_quarts.png"
+   ],
+   "taille": [
+    175,
+    345
+   ],
+   "note": "ordinateur integre au sprite : calque 3, rien dessus"
+  },
+  {
+   "id": "meuble_PC_colorable",
+   "categorie": "meuble",
+   "calque": 3,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "surfaces_pose": 0,
+   "colorable": true,
+   "variante_de": "meuble_PC",
+   "dossier": "meuble_PC_colorable",
+   "vues": [
+    "meuble_PC_colorable_cote.png",
+    "meuble_PC_colorable_dos.png",
+    "meuble_PC_colorable_face.png",
+    "meuble_PC_colorable_trois_quarts.png"
+   ],
+   "taille": [
+    175,
+    345
+   ],
+   "note": "ordinateur integre (tour et ecran differents de la version bois)"
+  },
+  {
+   "id": "meuble_TV",
+   "categorie": "meuble",
+   "calque": 3,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "surfaces_pose": 0,
+   "colorable": false,
+   "variante_de": null,
+   "dossier": "meuble_TV",
+   "vues": [
+    "meuble_TV_cote.png",
+    "meuble_TV_dos.png",
+    "meuble_TV_face.png",
+    "meuble_TV_trois_quarts.png"
+   ],
+   "taille": [
+    150,
+    383
+   ],
+   "note": "TV, livres et plante integres : calque 3, rien dessus"
+  },
+  {
+   "id": "meuble_TV_colorable",
+   "categorie": "meuble",
+   "calque": 3,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "surfaces_pose": 0,
+   "colorable": true,
+   "variante_de": "meuble_TV",
+   "dossier": "meuble_TV_colorable",
+   "vues": [
+    "meuble_TV_colorable_cote.png",
+    "meuble_TV_colorable_dos.png",
+    "meuble_TV_colorable_face.png",
+    "meuble_TV_colorable_trois_quarts.png"
+   ],
+   "taille": [
+    150,
+    386
+   ],
+   "note": "TV ecran plat (version bois : ancien tube cathodique)"
+  },
+  {
+   "id": "pouf",
+   "categorie": "meuble",
+   "calque": 2,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "surfaces_pose": 0,
+   "colorable": false,
+   "variante_de": null,
+   "dossier": "pouf",
+   "vues": [
+    "pouf_cote.png",
+    "pouf_dos.png",
+    "pouf_face.png",
+    "pouf_trois_quarts.png"
+   ],
+   "taille": [
+    272,
+    313
+   ]
+  },
+  {
+   "id": "pouf_colorable",
+   "categorie": "meuble",
+   "calque": 2,
+   "posable_sur": [
+    "sol",
+    "tapis"
+   ],
+   "surfaces_pose": 0,
+   "colorable": true,
+   "variante_de": "pouf",
+   "dossier": "pouf_colorable",
+   "vues": [
+    "pouf_colorable_cote.png",
+    "pouf_colorable_dos.png",
+    "pouf_colorable_face.png",
+    "pouf_colorable_trois_quarts.png"
+   ],
+   "taille": [
+    272,
+    314
+   ]
+  },
+  {
+   "id": "jouet_dino",
+   "categorie": "deco",
+   "calque": 3,
+   "posable_sur": [
+    "sol",
+    "tapis",
+    "meuble",
+    "lit"
+   ],
+   "surfaces_pose": 0,
+   "colorable": false,
+   "variante_de": null,
+   "dossier": "jouet_dino",
+   "vues": [
+    "jouet_dino_cote.png",
+    "jouet_dino_dos.png",
+    "jouet_dino_face.png",
+    "jouet_dino_trois_quarts.png"
+   ],
+   "taille": [
+    402,
+    411
+   ]
+  },
+  {
+   "id": "jouet_dino_colorable",
+   "categorie": "deco",
+   "calque": 3,
+   "posable_sur": [
+    "sol",
+    "tapis",
+    "meuble",
+    "lit"
+   ],
+   "surfaces_pose": 0,
+   "colorable": true,
+   "variante_de": "jouet_dino",
+   "dossier": "jouet_dino_colorable",
+   "vues": [
+    "jouet_dino_colorable_cote.png",
+    "jouet_dino_colorable_dos.png",
+    "jouet_dino_colorable_face.png",
+    "jouet_dino_colorable_trois_quarts.png"
+   ],
+   "taille": [
+    402,
+    411
+   ]
+  },
+  {
+   "id": "jouet_train",
+   "categorie": "deco",
+   "calque": 3,
+   "posable_sur": [
+    "sol",
+    "tapis",
+    "meuble",
+    "lit"
+   ],
+   "surfaces_pose": 0,
+   "colorable": false,
+   "variante_de": null,
+   "dossier": "jouets",
+   "vues": [
+    "jouets_train_cote.png",
+    "jouets_train_dos.png",
+    "jouets_train_face.png",
+    "jouets_train_trois_quarts.png"
+   ],
+   "taille": [
+    226,
+    267
+   ]
+  },
+  {
+   "id": "jouet_anneaux",
+   "categorie": "deco",
+   "calque": 3,
+   "posable_sur": [
+    "sol",
+    "tapis",
+    "meuble",
+    "lit"
+   ],
+   "surfaces_pose": 0,
+   "colorable": false,
+   "variante_de": null,
+   "dossier": "jouets",
+   "vues": [
+    "jouets_anneaux_cote.png",
+    "jouets_anneaux_dos.png",
+    "jouets_anneaux_face.png",
+    "jouets_anneaux_trois_quarts.png"
+   ],
+   "taille": [
+    236,
+    297
+   ]
+  },
+  {
+   "id": "poulet",
+   "categorie": "deco",
+   "calque": 3,
+   "posable_sur": [
+    "meuble"
+   ],
+   "surfaces_pose": 0,
+   "colorable": false,
+   "variante_de": null,
+   "dossier": "poulet",
+   "vues": [
+    "poulet_cote.png",
+    "poulet_dos.png",
+    "poulet_face.png",
+    "poulet_trois_quarts.png"
+   ],
+   "taille": [
+    328,
+    206
+   ],
+   "note": "assiette integree au sprite"
+  },
+  {
+   "id": "gateau",
+   "categorie": "deco",
+   "calque": 3,
+   "posable_sur": [
+    "meuble"
+   ],
+   "surfaces_pose": 0,
+   "colorable": false,
+   "variante_de": null,
+   "dossier": "gateau",
+   "vues": [
+    "gateau_cote.png",
+    "gateau_dos.png",
+    "gateau_face.png",
+    "gateau_trois_quarts.png"
+   ],
+   "taille": [
+    328,
+    222
+   ],
+   "note": "assiette integree au sprite"
+  },
+  {
+   "id": "part_gateau",
+   "categorie": "deco",
+   "calque": 3,
+   "posable_sur": [
+    "meuble"
+   ],
+   "surfaces_pose": 0,
+   "colorable": false,
+   "variante_de": null,
+   "dossier": "part_gateau",
+   "vues": [
+    "part_gateau_part_gateau.png"
+   ],
+   "taille": [
+    656,
+    497
+   ],
+   "note": "assiette integree au sprite"
+  },
+  {
+   "id": "hamburger",
+   "categorie": "deco",
+   "calque": 3,
+   "posable_sur": [
+    "meuble"
+   ],
+   "surfaces_pose": 0,
+   "colorable": false,
+   "variante_de": null,
+   "dossier": "hamburger",
+   "vues": [
+    "hamburger_cote.png",
+    "hamburger_dos.png",
+    "hamburger_face.png",
+    "hamburger_trois_quarts.png"
+   ],
+   "taille": [
+    294,
+    168
+   ],
+   "note": "assiette integree au sprite"
+  }
+ ]
+}

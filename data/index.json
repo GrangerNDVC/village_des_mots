@@ -14,10 +14,125 @@
     3
   ],
   "totaux": {
-    "modules": 1,
-    "exercices": 30
+    "modules": 17,
+    "exercices": 606
   },
   "modules": [
+    {
+      "id": "gram-6e-adjectif",
+      "titre": "L’adjectif qualificatif",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "grade": "page",
+      "version": 1,
+      "fichier": "data/exercices/grammaire/6e/gram-6e-adjectif.json",
+      "nb_exercices": 36,
+      "competences": [
+        "gram-6e-adjectif-identifier",
+        "gram-6e-adjectif-accord",
+        "gram-6e-adjectif-fonction"
+      ],
+      "formes": [
+        "completer",
+        "contexte",
+        "corriger",
+        "produire",
+        "reconnaitre",
+        "transformer"
+      ]
+    },
+    {
+      "id": "gram-6e-complements-circ",
+      "titre": "Les compléments circonstanciels : temps, lieu, moyen, manière",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "grade": "page",
+      "version": 1,
+      "fichier": "data/exercices/grammaire/6e/gram-6e-complements-circ.json",
+      "nb_exercices": 36,
+      "competences": [
+        "gram-6e-cc-reperer",
+        "gram-6e-cc-nature",
+        "gram-6e-cc-valeur"
+      ],
+      "formes": [
+        "completer",
+        "contexte",
+        "corriger",
+        "produire",
+        "reconnaitre",
+        "transformer"
+      ]
+    },
+    {
+      "id": "gram-6e-complements-verbe",
+      "titre": "Les compléments du verbe : COD, COI, COS",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "grade": "page",
+      "version": 1,
+      "fichier": "data/exercices/grammaire/6e/gram-6e-complements-verbe.json",
+      "nb_exercices": 36,
+      "competences": [
+        "gram-6e-cdv-reperer",
+        "gram-6e-cdv-nature",
+        "gram-6e-cod-coi-cos"
+      ],
+      "formes": [
+        "completer",
+        "contexte",
+        "corriger",
+        "produire",
+        "reconnaitre",
+        "transformer"
+      ]
+    },
+    {
+      "id": "gram-6e-expansions-nom",
+      "titre": "L’épithète et le complément du nom",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "grade": "page",
+      "version": 1,
+      "fichier": "data/exercices/grammaire/6e/gram-6e-expansions-nom.json",
+      "nb_exercices": 36,
+      "competences": [
+        "gram-6e-epithete-reconnaitre",
+        "gram-6e-cdn-reconnaitre",
+        "gram-6e-cdn-nature"
+      ],
+      "formes": [
+        "completer",
+        "contexte",
+        "corriger",
+        "produire",
+        "reconnaitre",
+        "transformer"
+      ]
+    },
+    {
+      "id": "gram-6e-mots-invariables",
+      "titre": "Les mots invariables",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "grade": "page",
+      "version": 1,
+      "fichier": "data/exercices/grammaire/6e/gram-6e-mots-invariables.json",
+      "nb_exercices": 36,
+      "competences": [
+        "gram-6e-adverbe-reconnaitre",
+        "gram-6e-preposition-emploi",
+        "gram-6e-conjonction-types"
+      ],
+      "formes": [
+        "completer",
+        "contexte",
+        "corriger",
+        "produire",
+        "reconnaitre",
+        "transformer"
+      ]
+    },
     {
       "id": "gram-6e-natures",
       "titre": "Les natures de mots",
@@ -34,6 +149,259 @@
         "gram-6e-nature-verbe",
         "gram-6e-nature-pronom",
         "gram-6e-nature-phrase"
+      ],
+      "formes": [
+        "completer",
+        "contexte",
+        "corriger",
+        "produire",
+        "reconnaitre",
+        "transformer"
+      ]
+    },
+    {
+      "id": "gram-6e-nom-determinant",
+      "titre": "Le nom et le groupe nominal ; les déterminants",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "grade": "page",
+      "version": 1,
+      "fichier": "data/exercices/grammaire/6e/gram-6e-nom-determinant.json",
+      "nb_exercices": 36,
+      "competences": [
+        "gram-6e-nom-identifier",
+        "gram-6e-groupe-nominal",
+        "gram-6e-determinant-emploi"
+      ],
+      "formes": [
+        "completer",
+        "contexte",
+        "corriger",
+        "produire",
+        "reconnaitre",
+        "transformer"
+      ]
+    },
+    {
+      "id": "gram-6e-phrase-complexe",
+      "titre": "La phrase simple et l’initiation à la phrase complexe",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "grade": "page",
+      "version": 1,
+      "fichier": "data/exercices/grammaire/6e/gram-6e-phrase-complexe.json",
+      "nb_exercices": 36,
+      "competences": [
+        "gram-6e-phrase-simple",
+        "gram-6e-phrase-complexe-reperer",
+        "gram-6e-phrase-complexe-liens"
+      ],
+      "formes": [
+        "completer",
+        "contexte",
+        "corriger",
+        "produire",
+        "reconnaitre",
+        "transformer"
+      ]
+    },
+    {
+      "id": "gram-6e-pronom",
+      "titre": "Pronoms personnels, possessifs et démonstratifs",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "grade": "page",
+      "version": 1,
+      "fichier": "data/exercices/grammaire/6e/gram-6e-pronom.json",
+      "nb_exercices": 36,
+      "competences": [
+        "gram-6e-pronom-personnel-forme",
+        "gram-6e-pronom-personnel-reprise",
+        "gram-6e-pronom-possessif-demonstratif"
+      ],
+      "formes": [
+        "completer",
+        "contexte",
+        "corriger",
+        "produire",
+        "reconnaitre",
+        "transformer"
+      ]
+    },
+    {
+      "id": "gram-6e-sujet-attribut",
+      "titre": "Le sujet et l’attribut du sujet",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "grade": "page",
+      "version": 1,
+      "fichier": "data/exercices/grammaire/6e/gram-6e-sujet-attribut.json",
+      "nb_exercices": 36,
+      "competences": [
+        "gram-6e-sujet-identifier",
+        "gram-6e-sujet-nature",
+        "gram-6e-attribut-sujet"
+      ],
+      "formes": [
+        "completer",
+        "contexte",
+        "corriger",
+        "produire",
+        "reconnaitre",
+        "transformer"
+      ]
+    },
+    {
+      "id": "gram-6e-types-formes-phrase",
+      "titre": "Types de phrase ; phrases affirmatives et négatives",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "grade": "page",
+      "version": 1,
+      "fichier": "data/exercices/grammaire/6e/gram-6e-types-formes-phrase.json",
+      "nb_exercices": 36,
+      "competences": [
+        "gram-6e-types-phrase",
+        "gram-6e-phrase-interrogative",
+        "gram-6e-forme-negative"
+      ],
+      "formes": [
+        "completer",
+        "contexte",
+        "corriger",
+        "produire",
+        "reconnaitre",
+        "transformer"
+      ]
+    },
+    {
+      "id": "gram-6e-verbe",
+      "titre": "Le verbe et le groupe verbal",
+      "domaine": "grammaire",
+      "niveau": 6,
+      "grade": "page",
+      "version": 1,
+      "fichier": "data/exercices/grammaire/6e/gram-6e-verbe.json",
+      "nb_exercices": 36,
+      "competences": [
+        "gram-6e-verbe-identifier",
+        "gram-6e-verbe-types",
+        "gram-6e-groupe-verbal"
+      ],
+      "formes": [
+        "completer",
+        "contexte",
+        "corriger",
+        "produire",
+        "reconnaitre",
+        "transformer"
+      ]
+    },
+    {
+      "id": "gram-5e-adjectif",
+      "titre": "L’adjectif qualificatif et ses degrés",
+      "domaine": "grammaire",
+      "niveau": 5,
+      "grade": "ecuyer",
+      "version": 1,
+      "fichier": "data/exercices/grammaire/5e/gram-5e-adjectif.json",
+      "nb_exercices": 36,
+      "competences": [
+        "gram-5e-adjectif-accord",
+        "gram-5e-adjectif-comparatif",
+        "gram-5e-adjectif-superlatif"
+      ],
+      "formes": [
+        "completer",
+        "contexte",
+        "corriger",
+        "produire",
+        "reconnaitre",
+        "transformer"
+      ]
+    },
+    {
+      "id": "gram-5e-expansions-nom",
+      "titre": "Épithète, complément du nom, subordonnée relative",
+      "domaine": "grammaire",
+      "niveau": 5,
+      "grade": "ecuyer",
+      "version": 1,
+      "fichier": "data/exercices/grammaire/5e/gram-5e-expansions-nom.json",
+      "nb_exercices": 36,
+      "competences": [
+        "gram-5e-epithete-place",
+        "gram-5e-cdn-nature",
+        "gram-5e-relative-reperer"
+      ],
+      "formes": [
+        "completer",
+        "contexte",
+        "corriger",
+        "produire",
+        "reconnaitre",
+        "transformer"
+      ]
+    },
+    {
+      "id": "gram-5e-mots-invariables",
+      "titre": "Prépositions, conjonctions, adverbes",
+      "domaine": "grammaire",
+      "niveau": 5,
+      "grade": "ecuyer",
+      "version": 1,
+      "fichier": "data/exercices/grammaire/5e/gram-5e-mots-invariables.json",
+      "nb_exercices": 36,
+      "competences": [
+        "gram-5e-preposition-emploi",
+        "gram-5e-conjonction-types",
+        "gram-5e-adverbe-categories"
+      ],
+      "formes": [
+        "completer",
+        "contexte",
+        "corriger",
+        "produire",
+        "reconnaitre",
+        "transformer"
+      ]
+    },
+    {
+      "id": "gram-5e-nom-determinant",
+      "titre": "Le nom et les déterminants",
+      "domaine": "grammaire",
+      "niveau": 5,
+      "grade": "ecuyer",
+      "version": 1,
+      "fichier": "data/exercices/grammaire/5e/gram-5e-nom-determinant.json",
+      "nb_exercices": 36,
+      "competences": [
+        "gram-5e-nom-gn",
+        "gram-5e-article",
+        "gram-5e-determinant-demonstratif-possessif"
+      ],
+      "formes": [
+        "completer",
+        "contexte",
+        "corriger",
+        "produire",
+        "reconnaitre",
+        "transformer"
+      ]
+    },
+    {
+      "id": "gram-5e-pronom",
+      "titre": "Les pronoms",
+      "domaine": "grammaire",
+      "niveau": 5,
+      "grade": "ecuyer",
+      "version": 1,
+      "fichier": "data/exercices/grammaire/5e/gram-5e-pronom.json",
+      "nb_exercices": 36,
+      "competences": [
+        "gram-5e-pronom-personnel",
+        "gram-5e-pronom-demonstratif-possessif",
+        "gram-5e-pronom-relatif-interrogatif"
       ],
       "formes": [
         "completer",

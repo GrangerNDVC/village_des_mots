@@ -1,0 +1,803 @@
+{
+  "module": "gram-5e-pronom",
+  "titre": "Les pronoms",
+  "domaine": "grammaire",
+  "niveau": 5,
+  "grade": "ecuyer",
+  "version": 1,
+  "description": "Comprendre le rôle du pronom, reconnaître les pronoms personnels, démonstratifs, possessifs, relatifs et interrogatifs.",
+  "rappel": {
+    "titre": "Les pronoms",
+    "points": [
+      {
+        "mot": "pronom",
+        "definition": "Un pronom remplace un mot ou un groupe de mots déjà utilisé : nom, groupe nominal, infinitif, phrase… Les pronoms ont les mêmes fonctions que le nom : sujet, COD, COI, attribut…",
+        "exemple": "Plume appelle ses amis, mais ils ne l’entendent pas."
+      },
+      {
+        "mot": "pronoms personnels",
+        "definition": "Les pronoms personnels varient selon la personne, le genre, le nombre et la fonction. Sujets : je, tu, il, elle, on, nous, vous, ils, elles. Compléments : me, te, le, la, lui, nous, vous, les, leur, eux, se…",
+        "exemple": "Hugo leur parle. Léa le regarde."
+      },
+      {
+        "mot": "pronoms démonstratifs",
+        "definition": "Les pronoms démonstratifs (celui, celle, ceux, celles, celui-ci, celui-là, ce, cela…) remplacent un nom précédé d’un déterminant démonstratif.",
+        "exemple": "ce fauteuil ➜ celui-ci"
+      },
+      {
+        "mot": "pronoms possessifs",
+        "definition": "Les pronoms possessifs (le mien, la tienne, le sien, la nôtre, les vôtres, le leur…) remplacent un nom précédé d’un déterminant possessif.",
+        "exemple": "leur jardin ➜ le leur"
+      },
+      {
+        "mot": "pronoms relatifs",
+        "definition": "Les pronoms relatifs (qui, que, quoi, dont, où, lequel…) introduisent une subordonnée relative.",
+        "exemple": "Montre-moi le coffre que tu as trouvé."
+      },
+      {
+        "mot": "pronoms interrogatifs",
+        "definition": "Les pronoms interrogatifs (qui, que, quoi, lequel…) introduisent une interrogation.",
+        "exemple": "Qui habite ici ?"
+      }
+    ]
+  },
+  "competences": [
+    "gram-5e-pronom-personnel",
+    "gram-5e-pronom-demonstratif-possessif",
+    "gram-5e-pronom-relatif-interrogatif"
+  ],
+  "exercices": [
+    {
+      "id": "gram-5e-pronom-001",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-pronom-personnel",
+      "difficulte": 1,
+      "consigne": "Quels mots le pronom « ils » remplace-t-il ?",
+      "enonce": "Hugo et Léa cueillent des baies, mais ils les mangent aussitôt.",
+      "choix": [
+        "Hugo et Léa",
+        "des baies",
+        "Hugo",
+        "Léa"
+      ],
+      "reponse": 0,
+      "explication": "« ils » reprend « Hugo et Léa », déjà utilisés dans la phrase : un pronom remplace un mot ou un groupe de mots.",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-002",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-pronom-personnel",
+      "difficulte": 1,
+      "consigne": "Clique sur le pronom personnel sujet.",
+      "mots": [
+        "Léa",
+        "ouvre",
+        "la",
+        "porte",
+        "et",
+        "elle",
+        "sourit"
+      ],
+      "cibles": [
+        5
+      ],
+      "explication": "« elle » remplace « Léa » et fait l’action de « sourit » : c’est le pronom personnel sujet.",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-003",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-pronom-personnel",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Un pronom remplace un mot ou un groupe de mots déjà utilisé.",
+      "reponse": true,
+      "explication": "Un pronom remplace un mot ou un groupe de mots déjà utilisé : nom, groupe nominal, infinitif, phrase…",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-004",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-5e-pronom-personnel",
+      "difficulte": 1,
+      "consigne": "Recopie le pronom personnel sujet de la phrase.",
+      "enonce": "Nous cueillons des baies.",
+      "reponses_acceptees": [
+        "Nous"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« Nous » est un pronom personnel de la 1re personne du pluriel : il est sujet de « cueillons ».",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-005",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-pronom-personnel",
+      "difficulte": 2,
+      "consigne": "Quel pronom personnel peut remplacer « Le renard et la chouette » ?",
+      "enonce": "Le renard et la chouette chassent la nuit.",
+      "choix": [
+        "elles",
+        "ils",
+        "eux",
+        "lui"
+      ],
+      "reponse": 1,
+      "explication": "Un groupe qui réunit un masculin et un féminin se remplace par le masculin pluriel : « ils ».",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-006",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-pronom-personnel",
+      "difficulte": 2,
+      "consigne": "Ce pronom personnel est-il sujet ou complément ?",
+      "elements": [
+        "je",
+        "me",
+        "il",
+        "les",
+        "elles",
+        "leur"
+      ],
+      "categories": [
+        "pronom sujet",
+        "pronom complément"
+      ],
+      "solution": {
+        "je": 0,
+        "me": 1,
+        "il": 0,
+        "les": 1,
+        "elles": 0,
+        "leur": 1
+      },
+      "explication": "Pronoms sujets : je, tu, il, elle, on, nous, vous, ils, elles. Pronoms compléments : me, te, le, la, lui, les, leur…",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-007",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-5e-pronom-personnel",
+      "difficulte": 2,
+      "consigne": "Complète avec les pronoms personnels qui conviennent.",
+      "enonce": "Hugo parle à Léa : il {{1}} offre un cadeau et elle {{2}} remercie.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "lui",
+            "le",
+            "leur"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "lui",
+            "le",
+            "leur"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "Hugo offre un cadeau « à Léa » : on dit « lui » (COI). Léa remercie « Hugo » : on dit « le » (COD).",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-008",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-5e-pronom-personnel",
+      "difficulte": 2,
+      "consigne": "Remplace le groupe souligné par un pronom personnel.",
+      "enonce": "Hugo remercie Plume et Léa.",
+      "reponses_acceptees": [
+        "Hugo les remercie.",
+        "Hugo les remercie"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« Plume et Léa » est un COD pluriel : on le remplace par « les », placé avant le verbe.",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-009",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-5e-pronom-personnel",
+      "difficulte": 2,
+      "consigne": "Dans quelle phrase « le » est-il un pronom ?",
+      "choix": [
+        "Le lutin dort.",
+        "Plume le regarde.",
+        "Hugo ferme le coffre.",
+        "Le chant des oiseaux est doux."
+      ],
+      "reponse": 1,
+      "explication": "Dans « Plume le regarde », « le » remplace un nom et complète le verbe : c’est un pronom. Dans les autres phrases, il précède un nom : c’est un article.",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-010",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-5e-pronom-personnel",
+      "difficulte": 2,
+      "consigne": "Corrige le verbe pour qu’il s’accorde avec le pronom « moi ».",
+      "phrase_fautive": "C’est moi qui a rangé la chambre.",
+      "corrections_acceptees": [
+        "C’est moi qui ai rangé la chambre."
+      ],
+      "explication": "Après « C’est moi qui », le verbe s’accorde avec « moi » (1re personne) : « ai ».",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-011",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-5e-pronom-personnel",
+      "difficulte": 3,
+      "consigne": "Quelle est la fonction du pronom entre crochets ?",
+      "elements": [
+        "Léa [les] regarde.",
+        "Léa [leur] parle.",
+        "[Elle] sourit.",
+        "Plume [lui] répond.",
+        "Hugo [la] cherche.",
+        "[Nous] rions."
+      ],
+      "categories": [
+        "sujet",
+        "COD",
+        "COI"
+      ],
+      "solution": {
+        "Léa [les] regarde.": 1,
+        "Léa [leur] parle.": 2,
+        "[Elle] sourit.": 0,
+        "Plume [lui] répond.": 2,
+        "Hugo [la] cherche.": 1,
+        "[Nous] rions.": 0
+      },
+      "explication": "Sujet : il fait l’action. COD : complément direct (les, la). COI : complément introduit par « à » (leur, lui).",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-012",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-5e-pronom-personnel",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les pronoms personnels.",
+      "mots": [
+        "Il",
+        "nous",
+        "voit",
+        "et",
+        "elle",
+        "le",
+        "salue"
+      ],
+      "cibles": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "explication": "« Il » et « elle » sont sujets ; « nous » et « le » sont compléments. Ce sont tous des pronoms personnels.",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-013",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-pronom-demonstratif-possessif",
+      "difficulte": 1,
+      "consigne": "Quel mot est un pronom démonstratif ?",
+      "enonce": "Cette cabane est plus grande que celle de Hugo.",
+      "choix": [
+        "Cette",
+        "cabane",
+        "celle",
+        "grande"
+      ],
+      "reponse": 2,
+      "explication": "« celle » remplace « la cabane » : c’est un pronom démonstratif.",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-014",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-pronom-demonstratif-possessif",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Un pronom possessif remplace un nom précédé d’un déterminant possessif.",
+      "reponse": true,
+      "explication": "Un pronom possessif remplace un nom précédé d’un déterminant possessif : « leur jardin » ➜ « le leur ».",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-015",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-pronom-demonstratif-possessif",
+      "difficulte": 1,
+      "consigne": "Clique sur le pronom démonstratif.",
+      "mots": [
+        "Je",
+        "préfère",
+        "celui-là"
+      ],
+      "cibles": [
+        2
+      ],
+      "explication": "« celui-là » remplace un nom : c’est un pronom démonstratif.",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-016",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-5e-pronom-demonstratif-possessif",
+      "difficulte": 1,
+      "consigne": "Recopie le pronom démonstratif.",
+      "enonce": "Mon pull est rouge, celui de Léa est bleu.",
+      "reponses_acceptees": [
+        "celui"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« celui » remplace « le pull » : c’est un pronom démonstratif.",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-017",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-pronom-demonstratif-possessif",
+      "difficulte": 2,
+      "consigne": "Le groupe entre crochets est-il un déterminant possessif ou un pronom possessif ?",
+      "elements": [
+        "[Ton] chien aboie.",
+        "Mon chien dort, [le tien] aboie.",
+        "Plume range [sa] lanterne.",
+        "Ma lanterne est neuve, [la sienne] est vieille.",
+        "Hugo oublie [ses] clés.",
+        "Nos clés sont ici, [les vôtres] sont là-bas."
+      ],
+      "categories": [
+        "déterminant possessif",
+        "pronom possessif"
+      ],
+      "solution": {
+        "[Ton] chien aboie.": 0,
+        "Mon chien dort, [le tien] aboie.": 1,
+        "Plume range [sa] lanterne.": 0,
+        "Ma lanterne est neuve, [la sienne] est vieille.": 1,
+        "Hugo oublie [ses] clés.": 0,
+        "Nos clés sont ici, [les vôtres] sont là-bas.": 1
+      },
+      "explication": "Le déterminant possessif précède un nom (ton chien). Le pronom possessif remplace un nom (le tien).",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-018",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-pronom-demonstratif-possessif",
+      "difficulte": 2,
+      "consigne": "Quel pronom démonstratif peut remplacer « cet itinéraire » ?",
+      "choix": [
+        "celui-ci",
+        "celle-ci",
+        "ceux-ci",
+        "celles-ci"
+      ],
+      "reponse": 0,
+      "explication": "« cet itinéraire » est masculin singulier : on le remplace par « celui-ci » ou « celui-là ».",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-019",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-5e-pronom-demonstratif-possessif",
+      "difficulte": 2,
+      "consigne": "Complète avec les pronoms démonstratifs qui conviennent.",
+      "enonce": "Cette cabane est plus grande que {{1}} de Hugo. Ces baies sont meilleures que {{2}} du marché.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "celui",
+            "celle",
+            "ceux"
+          ],
+          "reponse": 1
+        },
+        {
+          "id": 2,
+          "choix": [
+            "celles",
+            "ceux",
+            "celle"
+          ],
+          "reponse": 0
+        }
+      ],
+      "explication": "« cabane » est féminin singulier : « celle de Hugo ». « baies » est féminin pluriel : « celles du marché ».",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-020",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-5e-pronom-demonstratif-possessif",
+      "difficulte": 2,
+      "consigne": "Remplace « ta lanterne » par un pronom possessif.",
+      "enonce": "Ma lanterne est neuve, ta lanterne est vieille.",
+      "reponses_acceptees": [
+        "la tienne"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« ta lanterne » (déterminant possessif + nom) peut être remplacée par le pronom possessif « la tienne ».",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-021",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-5e-pronom-demonstratif-possessif",
+      "difficulte": 2,
+      "consigne": "Corrige le pronom possessif.",
+      "phrase_fautive": "Nos dessins ressemblent aux vôtre.",
+      "corrections_acceptees": [
+        "Nos dessins ressemblent aux vôtres."
+      ],
+      "explication": "Le pronom possessif s’accorde avec le nom qu’il remplace : « dessins » est pluriel, donc « les vôtres ».",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-022",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-5e-pronom-demonstratif-possessif",
+      "difficulte": 2,
+      "consigne": "Quel mot est un pronom possessif ?",
+      "enonce": "Ma cabane est petite mais la sienne est grande.",
+      "choix": [
+        "Ma",
+        "cabane",
+        "sienne",
+        "petite"
+      ],
+      "reponse": 2,
+      "explication": "« sienne » remplace « sa cabane » : c’est un pronom possessif. « Ma » est un déterminant possessif.",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-023",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-5e-pronom-demonstratif-possessif",
+      "difficulte": 3,
+      "consigne": "Le pronom entre crochets est-il démonstratif ou possessif ?",
+      "elements": [
+        "[Cela] me surprend.",
+        "Ton sac est lourd, [le mien] est léger.",
+        "Tu préfères [celle-là] ?",
+        "Votre jardin est grand, [le leur] est petit.",
+        "[Ceux] qui rient sont heureux.",
+        "Mes clés sont ici, [les tiennes] sont là."
+      ],
+      "categories": [
+        "pronom démonstratif",
+        "pronom possessif"
+      ],
+      "solution": {
+        "[Cela] me surprend.": 0,
+        "Ton sac est lourd, [le mien] est léger.": 1,
+        "Tu préfères [celle-là] ?": 0,
+        "Votre jardin est grand, [le leur] est petit.": 1,
+        "[Ceux] qui rient sont heureux.": 0,
+        "Mes clés sont ici, [les tiennes] sont là.": 1
+      },
+      "explication": "Démonstratifs : celui, celle, ceux, celles, ce, cela… Possessifs : le mien, le tien, le sien, le leur, les tiennes…",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-024",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-5e-pronom-demonstratif-possessif",
+      "difficulte": 3,
+      "consigne": "Dans quelle phrase « leur » est-il un pronom possessif ?",
+      "choix": [
+        "Plume leur parle.",
+        "Ils ont perdu leur clé.",
+        "Votre jardin est grand, le leur est petit.",
+        "Léa leur sourit."
+      ],
+      "reponse": 2,
+      "explication": "Dans « Votre jardin est grand, le leur est petit », « le leur » remplace « leur jardin » : c’est un pronom possessif. Dans « leur clé », « leur » est un déterminant ; dans « Plume leur parle », c’est un pronom personnel.",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-025",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-pronom-relatif-interrogatif",
+      "difficulte": 1,
+      "consigne": "Quel mot est un pronom relatif ?",
+      "enonce": "Plume ouvre le coffre que Hugo a trouvé.",
+      "choix": [
+        "Plume",
+        "ouvre",
+        "que",
+        "trouvé"
+      ],
+      "reponse": 2,
+      "explication": "« que » introduit la subordonnée relative « que Hugo a trouvé » et reprend « le coffre » : c’est un pronom relatif.",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-026",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-pronom-relatif-interrogatif",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Un pronom relatif introduit une proposition subordonnée relative.",
+      "reponse": true,
+      "explication": "Les pronoms relatifs (qui, que, dont, où…) introduisent une subordonnée relative.",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-027",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-pronom-relatif-interrogatif",
+      "difficulte": 1,
+      "consigne": "Clique sur le pronom interrogatif.",
+      "mots": [
+        "Qui",
+        "habite",
+        "dans",
+        "la",
+        "tour"
+      ],
+      "cibles": [
+        0
+      ],
+      "explication": "« Qui » introduit une question : c’est un pronom interrogatif.",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-028",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-5e-pronom-relatif-interrogatif",
+      "difficulte": 1,
+      "consigne": "Recopie le pronom relatif.",
+      "enonce": "Le lutin qui dort est fatigué.",
+      "reponses_acceptees": [
+        "qui"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« qui » reprend « le lutin » et introduit la relative « qui dort » : c’est un pronom relatif.",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-029",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-pronom-relatif-interrogatif",
+      "difficulte": 2,
+      "consigne": "Le pronom souligné est-il relatif ou interrogatif ?",
+      "elements": [
+        "Qui habite ici ?",
+        "Le lutin qui habite ici dort.",
+        "Que cherches-tu ?",
+        "Le trésor que tu cherches est caché.",
+        "À quoi penses-tu ?",
+        "Le village dont il parle est calme."
+      ],
+      "categories": [
+        "pronom relatif",
+        "pronom interrogatif"
+      ],
+      "solution": {
+        "Qui habite ici ?": 1,
+        "Le lutin qui habite ici dort.": 0,
+        "Que cherches-tu ?": 1,
+        "Le trésor que tu cherches est caché.": 0,
+        "À quoi penses-tu ?": 1,
+        "Le village dont il parle est calme.": 0
+      },
+      "explication": "Un pronom relatif introduit une subordonnée relative et reprend un nom. Un pronom interrogatif introduit une question.",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-030",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-pronom-relatif-interrogatif",
+      "difficulte": 2,
+      "consigne": "Quelle phrase contient un pronom relatif ?",
+      "choix": [
+        "Qui a ouvert la porte ?",
+        "Le renard que Plume voit s’enfuit.",
+        "Que dit Hugo ?",
+        "Lequel préfères-tu ?"
+      ],
+      "reponse": 1,
+      "explication": "Dans « Le renard que Plume voit s’enfuit », « que » reprend « le renard » et introduit une relative. Les autres phrases sont des questions.",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-031",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-5e-pronom-relatif-interrogatif",
+      "difficulte": 2,
+      "consigne": "Complète avec les pronoms relatifs qui conviennent.",
+      "enonce": "Les baies {{1}} Plume cueille sont mûres. La tour {{2}} dort Hugo est vieille.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "qui",
+            "que",
+            "où"
+          ],
+          "reponse": 1
+        },
+        {
+          "id": 2,
+          "choix": [
+            "que",
+            "où",
+            "dont"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "« Plume cueille les baies » : « que » est COD. « Hugo dort dans la tour » : « où » indique le lieu.",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-032",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-5e-pronom-relatif-interrogatif",
+      "difficulte": 2,
+      "consigne": "Pose une question sur le sujet avec « Qui ».",
+      "enonce": "Hugo a ouvert la porte.",
+      "reponses_acceptees": [
+        "Qui a ouvert la porte ?",
+        "Qui a ouvert la porte?",
+        "Qui a ouvert la porte"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "On remplace le sujet « Hugo » par le pronom interrogatif « Qui » : « Qui a ouvert la porte ? »",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-033",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-5e-pronom-relatif-interrogatif",
+      "difficulte": 2,
+      "consigne": "Corrige le pronom relatif : le verbe « parler de » appelle « dont ».",
+      "phrase_fautive": "Le village que Hugo parle est calme.",
+      "corrections_acceptees": [
+        "Le village dont Hugo parle est calme.",
+        "Le village dont parle Hugo est calme."
+      ],
+      "explication": "On parle « de » quelque chose : le pronom relatif est « dont ».",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-034",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-5e-pronom-relatif-interrogatif",
+      "difficulte": 2,
+      "consigne": "Quelle phrase contient un pronom interrogatif ?",
+      "choix": [
+        "Le chemin que tu prends est long.",
+        "Quel chemin prends-tu ?",
+        "Lequel prends-tu ?",
+        "Voici le chemin où je passe."
+      ],
+      "reponse": 2,
+      "explication": "Dans « Lequel prends-tu ? », « Lequel » pose une question et remplace un nom : c’est un pronom interrogatif. Dans « Quel chemin », « Quel » est un déterminant.",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-035",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-5e-pronom-relatif-interrogatif",
+      "difficulte": 3,
+      "consigne": "Quelle est la classe grammaticale du mot « que » dans chaque phrase ?",
+      "elements": [
+        "Le coffre que Hugo ouvre est vide.",
+        "Que cherches-tu ?",
+        "Je pense que tu as raison.",
+        "Le livre que Léa lit est ancien.",
+        "Que fais-tu ici ?",
+        "Plume sait que Hugo vient."
+      ],
+      "categories": [
+        "pronom relatif",
+        "pronom interrogatif",
+        "conjonction de subordination"
+      ],
+      "solution": {
+        "Le coffre que Hugo ouvre est vide.": 0,
+        "Que cherches-tu ?": 1,
+        "Je pense que tu as raison.": 2,
+        "Le livre que Léa lit est ancien.": 0,
+        "Que fais-tu ici ?": 1,
+        "Plume sait que Hugo vient.": 2
+      },
+      "explication": "« que » est un pronom relatif quand il reprend un nom, un pronom interrogatif quand il pose une question, une conjonction de subordination quand il relie deux propositions.",
+      "source": "manuel-5e-f2-p10"
+    },
+    {
+      "id": "gram-5e-pronom-036",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-5e-pronom-relatif-interrogatif",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les pronoms de la phrase.",
+      "mots": [
+        "Hugo",
+        "cherche",
+        "le",
+        "coffre",
+        "qui",
+        "brille",
+        "et",
+        "il",
+        "le",
+        "trouve"
+      ],
+      "cibles": [
+        4,
+        7,
+        8
+      ],
+      "explication": "« qui » est un pronom relatif ; « il » et « le » (devant le verbe « trouve ») sont des pronoms personnels. Le premier « le » est un article.",
+      "source": "manuel-5e-f2-p10"
+    }
+  ]
+}

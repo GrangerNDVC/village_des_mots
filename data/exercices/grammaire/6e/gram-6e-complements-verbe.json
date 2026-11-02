@@ -1,0 +1,792 @@
+{
+  "module": "gram-6e-complements-verbe",
+  "titre": "Les compléments du verbe : COD, COI, COS",
+  "domaine": "grammaire",
+  "niveau": 6,
+  "grade": "page",
+  "version": 1,
+  "description": "Repérer le complément du verbe et sa place, identifier sa classe grammaticale, distinguer le COD, le COI et le COS.",
+  "rappel": {
+    "titre": "Les compléments du verbe : les compléments d’objet",
+    "points": [
+      {
+        "mot": "complément du verbe",
+        "definition": "Le complément du verbe est un mot ou un groupe de mots qui complète un verbe en apportant des informations sur lui. C’est un constituant essentiel du groupe verbal, comme l’attribut : on ne peut pas le supprimer.",
+        "exemple": "Plume cueille des baies."
+      },
+      {
+        "mot": "classe grammaticale du complément",
+        "definition": "Le complément du verbe peut être un nom, un groupe nominal, un pronom ou un verbe à l’infinitif.",
+        "exemple": "Plume appelle Hugo. Léa les regarde. Hugo aime chanter."
+      },
+      {
+        "mot": "place du complément",
+        "definition": "Le complément du verbe est généralement placé après le verbe, mais on le trouve parfois avant lui, par exemple quand c’est un pronom ou dans une question.",
+        "exemple": "Plume les range. Quel livre lis-tu ?"
+      },
+      {
+        "mot": "COD",
+        "definition": "Le complément d’objet direct (COD) complète directement le verbe, sans l’intermédiaire d’une préposition.",
+        "exemple": "Les lutins fabriquent des jouets."
+      },
+      {
+        "mot": "COI",
+        "definition": "Le complément d’objet indirect (COI) complète un verbe auquel il est relié par une préposition (à, de, sur, contre…).",
+        "exemple": "Hugo parle à Léa."
+      },
+      {
+        "mot": "COS",
+        "definition": "Certains verbes ont un COD et un deuxième complément introduit par une préposition : le complément d’objet second (COS).",
+        "exemple": "Plume offre un cadeau à Léa."
+      }
+    ]
+  },
+  "competences": [
+    "gram-6e-cdv-reperer",
+    "gram-6e-cdv-nature",
+    "gram-6e-cod-coi-cos"
+  ],
+  "exercices": [
+    {
+      "id": "gram-6e-complements-verbe-001",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cdv-reperer",
+      "difficulte": 1,
+      "consigne": "Quel groupe de mots est le complément du verbe « cueillent » ?",
+      "enonce": "Les lutins cueillent des champignons.",
+      "choix": [
+        "Les lutins",
+        "des champignons",
+        "cueillent",
+        "Les"
+      ],
+      "reponse": 1,
+      "explication": "« Qu’est-ce que les lutins cueillent ? » Des champignons. C’est le complément du verbe.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-002",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cdv-reperer",
+      "difficulte": 1,
+      "consigne": "Clique sur tous les mots du complément du verbe.",
+      "mots": [
+        "Plume",
+        "range",
+        "ses",
+        "livres"
+      ],
+      "cibles": [
+        2,
+        3
+      ],
+      "explication": "« ses livres » complète le verbe « range » : c’est son complément.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-003",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cdv-reperer",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Le complément du verbe est un constituant essentiel du groupe verbal.",
+      "reponse": true,
+      "explication": "Le complément du verbe est un constituant essentiel du groupe verbal : on ne peut pas le supprimer sans que la phrase devienne incorrecte.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-004",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-cdv-reperer",
+      "difficulte": 1,
+      "consigne": "Recopie le complément du verbe.",
+      "enonce": "Léa aperçoit un renard.",
+      "reponses_acceptees": [
+        "un renard"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« Qui est-ce que Léa aperçoit ? » Un renard. C’est le complément du verbe « aperçoit ».",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-005",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-cdv-reperer",
+      "difficulte": 2,
+      "consigne": "Dans quelle phrase le groupe de mots qui suit le verbe ne peut-il pas être supprimé ?",
+      "choix": [
+        "Plume chante dans la forêt.",
+        "Plume adopte un chaton.",
+        "Plume sourit ce matin.",
+        "Plume rit joyeusement."
+      ],
+      "reponse": 1,
+      "explication": "« Plume adopte. » n’est pas une phrase acceptable : « un chaton » est un complément du verbe, indispensable. Dans les autres phrases, on peut supprimer le groupe qui suit.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-006",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cdv-reperer",
+      "difficulte": 2,
+      "consigne": "Le groupe entre crochets est-il un complément du verbe ou un groupe qu’on peut supprimer ?",
+      "elements": [
+        "Les lutins construisent [une cabane].",
+        "Les lutins dorment [dans la tour].",
+        "Plume aime [la forêt].",
+        "Il pleut [ce soir].",
+        "Nous admirons [le paysage].",
+        "Nous rentrons [à la nuit tombée]."
+      ],
+      "categories": [
+        "complément du verbe",
+        "groupe supprimable"
+      ],
+      "solution": {
+        "Les lutins construisent [une cabane].": 0,
+        "Les lutins dorment [dans la tour].": 1,
+        "Plume aime [la forêt].": 0,
+        "Il pleut [ce soir].": 1,
+        "Nous admirons [le paysage].": 0,
+        "Nous rentrons [à la nuit tombée].": 1
+      },
+      "explication": "Un complément du verbe est indispensable (construisent une cabane, aime la forêt, admirons le paysage). Les autres groupes peuvent être supprimés sans rendre la phrase incorrecte.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-007",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-cdv-reperer",
+      "difficulte": 2,
+      "consigne": "Complète la phrase.",
+      "enonce": "Dans « Hugo allume une bougie. », le complément du verbe est {{1}} ; on {{2}} le supprimer sans rendre la phrase incorrecte.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "une bougie",
+            "Hugo",
+            "allume"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "ne peut pas",
+            "peut"
+          ],
+          "reponse": 0
+        }
+      ],
+      "explication": "« Qu’est-ce que Hugo allume ? » Une bougie : c’est le complément du verbe. Il est essentiel : on ne peut pas le supprimer.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-008",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-cdv-reperer",
+      "difficulte": 2,
+      "consigne": "Supprime le groupe de mots qui n’est pas indispensable à la phrase.",
+      "enonce": "Les lutins cueillent des baies dans la forêt.",
+      "reponses_acceptees": [
+        "Les lutins cueillent des baies.",
+        "Les lutins cueillent des baies"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« dans la forêt » peut être supprimé. « des baies » est le complément du verbe : on le garde.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-009",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-cdv-reperer",
+      "difficulte": 2,
+      "consigne": "Dans quelle phrase le complément du verbe est-il placé avant le verbe ?",
+      "choix": [
+        "Plume cherche ses clés.",
+        "Que cherche Plume ?",
+        "Plume cherche partout.",
+        "Plume cherche dans la forêt."
+      ],
+      "reponse": 1,
+      "explication": "Dans « Que cherche Plume ? », « Que » est le complément du verbe « cherche » : il est placé avant lui. « Plume » est le sujet, placé après le verbe.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-010",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-cdv-reperer",
+      "difficulte": 2,
+      "consigne": "Corrige la phrase : le complément du verbe est mal placé.",
+      "phrase_fautive": "Plume cueille les.",
+      "corrections_acceptees": [
+        "Plume les cueille."
+      ],
+      "explication": "Le pronom complément se place avant le verbe : « Plume les cueille ».",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-011",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-cdv-reperer",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les mots du complément du verbe « mange ».",
+      "mots": [
+        "Quel",
+        "gâteau",
+        "mange",
+        "Léa"
+      ],
+      "cibles": [
+        0,
+        1
+      ],
+      "explication": "« Qu’est-ce que Léa mange ? » Quel gâteau. Le complément est placé avant le verbe ; « Léa » est le sujet inversé.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-012",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-cdv-reperer",
+      "difficulte": 3,
+      "consigne": "Combien de compléments du verbe cette phrase contient-elle ?",
+      "enonce": "Plume ouvre la porte, allume une lanterne et chante dans la forêt.",
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reponse": 1,
+      "explication": "« la porte » complète « ouvre » et « une lanterne » complète « allume » : il y a deux compléments du verbe. « dans la forêt » peut être supprimé, et « chante » n’a pas de complément.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-013",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cdv-nature",
+      "difficulte": 1,
+      "consigne": "Quelle est la classe grammaticale du complément du verbe « ouvre » ?",
+      "enonce": "Le lutin ouvre la porte.",
+      "choix": [
+        "nom",
+        "groupe nominal",
+        "pronom",
+        "infinitif"
+      ],
+      "reponse": 1,
+      "explication": "« la porte » est formé d’un déterminant et d’un nom : c’est un groupe nominal.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-014",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cdv-nature",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Dans « Plume aime chanter. », le complément du verbe est un infinitif.",
+      "reponse": true,
+      "explication": "Le complément du verbe « aime » est « chanter » : c’est un verbe à l’infinitif.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-015",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cdv-nature",
+      "difficulte": 1,
+      "consigne": "Clique sur le pronom complément du verbe.",
+      "mots": [
+        "Léa",
+        "les",
+        "regarde"
+      ],
+      "cibles": [
+        1
+      ],
+      "explication": "« les » remplace un groupe nominal pluriel et complète le verbe « regarde » : c’est un pronom complément.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-016",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-cdv-nature",
+      "difficulte": 1,
+      "consigne": "Recopie le complément du verbe : c’est un nom propre.",
+      "enonce": "Plume appelle Hugo.",
+      "reponses_acceptees": [
+        "Hugo"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« Qui est-ce que Plume appelle ? » Hugo. C’est un nom propre.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-017",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cdv-nature",
+      "difficulte": 2,
+      "consigne": "Classe les compléments du verbe (entre crochets) selon leur classe grammaticale.",
+      "elements": [
+        "Léa appelle [Hugo].",
+        "Léa cherche [sa clé].",
+        "Léa [la] trouve.",
+        "Léa aime [lire].",
+        "Léa mange [des fraises].",
+        "Léa [nous] regarde."
+      ],
+      "categories": [
+        "nom",
+        "groupe nominal",
+        "pronom",
+        "infinitif"
+      ],
+      "solution": {
+        "Léa appelle [Hugo].": 0,
+        "Léa cherche [sa clé].": 1,
+        "Léa [la] trouve.": 2,
+        "Léa aime [lire].": 3,
+        "Léa mange [des fraises].": 1,
+        "Léa [nous] regarde.": 2
+      },
+      "explication": "Le complément du verbe peut être un nom (Hugo), un groupe nominal (sa clé, des fraises), un pronom (la, nous) ou un infinitif (lire).",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-018",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cdv-nature",
+      "difficulte": 2,
+      "consigne": "Quelle phrase a pour complément du verbe un infinitif ?",
+      "choix": [
+        "Plume préfère attendre.",
+        "Plume préfère le thé.",
+        "Plume le préfère.",
+        "Plume préfère Hugo."
+      ],
+      "reponse": 0,
+      "explication": "Dans « Plume préfère attendre. », « attendre » est un verbe à l’infinitif, complément de « préfère ».",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-019",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-cdv-nature",
+      "difficulte": 2,
+      "consigne": "Complète les phrases.",
+      "enonce": "Dans « Ils nous aident. », le complément « nous » est {{1}} ; dans « Ils aident Léa. », le complément « Léa » est {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "un nom",
+            "un pronom",
+            "un infinitif"
+          ],
+          "reponse": 1
+        },
+        {
+          "id": 2,
+          "choix": [
+            "un nom",
+            "un pronom",
+            "un infinitif"
+          ],
+          "reponse": 0
+        }
+      ],
+      "explication": "« nous » remplace des personnes : c’est un pronom. « Léa » désigne une personne par son prénom : c’est un nom.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-020",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-cdv-nature",
+      "difficulte": 2,
+      "consigne": "Remplace le complément du verbe par un pronom (le, la ou les).",
+      "enonce": "Plume ferme la porte.",
+      "reponses_acceptees": [
+        "Plume la ferme.",
+        "Plume la ferme"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« la porte » est féminin singulier : on le remplace par « la », placé avant le verbe.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-021",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-cdv-nature",
+      "difficulte": 2,
+      "consigne": "Corrige la phrase : le complément du verbe doit être à l’infinitif.",
+      "phrase_fautive": "Hugo adore dansez.",
+      "corrections_acceptees": [
+        "Hugo adore danser."
+      ],
+      "explication": "Après « adore », le complément est un verbe à l’infinitif : « danser ».",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-022",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-cdv-nature",
+      "difficulte": 2,
+      "consigne": "Quelle est la classe grammaticale du complément du verbe « parle » ?",
+      "enonce": "Plume leur parle.",
+      "choix": [
+        "nom",
+        "groupe nominal",
+        "pronom",
+        "infinitif"
+      ],
+      "reponse": 2,
+      "explication": "« leur » remplace un groupe nominal et complète le verbe « parle » : c’est un pronom.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-023",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-6e-cdv-nature",
+      "difficulte": 3,
+      "consigne": "Quelle est la classe grammaticale du complément du verbe de chaque phrase ?",
+      "elements": [
+        "Les lutins adorent danser.",
+        "Les lutins adorent Plume.",
+        "Les lutins nous adorent.",
+        "Les lutins adorent les contes de fées."
+      ],
+      "categories": [
+        "nom",
+        "groupe nominal",
+        "pronom",
+        "infinitif"
+      ],
+      "solution": {
+        "Les lutins adorent danser.": 3,
+        "Les lutins adorent Plume.": 0,
+        "Les lutins nous adorent.": 2,
+        "Les lutins adorent les contes de fées.": 1
+      },
+      "explication": "Danser : infinitif. Plume : nom. nous : pronom. les contes de fées : groupe nominal.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-024",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-cdv-nature",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les mots qui forment les compléments des deux verbes « préfère ».",
+      "mots": [
+        "Plume",
+        "préfère",
+        "les",
+        "contes",
+        "mais",
+        "Hugo",
+        "préfère",
+        "rêver"
+      ],
+      "cibles": [
+        2,
+        3,
+        7
+      ],
+      "explication": "Le premier verbe a pour complément le groupe nominal « les contes » ; le second a pour complément l’infinitif « rêver ».",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-025",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cod-coi-cos",
+      "difficulte": 1,
+      "consigne": "Quel groupe est le complément d’objet direct (COD) du verbe « mange » ?",
+      "enonce": "Léa mange une pomme.",
+      "choix": [
+        "Léa",
+        "mange",
+        "une pomme",
+        "Léa mange"
+      ],
+      "reponse": 2,
+      "explication": "« une pomme » complète directement le verbe, sans préposition : c’est le COD.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-026",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cod-coi-cos",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Un COD se construit sans préposition.",
+      "reponse": true,
+      "explication": "Le COD complète le verbe directement, sans l’intermédiaire d’une préposition.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-027",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cod-coi-cos",
+      "difficulte": 1,
+      "consigne": "Clique sur la préposition qui introduit le complément d’objet indirect (COI).",
+      "mots": [
+        "Plume",
+        "parle",
+        "à",
+        "Hugo"
+      ],
+      "cibles": [
+        2
+      ],
+      "explication": "« à » relie le verbe « parle » à son complément « Hugo » : c’est une préposition, qui introduit un COI.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-028",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-cod-coi-cos",
+      "difficulte": 1,
+      "consigne": "Recopie le COD du verbe.",
+      "enonce": "Les lutins fabriquent des jouets.",
+      "reponses_acceptees": [
+        "des jouets"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« Qu’est-ce que les lutins fabriquent ? » Des jouets. C’est le COD.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-029",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cod-coi-cos",
+      "difficulte": 2,
+      "consigne": "Le groupe entre crochets est-il un COD ou un COI ?",
+      "elements": [
+        "Plume écoute [le vent].",
+        "Plume obéit [à la sorcière].",
+        "Hugo parle [de son voyage].",
+        "Hugo aime [les châtaignes].",
+        "Léa ramasse [des champignons].",
+        "Léa pense [à ses amis]."
+      ],
+      "categories": [
+        "COD",
+        "COI"
+      ],
+      "solution": {
+        "Plume écoute [le vent].": 0,
+        "Plume obéit [à la sorcière].": 1,
+        "Hugo parle [de son voyage].": 1,
+        "Hugo aime [les châtaignes].": 0,
+        "Léa ramasse [des champignons].": 0,
+        "Léa pense [à ses amis].": 1
+      },
+      "explication": "Un COD suit le verbe directement. Un COI est introduit par une préposition (à, de…).",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-030",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cod-coi-cos",
+      "difficulte": 2,
+      "consigne": "Quelle phrase contient un complément d’objet indirect (COI) ?",
+      "choix": [
+        "Plume lit un conte.",
+        "Plume parle à son ami.",
+        "Plume dort dans la tour.",
+        "Plume sourit ce matin."
+      ],
+      "reponse": 1,
+      "explication": "Dans « Plume parle à son ami », « à son ami » est introduit par la préposition « à » : c’est un COI. « dans la tour » et « ce matin » indiquent le lieu et le temps.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-031",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-cod-coi-cos",
+      "difficulte": 2,
+      "consigne": "Complète les phrases.",
+      "enonce": "Dans « Hugo cherche son bonnet. », « son bonnet » est un {{1}} ; dans « Hugo pense à son bonnet. », « à son bonnet » est un {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "COD",
+            "COI",
+            "COS"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "COD",
+            "COI",
+            "COS"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "« son bonnet » complète directement « cherche » : COD. « à son bonnet » est introduit par « à » : COI.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-032",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-cod-coi-cos",
+      "difficulte": 2,
+      "consigne": "Remplace le COI par le pronom « lui ».",
+      "enonce": "Hugo parle à Léa.",
+      "reponses_acceptees": [
+        "Hugo lui parle.",
+        "Hugo lui parle"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« à Léa » est un COI : on le remplace par « lui », placé avant le verbe.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-033",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-cod-coi-cos",
+      "difficulte": 2,
+      "consigne": "Corrige la phrase : le verbe « obéir » se construit avec une préposition.",
+      "phrase_fautive": "Les lutins obéissent la reine.",
+      "corrections_acceptees": [
+        "Les lutins obéissent à la reine."
+      ],
+      "explication": "On obéit « à » quelqu’un : le COI est introduit par la préposition « à ».",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-034",
+      "type": "ordre",
+      "forme": "contexte",
+      "competence": "gram-6e-cod-coi-cos",
+      "difficulte": 2,
+      "consigne": "Remets les mots dans l’ordre pour former une phrase.",
+      "elements_melanges": [
+        "reine",
+        "écoutent",
+        "la",
+        "lutins",
+        "Les"
+      ],
+      "reponse": [
+        "Les",
+        "lutins",
+        "écoutent",
+        "la",
+        "reine"
+      ],
+      "explication": "L’ordre habituel : sujet, verbe, COD : « Les lutins écoutent la reine ».",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-035",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-6e-cod-coi-cos",
+      "difficulte": 3,
+      "consigne": "Quelle est la fonction du groupe entre crochets : COD, COI ou COS ?",
+      "elements": [
+        "Plume offre [un cadeau] à Léa.",
+        "Plume offre un cadeau [à Léa].",
+        "Hugo pense [à son voyage].",
+        "Hugo demande sa route [à un passant].",
+        "Hugo demande [sa route] à un passant.",
+        "Léa parle [à Hugo]."
+      ],
+      "categories": [
+        "COD",
+        "COI",
+        "COS"
+      ],
+      "solution": {
+        "Plume offre [un cadeau] à Léa.": 0,
+        "Plume offre un cadeau [à Léa].": 2,
+        "Hugo pense [à son voyage].": 1,
+        "Hugo demande sa route [à un passant].": 2,
+        "Hugo demande [sa route] à un passant.": 0,
+        "Léa parle [à Hugo].": 1
+      },
+      "explication": "Certains verbes ont un COD et un second complément introduit par une préposition : c’est le COS (offrir quelque chose à quelqu’un). Un COI est le seul complément d’un verbe construit avec une préposition.",
+      "source": "manuel-6e-f12-p34"
+    },
+    {
+      "id": "gram-6e-complements-verbe-036",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-cod-coi-cos",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les mots du COI.",
+      "mots": [
+        "Plume",
+        "pense",
+        "à",
+        "ses",
+        "amis",
+        "et",
+        "appelle",
+        "Hugo"
+      ],
+      "cibles": [
+        2,
+        3,
+        4
+      ],
+      "explication": "« à ses amis » complète « pense » par l’intermédiaire de « à » : c’est le COI. « Hugo » est le COD de « appelle ».",
+      "source": "manuel-6e-f12-p34"
+    }
+  ]
+}

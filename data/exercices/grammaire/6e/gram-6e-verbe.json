@@ -1,0 +1,791 @@
+{
+  "module": "gram-6e-verbe",
+  "titre": "Le verbe et le groupe verbal",
+  "domaine": "grammaire",
+  "niveau": 6,
+  "grade": "page",
+  "version": 1,
+  "description": "Reconnaître un verbe conjugué et son infinitif, distinguer verbes d’action, verbes d’état et auxiliaires, repérer le groupe verbal et son noyau.",
+  "rappel": {
+    "titre": "Le verbe et le groupe verbal",
+    "points": [
+      {
+        "mot": "verbe",
+        "definition": "Le verbe est le mot le plus important de la phrase. Il varie selon la personne, le nombre, le temps et le mode : c’est la conjugaison. Il est formé d’un radical, partie fixe, et d’une terminaison, partie qui varie.",
+        "exemple": "parl/er, tu parl/es, nous parl/ions"
+      },
+      {
+        "mot": "verbe conjugué et infinitif",
+        "definition": "Un verbe est conjugué quand on peut le faire précéder de je, tu, il, elle… Il est à l’infinitif quand on peut le faire précéder de « il faut » : il se termine par -er, -ir, -oir ou -re.",
+        "exemple": "Ils venaient. Il faut venir."
+      },
+      {
+        "mot": "verbe d’action et verbe d’état",
+        "definition": "Les verbes d’action disent ce que fait le sujet. Les verbes d’état (être, paraître, sembler, devenir, rester) relient le sujet à un attribut.",
+        "exemple": "Léa dessine. Léa semble contente."
+      },
+      {
+        "mot": "auxiliaire",
+        "definition": "Les verbes être et avoir sont auxiliaires quand ils aident à conjuguer un autre verbe.",
+        "exemple": "Ils sont sortis, car ils avaient fini."
+      },
+      {
+        "mot": "groupe verbal",
+        "definition": "Un groupe verbal est formé d’un verbe et des mots qui dépendent de lui : compléments, attribut. Le verbe en est le noyau.",
+        "exemple": "On construit une tour. Elle sera très haute."
+      }
+    ]
+  },
+  "competences": [
+    "gram-6e-verbe-identifier",
+    "gram-6e-verbe-types",
+    "gram-6e-groupe-verbal"
+  ],
+  "exercices": [
+    {
+      "id": "gram-6e-verbe-001",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-verbe-identifier",
+      "difficulte": 1,
+      "consigne": "Quel mot est un verbe ?",
+      "enonce": "Le chat dort sur le canapé.",
+      "choix": [
+        "chat",
+        "dort",
+        "canapé",
+        "Le"
+      ],
+      "reponse": 1,
+      "explication": "« dort » se conjugue (je dors, tu dors, il dort) : c’est un verbe.",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-002",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-verbe-identifier",
+      "difficulte": 1,
+      "consigne": "Clique sur le verbe conjugué.",
+      "mots": [
+        "Les",
+        "enfants",
+        "chantent",
+        "une",
+        "chanson"
+      ],
+      "cibles": [
+        2
+      ],
+      "explication": "« chantent » se conjugue : on peut dire « je chante, tu chantes… ». C’est le verbe conjugué de la phrase.",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-003",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-verbe-identifier",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Un verbe conjugué change de forme selon la personne, le nombre et le temps.",
+      "reponse": true,
+      "explication": "Le verbe varie selon la personne, le nombre et le temps : c’est ce qu’on appelle la conjugaison.",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-004",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-verbe-identifier",
+      "difficulte": 1,
+      "consigne": "Recopie le verbe de la phrase.",
+      "enonce": "Plume range ses livres.",
+      "reponses_acceptees": [
+        "range"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« range » est le verbe : on peut dire « je range, tu ranges ».",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-005",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-verbe-identifier",
+      "difficulte": 2,
+      "consigne": "Écris l’infinitif du verbe.",
+      "enonce": "nous finissons",
+      "reponses_acceptees": [
+        "finir"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "L’infinitif est la forme du verbe qui n’est pas conjuguée : « nous finissons » vient de « finir ».",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-006",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-verbe-identifier",
+      "difficulte": 2,
+      "consigne": "Classe ces verbes : conjugué ou infinitif ?",
+      "elements": [
+        "chantons",
+        "chanter",
+        "finit",
+        "finir",
+        "prendre",
+        "prends"
+      ],
+      "categories": [
+        "verbe conjugué",
+        "infinitif"
+      ],
+      "solution": {
+        "chantons": 0,
+        "chanter": 1,
+        "finit": 0,
+        "finir": 1,
+        "prendre": 1,
+        "prends": 0
+      },
+      "explication": "L’infinitif se termine par -er, -ir, -oir ou -re (chanter, finir, prendre). Les autres formes sont conjuguées (chantons, finit, prends).",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-007",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-verbe-identifier",
+      "difficulte": 2,
+      "consigne": "Quel est le radical du verbe ?",
+      "enonce": "nous chantons",
+      "choix": [
+        "chant",
+        "chantons",
+        "ons",
+        "nous"
+      ],
+      "reponse": 0,
+      "explication": "Le radical est la partie fixe du verbe : « chant- ». La terminaison « -ons » varie.",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-008",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-verbe-identifier",
+      "difficulte": 2,
+      "consigne": "Complète la phrase.",
+      "enonce": "Dans « tu parles », le radical est {{1}} et la terminaison est {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "parl",
+            "parles",
+            "tu"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "-es",
+            "-s",
+            "tu"
+          ],
+          "reponse": 0
+        }
+      ],
+      "explication": "Dans « tu parles », on retire la terminaison « -es » : il reste le radical « parl- ».",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-009",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-verbe-identifier",
+      "difficulte": 2,
+      "consigne": "Dans quelle phrase le verbe souligné est-il à l’infinitif ?",
+      "choix": [
+        "Nous aimons chanter.",
+        "Nous chantons fort.",
+        "Elle chante bien.",
+        "Ils chantaient hier."
+      ],
+      "reponse": 0,
+      "explication": "Dans « Nous aimons chanter », « aimons » est conjugué et « chanter » est à l’infinitif.",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-010",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-verbe-identifier",
+      "difficulte": 2,
+      "consigne": "Corrige la phrase : un verbe devrait être à l’infinitif.",
+      "phrase_fautive": "Pour réussir, il faut travaillez.",
+      "corrections_acceptees": [
+        "Pour réussir, il faut travailler."
+      ],
+      "explication": "Après « il faut », le verbe se met à l’infinitif : « il faut travailler ».",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-011",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-verbe-identifier",
+      "difficulte": 3,
+      "consigne": "Combien y a-t-il de verbes conjugués dans cette phrase ?",
+      "enonce": "Quand la nuit tombe, les lutins sortent et allument leurs lanternes.",
+      "choix": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reponse": 1,
+      "explication": "Les verbes conjugués sont « tombe », « sortent » et « allument » : il y en a trois.",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-012",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-verbe-identifier",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les verbes à l’infinitif.",
+      "mots": [
+        "Je",
+        "veux",
+        "apprendre",
+        "à",
+        "nager",
+        "et",
+        "je",
+        "pense",
+        "plonger"
+      ],
+      "cibles": [
+        2,
+        4,
+        8
+      ],
+      "explication": "« apprendre », « nager » et « plonger » sont à l’infinitif. « veux » et « pense » sont conjugués.",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-013",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-verbe-types",
+      "difficulte": 1,
+      "consigne": "Quel verbe est un verbe d’état ?",
+      "choix": [
+        "manger",
+        "sembler",
+        "dessiner",
+        "écouter"
+      ],
+      "reponse": 1,
+      "explication": "« sembler » exprime une manière d’être, pas une action : c’est un verbe d’état.",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-014",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-verbe-types",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Dans « Plume danse. », le verbe « danse » est un verbe d’action.",
+      "reponse": true,
+      "explication": "« danse » exprime une action que Plume fait : c’est un verbe d’action.",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-015",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-verbe-types",
+      "difficulte": 1,
+      "consigne": "Clique sur le verbe d’état.",
+      "mots": [
+        "Ce",
+        "gâteau",
+        "semble",
+        "délicieux"
+      ],
+      "cibles": [
+        2
+      ],
+      "explication": "« semble » est un verbe d’état : il relie le sujet « gâteau » à l’adjectif « délicieux ».",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-016",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-verbe-types",
+      "difficulte": 1,
+      "consigne": "Recopie le verbe d’action de la phrase.",
+      "enonce": "Léa dessine un chat.",
+      "reponses_acceptees": [
+        "dessine"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« dessine » exprime une action : c’est un verbe d’action.",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-017",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-verbe-types",
+      "difficulte": 2,
+      "consigne": "Classe ces formes verbales : verbe d’action ou verbe d’état ?",
+      "elements": [
+        "nous lisons",
+        "tu parais",
+        "ils courent",
+        "elle semble",
+        "je deviens",
+        "vous chantez"
+      ],
+      "categories": [
+        "verbe d’action",
+        "verbe d’état"
+      ],
+      "solution": {
+        "nous lisons": 0,
+        "tu parais": 1,
+        "ils courent": 0,
+        "elle semble": 1,
+        "je deviens": 1,
+        "vous chantez": 0
+      },
+      "explication": "Les verbes d’état (sembler, paraître, devenir…) relient le sujet à un attribut. Les verbes d’action expriment ce que fait le sujet.",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-018",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-verbe-types",
+      "difficulte": 2,
+      "consigne": "Les verbes « avoir » et « être » sont-ils auxiliaires dans ces formes ?",
+      "elements": [
+        "nous avons fini",
+        "elle est contente",
+        "je suis revenu",
+        "tu as faim",
+        "ils ont mangé",
+        "vous êtes partis"
+      ],
+      "categories": [
+        "auxiliaire",
+        "pas auxiliaire"
+      ],
+      "solution": {
+        "nous avons fini": 0,
+        "elle est contente": 1,
+        "je suis revenu": 0,
+        "tu as faim": 1,
+        "ils ont mangé": 0,
+        "vous êtes partis": 0
+      },
+      "explication": "Ils sont auxiliaires quand ils aident à conjuguer un autre verbe (nous avons fini). Sinon, ce sont des verbes à part entière (elle est contente, tu as faim).",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-019",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-verbe-types",
+      "difficulte": 2,
+      "consigne": "Complète la phrase.",
+      "enonce": "Dans « Ils ont fini. », « ont » est un {{1}} ; dans « Ils sont contents. », « sont » est un {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "verbe d’action",
+            "verbe d’état",
+            "auxiliaire"
+          ],
+          "reponse": 2
+        },
+        {
+          "id": 2,
+          "choix": [
+            "verbe d’action",
+            "verbe d’état",
+            "auxiliaire"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "Dans « Ils ont fini », « ont » aide à conjuguer « finir » : c’est un auxiliaire. Dans « Ils sont contents », « sont » relie le sujet à l’adjectif : c’est un verbe d’état.",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-020",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-verbe-types",
+      "difficulte": 2,
+      "consigne": "Dans quelle phrase le verbe « être » est-il employé comme auxiliaire ?",
+      "choix": [
+        "Nous sommes partis hier.",
+        "Nous sommes contents.",
+        "Elle est médecin.",
+        "Il est grand."
+      ],
+      "reponse": 0,
+      "explication": "Dans « Nous sommes partis », « sommes » aide à conjuguer « partir » : c’est un auxiliaire. Dans les autres phrases, « être » est un verbe d’état.",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-021",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-verbe-types",
+      "difficulte": 2,
+      "consigne": "Recopie l’auxiliaire de la phrase.",
+      "enonce": "Elle a terminé son travail.",
+      "reponses_acceptees": [
+        "a"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« a » aide à conjuguer « terminer » (a terminé) : c’est l’auxiliaire avoir.",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-022",
+      "type": "ordre",
+      "forme": "contexte",
+      "competence": "gram-6e-verbe-types",
+      "difficulte": 2,
+      "consigne": "Remets les mots dans l’ordre pour former une phrase.",
+      "elements_melanges": [
+        "semble",
+        "Ce",
+        "gâteau",
+        "délicieux"
+      ],
+      "reponse": [
+        "Ce",
+        "gâteau",
+        "semble",
+        "délicieux"
+      ],
+      "explication": "L’ordre habituel : sujet, verbe d’état, attribut : « Ce gâteau semble délicieux ».",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-023",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-verbe-types",
+      "difficulte": 3,
+      "consigne": "Dans quelle phrase le verbe « avoir » est-il employé comme auxiliaire ?",
+      "choix": [
+        "Nous avons fini nos devoirs.",
+        "Nous avons un chien.",
+        "Tu as faim.",
+        "J’ai trois frères."
+      ],
+      "reponse": 0,
+      "explication": "Dans « Nous avons fini nos devoirs », « avons » aide à conjuguer « finir ». Dans les autres phrases, « avoir » est un verbe à part entière.",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-024",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-verbe-types",
+      "difficulte": 3,
+      "consigne": "Clique sur les deux auxiliaires de la phrase.",
+      "mots": [
+        "Hier",
+        "nous",
+        "avons",
+        "mangé",
+        "puis",
+        "elles",
+        "sont",
+        "parties"
+      ],
+      "cibles": [
+        2,
+        6
+      ],
+      "explication": "« avons » et « sont » aident à conjuguer « manger » et « partir » : ce sont des auxiliaires.",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-025",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-groupe-verbal",
+      "difficulte": 1,
+      "consigne": "Quel est le groupe verbal de la phrase ?",
+      "enonce": "Le renard traverse la rivière.",
+      "choix": [
+        "Le renard",
+        "traverse la rivière",
+        "Le renard traverse",
+        "la rivière"
+      ],
+      "reponse": 1,
+      "explication": "Le groupe verbal est formé du verbe et des mots qui dépendent de lui : « traverse la rivière ».",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-026",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-groupe-verbal",
+      "difficulte": 1,
+      "consigne": "Clique sur le verbe, noyau du groupe verbal.",
+      "mots": [
+        "Plume",
+        "range",
+        "ses",
+        "livres"
+      ],
+      "cibles": [
+        1
+      ],
+      "explication": "Le verbe est le noyau du groupe verbal : ici « range ».",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-027",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-groupe-verbal",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Le verbe est le noyau du groupe verbal.",
+      "reponse": true,
+      "explication": "On dit que le verbe est le noyau du groupe verbal.",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-028",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-groupe-verbal",
+      "difficulte": 1,
+      "consigne": "Recopie le verbe noyau du groupe verbal.",
+      "enonce": "Les lutins cachent un trésor.",
+      "reponses_acceptees": [
+        "cachent"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« cachent » est le verbe : c’est le noyau du groupe verbal « cachent un trésor ».",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-029",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-groupe-verbal",
+      "difficulte": 2,
+      "consigne": "Quel mot est le noyau du groupe verbal « ouvre une porte lourde » ?",
+      "choix": [
+        "ouvre",
+        "porte",
+        "lourde",
+        "une"
+      ],
+      "reponse": 0,
+      "explication": "Le noyau d’un groupe verbal est toujours le verbe : « ouvre ».",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-030",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-groupe-verbal",
+      "difficulte": 2,
+      "consigne": "Quel est le groupe verbal de la phrase ?",
+      "enonce": "Plume cueille des baies dans la forêt.",
+      "choix": [
+        "Plume cueille",
+        "cueille des baies dans la forêt",
+        "des baies dans la forêt",
+        "Plume"
+      ],
+      "reponse": 1,
+      "explication": "Le groupe verbal contient le verbe et tout ce qui dépend de lui : « cueille des baies dans la forêt ».",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-031",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-groupe-verbal",
+      "difficulte": 2,
+      "consigne": "Complète la phrase.",
+      "enonce": "Dans « Ce chien semble fatigué. », le groupe verbal est {{1}} et son noyau est {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "semble fatigué",
+            "Ce chien",
+            "chien semble"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "semble",
+            "fatigué",
+            "chien"
+          ],
+          "reponse": 0
+        }
+      ],
+      "explication": "Le groupe verbal est « semble fatigué » ; son noyau est le verbe « semble ».",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-032",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-groupe-verbal",
+      "difficulte": 2,
+      "consigne": "Recopie le groupe verbal de la phrase.",
+      "enonce": "Papa prépare un gâteau.",
+      "reponses_acceptees": [
+        "prépare un gâteau",
+        "prépare un gâteau."
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "Le groupe verbal est « prépare un gâteau » : le verbe et son complément.",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-033",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-groupe-verbal",
+      "difficulte": 2,
+      "consigne": "Ces groupes de mots sont-ils des groupes verbaux ?",
+      "elements": [
+        "mange une pomme",
+        "la grande tour",
+        "semble heureux",
+        "un chat noir",
+        "dort profondément",
+        "mes nouveaux amis"
+      ],
+      "categories": [
+        "groupe verbal",
+        "autre groupe"
+      ],
+      "solution": {
+        "mange une pomme": 0,
+        "la grande tour": 1,
+        "semble heureux": 0,
+        "un chat noir": 1,
+        "dort profondément": 0,
+        "mes nouveaux amis": 1
+      },
+      "explication": "Un groupe verbal est construit autour d’un verbe : mange une pomme, semble heureux, dort profondément. Les autres sont des groupes nominaux.",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-034",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-groupe-verbal",
+      "difficulte": 2,
+      "consigne": "Clique sur tous les mots du groupe verbal.",
+      "mots": [
+        "Le",
+        "hibou",
+        "observe",
+        "la",
+        "lune",
+        "brillante"
+      ],
+      "cibles": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "explication": "Le groupe verbal est « observe la lune brillante » : le verbe et les mots qui dépendent de lui. « Le hibou » est le sujet.",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-035",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-groupe-verbal",
+      "difficulte": 3,
+      "consigne": "Combien de groupes verbaux cette phrase contient-elle ?",
+      "enonce": "Plume ouvre la porte, regarde dehors et sourit.",
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reponse": 2,
+      "explication": "Il y a trois groupes verbaux : « ouvre la porte », « regarde dehors » et « sourit ».",
+      "source": "manuel-6e-f1-p8"
+    },
+    {
+      "id": "gram-6e-verbe-036",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-groupe-verbal",
+      "difficulte": 3,
+      "consigne": "Clique sur les verbes noyaux des groupes verbaux de la phrase.",
+      "mots": [
+        "Le",
+        "vent",
+        "souffle",
+        "et",
+        "les",
+        "feuilles",
+        "tombent",
+        "sur",
+        "le",
+        "chemin"
+      ],
+      "cibles": [
+        2,
+        6
+      ],
+      "explication": "Les verbes « souffle » et « tombent » sont les noyaux des deux groupes verbaux.",
+      "source": "manuel-6e-f1-p8"
+    }
+  ]
+}

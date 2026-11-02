@@ -1,0 +1,788 @@
+{
+  "module": "gram-5e-nom-determinant",
+  "titre": "Le nom et les déterminants",
+  "domaine": "grammaire",
+  "niveau": 5,
+  "grade": "ecuyer",
+  "version": 1,
+  "description": "Identifier le nom et le groupe nominal, distinguer noms propres et communs, animés et non animés, reconnaître les articles (défini, indéfini, partitif, contracté) et les déterminants démonstratifs et possessifs.",
+  "rappel": {
+    "titre": "Le nom et les déterminants",
+    "points": [
+      {
+        "mot": "nom et groupe nominal",
+        "definition": "Le nom est le noyau du groupe nominal (GN). Il est souvent précédé d’un déterminant et peut être accompagné d’expansions qui complètent son sens.",
+        "exemple": "la lourde porte de la tour"
+      },
+      {
+        "mot": "noms propres et communs",
+        "definition": "Les noms propres désignent un être ou un lieu unique et prennent une majuscule ; les noms communs désignent une catégorie. On distingue aussi les noms animés (personnes, animaux) et les noms non animés. Chaque nom a un genre qui lui est propre.",
+        "exemple": "Brest (propre) ; un renard (commun animé) ; une lanterne (commun non animé)"
+      },
+      {
+        "mot": "articles défini, indéfini, partitif",
+        "definition": "L’article défini désigne un être ou un objet précis (le, la, l’, les) ; les articles définis contractés sont au, aux, du, des. L’article indéfini désigne un être ou un objet non précisé (un, une, des). L’article partitif désigne une matière qu’on ne peut pas dénombrer (du, de la, de l’).",
+        "exemple": "Plume mange du miel. Le chant des oiseaux."
+      },
+      {
+        "mot": "des, de, d’",
+        "definition": "Devant l’adjectif épithète d’un nom pluriel et dans les phrases négatives, « des » est remplacé par « de » ou « d’ ».",
+        "exemple": "Il ne reste plus de champignons."
+      },
+      {
+        "mot": "déterminants démonstratifs",
+        "definition": "Les déterminants démonstratifs servent à désigner ce dont on vient de parler ou ce que l’on montre : ce, cet, cette, ces.",
+        "exemple": "Regarde cette étoile."
+      },
+      {
+        "mot": "déterminants possessifs",
+        "definition": "Les déterminants possessifs indiquent généralement la possession : mon, ton, son, ma, ta, sa, mes, tes, ses, notre, votre, leur, nos, vos, leurs.",
+        "exemple": "Hugo range sa lanterne."
+      }
+    ]
+  },
+  "competences": [
+    "gram-5e-nom-gn",
+    "gram-5e-article",
+    "gram-5e-determinant-demonstratif-possessif"
+  ],
+  "exercices": [
+    {
+      "id": "gram-5e-nom-determinant-001",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-nom-gn",
+      "difficulte": 1,
+      "consigne": "Quel mot est le noyau de ce groupe nominal ?",
+      "enonce": "la lourde porte de la tour",
+      "choix": [
+        "lourde",
+        "porte",
+        "tour",
+        "la"
+      ],
+      "reponse": 1,
+      "explication": "Le groupe parle d’une porte : « porte » est le noyau. « de la tour » est une expansion qui précise ce nom.",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-002",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-nom-gn",
+      "difficulte": 1,
+      "consigne": "Clique sur le nom noyau de ce groupe nominal.",
+      "mots": [
+        "mon",
+        "petit",
+        "chat",
+        "gris"
+      ],
+      "cibles": [
+        2
+      ],
+      "explication": "Le noyau est le nom autour duquel se construit le groupe : ici « chat ».",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-003",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-nom-gn",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Le nom est le noyau du groupe nominal.",
+      "reponse": true,
+      "explication": "Le nom est le noyau du groupe nominal : on ne peut pas le supprimer.",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-004",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-5e-nom-gn",
+      "difficulte": 1,
+      "consigne": "Recopie le nom propre de la phrase.",
+      "enonce": "Les lutins vivent près de Brest.",
+      "reponses_acceptees": [
+        "Brest"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« Brest » désigne un lieu unique : c’est un nom propre. On cherche ici le nom du lieu.",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-005",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-nom-gn",
+      "difficulte": 2,
+      "consigne": "Quel groupe nominal contient une expansion du nom ?",
+      "choix": [
+        "ma maison",
+        "le renard",
+        "une cabane de bois",
+        "ces fleurs"
+      ],
+      "reponse": 2,
+      "explication": "« de bois » complète le nom « cabane » : c’est une expansion. Les autres groupes ne contiennent qu’un déterminant et un nom.",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-006",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-nom-gn",
+      "difficulte": 2,
+      "consigne": "Ce nom est-il animé ou non animé ?",
+      "elements": [
+        "lutin",
+        "forêt",
+        "renard",
+        "lanterne",
+        "hibou",
+        "rivière"
+      ],
+      "categories": [
+        "nom animé",
+        "nom non animé"
+      ],
+      "solution": {
+        "lutin": 0,
+        "forêt": 1,
+        "renard": 0,
+        "lanterne": 1,
+        "hibou": 0,
+        "rivière": 1
+      },
+      "explication": "Les noms animés désignent des personnes ou des animaux ; les noms non animés désignent ce qui n’est pas vivant.",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-007",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-5e-nom-gn",
+      "difficulte": 2,
+      "consigne": "Complète la phrase.",
+      "enonce": "« Brest » est un nom {{1}} et « renard » est un nom {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "propre non animé",
+            "commun animé",
+            "commun non animé",
+            "propre animé"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "propre non animé",
+            "commun animé",
+            "commun non animé",
+            "propre animé"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "« Brest » est un lieu unique : nom propre non animé. « renard » est une catégorie d’animaux : nom commun animé.",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-008",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-5e-nom-gn",
+      "difficulte": 2,
+      "consigne": "Ne garde que le déterminant et le nom noyau.",
+      "enonce": "la lourde porte de la tour",
+      "reponses_acceptees": [
+        "la porte"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "On supprime les expansions : l’adjectif « lourde » et le complément du nom « de la tour ». Il reste « la porte ».",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-009",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-5e-nom-gn",
+      "difficulte": 2,
+      "consigne": "Quel nom est féminin ?",
+      "choix": [
+        "incendie",
+        "armure",
+        "orage",
+        "navire"
+      ],
+      "reponse": 1,
+      "explication": "On le vérifie avec « une » : une armure. Les autres noms sont masculins : un incendie, un orage, un navire.",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-010",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-5e-nom-gn",
+      "difficulte": 2,
+      "consigne": "Corrige la phrase : deux noms propres ont perdu leur majuscule.",
+      "phrase_fautive": "Plume a rencontré hugo près de la loire.",
+      "corrections_acceptees": [
+        "Plume a rencontré Hugo près de la Loire."
+      ],
+      "explication": "Un nom propre commence toujours par une majuscule : Hugo, la Loire.",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-011",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-5e-nom-gn",
+      "difficulte": 3,
+      "consigne": "Dans chaque phrase, le mot « plume » est-il un nom propre ou un nom commun ?",
+      "elements": [
+        "Plume range ses livres.",
+        "Le hibou perd une plume.",
+        "Hugo écrit avec une plume.",
+        "Plume sourit à Hugo."
+      ],
+      "categories": [
+        "nom propre",
+        "nom commun"
+      ],
+      "solution": {
+        "Plume range ses livres.": 0,
+        "Le hibou perd une plume.": 1,
+        "Hugo écrit avec une plume.": 1,
+        "Plume sourit à Hugo.": 0
+      },
+      "explication": "Avec une majuscule et sans déterminant, « Plume » désigne le lutin : nom propre. Précédé de « une », « plume » désigne un objet : nom commun.",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-012",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-5e-nom-gn",
+      "difficulte": 3,
+      "consigne": "Clique sur les noms noyaux des groupes nominaux.",
+      "mots": [
+        "Le",
+        "vieux",
+        "hibou",
+        "observe",
+        "une",
+        "étoile",
+        "brillante"
+      ],
+      "cibles": [
+        2,
+        5
+      ],
+      "explication": "Les deux groupes nominaux sont « Le vieux hibou » et « une étoile brillante » ; leurs noyaux sont « hibou » et « étoile ».",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-013",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-article",
+      "difficulte": 1,
+      "consigne": "Quel mot est un article indéfini ?",
+      "enonce": "Le lutin ouvre une porte.",
+      "choix": [
+        "lutin",
+        "ouvre",
+        "une",
+        "porte"
+      ],
+      "reponse": 2,
+      "explication": "« une » désigne une porte non précisée : c’est un article indéfini. « Le » est un article défini.",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-014",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-article",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Le mot « du » peut être un article défini contracté (= de + le).",
+      "reponse": true,
+      "explication": "« du » peut remplacer « de + le » : c’est alors un article défini contracté (le chant du hibou).",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-015",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-article",
+      "difficulte": 1,
+      "consigne": "Clique sur l’article défini.",
+      "mots": [
+        "La",
+        "lune",
+        "éclaire",
+        "une",
+        "cabane"
+      ],
+      "cibles": [
+        0
+      ],
+      "explication": "« La » désigne une lune précise : c’est un article défini. « une » est un article indéfini.",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-016",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-5e-article",
+      "difficulte": 1,
+      "consigne": "Recopie l’article défini contracté.",
+      "enonce": "Plume parle aux lutins.",
+      "reponses_acceptees": [
+        "aux"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« aux » est la forme contractée de « à les » : c’est un article défini contracté.",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-017",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-article",
+      "difficulte": 2,
+      "consigne": "Quelle est la classe grammaticale du déterminant entre crochets ?",
+      "elements": [
+        "Plume aperçoit [des] hiboux.",
+        "Plume mange [du] miel.",
+        "Le chant [des] oiseaux réveille Hugo.",
+        "Hugo revient [du] village.",
+        "Léa met [de la] confiture sur son pain.",
+        "Hugo ramasse [des] noix."
+      ],
+      "categories": [
+        "article indéfini",
+        "article défini contracté",
+        "article partitif"
+      ],
+      "solution": {
+        "Plume aperçoit [des] hiboux.": 0,
+        "Plume mange [du] miel.": 2,
+        "Le chant [des] oiseaux réveille Hugo.": 1,
+        "Hugo revient [du] village.": 1,
+        "Léa met [de la] confiture sur son pain.": 2,
+        "Hugo ramasse [des] noix.": 0
+      },
+      "explication": "Indéfini : un être ou un objet non précisé (des). Défini contracté : de + le ou de + les (du, des). Partitif : une matière qu’on ne peut pas dénombrer (du miel, de la confiture).",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-018",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-5e-article",
+      "difficulte": 2,
+      "consigne": "Complète avec « des » ou « de ».",
+      "enonce": "Plume cueille {{1}} baies, mais il ne reste plus {{2}} champignons.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "des",
+            "de",
+            "d’"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "des",
+            "de",
+            "d’"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "On dit « des baies » ; mais après la négation « ne… plus », « des » devient « de » : « plus de champignons ».",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-019",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-5e-article",
+      "difficulte": 2,
+      "consigne": "Contracte l’article quand c’est nécessaire.",
+      "enonce": "le chant de les oiseaux",
+      "reponses_acceptees": [
+        "le chant des oiseaux"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« de les » se contracte en « des » : « le chant des oiseaux ».",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-020",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-5e-article",
+      "difficulte": 2,
+      "consigne": "Corrige la phrase : l’article doit être contracté.",
+      "phrase_fautive": "Plume parle à les lutins.",
+      "corrections_acceptees": [
+        "Plume parle aux lutins."
+      ],
+      "explication": "« à les » se contracte en « aux » : « Plume parle aux lutins ».",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-021",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-5e-article",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est correcte ?",
+      "choix": [
+        "Il n’y a plus des prunes.",
+        "Il n’y a plus de prunes.",
+        "Il n’y a plus du prunes.",
+        "Il n’y a plus de les prunes."
+      ],
+      "reponse": 1,
+      "explication": "Après la négation « ne… plus », l’article indéfini « des » devient « de » : « Il n’y a plus de prunes. »",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-022",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-5e-article",
+      "difficulte": 2,
+      "consigne": "Dans quelle phrase « du » est-il un article partitif ?",
+      "choix": [
+        "Hugo boit du lait chaud.",
+        "Hugo vient du village.",
+        "Hugo parle du roi.",
+        "Hugo sort du bois."
+      ],
+      "reponse": 0,
+      "explication": "« du lait » désigne une partie d’un ensemble : on peut dire « un peu de lait ». Dans les autres phrases, « du » veut dire « de le » (article défini contracté).",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-023",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-5e-article",
+      "difficulte": 3,
+      "consigne": "Quelle est la classe grammaticale de l’article entre crochets ?",
+      "elements": [
+        "Hugo ferme [la] porte.",
+        "Hugo ouvre [une] porte.",
+        "Hugo boit [de l’]eau.",
+        "Hugo parle [aux] lutins."
+      ],
+      "categories": [
+        "article défini",
+        "article indéfini",
+        "article partitif",
+        "article défini contracté"
+      ],
+      "solution": {
+        "Hugo ferme [la] porte.": 0,
+        "Hugo ouvre [une] porte.": 1,
+        "Hugo boit [de l’]eau.": 2,
+        "Hugo parle [aux] lutins.": 3
+      },
+      "explication": "Défini : un être précis (la). Indéfini : non précisé (une). Partitif : une matière (de l’eau). Défini contracté : à + les = aux.",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-024",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-5e-article",
+      "difficulte": 3,
+      "consigne": "Clique sur tous les articles.",
+      "mots": [
+        "Le",
+        "chat",
+        "boit",
+        "du",
+        "lait",
+        "dans",
+        "une",
+        "assiette"
+      ],
+      "cibles": [
+        0,
+        3,
+        6
+      ],
+      "explication": "« Le » (défini), « du » (partitif) et « une » (indéfini) sont des articles.",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-025",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-determinant-demonstratif-possessif",
+      "difficulte": 1,
+      "consigne": "Quel mot est un déterminant démonstratif ?",
+      "enonce": "Plume regarde cette étoile.",
+      "choix": [
+        "Plume",
+        "regarde",
+        "cette",
+        "étoile"
+      ],
+      "reponse": 2,
+      "explication": "« cette » sert à montrer l’étoile : c’est un déterminant démonstratif.",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-026",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-determinant-demonstratif-possessif",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Les déterminants démonstratifs servent à désigner ce que l’on montre.",
+      "reponse": true,
+      "explication": "Les déterminants démonstratifs (ce, cet, cette, ces) servent à désigner ce que l’on montre ou ce dont on vient de parler.",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-027",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-determinant-demonstratif-possessif",
+      "difficulte": 1,
+      "consigne": "Clique sur le déterminant possessif.",
+      "mots": [
+        "Hugo",
+        "range",
+        "sa",
+        "lanterne"
+      ],
+      "cibles": [
+        2
+      ],
+      "explication": "« sa » indique à qui appartient la lanterne : c’est un déterminant possessif.",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-028",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-5e-determinant-demonstratif-possessif",
+      "difficulte": 1,
+      "consigne": "Écris le déterminant démonstratif qui convient devant « arbre » (masculin singulier).",
+      "enonce": "… arbre",
+      "reponses_acceptees": [
+        "cet"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "Devant un nom masculin singulier qui commence par une voyelle, on emploie « cet » : cet arbre.",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-029",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-determinant-demonstratif-possessif",
+      "difficulte": 2,
+      "consigne": "Ce déterminant est-il démonstratif ou possessif ?",
+      "elements": [
+        "ce",
+        "mon",
+        "cette",
+        "ses",
+        "ces",
+        "leur"
+      ],
+      "categories": [
+        "démonstratif",
+        "possessif"
+      ],
+      "solution": {
+        "ce": 0,
+        "mon": 1,
+        "cette": 0,
+        "ses": 1,
+        "ces": 0,
+        "leur": 1
+      },
+      "explication": "Démonstratifs : ce, cet, cette, ces. Possessifs : mon, ton, son, ma, ta, sa, mes, tes, ses, notre, votre, leur, nos, vos, leurs.",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-030",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-5e-determinant-demonstratif-possessif",
+      "difficulte": 2,
+      "consigne": "Complète avec les déterminants démonstratifs qui conviennent.",
+      "enonce": "Regardez {{1}} hibou et {{2}} étoile !",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "ce",
+            "cet",
+            "cette"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "cette",
+            "cet",
+            "ces"
+          ],
+          "reponse": 0
+        }
+      ],
+      "explication": "« hibou » est masculin et commence par une consonne : « ce hibou ». « étoile » est féminin : « cette étoile ».",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-031",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-5e-determinant-demonstratif-possessif",
+      "difficulte": 2,
+      "consigne": "Remplace le complément du nom par un déterminant possessif.",
+      "enonce": "la cabane de Plume",
+      "reponses_acceptees": [
+        "sa cabane"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« de Plume » indique à qui appartient la cabane : on le remplace par « sa » (3e personne du singulier, nom féminin).",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-032",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-5e-determinant-demonstratif-possessif",
+      "difficulte": 2,
+      "consigne": "Quel déterminant possessif complète la phrase ?",
+      "enonce": "Les lutins rangent … lanternes.",
+      "choix": [
+        "leur",
+        "leurs",
+        "sa",
+        "ses"
+      ],
+      "reponse": 1,
+      "explication": "« lanternes » est pluriel et appartient à plusieurs lutins : « leurs lanternes ».",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-033",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-5e-determinant-demonstratif-possessif",
+      "difficulte": 2,
+      "consigne": "Corrige le déterminant possessif.",
+      "phrase_fautive": "Hugo cherche sa épée.",
+      "corrections_acceptees": [
+        "Hugo cherche son épée."
+      ],
+      "explication": "Devant un nom féminin qui commence par une voyelle, on emploie « son » : « son épée ».",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-034",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-5e-determinant-demonstratif-possessif",
+      "difficulte": 2,
+      "consigne": "Quel groupe nominal contient un déterminant possessif de la 3e personne du pluriel ?",
+      "choix": [
+        "mes clés",
+        "nos clés",
+        "leurs clés",
+        "tes clés"
+      ],
+      "reponse": 2,
+      "explication": "« leurs » correspond à plusieurs possesseurs (3e personne du pluriel). « mes », « nos » et « tes » correspondent à d’autres personnes.",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-035",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-5e-determinant-demonstratif-possessif",
+      "difficulte": 3,
+      "consigne": "Dans quelle phrase « leur » est-il un déterminant possessif ?",
+      "choix": [
+        "Plume leur parle.",
+        "Les lutins ont perdu leur clé.",
+        "Hugo leur sourit.",
+        "Léa leur répond."
+      ],
+      "reponse": 1,
+      "explication": "Dans « Les lutins ont perdu leur clé », « leur » précède le nom « clé » : c’est un déterminant possessif. Dans les autres phrases, « leur » remplace un groupe nominal : c’est un pronom.",
+      "source": "manuel-5e-f1-p8"
+    },
+    {
+      "id": "gram-5e-nom-determinant-036",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-5e-determinant-demonstratif-possessif",
+      "difficulte": 3,
+      "consigne": "Quelle est la classe grammaticale du déterminant entre crochets ?",
+      "elements": [
+        "Plume ouvre [la] porte.",
+        "Plume ouvre [cette] porte.",
+        "Plume ouvre [sa] porte.",
+        "Léa regarde [ces] étoiles.",
+        "Léa regarde [les] étoiles.",
+        "Les lutins rangent [leurs] clés."
+      ],
+      "categories": [
+        "article",
+        "démonstratif",
+        "possessif"
+      ],
+      "solution": {
+        "Plume ouvre [la] porte.": 0,
+        "Plume ouvre [cette] porte.": 1,
+        "Plume ouvre [sa] porte.": 2,
+        "Léa regarde [ces] étoiles.": 1,
+        "Léa regarde [les] étoiles.": 0,
+        "Les lutins rangent [leurs] clés.": 2
+      },
+      "explication": "Un article présente un nom de façon générale (la, les) ; un démonstratif désigne (cette, ces) ; un possessif indique l’appartenance (sa, leurs).",
+      "source": "manuel-5e-f1-p8"
+    }
+  ]
+}

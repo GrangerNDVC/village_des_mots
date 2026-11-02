@@ -1,0 +1,783 @@
+{
+  "module": "gram-6e-expansions-nom",
+  "titre": "L’épithète et le complément du nom",
+  "domaine": "grammaire",
+  "niveau": 6,
+  "grade": "page",
+  "version": 1,
+  "description": "Reconnaître l’épithète et le complément du nom, deux expansions du nom, identifier la nature et le sens du complément du nom.",
+  "rappel": {
+    "titre": "Les expansions du nom",
+    "points": [
+      {
+        "mot": "expansion du nom",
+        "definition": "Une expansion du nom est un mot ou un groupe de mots qui complète un nom dans le groupe nominal. Elle peut généralement être supprimée.",
+        "exemple": "un soleil généreux ; le toit de la maison"
+      },
+      {
+        "mot": "épithète",
+        "definition": "L’épithète est un adjectif qualificatif ou un participe passé employé comme adjectif, placé à côté du nom. Elle peut être avant ou après le nom, et un nom peut avoir plusieurs épithètes reliées par une virgule ou une conjonction de coordination.",
+        "exemple": "un film intéressant, drôle et émouvant"
+      },
+      {
+        "mot": "complément du nom",
+        "definition": "Le complément du nom suit le nom qu’il complète. Il est généralement relié à ce nom par une préposition (à, de, en, avec, sans, pour…). La préposition peut se contracter avec l’article défini : au, aux, du, des.",
+        "exemple": "un abri pour les oiseaux ; un gâteau aux fruits"
+      },
+      {
+        "mot": "nature du complément du nom",
+        "definition": "Le complément du nom peut être un nom, un groupe nominal, un pronom ou un verbe à l’infinitif. Il apporte une information sur le nom : le temps, le lieu, la possession, la matière…",
+        "exemple": "un champ de blé (nom) ; le toit de la maison (groupe nominal) ; l’art de chanter (infinitif)"
+      }
+    ]
+  },
+  "competences": [
+    "gram-6e-epithete-reconnaitre",
+    "gram-6e-cdn-reconnaitre",
+    "gram-6e-cdn-nature"
+  ],
+  "exercices": [
+    {
+      "id": "gram-6e-expansions-nom-001",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-epithete-reconnaitre",
+      "difficulte": 1,
+      "consigne": "Quelle est l’épithète du nom « renard » ?",
+      "enonce": "Un renard rusé traverse le pré.",
+      "choix": [
+        "Un",
+        "rusé",
+        "traverse",
+        "pré"
+      ],
+      "reponse": 1,
+      "explication": "« rusé » est placé à côté du nom « renard » et le qualifie : c’est une épithète.",
+      "source": "manuel-6e-f8-p26"
+    },
+    {
+      "id": "gram-6e-expansions-nom-002",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-epithete-reconnaitre",
+      "difficulte": 1,
+      "consigne": "Clique sur toutes les épithètes.",
+      "mots": [
+        "Une",
+        "petite",
+        "maison",
+        "blanche",
+        "brille"
+      ],
+      "cibles": [
+        1,
+        3
+      ],
+      "explication": "« petite » et « blanche » qualifient le nom « maison » : ce sont des épithètes.",
+      "source": "manuel-6e-f8-p26"
+    },
+    {
+      "id": "gram-6e-expansions-nom-003",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-epithete-reconnaitre",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Une épithète est directement liée au nom qu’elle qualifie.",
+      "reponse": true,
+      "explication": "L’épithète qualifie un nom auquel elle est directement liée, sans verbe entre les deux.",
+      "source": "manuel-6e-f8-p26"
+    },
+    {
+      "id": "gram-6e-expansions-nom-004",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-epithete-reconnaitre",
+      "difficulte": 1,
+      "consigne": "Recopie l’épithète du nom « tracteur ».",
+      "enonce": "Mon voisin possède un vieux tracteur.",
+      "reponses_acceptees": [
+        "vieux"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« vieux » qualifie le nom « tracteur » : c’est une épithète.",
+      "source": "manuel-6e-f8-p26"
+    },
+    {
+      "id": "gram-6e-expansions-nom-005",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-epithete-reconnaitre",
+      "difficulte": 2,
+      "consigne": "À quel nom l’épithète « cassée » se rapporte-t-elle ?",
+      "enonce": "Le menuisier répare la chaise cassée de sa grand-mère.",
+      "choix": [
+        "menuisier",
+        "chaise",
+        "grand-mère",
+        "répare"
+      ],
+      "reponse": 1,
+      "explication": "« cassée » est féminin singulier et qualifie « chaise » : c’est la chaise qui est cassée. « de sa grand-mère » complète « chaise ».",
+      "source": "manuel-6e-f8-p26"
+    },
+    {
+      "id": "gram-6e-expansions-nom-006",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-epithete-reconnaitre",
+      "difficulte": 2,
+      "consigne": "L’épithète est-elle un adjectif ou un participe passé ?",
+      "elements": [
+        "des fleurs fanées",
+        "un ciel bleu",
+        "une porte fermée",
+        "un chemin étroit",
+        "un enfant rassuré",
+        "une voix douce"
+      ],
+      "categories": [
+        "adjectif",
+        "participe passé"
+      ],
+      "solution": {
+        "des fleurs fanées": 1,
+        "un ciel bleu": 0,
+        "une porte fermée": 1,
+        "un chemin étroit": 0,
+        "un enfant rassuré": 1,
+        "une voix douce": 0
+      },
+      "explication": "Une épithète peut être un adjectif (un ciel bleu) ou un participe passé employé comme adjectif (des fleurs fanées).",
+      "source": "manuel-6e-f8-p26"
+    },
+    {
+      "id": "gram-6e-expansions-nom-007",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-epithete-reconnaitre",
+      "difficulte": 2,
+      "consigne": "Complète les phrases.",
+      "enonce": "Dans « un pauvre homme », « pauvre » signifie {{1}} ; dans « un homme pauvre », « pauvre » signifie {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "digne de pitié",
+            "qui a peu d’argent"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "digne de pitié",
+            "qui a peu d’argent"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "La place de l’épithète peut changer le sens : « un pauvre homme » est digne de pitié, « un homme pauvre » a peu d’argent.",
+      "source": "manuel-6e-f8-p26"
+    },
+    {
+      "id": "gram-6e-expansions-nom-008",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-epithete-reconnaitre",
+      "difficulte": 2,
+      "consigne": "Réécris le groupe nominal sans l’épithète.",
+      "enonce": "une jolie robe",
+      "reponses_acceptees": [
+        "une robe"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "L’épithète est facultative : on peut la supprimer. Il reste « une robe ».",
+      "source": "manuel-6e-f8-p26"
+    },
+    {
+      "id": "gram-6e-expansions-nom-009",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-epithete-reconnaitre",
+      "difficulte": 2,
+      "consigne": "Dans quelle phrase y a-t-il deux épithètes du même nom ?",
+      "choix": [
+        "Un vent froid et violent souffle.",
+        "Le vent souffle fort.",
+        "Le vent est froid.",
+        "Un vent souffle sur le toit."
+      ],
+      "reponse": 0,
+      "explication": "Dans « Un vent froid et violent souffle », « froid » et « violent » qualifient tous les deux « vent » : elles sont reliées par « et ».",
+      "source": "manuel-6e-f8-p26"
+    },
+    {
+      "id": "gram-6e-expansions-nom-010",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-epithete-reconnaitre",
+      "difficulte": 2,
+      "consigne": "Corrige l’épithète qui ne convient pas.",
+      "phrase_fautive": "Des nuages gris et menaçant couvrent le ciel.",
+      "corrections_acceptees": [
+        "Des nuages gris et menaçants couvrent le ciel."
+      ],
+      "explication": "Les deux épithètes qualifient « nuages » (masculin pluriel) : « gris » et « menaçants » s’accordent avec lui.",
+      "source": "manuel-6e-f8-p26"
+    },
+    {
+      "id": "gram-6e-expansions-nom-011",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-6e-epithete-reconnaitre",
+      "difficulte": 3,
+      "consigne": "Dans chaque phrase, le mot « calme » est-il une épithète ?",
+      "elements": [
+        "Un lac calme brille.",
+        "Ce lac est calme.",
+        "Le calme du lac me plaît.",
+        "Une eau calme dort."
+      ],
+      "categories": [
+        "épithète",
+        "pas épithète"
+      ],
+      "solution": {
+        "Un lac calme brille.": 0,
+        "Ce lac est calme.": 1,
+        "Le calme du lac me plaît.": 1,
+        "Une eau calme dort.": 0
+      },
+      "explication": "« calme » est épithète quand il est directement lié au nom (un lac calme). Ce n’est pas une épithète quand il est attribut (ce lac est calme) ou quand il est un nom (le calme).",
+      "source": "manuel-6e-f8-p26"
+    },
+    {
+      "id": "gram-6e-expansions-nom-012",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-epithete-reconnaitre",
+      "difficulte": 3,
+      "consigne": "Clique sur toutes les épithètes.",
+      "mots": [
+        "Un",
+        "vent",
+        "glacé",
+        "et",
+        "violent",
+        "balaie",
+        "les",
+        "rues",
+        "désertes",
+        "de",
+        "la",
+        "petite",
+        "ville"
+      ],
+      "cibles": [
+        2,
+        4,
+        8,
+        11
+      ],
+      "explication": "« glacé », « violent », « désertes » et « petite » qualifient directement un nom : ce sont des épithètes.",
+      "source": "manuel-6e-f8-p26"
+    },
+    {
+      "id": "gram-6e-expansions-nom-013",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cdn-reconnaitre",
+      "difficulte": 1,
+      "consigne": "Quel groupe de mots est le complément du nom « maison » ?",
+      "enonce": "La maison de mon oncle est grande.",
+      "choix": [
+        "La",
+        "de mon oncle",
+        "est grande",
+        "grande"
+      ],
+      "reponse": 1,
+      "explication": "« de mon oncle » complète le nom « maison » : c’est un complément du nom.",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-014",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cdn-reconnaitre",
+      "difficulte": 1,
+      "consigne": "Clique sur la préposition qui relie le complément au nom « tasse ».",
+      "mots": [
+        "Plume",
+        "porte",
+        "une",
+        "tasse",
+        "de",
+        "thé"
+      ],
+      "cibles": [
+        4
+      ],
+      "explication": "« de » relie le nom « tasse » à son complément « thé » : c’est une préposition.",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-015",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cdn-reconnaitre",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Le complément du nom est un constituant du groupe nominal.",
+      "reponse": true,
+      "explication": "Le complément du nom fait partie du groupe nominal, comme l’épithète.",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-016",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-cdn-reconnaitre",
+      "difficulte": 1,
+      "consigne": "Recopie le complément du nom.",
+      "enonce": "le toit de la cabane",
+      "reponses_acceptees": [
+        "de la cabane"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« de la cabane » complète le nom « toit » : c’est le complément du nom.",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-017",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cdn-reconnaitre",
+      "difficulte": 2,
+      "consigne": "Quelle préposition relie le complément au nom ?",
+      "enonce": "Léa lit un livre sur les volcans.",
+      "choix": [
+        "lit",
+        "un",
+        "sur",
+        "les"
+      ],
+      "reponse": 2,
+      "explication": "« sur » relie le nom « livre » à son complément « les volcans ».",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-018",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-cdn-reconnaitre",
+      "difficulte": 2,
+      "consigne": "Complète avec les prépositions qui conviennent.",
+      "enonce": "Léa range un pot {{1}} confiture et mange un gâteau {{2}} chocolat.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "de",
+            "dans",
+            "sur"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "aux",
+            "au",
+            "sur"
+          ],
+          "reponse": 1
+        }
+      ],
+      "explication": "On dit « un pot de confiture » et « un gâteau au chocolat » (« au » = « à le »).",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-019",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-cdn-reconnaitre",
+      "difficulte": 2,
+      "consigne": "Quel nom le complément « du train » complète-t-il ?",
+      "enonce": "Le sifflement du train résonne dans la vallée.",
+      "choix": [
+        "sifflement",
+        "train",
+        "résonne",
+        "vallée"
+      ],
+      "reponse": 0,
+      "explication": "« du train » (= « de le train ») complète le nom « sifflement ».",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-020",
+      "type": "saisie",
+      "forme": "produire",
+      "competence": "gram-6e-cdn-reconnaitre",
+      "difficulte": 2,
+      "consigne": "Recopie la préposition qui introduit le complément du nom.",
+      "enonce": "un tapis en laine",
+      "reponses_acceptees": [
+        "en"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« en » introduit le complément « laine », qui complète le nom « tapis ».",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-021",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-cdn-reconnaitre",
+      "difficulte": 2,
+      "consigne": "Réécris le groupe nominal sans son complément du nom.",
+      "enonce": "la porte du garage",
+      "reponses_acceptees": [
+        "la porte"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "Le complément du nom peut se supprimer : il reste « la porte ».",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-022",
+      "type": "corriger",
+      "forme": "corriger",
+      "competence": "gram-6e-cdn-reconnaitre",
+      "difficulte": 2,
+      "consigne": "Corrige la phrase : une préposition et un article doivent se contracter.",
+      "phrase_fautive": "Léa mange un gâteau à le chocolat.",
+      "corrections_acceptees": [
+        "Léa mange un gâteau au chocolat."
+      ],
+      "explication": "« à le » se contracte en « au » : on dit « un gâteau au chocolat ».",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-023",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-cdn-reconnaitre",
+      "difficulte": 3,
+      "consigne": "Combien de compléments du nom cette phrase contient-elle ?",
+      "enonce": "Plume lit un livre de contes et un journal de voyage.",
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reponse": 1,
+      "explication": "« de contes » complète « livre » et « de voyage » complète « journal » : il y a deux compléments du nom.",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-024",
+      "type": "clic_mot",
+      "forme": "contexte",
+      "competence": "gram-6e-cdn-reconnaitre",
+      "difficulte": 3,
+      "consigne": "Clique sur les prépositions qui introduisent un complément du nom.",
+      "mots": [
+        "Léa",
+        "aime",
+        "le",
+        "pain",
+        "au",
+        "chocolat",
+        "et",
+        "la",
+        "confiture",
+        "de",
+        "fraises"
+      ],
+      "cibles": [
+        4,
+        9
+      ],
+      "explication": "« au » (= « à le ») introduit « chocolat » et « de » introduit « fraises » : ils relient chacun un nom à son complément.",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-025",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cdn-nature",
+      "difficulte": 1,
+      "consigne": "Quelle expansion du nom est un complément du nom ?",
+      "choix": [
+        "un chat noir",
+        "un chat de gouttière",
+        "un joli chat",
+        "un chat fatigué"
+      ],
+      "reponse": 1,
+      "explication": "« de gouttière » est introduit par la préposition « de » : c’est un complément du nom. Les autres expansions sont des épithètes.",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-026",
+      "type": "vrai_faux",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cdn-nature",
+      "difficulte": 1,
+      "consigne": "Vrai ou faux ?",
+      "enonce": "Dans « une robe de soie », « de soie » est un complément du nom.",
+      "reponse": true,
+      "explication": "« de soie » est introduit par « de » et complète le nom « robe » : c’est un complément du nom.",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-027",
+      "type": "clic_mot",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cdn-nature",
+      "difficulte": 1,
+      "consigne": "Clique sur tous les mots du complément du nom.",
+      "mots": [
+        "un",
+        "pot",
+        "de",
+        "miel"
+      ],
+      "cibles": [
+        2,
+        3
+      ],
+      "explication": "« de miel » complète le nom « pot » : le complément du nom est formé de « de » et « miel ».",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-028",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cdn-nature",
+      "difficulte": 1,
+      "consigne": "Dans « le toit de la maison », quel est le nom complété ?",
+      "choix": [
+        "toit",
+        "maison",
+        "le",
+        "de"
+      ],
+      "reponse": 0,
+      "explication": "Le complément « de la maison » complète le nom « toit ».",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-029",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cdn-nature",
+      "difficulte": 2,
+      "consigne": "L’expansion du nom est-elle une épithète ou un complément du nom ?",
+      "elements": [
+        "un pull rouge",
+        "un pull de laine",
+        "une glace à la vanille",
+        "une glace fondue",
+        "un livre d’histoire",
+        "un livre ancien"
+      ],
+      "categories": [
+        "épithète",
+        "complément du nom"
+      ],
+      "solution": {
+        "un pull rouge": 0,
+        "un pull de laine": 1,
+        "une glace à la vanille": 1,
+        "une glace fondue": 0,
+        "un livre d’histoire": 1,
+        "un livre ancien": 0
+      },
+      "explication": "Un adjectif ou un participe passé est une épithète. Un groupe introduit par une préposition (de laine, à la vanille, d’histoire) est un complément du nom.",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-030",
+      "type": "qcm",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cdn-nature",
+      "difficulte": 2,
+      "consigne": "Quelle est la nature du complément du nom ?",
+      "enonce": "L’idée de partir plaît à Léa.",
+      "choix": [
+        "un nom",
+        "un groupe nominal",
+        "un pronom",
+        "un infinitif"
+      ],
+      "reponse": 3,
+      "explication": "Le complément du nom « de partir » est un verbe à l’infinitif.",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-031",
+      "type": "tri",
+      "forme": "reconnaitre",
+      "competence": "gram-6e-cdn-nature",
+      "difficulte": 2,
+      "consigne": "Classe ces groupes selon la nature de leur complément du nom.",
+      "elements": [
+        "un panier de fruits",
+        "la cabane du bûcheron",
+        "le désir de voyager",
+        "une tasse de thé",
+        "le toit de la maison",
+        "l’art de chanter"
+      ],
+      "categories": [
+        "nom",
+        "groupe nominal",
+        "infinitif"
+      ],
+      "solution": {
+        "un panier de fruits": 0,
+        "la cabane du bûcheron": 1,
+        "le désir de voyager": 2,
+        "une tasse de thé": 0,
+        "le toit de la maison": 1,
+        "l’art de chanter": 2
+      },
+      "explication": "Le complément du nom peut être un nom sans déterminant (de thé), un groupe nominal (du bûcheron, de la maison) ou un verbe à l’infinitif (de voyager).",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-032",
+      "type": "texte_trous",
+      "forme": "completer",
+      "competence": "gram-6e-cdn-nature",
+      "difficulte": 2,
+      "consigne": "Complète les phrases.",
+      "enonce": "Dans « le journal du matin », le complément du nom indique {{1}} ; dans « un pull en laine », il indique {{2}}.",
+      "trous": [
+        {
+          "id": 1,
+          "choix": [
+            "le temps",
+            "le lieu",
+            "la matière",
+            "la possession"
+          ],
+          "reponse": 0
+        },
+        {
+          "id": 2,
+          "choix": [
+            "le temps",
+            "le lieu",
+            "la matière",
+            "la possession"
+          ],
+          "reponse": 2
+        }
+      ],
+      "explication": "« du matin » dit à quel moment paraît le journal : temps. « en laine » dit de quoi est fait le pull : matière.",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-033",
+      "type": "saisie",
+      "forme": "transformer",
+      "competence": "gram-6e-cdn-nature",
+      "difficulte": 2,
+      "consigne": "Remplace le complément du nom « de Paris » par un adjectif.",
+      "enonce": "la mode de Paris",
+      "reponses_acceptees": [
+        "parisienne"
+      ],
+      "tolerance": {
+        "casse": false,
+        "accents": false
+      },
+      "explication": "« de Paris » peut être remplacé par l’adjectif « parisienne » : la mode parisienne.",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-034",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-cdn-nature",
+      "difficulte": 2,
+      "consigne": "Quelle information le complément du nom apporte-t-il ?",
+      "enonce": "Léa lit le livre de sa sœur.",
+      "choix": [
+        "le temps",
+        "la possession",
+        "la matière",
+        "le lieu"
+      ],
+      "reponse": 1,
+      "explication": "« de sa sœur » indique à qui appartient le livre : la possession.",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-035",
+      "type": "tri",
+      "forme": "contexte",
+      "competence": "gram-6e-cdn-nature",
+      "difficulte": 3,
+      "consigne": "Quelle information chaque complément du nom apporte-t-il ?",
+      "elements": [
+        "la bague en or",
+        "le train de midi",
+        "la voiture de ma tante",
+        "le village de montagne"
+      ],
+      "categories": [
+        "temps",
+        "lieu",
+        "possession",
+        "matière"
+      ],
+      "solution": {
+        "la bague en or": 3,
+        "le train de midi": 0,
+        "la voiture de ma tante": 2,
+        "le village de montagne": 1
+      },
+      "explication": "« en or » : matière. « de midi » : temps. « de ma tante » : possession. « de montagne » : lieu.",
+      "source": "manuel-6e-f9-p28"
+    },
+    {
+      "id": "gram-6e-expansions-nom-036",
+      "type": "qcm",
+      "forme": "contexte",
+      "competence": "gram-6e-cdn-nature",
+      "difficulte": 3,
+      "consigne": "Dans quelle phrase y a-t-il à la fois une épithète et un complément du nom ?",
+      "choix": [
+        "Le vieux pont de pierre enjambe la rivière.",
+        "Le pont est vieux.",
+        "Le pont de pierre est ici.",
+        "Un vieux pont enjambe la rivière."
+      ],
+      "reponse": 0,
+      "explication": "Dans « Le vieux pont de pierre enjambe la rivière », « vieux » est une épithète et « de pierre » un complément du nom.",
+      "source": "manuel-6e-f9-p28"
+    }
+  ]
+}

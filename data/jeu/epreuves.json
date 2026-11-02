@@ -1,0 +1,344 @@
+{
+ "gram-6e-nom-determinant": {
+  "texte": "Le renard guette la poule. Cet oiseau mange une graine.",
+  "cibles": [
+   1,
+   4,
+   7,
+   10
+  ],
+  "repere": "Surligne tous les noms.",
+  "choix": [
+   "nom masculin",
+   "nom féminin"
+  ],
+  "rep": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "transfo": "Réécris le texte au pluriel.",
+  "attendu": "Les renards guettent les poules. Ces oiseaux mangent des graines.",
+  "nc": null
+ },
+ "gram-6e-adjectif": {
+  "texte": "Le petit chat noir dort sur un tapis moelleux. La nuit semble calme.",
+  "cibles": [
+   1,
+   3,
+   8,
+   13
+  ],
+  "repere": "Surligne tous les adjectifs qualificatifs.",
+  "choix": [
+   "épithète",
+   "attribut du sujet"
+  ],
+  "rep": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "transfo": "Réécris le texte au pluriel (accorde bien les adjectifs et les verbes).",
+  "attendu": "Les petits chats noirs dorment sur des tapis moelleux. Les nuits semblent calmes.",
+  "nc": null
+ },
+ "gram-6e-verbe": {
+  "texte": "Les lutins allument une lanterne. Ils semblent contents et ils chantent.",
+  "cibles": [
+   2,
+   7,
+   11
+  ],
+  "repere": "Surligne tous les verbes conjugués.",
+  "choix": [
+   "verbe d’action",
+   "verbe d’état"
+  ],
+  "rep": [
+   0,
+   1,
+   0
+  ],
+  "transfo": "Réécris le texte au singulier.",
+  "attendu": "Le lutin allume une lanterne. Il semble content et il chante.",
+  "nc": null
+ },
+ "gram-6e-mots-invariables": {
+  "texte": "Hier, le lutin travaille très bien et il rentre chez lui.",
+  "cibles": [
+   0,
+   5,
+   6,
+   7,
+   10
+  ],
+  "repere": "Surligne tous les mots invariables.",
+  "choix": [
+   "adverbe",
+   "préposition",
+   "conjonction de coordination"
+  ],
+  "rep": [
+   0,
+   0,
+   0,
+   2,
+   1
+  ],
+  "transfo": "Réécris le texte au pluriel (les mots invariables ne changent pas !).",
+  "attendu": "Hier, les lutins travaillent très bien et ils rentrent chez eux.",
+  "nc": null
+ },
+ "gram-6e-expansions-nom": {
+  "texte": "Le vieux pont de pierre enjambe la rivière glacée.",
+  "cibles": [
+   1,
+   3,
+   4,
+   8
+  ],
+  "repere": "Surligne les épithètes, ainsi que la préposition et le nom du complément du nom.",
+  "choix": [
+   "épithète",
+   "préposition du complément du nom",
+   "nom du complément du nom"
+  ],
+  "rep": [
+   0,
+   1,
+   2,
+   0
+  ],
+  "transfo": "Réécris le texte au pluriel.",
+  "attendu": "Les vieux ponts de pierre enjambent les rivières glacées.",
+  "nc": null
+ },
+ "gram-6e-sujet-attribut": {
+  "texte": "Les lutins semblent fatigués. Plume reste calme.",
+  "cibles": [
+   2,
+   3,
+   6,
+   7
+  ],
+  "repere": "Surligne les verbes d’état et les attributs du sujet.",
+  "choix": [
+   "verbe d’état",
+   "attribut du sujet"
+  ],
+  "rep": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "transfo": "Réécris le texte au singulier.",
+  "attendu": "Le lutin semble fatigué. Plume reste calme.",
+  "nc": null
+ },
+ "gram-6e-complements-verbe": {
+  "texte": "Léa offre un livre à Hugo. Il parle de son voyage.",
+  "cibles": [
+   3,
+   5,
+   11
+  ],
+  "repere": "Surligne le nom principal de chacun des trois compléments du verbe.",
+  "choix": [
+   "COD",
+   "COI",
+   "COS"
+  ],
+  "rep": [
+   0,
+   2,
+   1
+  ],
+  "transfo": "Réécris le texte au futur simple.",
+  "attendu": "Léa offrira un livre à Hugo. Il parlera de son voyage.",
+  "nc": "la fonction du groupe de mots dont chaque mot surligné est le noyau."
+ },
+ "gram-6e-complements-circ": {
+  "texte": "Hier, les lutins dansent dans la forêt avec joie.",
+  "cibles": [
+   0,
+   7,
+   9
+  ],
+  "repere": "Surligne le mot principal de chaque complément circonstanciel.",
+  "choix": [
+   "temps",
+   "lieu",
+   "moyen",
+   "manière"
+  ],
+  "rep": [
+   0,
+   1,
+   3
+  ],
+  "transfo": "Réécris le texte au singulier.",
+  "attendu": "Hier, le lutin danse dans la forêt avec joie.",
+  "nc": "le complément circonstanciel dont chaque mot surligné est le noyau."
+ },
+ "gram-6e-phrase-complexe": {
+  "texte": "Il pleut mais Plume sourit. Hugo pense que la nuit tombe car il a froid.",
+  "cibles": [
+   2,
+   8,
+   12
+  ],
+  "repere": "Surligne les mots qui relient des propositions.",
+  "choix": [
+   "conjonction de coordination",
+   "conjonction de subordination"
+  ],
+  "rep": [
+   0,
+   1,
+   0
+  ],
+  "transfo": "Réécris le texte au futur simple.",
+  "attendu": "Il pleuvra mais Plume sourira. Hugo pensera que la nuit tombera car il aura froid.",
+  "nc": null
+ },
+ "gram-6e-types-formes-phrase": {
+  "texte": "Plume ne dort pas. Où va Hugo ?",
+  "cibles": [
+   1,
+   3,
+   5
+  ],
+  "repere": "Surligne les mots de la négation et le mot interrogatif.",
+  "choix": [
+   "négation",
+   "mot interrogatif"
+  ],
+  "rep": [
+   0,
+   0,
+   1
+  ],
+  "transfo": "Mets la première phrase à la forme affirmative (ne change pas la question).",
+  "attendu": "Plume dort. Où va Hugo ?",
+  "nc": null
+ },
+ "gram-5e-nom-determinant": {
+  "texte": "Hugo mange du miel et des noix. Plume parle aux lutins.",
+  "cibles": [
+   2,
+   5,
+   10
+  ],
+  "repere": "Surligne les articles.",
+  "choix": [
+   "article partitif",
+   "article indéfini",
+   "article défini contracté"
+  ],
+  "rep": [
+   0,
+   1,
+   2
+  ],
+  "transfo": "Remplace « Hugo » par « Les enfants » et accorde le verbe.",
+  "attendu": "Les enfants mangent du miel et des noix. Plume parle aux lutins.",
+  "nc": null
+ },
+ "gram-5e-pronom": {
+  "texte": "Léa regarde Hugo. Elle le salue et lui sourit.",
+  "cibles": [
+   4,
+   5,
+   8
+  ],
+  "repere": "Surligne tous les pronoms personnels.",
+  "choix": [
+   "sujet",
+   "COD",
+   "COI"
+  ],
+  "rep": [
+   0,
+   1,
+   2
+  ],
+  "transfo": "Réécris le texte au futur simple.",
+  "attendu": "Léa regardera Hugo. Elle le saluera et lui sourira.",
+  "nc": null
+ },
+ "gram-5e-adjectif": {
+  "texte": "Hugo est plus rapide que Plume. Léa est la plus courageuse des lutins. La nuit est très sombre.",
+  "cibles": [
+   3,
+   11,
+   19
+  ],
+  "repere": "Surligne les trois adjectifs qualificatifs.",
+  "choix": [
+   "comparatif",
+   "superlatif relatif",
+   "superlatif absolu"
+  ],
+  "rep": [
+   0,
+   1,
+   2
+  ],
+  "transfo": "Remplace « Léa » par « Léo » et accorde ce qui doit l’être.",
+  "attendu": "Hugo est plus rapide que Plume. Léo est le plus courageux des lutins. La nuit est très sombre.",
+  "nc": null
+ },
+ "gram-5e-mots-invariables": {
+  "texte": "Plume dort car il est très fatigué. Hugo veille cependant et ne dort jamais.",
+  "cibles": [
+   2,
+   5,
+   10,
+   12,
+   14
+  ],
+  "repere": "Surligne la conjonction de coordination et les adverbes.",
+  "choix": [
+   "conjonction de coordination",
+   "adverbe d’intensité",
+   "adverbe de liaison",
+   "adverbe de négation"
+  ],
+  "rep": [
+   0,
+   1,
+   2,
+   3,
+   3
+  ],
+  "transfo": "Remplace « Hugo » par « Les gardes » et accorde les verbes.",
+  "attendu": "Plume dort car il est très fatigué. Les gardes veillent cependant et ne dorment jamais.",
+  "nc": null
+ },
+ "gram-5e-expansions-nom": {
+  "texte": "Le coffre de bois que Plume cherche est caché dans la vieille tour.",
+  "cibles": [
+   3,
+   4,
+   11
+  ],
+  "repere": "Surligne l’épithète, le nom du complément du nom et le pronom relatif.",
+  "choix": [
+   "épithète",
+   "complément du nom",
+   "pronom relatif"
+  ],
+  "rep": [
+   1,
+   2,
+   0
+  ],
+  "transfo": "Réécris le texte au pluriel.",
+  "attendu": "Les coffres de bois que Plume cherche sont cachés dans les vieilles tours.",
+  "nc": null
+ }
+}
