@@ -21,3 +21,8 @@ Premier module de test : `gram-6e-natures` (30 exercices).
 - `data/jeu/` : fichiers propres au jeu v0.8 (carte-notions, progression, epreuves, catalogue-objets, economie). L’économie et le catalogue de `data/` (squelette initial) ne sont pas écrasés : à unifier.
 - `tools/archive/` : scripts de fabrication de la v0.8 (build_04/05, gen_economie, valider_progression, controle_module).
 - À faire : verser `source/tpl.html` et `build.py` (non encore dans le dépôt), puis Firebase.
+
+## Jeu v0.8 versé dans le dépôt
+
+- `index.html` = le jeu v0.8 complet (fichier unique autonome, récupéré de l’artifact claude.ai). `modules.html` = ancienne page provisoire (liste des modules).
+- Le fichier source (`source/tpl.html`) et `build.py` restent à verser : tant qu’ils manquent, toute modification passe par `index.html` directement.
