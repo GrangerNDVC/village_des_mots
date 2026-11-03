@@ -1,0 +1,21 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "jeux": {
+      "plume": {
+        ".read": "auth != null && auth.token.email === 'julie.granger.rennes@gmail.com'",
+        "$numero": {
+          ".read": "auth != null && $numero.matches(/^[0-9]{4}$/)",
+          ".write": "auth != null && $numero.matches(/^[0-9]{4}$/) && (newData.exists() || auth.token.email === 'julie.granger.rennes@gmail.com')",
+          ".validate": "newData.hasChildren(['v','maj','donnees'])",
+          "v": { ".validate": "newData.isNumber()" },
+          "maj": { ".validate": "newData.isNumber()" },
+          "donnees": { ".validate": "newData.isString() && newData.val().length < 60000" },
+          "resume": { ".validate": "newData.isString() && newData.val().length < 2000" },
+          "$autre": { ".validate": false }
+        }
+      }
+    }
+  }
+}

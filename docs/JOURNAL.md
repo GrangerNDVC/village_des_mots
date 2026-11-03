@@ -26,3 +26,10 @@ Premier module de test : `gram-6e-natures` (30 exercices).
 
 - `index.html` = le jeu v0.8 complet (fichier unique autonome, récupéré de l’artifact claude.ai). `modules.html` = ancienne page provisoire (liste des modules).
 - Le fichier source (`source/tpl.html`) et `build.py` restent à verser : tant qu’ils manquent, toute modification passe par `index.html` directement.
+
+## Sauvegarde en ligne + suivi des élèves (v0.9, non testé sur Firebase réel)
+
+- `index.html` : carte « Sauvegarde en ligne » (numéro à 4 chiffres), synchronisation différée, connexion développeur par Firebase Auth (e-mail du professeur + mot de passe saisi), panneau « Suivi des élèves ».
+- `FB_CFG` vide : tout est désactivé, le jeu reste hors ligne (repli sur l’ancienne empreinte pour le mode développeur).
+- Testé avec un Firebase simulé (jsdom) : connexion, collision de numéro, refus, connexion professeur, liste. **Pas encore testé** avec le vrai Firebase ni sur iPad Mini 2 (iOS 12, SDK 9.23 compat).
+- `docs/FIREBASE.md` et `docs/firebase-rules.json` : mise en route et règles du bloc `plume`.
